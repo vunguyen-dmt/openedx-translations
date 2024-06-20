@@ -9,7 +9,7 @@
   "ora-grading.ResponseDisplay.FileRenderer.retryButton": "Thử lại",
   "ora-grading.ResponseDisplay.FileRenderer.fileNotFound": "Không tìm thấy tập tin",
   "ora-grading.ResponseDisplay.FileRenderer.unknownError": "Lỗi không xác định",
-  "PageTitle": "Giảng viên chấm điểm ORA | {siteName}",
+  "PageTitle": "Chấm điểm ORA | {siteName}",
   "ora-grading.InfoPopover.alt-text": "Hiển thị thêm thông tin",
   "ora-grading.CriterionFeedback.addCommentsLabel": "Thêm bình luận",
   "ora-grading.CriterionFeedback.commentsLabel": "Bình luận",
@@ -103,7 +103,5 @@
   "ora-grading.lms-api.gradingStatusDisplay.graded": "Đã hoàn thành chấm điểm",
   "ora-grading.lms-api.gradingStatusDisplay.inProgress": "Bạn hiện đang chấm điểm câu trả lời này",
   "ora-grading.ListView.userFullName": "Họ tên",
-  "ora-grading.ReviewActions.studentId": "MSSV",
-  "ora-grading.CTA.seeMoreInstructions": "Xem thêm hướng dẫn",
-  "ora-grading.CTA.here": "tại đây"
+  "ora-grading.ReviewActions.studentId": "MSSV"
 }

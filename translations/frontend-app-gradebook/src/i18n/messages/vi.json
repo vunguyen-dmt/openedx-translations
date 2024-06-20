@@ -35,7 +35,6 @@
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Ngày",
   "gradebook.GradesView.EditModal.Overrides.graderHeader": "Người chấm điểm",
   "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Lý do",
-  "gradebook.GradesTab.usersVisibilityLabel'": "Hiển thị {filteredUsers} trong tổng số {totalUsers} người học",
   "gradebook.GradesView.editFilterLabel": "Chỉnh sửa bộ lọc",
   "gradebook.GradesView.table.headings.email": "Email",
   "gradebook.GradesView.table.headings.totalGrade": "Tổng điểm (%)",
@@ -69,5 +68,10 @@
   "gradebook.GradesTab.FilterBadges.cohort": "Nhóm",
   "gradebook.GradesTab.FilterBadges.courseGrade": "Điểm khóa học",
   "gradebook.GradesTab.FilterBadges.includeCourseRoleMembers": "Bao gồm các thành viên nhóm khóa học",
-  "gradebook.GradesTab.FilterBadges.track": "Loại ghi danh"
+  "gradebook.GradesTab.FilterBadges.track": "Loại ghi danh",
+  "gradebook.page.title": "Bảng điểm | {siteName}",
+  "gradebook.GradebookFilters.apply": "Áp dụng",
+  "gradebook.GradesTab.usersVisibilityLabel": "Hiển thị {filteredUsers} trên tổng {totalUsers} người học",
+  "gradebook.GradesView.table.headings.fullName": "Họ và tên",
+  "gradebook.GradesView.table.noResultsFound": "không có kết quả nào được tìm thấy"
 }
