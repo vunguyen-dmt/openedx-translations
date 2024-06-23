@@ -209,5 +209,6 @@
   "tour.action.dismiss": "Hủy",
   "tour.action.end": "Ok",
   "tour.example.body": "Đây là một tour mẫu",
-  "tour.example.title": "Tour mẫu"
+  "tour.example.title": "Tour mẫu",
+  "discussions.page.title": "Thảo luận | {siteName}"
 }

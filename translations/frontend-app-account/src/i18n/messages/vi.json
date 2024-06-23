@@ -357,5 +357,6 @@
   "notification.preference.title": "{\n        text, select,\n        core {Core notifications}\n        newDiscussionPost {New discussion posts}\n        newQuestionPost {New question posts}\n        other {{text}}\n    }",
   "notification.preference.type.label": "Loại",
   "notification.preference.web.label": "Web",
-  "notification.preferences.notifications.label": "Thông báo"
+  "notification.preferences.notifications.label": "Thông báo",
+  "notification.preference.emailCadence": "{ text, select, Daily {Daily} Weekly {Weekly} Immediately {Immediately} other {{text}} }"
 }
