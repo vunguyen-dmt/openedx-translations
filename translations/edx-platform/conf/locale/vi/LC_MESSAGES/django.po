@@ -2751,7 +2751,7 @@ msgstr "Giáo trình"
 #: lms/djangoapps/courseware/tabs.py
 #: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:113
 msgid "Dates"
-msgstr "Ngày"
+msgstr "Ngày quan trọng"
 
 #: lms/djangoapps/courseware/views/index.py
 #, python-brace-format

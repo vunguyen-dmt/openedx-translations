@@ -1,9 +1,10 @@
 {
-  "Information": "Thông tin",
-  "DIGITAL LEARNING CENTER - HUTECH": "TRUNG TÂM DẠY HỌC SỐ - HUTECH",
-  "475A Dien Bien Phu, Ward 25, Binh Thanh District, Ho Chi Minh City": "475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM",
-  "Connect": "Kết nối",
-  "Download App": "Tải App",
+  "footer.information": "Thông tin",
+  "footer.dlc": "TRUNG TÂM DẠY HỌC SỐ - HUTECH",
+  "footer.address": "475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM",
+  "footer.connect": "Kết nối",
+  "footer.download-app": "Tải App",
   "footer.languageForm.submit.label": "Áp dụng",
-  "footer.languageForm.select.label": "Chọn ngôn ngữ"
+  "footer.languageForm.select.label": "Chọn ngôn ngữ",
+  "footer.allRightsReserved": "Bảo lưu mọi quyền"
 }

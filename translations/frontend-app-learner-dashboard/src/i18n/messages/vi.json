@@ -155,13 +155,5 @@
   "learnerVariantDashboard.menu.viewPrograms.label": "Xem chương trình",
   "learnerVariantDashboard.program": "Chương trình",
   "zendesk.selectTicketForm": "Vui lòng chọn loại yêu cầu của bạn:",
-  "zendesk.supportTitle": "Hỗ trợ",
-  "footer.Address": "475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM",
-  "footer.Connect": "Kết nối",
-  "footer.DLC": "TRUNG TÂM DẠY HỌC SỐ - HUTECH",
-  "footer.DownloadApp": "Tải ứng dụng",
-  "footer.Information": "Thông tin",
-  "footer.languageForm.select.label": "Chọn ngôn ngữ",
-  "footer.languageForm.submit.label": "Áp dụng",
-  "footer.AllRightsReserved'": "Bảo lưu mọi quyền"
+  "zendesk.supportTitle": "Hỗ trợ"
 }
