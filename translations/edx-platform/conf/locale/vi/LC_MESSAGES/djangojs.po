@@ -5735,7 +5735,7 @@ msgstr "Nhân viên"
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Admin"
-msgstr "Quản trị"
+msgstr "Quản trị viên"
 
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Already a library team member"

@@ -3554,7 +3554,7 @@ msgstr "Thảo Luận"
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Student Admin"
-msgstr "Student Admin"
+msgstr "Quản lý người học"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Extensions"
@@ -3562,11 +3562,11 @@ msgstr "Gia hạn"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Data Download"
-msgstr "Tải dữ liệu"
+msgstr "Tải xuống dữ liệu"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Analytics"
-msgstr "Phân Tích Truy Cập"
+msgstr "Phân tích"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Open Responses"
@@ -14874,15 +14874,15 @@ msgstr "Refresh Status"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Student-Generated Certificates"
-msgstr "Student-Generated Certificates"
+msgstr "Giấy chứng nhận do người học tạo"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Disable Student-Generated Certificates"
-msgstr "Vô hiệu lực giấy chứng nhận tạo bởi người học. "
+msgstr "Tắt giấy chứng nhận do người học tạo. "
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Enable Student-Generated Certificates"
-msgstr "Enable Student-Generated Certificates"
+msgstr "Bật giấy chứng nhận do người học tạo"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid ""
@@ -15656,7 +15656,7 @@ msgstr "Thêm Nhân Viên"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Admin"
-msgstr "Quản trị"
+msgstr "Quản trị viên"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -25485,8 +25485,8 @@ msgstr "Cho phép người học nộp lại bài"
 msgid ""
 "Set to TRUE to allow learners to resubmit ungraded work. Set to FALSE if "
 "resubmissions are not allowed."
-msgstr "Cài đặt là TRUE để cho phép người học nộp lại bài chưa được chấm điểm. Cài đặt là FALSE "
-"nếu không cho phép nộp lại bài"
+msgstr "Cài đặt là 'Có' để cho phép người học nộp lại bài chưa được chấm điểm. Cài đặt là 'Không' "
+"nếu không cho phép nộp lại bài."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:178
 msgid "Resubmission Grace Period"
@@ -27629,3 +27629,131 @@ msgstr ""
 
 msgid "Your request has been rate-limited. Please try again later."
 msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:201
+msgid ""
+"Course team members with the Admin role help you manage your course. They "
+"can do all of the tasks that Staff can do, and can also add and remove the "
+"Staff and Admin roles, discussion moderation roles, and the beta tester role "
+"to manage course team membership. Any users not yet enrolled in the course "
+"will be automatically enrolled when added as Admin."
+msgstr ""
+"Thành viên nhóm quản lý khóa học với vai trò Quản trị viên giúp quản lý khóa học của bạn. "
+"Họ có thể thực hiện tất cả công việc mà Nhân viên có thể làm, họ cũng có thể thêm "
+"hoặc xóa thành viên với vai trò Nhân viên, Quản trị viên, các vai trò điều hành diễn đàn "
+"thảo luận và người dùng thử bản Beta. Khi được thêm với vai trò Quản trị viên, người dùng "
+"cũng sẽ được tự động đăng ký vào khóa học nếu chưa đăng ký."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:172
+msgid ""
+"Course team members with the Staff role help you manage your course. Staff "
+"can enroll and unenroll learners, as well as modify their grades and access "
+"all course data. Staff also have access to your course in Studio and "
+"Insights. Any users not yet enrolled in the course will be automatically "
+"enrolled when added as Staff."
+msgstr ""
+"Thành viên nhóm quản lý khóa học với vai trò Nhân viên giúp quản lý khóa học của bạn. "
+"Nhân viên có thể đăng ký hoặc hủy đăng ký người học, cũng như chỉnh sửa điểm của người học, "
+"và có quyền truy cập vào tất cả dữ liệu khóa học. Nhân viên cũng có quyền truy cập vào "
+"khóa học của bạn trên Studio và Insights. Khi được thêm với vai trò Nhân viên, người dùng "
+"cũng sẽ được tự động đăng ký vào khóa học nếu chưa đăng ký."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:186
+msgid ""
+"Course team members with the Limited Staff role help you manage your course. "
+"Limited Staff can enroll and unenroll learners, as well as modify their "
+"grades and access all course data. Limited Staff don't have access to your "
+"course in Studio. Any users not yet enrolled in the course will be "
+"automatically enrolled when added as Limited Staff."
+msgstr ""
+"Thành viên nhóm quản lý khóa học với vai trò Nhân viên hạn chế giúp quản lý khóa học của bạn. "
+"Nhân viên hạn chế có thể đăng ký hoặc hủy đăng ký người học, cũng như chỉnh sửa điểm của người học, "
+"và có quyền truy cập vào tất cả dữ liệu khóa học. Nhân viên hạn chế không có quyền truy cập vào "
+"khóa học của bạn trên Studio. Khi được thêm với vai trò Nhân viên hạn chế, người dùng "
+"cũng sẽ được tự động đăng ký vào khóa học nếu chưa đăng ký."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:216
+msgid ""
+"Beta Testers can see course content before other learners. They can make "
+"sure that the content works, but have no additional privileges. Any users "
+"not yet enrolled in the course will be automatically enrolled when added as "
+"Beta Tester."
+msgstr ""
+"Người dùng thử bản Beta có thể thấy được nội dung khóa học trước những người học "
+"khác. Họ có thể đảm bảo rằng nội dung hoạt động tốt, nhưng họ không có thêm"
+"bất kỳ quyền nào khác. Khi được thêm với vai trò Người dùng thử bản Beta, người dùng "
+"cũng sẽ được tự động đăng ký vào khóa học nếu chưa đăng ký."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:229
+msgid ""
+"Discussion Admins can edit or delete any post, clear misuse flags, close and "
+"re-open threads, endorse responses, and see posts from all groups. Their "
+"posts are marked as 'staff'. They can also add and remove the discussion "
+"moderation roles to manage course team membership. Only enrolled users can "
+"be added as Discussion Admins."
+msgstr ""
+"Quản trị viên thảo luận có thể chỉnh sửa hoặc xóa bất kỳ bài đăng nào, "
+"xóa cờ nội dung lạm dụng, đóng và mở lại chủ đề, tán thành phản hồi và xem "
+"bài đăng của tất cả các nhóm. Bài đăng của họ được đánh dấu là 'nhân viên'. "
+"Họ cũng có thể thêm và xóa người dùng với các vai trò điều hành diễn đàn thảo luận "
+"để quản lý tư cách thành viên nhóm quản lý khóa học. Chỉ những người dùng đã "
+"đăng ký vào khóa học có thể được thêm với vai trò Quản trị viên thảo luận."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:243
+msgid ""
+"Course Data Researchers can access the data download tab. Any users not yet "
+"enrolled in the course will be automatically enrolled when added as Course "
+"Data Researcher."
+msgstr ""
+"Người nghiêng cứu dữ liệu khóa học có thể truy cập tab Tải xuống dữ liệu. Khi "
+"được thêm với vai trò Người nghiêng cứu dữ liệu khóa học, người dùng "
+"cũng sẽ được tự động đăng ký vào khóa học nếu chưa đăng ký."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:257
+msgid ""
+"Discussion Moderators can edit or delete any post, clear misuse flags, close "
+"and re-open threads, endorse responses, and see posts from all groups. Their "
+"posts are marked as 'staff'. They cannot manage course team membership by "
+"adding or removing discussion moderation roles. Only enrolled users can be "
+"added as Discussion Moderators."
+msgstr ""
+"Điều hành viên thảo luận có thể chỉnh sửa hoặc xóa bất kỳ bài đăng nào, "
+"xóa cờ nội dung lạm dụng, đóng và mở lại chủ đề, tán thành phản hồi và xem "
+"bài đăng của tất cả các nhóm. Bài đăng của họ được đánh dấu là 'nhân viên'. "
+"Họ không thể quản lý quản lý tư cách thành viên nhóm quản lý khóa học bằng cách "
+"thêm hoặc xóa người dùng với các vai trò điều hành diễn đàn thảo luận. Chỉ "
+"những người dùng đã đăng ký vào khóa học có thể được thêm với vai trò Điều hành "
+"viên thảo luận."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:271
+msgid ""
+"Group Community TAs are members of the community who help course teams "
+"moderate discussions. Group Community TAs see only posts by learners in "
+"their assigned group. They can edit or delete posts, clear flags, close and "
+"re-open threads, and endorse responses, but only for posts by learners in "
+"their group. Their posts are marked as 'Community TA'. Only enrolled "
+"learners can be added as Group Community TAs."
+msgstr ""
+"TA Nhóm cộng đồng là thành viên của cộng đồng, họ trợ giúp nhóm quản lý "
+"khóa học điều hành thảo luận. TA Nhóm cộng đồng chỉ thấy bài đăng của người học "
+"trong nhóm mà họ được phân công. Họ có thể chỉnh sửa hoặc xóa bất kỳ bài đăng nào, "
+"xóa cờ nội dung lạm dụng, đóng và mở lại chủ đề, tán thành phản hồi nhưng chỉ giới "
+"hạn trong những bài đăng của người học trong nhóm của họ. Bài đăng của họ được đánh "
+"dấu là 'TA cộng đồng'. Chỉ những người dùng đã đăng ký vào khóa học có thể được thêm "
+"với vai trò TA Nhóm cộng đồng."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:285
+msgid ""
+"Community TAs are members of the community who help course teams moderate "
+"discussions. They can see posts by learners in their assigned cohort or "
+"enrollment track, and can edit or delete posts, clear flags, close or re-"
+"open threads, and endorse responses. Their posts are marked as 'Community "
+"TA'. Only enrolled learners can be added as Community TAs."
+msgstr ""
+"TA cộng đồng là thành viên của cộng đồng, họ trợ giúp nhóm quản lý khóa học "
+"điều hành thảo luận. Họ có thể xem bài đăng của người học trong nhóm (Cohort) "
+"mà họ được phân hoặc theo loại đăng ký, họ có thể chỉnh sửa hoặc xóa bài đăng, "
+"xóa cờ, đóng hoặc mở lại chủ đề, tán thành phản hồi. Bài đăng của họ được đánh "
+"dấu là 'TA cộng đồng'. Chỉ những người dùng đã đăng ký vào khóa học có thể được "
+"thêm với vài trò TA cộng đồng."
+

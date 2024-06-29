@@ -1,6 +1,6 @@
 {
   "account.page.title": "Tài khoản | {siteName}",
-  "account.settings.banner.beta.language": "Bạn đã cài đặt ngôn ngữ thành {beta_language}, ngôn ngữ này chưa được dịch hoàn chỉnh. Bạn có thể giúp chúng tôi dịch ngôn ngữ này bằng cách tham gia cộng đồng Transifex và thêm các bản dịch từ tiếng Anh cho các học viên nói tiếng {beta_language}.",
+  "account.settings.banner.beta.language": "Bạn đã cài đặt ngôn ngữ thành {beta_language}, ngôn ngữ này chưa được dịch hoàn chỉnh. Bạn có thể giúp chúng tôi dịch ngôn ngữ này bằng cách tham gia cộng đồng Transifex và thêm các bản dịch từ tiếng Anh cho các người học nói tiếng {beta_language}.",
   "account.settings.banner.beta.language.action.help.translate": "Trợ giúp dịch sang {beta_language}",
   "account.settings.banner.beta.language.action.switch.back": "Hoàn tác về {previous_language}",
   "account.settings.delete.account.before.proceeding": "Trước khi tiếp tục, vui lòng {actionLink}.",

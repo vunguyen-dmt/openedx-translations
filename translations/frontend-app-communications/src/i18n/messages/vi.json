@@ -41,7 +41,7 @@
   "bulk.email.form.success": "Email được tạo thành công",
   "bulk.email.instructions.caution": "Cẩn thận!",
   "bulk.email.instructions.caution.message.new.email": " Khi bạn chọn Gửi Email, bạn đang tạo một email mới được thêm vào hàng đợi để gửi và không thể hủy được.",
-  "bulk.email.instructions.proofreading": "Chúng tôi khuyên bạn nên gửi cho học viên không quá một email mỗi tuần. Trước khi gửi email, hãy xem lại văn bản cẩn thận và gửi cho chính bạn trước để bạn có thể xem trước định dạng và đảm bảo hình ảnh và liên kết được nhúng hoạt động chính xác.",
+  "bulk.email.instructions.proofreading": "Chúng tôi khuyên bạn nên gửi cho người học không quá một email mỗi tuần. Trước khi gửi email, hãy xem lại văn bản cẩn thận và gửi cho chính bạn trước để bạn có thể xem trước định dạng và đảm bảo hình ảnh và liên kết được nhúng hoạt động chính xác.",
   "bulk.email.pending.tasks.description.one": "Để xem tất cả các tác vụ đang chờ xử lý, bao gồm cả email, hãy truy cập ",
   "bulk.email.pending.tasks.description.two": " ở bảng điều khiển giảng viên",
   "bulk.email.pending.tasks.header": "Tác vụ đang chờ xử lý đã di chuyển",
