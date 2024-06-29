@@ -15701,21 +15701,6 @@ msgid "Discussion Admins"
 msgstr "Quản trị viên thảo luận"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"Discussion Admins can edit or delete any post, clear misuse flags, close and"
-" re-open threads, endorse responses, and see posts from all groups. Their "
-"posts are marked as 'staff'. They can also add and remove the discussion "
-"moderation roles to manage course team membership. Only enrolled users can "
-"be added as Discussion Admins."
-msgstr ""
-"Quản trị viên Diễn đàn có thể chỉnh sửa hoặc xoá bất kỳ bài nào, xoá thông "
-"báo vi phạm, đóng và mở lại chủ đề, kiểm duyệt phản hồi và xem bài đăng từ "
-"tất cả các nhóm. Bài đăng của họ được đánh dấu là 'nhân viên'. Họ cũng có "
-"thể thêm và xóa các vai trò điều hành thảo luận để quản lý thành viên nhóm "
-"khóa học. Chỉ những người dùng đã đăng ký có thể được thêm làm Quản trị viên"
-" Diễn đàn."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Discussion Admin"
 msgstr "Thêm quản trị viên thảo luận"
 
@@ -15736,21 +15721,6 @@ msgid "Discussion Moderators"
 msgstr "Điều hành viên thảo luận"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"Discussion Moderators can edit or delete any post, clear misuse flags, close"
-" and re-open threads, endorse responses, and see posts from all groups. "
-"Their posts are marked as 'staff'. They cannot manage course team membership"
-" by adding or removing discussion moderation roles. Only enrolled users can "
-"be added as Discussion Moderators."
-msgstr ""
-"Người điều hành Diễn đàn có thể chỉnh sửa hoặc xoá bất kỳ bài đăng nào, xoá "
-"thông báo vi phạm, đóng và mở lại chủ đề, kiểm duyệt phản hồi và xem các bài"
-" đăng từ tất cả các nhóm. Bài đăng của họ được đánh dấu là 'nhân viên'. Họ "
-"không thể quản lý thành viên nhóm điều hành khóa học bằng cách thêm hoặc xóa"
-" vai trò kiểm duyệt diễn đàn. Chỉ những người dùng được đăng ký mới có thể "
-"được thêm vào làm Người điều hành Diễn đàn."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Moderator"
 msgstr "Thêm Điều Hành Viên"
 
@@ -15759,40 +15729,8 @@ msgid "Group Community TA"
 msgstr "TA Nhóm Cộng đồng"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"Group Community TAs are members of the community who help course teams "
-"moderate discussions. Group Community TAs see only posts by learners in "
-"their assigned group. They can edit or delete posts, clear flags, close and "
-"re-open threads, and endorse responses, but only for posts by learners in "
-"their group. Their posts are marked as 'Community TA'. Only enrolled "
-"learners can be added as Group Community TAs."
-msgstr ""
-"TA Nhóm Cộng đồng là thành viên của cộng đồng giúp những đội ngũ vận hành khóa học điều hành "
-"điều hành các cuộc thảo luận. TA Nhóm Cộng đồng chỉ xem các bài đăng của"
-" người học trong nhóm được chỉ định. Họ có thể chỉnh sửa hoặc xoá bài đăng, "
-"xóa cờ, đóng và mở lại chủ đề và điều hành phản hồi, nhưng chỉ cho bài đăng "
-"của người học trong nhóm của họ. Các bài đăng của họ được đánh dấu là 'TA "
-"Cộng đồng'. Chỉ những người học đã đăng ký mới có thể được bổ sung làm "
-"TA Nhóm Cộng đồng."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Group Community TA"
 msgstr "Thêm TA Nhóm Cộng đồng"
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"Community TAs are members of the community who help course teams moderate "
-"discussions. They can see posts by learners in their assigned cohort or "
-"enrollment track, and can edit or delete posts, clear flags, close or re-"
-"open threads, and endorse responses. Their posts are marked as 'Community "
-"TA'. Only enrolled learners can be added as Community TAs."
-msgstr ""
-"TA Cộng đồng là thành viên của cộng đồng giúp đội ngũ vận hành khóa học điều hành điều hành "
-"các cuộc thảo luận. Họ có thể xem các bài đăng của tất cả người học và có "
-"thể chỉnh sửa hoặc xoá các bài đăng, xóa cờ, chủ đề đóng hoặc mở lại và kiểm"
-" duyệt các câu trả lời. Các bài đăng của họ được đánh dấu là 'TA Cộng "
-"đồng. Chỉ những người học đã đăng ký mới có thể được bổ sung làm TA Cộng "
-"đồng."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Community TA"
