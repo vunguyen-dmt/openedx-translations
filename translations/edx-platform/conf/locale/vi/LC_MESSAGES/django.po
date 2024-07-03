@@ -2034,7 +2034,7 @@ msgid ""
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
 msgstr ""
-"Giấy chứng nhận {cert_type} chứng tỏ rằng người học đã đồng ý tuân thủ mã danh dự "
+"Giấy chứng nhận {cert_type} chứng tỏ rằng người học đã đồng ý tuân thủ quy tắc danh dự "
 "do {platform_name} thiết lập và đã hoàn thành tất cả các yêu cầu cần thiết "
 "cho khóa học này theo đúng hướng dẫn."
 
@@ -2525,7 +2525,7 @@ msgstr "Bài tập"
 #: lms/djangoapps/courseware/courses.py
 #: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:3
 msgid "Open Response Assessment"
-msgstr "Đánh Giá Câu Trả Lời Mở"
+msgstr "Đánh giá câu trả lời mở"
 
 #: lms/djangoapps/courseware/courses.py
 #: openassessment/xblock/grade_mixin.py:177
@@ -2551,7 +2551,7 @@ msgid ""
 "Open Response Assessment due dates are set by your instructor and can't be "
 "shifted."
 msgstr ""
-"Hạn chót của Open Response Assessment được thiết lập bởi giáo viên của bạn "
+"Hạn nộp bài của Câu trả lời mở được thiết lập bởi giảng viên của bạn "
 "và không thể bị dời."
 
 #. Translators: 'absolute' is a date such as "Jan 01,
@@ -3365,7 +3365,7 @@ msgstr ""
 #, python-brace-format
 msgid "Successfully reset due date for student {0} for {1} to {2}"
 msgstr ""
-"Thiết lập lại thành công ngày quá hạn cho sinh viên {0} cho {1} đến {2}"
+"Thành công đặt lại hạn nộp bài cho người học {0} cho {1} đến {2}"
 
 #: lms/djangoapps/instructor/views/api.py
 #, python-format
@@ -3938,27 +3938,27 @@ msgid ""
 "This unit's access settings refer to deleted or invalid group "
 "configurations."
 msgstr ""
-"Thiết lập truy cập của đơn vị này tham chiếu đến những cấu hình nhóm đã xóa "
+"Cài đặt quyền truy cập cho đơn vị này tham chiếu đến những cấu hình nhóm đã bị xóa "
 "hoặc không hợp lệ."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "This component's access settings refer to deleted or invalid groups."
 msgstr ""
-"Thiết lập truy cập của thành phần này tham chiếu đến các nhóm bị xóa hoặc "
+"Cài đặt quyền truy cập của thành phần này tham chiếu đến các nhóm bị xóa hoặc "
 "không hợp lệ."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "This unit's access settings refer to deleted or invalid groups."
 msgstr ""
-"Thiết lập truy cập của đơn vị này tham chiếu đến các nhóm bị xóa hoặc không "
+"Cài đặt quyền truy cập của đơn vị này tham chiếu đến các nhóm bị xóa hoặc không "
 "hợp lệ."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
 "This component's access settings contradict its parent's access settings."
 msgstr ""
-"Thiết lập truy cập của thành phần này mâu thuẫn với thiết lập truy cập của "
-"mức cha của nó."
+"Cài đặt quyền truy cập của thành phần này mâu thuẫn với cài đặt quyền truy cập của "
+"cấp cao hơn chứa nó."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Whether to display this module in the table of contents"
@@ -4002,7 +4002,7 @@ msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Course tab is "
 "selected."
 msgstr ""
-"Nhập tab được chọn trong XBlock. Nếu không được thiết lập, tab Course sẽ "
+"Nhập tab được chọn trong XBlock. Nếu không được thiết lập, tab Khóa học sẽ "
 "được chọn."
 
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -4785,7 +4785,7 @@ msgstr ""
 #: cms/templates/videos_index_pagination.html
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html:32
 msgid "Cancel"
-msgstr "Hủy bỏ "
+msgstr "Hủy "
 
 #: lms/templates/oauth2_provider/authorize.html
 msgid "Allow"
@@ -5630,12 +5630,6 @@ msgid ""
 "the org that the course is in, then the more specific context overrides the "
 "more general context."
 msgstr ""
-"Thiết lập phạm vi để bật cấu hình này. Nếu không đặt giá trị nào, thì cấu "
-"hình này sẽ được áp dụng lên toàn bộ hệ thống. Nếu một giá trị được đặt, thì"
-" cấu hình sẽ được áp dụng tới mọi khoá học trong phạm vi đó. Tối đa một giá "
-"trị có thể được đặt cùng lúc. {br} Nếu nhiều phạm vi được áp dụng lên một "
-"khoá học (ví dụ, nếu cài đặt chỉ dành riêng cho khoá học đó, và cho tổ chức "
-"mà khoá học đó ở trong, thì cài đặt riêng cụ thể hơn sẽ được áp dụng."
 
 #: openedx/core/djangoapps/config_model_utils/admin.py
 msgid ""
@@ -5644,19 +5638,15 @@ msgid ""
 "For example, if \"Enabled\" is left as \"Unknown\" in the course context, "
 "then that course will be Enabled only if the org that it is in is Enabled."
 msgstr ""
-"Nếu một trong những giá trị này rỗng hoặc \"Không Rõ\", thì giá trị của "
-"chúng khi chạy sẽ được lấy từ phạm vi cụ thể nhất kế tiếp đã được áp dụng. "
-"Ví dụ, nếu \"Cho Phép\" được đặt là \"Không Rõ\" tại phạm vi khóa học, thì "
-"khóa học đó sẽ chỉ Cho Phép nếu tổ chức đó để cài đặt là Cho Phép."
 
 #: openedx/core/djangoapps/config_model_utils/models.py
 #, python-format
 msgid "%(value)s should have the form ORG+COURSE"
-msgstr "%(value)s nên có mẫu ORG+COURSE"
+msgstr "%(value)s nên có định dạng ORG+COURSE"
 
 #: openedx/core/djangoapps/config_model_utils/models.py
 msgid "Enabled"
-msgstr "Đã cho phép"
+msgstr "Đã bật"
 
 #: openedx/core/djangoapps/config_model_utils/models.py
 msgid "Configure values for all course runs associated with this site."
@@ -5710,8 +5700,8 @@ msgid ""
 "You may not change a library's type to {library_type} if it still has "
 "unpublished changes."
 msgstr ""
-"Bạn có thể không được thay đổi kiểu thư viện {library_type} nếu nó chưa được"
-" công bố"
+"Bạn có thể không được thay đổi kiểu thư viện thành {library_type} nếu nó vẫn còn"
+" những thay đổi chưa được xuất bản."
 
 #: openedx/core/djangoapps/content_libraries/api.py
 #, python-brace-format
@@ -5719,7 +5709,7 @@ msgid ""
 "You can only set a library to {library_type} if all existing blocks are of "
 "that type. Found incompatible block {block_id} with type {block_type}."
 msgstr ""
-"Bạn chỉ có thể thiết lập thư viện {library_type} nếu tất cả các khối có cùng"
+"Bạn chỉ có thể đặt loại thư viện thành {library_type} nếu tất cả các khối có cùng"
 " kiểu thư viện này. Đã tìm thấy khối {block_id} không tương thích với kiểu "
 "{block_type}."
 
@@ -5868,7 +5858,7 @@ msgid ""
 msgstr ""
 "Khi sự thật, tự động thông báo cho các nhà cung cấp tín dụng khi người dùng "
 "yêu cầu tín dụng. Để làm việc này, một khóa bí mật được chia sẻ phải được "
-"cấu hình cho các nhà cung cấp tín dụng trong các thiết lập auth an toàn."
+"cấu hình cho các nhà cung cấp tín chỉ trong cài đặt xác thực an toàn."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -6302,7 +6292,7 @@ msgstr "Kinh nghiệm"
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
 #: lms/templates/support/feature_based_enrollments.html
 msgid "Course ID"
-msgstr "Id khóa học"
+msgstr "ID khóa học"
 
 #: openedx/core/djangoapps/schedules/apps.py
 #: openedx/core/djangoapps/schedules/models.py
@@ -6988,8 +6978,8 @@ msgid ""
 "Value '{preference_value}' not valid for preference '{preference_key}': Not "
 "in timezone set."
 msgstr ""
-"Gái trị '{preference_value}' không có giá trị ưu tiên '{preference_key}': "
-"Không trong thiết lập múi giờ."
+"Gái trị '{preference_value}' không hợp lệ cho cài đặt '{preference_key}': "
+"Không trong tập hợp múi giờ."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 #, python-brace-format
@@ -7099,7 +7089,7 @@ msgstr "Nếu bạn không yêu cầu sự thay đổi này, bạn có thể b�
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 msgid "Reset my password"
-msgstr "Thiết lập lại mật khẩu của mình"
+msgstr "Đặt lại mật khẩu của tôi"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
 msgid "Please go to the following page and choose a new password:"
@@ -7267,7 +7257,7 @@ msgstr "Lỗi khi đặt lại mật khẩu của bạn."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "Error in resetting your password. Please try again."
-msgstr "Lỗi khi thiết lập lại mật khẩu của bạn. Vui lòng thử lại."
+msgstr "Lỗi khi đặt lại mật khẩu của bạn. Vui lòng thử lại."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 #, python-brace-format
@@ -7758,12 +7748,6 @@ msgid ""
 "specifically, and for the org that the course is in, then the more specific "
 "context overrides the more general context."
 msgstr ""
-"Thiết lập phạm vi để hủy bỏ kiểm soát giảm giá của lms. Nếu không đặt giá "
-"trị nào, cài đặt sẽ áp dụng lên toàn bộ. Nếu một giá trị được đặt, thì cài "
-"đặt sẽ chỉ áp dụng lên toàn bộ khóa học trong phạm vi đó. Tối đa một giá trị"
-" có thể đặt cùng lúc. <br> Nếu nhiều phạm vi được áp dụng lên một khóa học "
-"(ví dụ, nếu cài đặt chỉ dành riêng cho khóa học đó, và cho tổ chức mà khóa "
-"học đó ở trong, thì cài đặt riêng cụ thể hơn sẽ được áp dụng."
 
 #: openedx/features/discounts/admin.py
 msgid ""
@@ -7773,10 +7757,6 @@ msgid ""
 " the course is in, then the more specific context overrides the more general"
 " context."
 msgstr ""
-"Thiết lập phạm vi để tuỳ chỉnh cấu hình giảm giá lần mua hàng đầu tiên. Nếu "
-"nhiều phạm vi được áp dụng lên một khoá học (ví dụ, nếu cài đặt chỉ dành "
-"riêng cho khoá học đó, và cho tổ chức mà khoá học đó ở trong, thì cài đặt "
-"riêng cụ thể hơn sẽ được áp dụng."
 
 #: openedx/features/discounts/utils.py
 #, python-brace-format
@@ -8396,15 +8376,15 @@ msgstr "Đã thử"
 
 #: xmodule/capa_module.py
 msgid "Show Answer: Number of Attempts"
-msgstr "Hiện đáp án: Sau số lượt thử "
+msgstr "Hiển thị đáp án đúng: Số lượt thử "
 
 #: xmodule/capa_module.py
 msgid ""
 "Number of times the student must attempt to answer the question before the "
 "Show Answer button appears."
 msgstr ""
-"Số lần người học cần phải thử trả lời câu hỏi trước khi nút Hiện Đáp Án Xuất "
-"Hiện."
+"Số lần người học cần phải thử trả lời câu hỏi trước khi nút Hiển thị đáp án đúng xuất "
+"hiện."
 
 #: xmodule/capa_module.py
 msgid "Whether to force the save button to appear on the page"
@@ -8423,6 +8403,14 @@ msgstr ""
 "lại câu trả lời của họ. Giá trị mặc định có thể được thiết lập trong Cài"
 " Đặt Nâng Cao."
 
+#: xmodule/library_content_block.py
+msgid ""
+"Determines whether a 'Reset Problems' button is shown, so users may reset "
+"their answers and reshuffle selected items."
+msgstr ""
+"Xác định xem nút 'Đặt lại câu hỏi' có được hiển thị để người học có thể "
+"đặt lại câu trả lời của họ và rút lại bộ câu hỏi khác."
+
 #: xmodule/capa_module.py xmodule/modulestore/inheritance.py
 msgid "Randomization"
 msgstr "Randomization"
@@ -8437,7 +8425,7 @@ msgstr ""
 
 #: xmodule/capa_module.py
 msgid "On Reset"
-msgstr "Thiết lập lại"
+msgstr "Khi thiết lập lại"
 
 #: xmodule/capa_module.py
 msgid "Per Student"
@@ -8865,7 +8853,7 @@ msgstr "{section_type} {index} Chưa Phát Hành - 0% (?/?)"
 #: xmodule/graders.py
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
-msgstr "Điểm số {drop_count} {section_type} thấp nhất đã giảm."
+msgstr "{drop_count} bài kiểm tra {section_type} có điểm thấp nhất đã được bỏ đi."
 
 #: xmodule/html_module.py
 msgid "Html contents to display for this module"
@@ -8882,8 +8870,8 @@ msgid ""
 "HTML. Select Raw to edit HTML directly. If you change this setting, you must"
 " save the component and then re-open it for editing."
 msgstr ""
-"Chọn Trực quan để nhập nội dung và có trình biên tập tự động tạo ra HTML."
-" Chọn Raw để chỉnh sửa HTML trực tiếp. Nếu bạn thay đổi thiết lập này, bạn "
+"Chọn Trực quan để nhập nội dung và có trình biên tập tự động tạo ra HTML. "
+"Chọn Raw để chỉnh sửa HTML trực tiếp. Nếu bạn thay đổi thiết lập này, bạn "
 "phải lưu các thành phần và sau đó mở lại để chỉnh sửa."
 
 #: xmodule/html_module.py
@@ -8928,7 +8916,7 @@ msgstr "Thư viện"
 
 #: xmodule/library_content_module.py
 msgid "Select the library from which you want to draw content."
-msgstr "Chọn các thư viện mà từ đó bạn muốn rút ra nội dung."
+msgstr "Chọn thư viện mà bạn muốn rút nội dung."
 
 #: xmodule/library_content_module.py
 msgid "Library Version"
@@ -8952,15 +8940,15 @@ msgstr "Nhập số thành phần để hiển thị cho mỗi người học."
 
 #: xmodule/library_content_module.py
 msgid "Problem Type"
-msgstr "Vấn đề Loại"
+msgstr "Loại câu hỏi"
 
 #: xmodule/library_content_module.py
 msgid ""
 "Choose a problem type to fetch from the library. If \"Any Type\" is selected"
 " no filtering is applied."
 msgstr ""
-"Chọn một loại vấn đề để tìm nạp từ thư viện. Nếu \"Bất kỳ Loại \" được chọn "
-"không có bộ lọc được áp dụng."
+"Chọn một loại câu hỏi để rút từ thư viện. Nếu \"Loại bất kỳ \" được chọn "
+"bộ lọc sẽ không được áp dụng."
 
 #: xmodule/library_content_module.py
 msgid "This component is out of date. The library has new content."
@@ -9015,7 +9003,7 @@ msgstr "Thư viện không hợp lệ"
 
 #: xmodule/library_content_module.py
 msgid "No Library Selected"
-msgstr "Không Library chọn"
+msgstr "Không có thư viện được chọn"
 
 #: xmodule/library_root_xblock.py
 msgid "Library Display Name"
@@ -9115,12 +9103,8 @@ msgid ""
 msgstr ""
 "Chọn True nếu bạn muốn người học nhấp vào liên kết mở các công cụ LTI trong "
 "một cửa sổ mới. Chọn False nếu bạn muốn các nội dung LTI để mở trong một "
-"IFrame trong trang hiện tại. Thiết lập này chỉ được sử dụng khi Hide Tool "
-"rộng được thiết lập để sai.  "
-
-#: xmodule/lti_module.py
-msgid "Scored"
-msgstr "Scored"
+"IFrame trong trang hiện tại. Cài đặt này chỉ được sử dụng khi Hide External Tool "
+"được đặt là False. "
 
 #: xmodule/lti_module.py
 msgid ""
@@ -9139,16 +9123,14 @@ msgid ""
 "Enter the number of points possible for this component.  The default value "
 "is 1.0.  This setting is only used when Scored is set to True."
 msgstr ""
-"Nhập số điểm có thể cho các thành phần này. Giá trị mặc định là 1.0. Thiết "
-"lập này chỉ được sử dụng khi Ghi bàn được thiết lập là True."
+"Nhập số điểm có thể cho các thành phần này. Giá trị mặc định là 1.0. Cài "
+"đặt này chỉ được sử dụng khi Scored được đặt là True."
 
 #: xmodule/lti_module.py
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
 msgstr ""
-"The score kept in the xblock KVS -- duplicate of the published score in "
-"django DB"
 
 #: xmodule/lti_module.py
 msgid "Comment as returned from grader, LTI2.0 spec"
@@ -9238,7 +9220,7 @@ msgstr "Nhập URL cho các kho nhiên liệu GIT."
 
 #: xmodule/modulestore/inheritance.py
 msgid "This setting is not currently supported."
-msgstr "Thiết lập này hiện không được hỗ trợ."
+msgstr "Cài đặt này hiện không được hỗ trợ."
 
 #: xmodule/modulestore/inheritance.py
 msgid "Enter the ids for the content groups this problem belongs to."
@@ -9364,8 +9346,8 @@ msgid ""
 "Tag this course module as an Entrance Exam. Note, you must enable Entrance "
 "Exams for this course setting to take effect."
 msgstr ""
-"Đặt thẻ cho khoá học này là Kiểm Tra Đầu Vào. Lưu ý, bạn phải kích hoạt Kiểm"
-" Tra Đầu Vào cho khóa học này để thiết lập có hiệu lực."
+"Gắn thẻ cho khoá học này là Bài kiểm tra đầu vào. Lưu ý, bạn phải bật Kiểm "
+"tra đầu vào cho khóa học này để cài đặt có hiệu lực."
 
 #: xmodule/seq_module.py
 msgid "Is Time Limited"
@@ -9376,8 +9358,8 @@ msgid ""
 "This setting indicates whether students have a limited time to view or "
 "interact with this courseware component."
 msgstr ""
-"Thiết lập này chỉ ra cho dù sinh viên có một thời gian giới hạn để xem hoặc "
-"tương tác với các thành phần chương trình học này."
+"Cài đặt này này cho thấy liệu người học có một thời gian giới hạn để xem hoặc "
+"tương tác với thành phần của khóa học này không."
 
 #: xmodule/seq_module.py
 msgid "Time Limit in Minutes"
@@ -9397,7 +9379,8 @@ msgstr "Chế Độ Giám Thị Bật"
 
 #: xmodule/seq_module.py
 msgid "This setting indicates whether this exam is a proctored exam."
-msgstr "Thiết lập này cho biết bài kiểm tra này có giám sát hay không."
+msgstr "Cài đặt này cho biết bài kiểm tra này có phải là bài kiểm tra "
+"được giám sát hay không."
 
 #: xmodule/seq_module.py
 msgid "Software Secure Review Rules"
@@ -9416,19 +9399,19 @@ msgid ""
 "This setting indicates whether this exam is for testing purposes only. "
 "Practice exams are not verified."
 msgstr ""
-"Thiết lập này chỉ ra cho dù kỳ thi này là dành cho mục đích thử nghiệm. Thi "
-"thử không được công nhận."
+"Cài đặt này chỉ ra liệu bài kiểm tra này là dành cho mục đích thử nghiệm. Bài "
+"kiểm tra thử không được xác thực."
 
 #: xmodule/seq_module.py
 msgid "This setting indicates whether this exam is an onboarding exam."
-msgstr "Thiết lập này cho biết bài kiểm tra này có phải là bài kiểm thử hay không."
+msgstr "Cài đặt này cho biết bài kiểm tra này có phải là bài kiểm Onboarding không."
 
 #: xmodule/seq_module.py
 msgid ""
 "This subsection is unlocked for learners when they meet the prerequisite "
 "requirements."
 msgstr ""
-"Tiểu mục này được mở cho người học khi họ đáp ứng các yêu cầu bắt buộc."
+"Mục nhỏ này được mở cho người học khi họ đáp ứng các yêu cầu bắt buộc."
 
 #: xmodule/seq_module.py
 msgid "This exam is hidden from the learner."
@@ -9705,12 +9688,10 @@ msgid ""
 "the student's computer. To allow students to download these videos, set "
 "Video Download Allowed to True."
 msgstr ""
-"Các URL hoặc URL mà bạn đã đăng phiên bản phi YouTube của video. Mỗi URL "
-"phải kết thúc trong .mpeg, .mp4, .ogg, hoặc .webm và không thể là một URL "
-"YouTube. (Đối với khả năng tương thích trình duyệt, chúng tôi đề nghị và "
-"định dạng .mp4 .webm.) Người học sẽ có thể xem video niêm yết đầu tiên tương "
-"thích với máy tính của người học. Để cho phép các sinh viên để tải về những "
-"đoạn phim này, thiết lập Video Download phép True."
+"URL video (không phải từ Youtube). URL phải kết thúc bằng .mpeg, .mp4, .ogg, "
+"hoặc .webm (khuyến khích sử dụng .mp4 và .webm). Người học sẽ có thể tải video "
+"đầu tiên tương tích với thiết bị của họ. Để cho phép người học tải xuống video "
+"đặt Cho phép tải xuống video là True."
 
 #: xmodule/video_module/video_xfields.py
 msgid "Video File URLs"
@@ -9726,9 +9707,9 @@ msgid ""
 " the URL for the transcript here. Students see a link to download that "
 "transcript below the video."
 msgstr ""
-"Mặc định, người học có thể tải xuống một tập tin bản dịch .srt hoặc .txt khi bạn "
-"thiết lập Cho phép tải bản dịch là Đúng. Nếu bạn muốn cung cấp bản dịch tải "
-"xuống trong một định dạng khác, chúng tôi khuyến cáo tải tài liệu dịch lên "
+"Mặc định, người học có thể tải xuống tập tin bản ghi .srt hoặc .txt khi bạn "
+"đặt Cho phép tải xuống bản ghi là True. Nếu bạn muốn cung cấp bản ghi tải "
+"xuống theo một định dạng khác, chúng tôi khuyến khích tải tài liệu dịch lên "
 "trong mục Tải Lên Tài Liệu. Nếu không thể làm được, bạn có thể đăng tập tin bản "
 "dịch vào trang Tập tin & Tải lên hoặc đăng lên mạng Internet, sau đó thêm "
 "đường dẫn của bản dịch vào đây. Người học sẽ thấy đường dẫn để tải xuống bản "
@@ -10202,7 +10183,7 @@ msgstr "Khóa học đã được lập chỉ mục lại."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Set Date"
-msgstr "Thiết lập ngày tháng"
+msgstr "Cài đặt ngày"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
@@ -10748,7 +10729,7 @@ msgstr "Nội dung"
 #: wiki/templates/wiki/settings.html
 #: openassessment/templates/openassessmentblock/edit/oa_edit_header_and_validation.html:36
 msgid "Settings"
-msgstr "Thiết lập"
+msgstr "Cài đặt"
 
 #: cms/templates/certificates.html cms/templates/container.html
 #: cms/templates/course_outline.html cms/templates/group_configurations.html
@@ -11178,8 +11159,8 @@ msgid ""
 "Please enter your e-mail address below, and we will e-mail instructions for "
 "setting a new password."
 msgstr ""
-"Vui lòng nhập địa chỉ email của bạn vào dưới đây, và chúng tôi sẽ gửi e-mail"
-" hướng dẫn bạn thiết lập một mật khẩu mới."
+"Vui lòng nhập địa chỉ email của bạn vào dưới đây, và chúng tôi sẽ gửi e-mail "
+"hướng dẫn bạn đặt lại mật khẩu mới."
 
 #: lms/templates/forgot_password_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
@@ -11796,7 +11777,7 @@ msgstr "Quá hạn"
 
 #: lms/templates/vert_module.html
 msgid "Reset Problems"
-msgstr "Đặt lại sự cố"
+msgstr "Đặt lại câu hỏi"
 
 #: lms/templates/video.html
 msgid "Loading video player"
@@ -13738,7 +13719,7 @@ msgstr "Tiến độ {course_number}"
 
 #: lms/templates/courseware/progress.html
 msgid "View Grading in studio"
-msgstr "Xem thiết lập đánh giá studio"
+msgstr "Xem Cài đặt chấm điểm trên studio"
 
 #: lms/templates/courseware/progress.html
 msgid "Course Progress for '{username}' ({email})"
@@ -14008,7 +13989,7 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/dashboard/_dashboard_entitlement_actions.html
 msgid "Email Settings"
-msgstr "Thiết lập Email"
+msgstr "Cài đặt Email"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "View Archived Course"
@@ -14187,7 +14168,7 @@ msgstr "Hiện thảo luận"
 msgid "To view live discussions, click Preview or View Live in Unit Settings."
 msgstr ""
 "Để xem các thảo luận trực tiếp, nhấp chọn Xem trước hoặc Xem trực tiếp trong"
-" Thiết lập đơn vị."
+" Cài đặt đơn vị."
 
 #: lms/templates/discussion/_discussion_inline_studio.html
 msgid "Discussion ID: {discussion_id}"
@@ -14978,7 +14959,7 @@ msgstr "Tên việc"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "SET CERTIFICATE EXCEPTIONS"
-msgstr "THIẾT LẬP NHỮNG NGOẠI LỆ GIẤY CHỨNG NHẬN"
+msgstr "THIẾT LẬP NHỮNG NGOẠI LỆ CHO GIẤY CHỨNG NHẬN"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid ""
@@ -15035,7 +15016,7 @@ msgstr "Ngày kết thúc khoá học"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "No end date set"
-msgstr "Không có thiết lập ngày kết thúc"
+msgstr "Không có ngày kết thúc được đặt"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Has the course started?"
@@ -15842,7 +15823,7 @@ msgstr "Hiển thị Lịch sử Tác vụ Email"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Set Course Mode Price"
-msgstr "Thiết lập chế độ thu phí"
+msgstr "Đặt giá cho chế độ đăng ký khóa học"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Please enter Course Mode detail below"
@@ -15850,7 +15831,7 @@ msgstr "Điền vào chi tiết chế độ thu phí dưới đây"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Course Price"
-msgstr "Học phí"
+msgstr "Giá khóa học"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Currency"
@@ -15858,7 +15839,7 @@ msgstr "Loại tiền tệ"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Set Price"
-msgstr "Thiết lập học phí:"
+msgstr "Đặt giá:"
 
 #: lms/templates/instructor/instructor_dashboard_2/special_exams.html
 msgid "Allowance Section"
@@ -16328,7 +16309,7 @@ msgstr "Đổi mật khẩu thành công"
 msgid ""
 "Your password has been reset. {start_link}Sign-in to your account.{end_link}"
 msgstr ""
-"Mật khẩu của bạn đã được thiết lập lại. {start_link}Đăng nhập tài khoản của "
+"Mật khẩu của bạn đã được đặt lại. {start_link}Đăng nhập tài khoản của "
 "bạn.{end_link}"
 
 #: lms/templates/registration/password_reset_confirm.html
@@ -16700,7 +16681,7 @@ msgstr "Thêm bài viết"
 
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html
 msgid "Preview Language Setting"
-msgstr "Xem lai thiết lập ngôn ngữ"
+msgstr "Xem lai cài đặt ngôn ngữ"
 
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html
 msgid "Language Code"
@@ -17301,7 +17282,7 @@ msgstr "Đội ngũ quản lý khóa học"
 #: cms/templates/settings.html cms/templates/settings_advanced.html
 #: cms/templates/settings_graders.html cms/templates/widgets/header.html
 msgid "Advanced Settings"
-msgstr "Thiết Lập Nâng Cao"
+msgstr "Cài đặt nâng cao"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/settings.html cms/templates/settings_advanced.html
@@ -17355,7 +17336,7 @@ msgstr "Mở chương trình học trong LMS"
 
 #: cms/templates/container.html
 msgid "View Live Version"
-msgstr "Xem phiên bản thực"
+msgstr "Xem trực tiếp"
 
 #: cms/templates/container.html
 msgid "Preview the courseware in the LMS"
@@ -17642,9 +17623,9 @@ msgid ""
 "Module List\" setting, and then delete the following modules from the list."
 msgstr ""
 "Để tránh lỗi, {platform_name} khuyên bạn nên xóa các tính năng không được hỗ"
-" trợ khỏi thiết lập nâng cao của khóa học. Để thực hiện việc này, hãy mở "
-"trang {link_start}Cài đặt Nâng cao{link_end}, tìm phần thiết lập \"Danh sách"
-" Mô đun Nâng cao\" và sau đó xóa các mô-đun sau khỏi danh sách."
+" trợ khỏi cài đặt nâng cao của khóa học. Để thực hiện việc này, hãy mở "
+"trang {link_start}Cài đặt Nâng cao{link_end}, tìm phần cài đặt \"Advanced "
+"Module List\" và sau đó xóa các mô-đun sau khỏi danh sách."
 
 #: cms/templates/course_outline.html
 msgid "Unsupported Advance Modules"
@@ -17700,7 +17681,7 @@ msgstr "Tìm hiểu thêm về các đề cương khóa học"
 
 #: cms/templates/course_outline.html
 msgid "Setting release dates and grading policies"
-msgstr "Thiết lập ngày phát hành và chính sách phân loại"
+msgstr "Cài đặt ngày phát hành và chính sách chấm điểm"
 
 #: cms/templates/course_outline.html
 msgid ""
@@ -17708,9 +17689,9 @@ msgid ""
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
 msgstr ""
-"Chọn biểu tượng cấu hình cho một mục hoặc tiểu mục để thiết lập ngày phát "
-"hành của nó. Khi bạn cấu hình một tiểu mục, bạn cũng có thể thiết lập các "
-"chính sách chấm điểm và ngày hết hạn."
+"Chọn biểu tượng cấu hình cho một mục lớn hoặc mục nhỏ để cài đặt ngày phát "
+"hành của nó. Khi bạn cấu hình một mục nhỏ, bạn cũng có thể cài dặt "
+"chính sách chấm điểm và hạn nộp bài."
 
 #: cms/templates/course_outline.html
 msgid "Learn more about grading policy settings"
@@ -17752,7 +17733,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html
 msgid "Learn more about content visibility settings"
-msgstr "Tìm hiểu thêm về cách thiết lập ẩn nội dung."
+msgstr "Tìm hiểu thêm về cài đặt hiển thị nội dung."
 
 #: cms/templates/edit-tabs.html cms/templates/textbooks.html
 #: cms/templates/widgets/header.html
@@ -18050,7 +18031,7 @@ msgstr "Thành Phần Khóa Học"
 
 #: cms/templates/export.html
 msgid "Course Settings"
-msgstr "Thiết lập Khóa học"
+msgstr "Cài đặt Khóa học"
 
 #: cms/templates/export.html
 msgid "Data {em_start}not exported{em_end} with your course:"
@@ -18215,7 +18196,7 @@ msgstr "Xuất Khoá học sang Git:"
 msgid ""
 "giturl must be defined in your course settings before you can export to git."
 msgstr ""
-"giturl phải được xác định trong thiết lập khóa học của bạn trước khi bạn có "
+"giturl phải được xác định trong cài đặt khóa học của bạn trước khi bạn có "
 "thể xuất sang git."
 
 #: cms/templates/export_git.html
@@ -18576,7 +18557,7 @@ msgid ""
 "Simply set the date of a section or subsection, and {studio_name} will "
 "publish it to your students for you."
 msgstr ""
-"Đơn giản chỉ cần thiết lập ngày của một mục hoặc tiểu mục, và {studio_name} "
+"Đơn giản chỉ cần đặt ngày của một mục lớn hoặc mục nhỏ, và {studio_name} "
 "sẽ xuất bản nó cho người học của bạn."
 
 #: cms/templates/html_error.html
@@ -18881,9 +18862,8 @@ msgid ""
 "The public display name for your course. This cannot be changed, but you can"
 " set a different display name in Advanced Settings later."
 msgstr ""
-"Tên hiển thị công khai cho khóa học của bạn. Điều này không thể thay đổi, "
-"nhưng bạn có thể thiết lập một tên hiển thị khác nhau trong Cài đặt nâng cao"
-" sau này."
+"Tên hiển thị công khai cho khóa học của bạn. Tên này không thể thay đổi, "
+"nhưng bạn có thể đặt một tên hiển thị khác trong Cài đặt nâng cao sau này."
 
 #: cms/templates/index.html
 msgid ""
@@ -18977,7 +18957,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Organization and Library Settings"
-msgstr "Thiết lập Tổ chức và Thư viện"
+msgstr "Cài đặt Tổ chức và Thư viện"
 
 #: cms/templates/index.html
 msgid "Show all courses in organization:"
@@ -19283,9 +19263,9 @@ msgid ""
 " randomly selected and displayed to each student."
 msgstr ""
 "Sử dụng nội dung thư viện trong các khóa học bằng cách thêm khóa chính "
-"sách {em_start}library_content{em_end} vào Danh sách Mô-đun Nâng cao trong "
-"Thiết lập Nâng cao của khóa học, sau đó thêm Khối Nội dung Ngẫu nhiên vào "
-"giáo trình của bạn. Trong phần thiết lập cho mỗi Khối Nội dung Ngẫu nhiên, "
+"sách {em_start}library_content{em_end} vào Advanced Module List trong "
+"Cài đặt nâng cao của khóa học, sau đó thêm Randomized Content Block vào "
+"đơn vị của bạn. Trong phần thiết lập cho mỗi Randomized Content Block, "
 "hãy chọn thư viện này làm thư viện nguồn, và chỉ định số lượng các câu hỏi "
 "sẽ được chọn ngẫu nhiên và hiển thị cho mỗi người học."
 
@@ -19295,11 +19275,11 @@ msgstr "Tìm hiểu thêm về nội dung thư viện"
 
 #: cms/templates/manage_users.html
 msgid "Course Team Settings"
-msgstr "Thiết lập nhóm khoá học."
+msgstr "Cài đặt nhóm khoá học"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "New Team Member"
-msgstr "Nhóm thành viên  mới"
+msgstr "Thành viên nhóm mới"
 
 #: cms/templates/manage_users.html
 msgid "Add a User to Your Course's Team"
@@ -19452,7 +19432,7 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Schedule & Details Settings"
-msgstr "Thiết lập Lịch và Chi tiết"
+msgstr "Cài đặt Lịch trình và Chi tiết"
 
 #: cms/templates/settings.html cms/templates/widgets/header.html
 msgid "Schedule & Details"
@@ -19556,8 +19536,8 @@ msgid ""
 "You can configure release dates for course content and due dates for "
 "assignments."
 msgstr ""
-"Khoá học theo giảng viên tiến triển theo nhịp độ mà tác giả của khóa"
-" học thiết lập. Bạn có thể cấu hình ngày phát hành cho nội dung khóa học và "
+"Khoá học theo giảng viên tiến triển theo nhịp độ mà tác giả của khóa "
+"học thiết lập. Bạn có thể cấu hình ngày phát hành cho nội dung khóa học và "
 "ngày đến hạn cho bài tập."
 
 #: cms/templates/settings.html
@@ -20101,11 +20081,11 @@ msgstr "Mở rộng hoặc Thu gọn"
 
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Access Settings"
-msgstr "Thiết lập Truy cập"
+msgstr "Cài đặt quyền truy cập"
 
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Set Access"
-msgstr "Thiết lập Truy cập"
+msgstr "Cài đặt quyền truy cập"
 
 #: cms/templates/studio_xblock_wrapper.html
 msgid "This block contains multiple components."
@@ -20155,7 +20135,7 @@ msgstr "Tải lên video"
 
 #: cms/templates/videos_index.html
 msgid "Course Video Settings"
-msgstr "Thiết lập Video Khóa học"
+msgstr "Cài đặt Video Khóa học"
 
 #: cms/templates/videos_index_pagination.html
 msgid "Changing.."
@@ -20183,7 +20163,7 @@ msgid ""
 " by inherited settings."
 msgstr ""
 "Truy cập vào thành phần này không bị hạn chế, nhưng khả năng hiển thị có thể"
-" bị ảnh hưởng bởi những thiết lập kế thừa."
+" bị ảnh hưởng bởi những cài đặt kế thừa."
 
 #: cms/templates/visibility_editor.html
 msgid ""
@@ -20229,8 +20209,8 @@ msgid ""
 " access settings defined here."
 msgstr ""
 "{screen_reader_start}Cảnh báo:{screen_reader_end} Đơn vị có chứa thành phần "
-"này bị ẩn khỏi người học. Thiết lập đơn vị ghi đè thiết lập truy cập thành "
-"phần được định nghĩa ở đây."
+"này bị ẩn khỏi người học. Cài đặt đơn vị ghi đè cài đặt quyền truy cập thành "
+"phần được định ở đây."
 
 #: cms/templates/visibility_editor.html
 msgid "Access is restricted to:"
@@ -20737,12 +20717,12 @@ msgstr ""
 
 #: wiki/forms.py
 msgid "Permission settings for the article were updated."
-msgstr "Thiết lập quyền cho bài viết đã được cập nhật."
+msgstr "Cài đặt quyền cho bài viết đã được cập nhật."
 
 #: wiki/forms.py
 msgid "Your permission settings were unchanged, so nothing saved."
 msgstr ""
-"Thiết lập quyền của bạn chưa bị thay đổi, nên không có gì được ghi lại."
+"Cài đặt quyền của bạn chưa bị thay đổi, nên không có gì được lưu lại."
 
 #: wiki/forms.py
 msgid "No user with that username"
@@ -20762,7 +20742,7 @@ msgstr "Lọc"
 
 #: wiki/core/plugins/base.py
 msgid "Settings for plugin"
-msgstr "Thiết lập cho plugin"
+msgstr "Cài đặt cho plugin"
 
 #: wiki/models/article.py wiki/models/pluginbase.py
 #: wiki/plugins/attachments/models.py
@@ -21237,7 +21217,7 @@ msgstr "Hình: %s"
 
 #: wiki/plugins/images/models.py
 msgid "Current revision not set!!"
-msgstr "Phiên bản hiện hành chưa được thiết lập!"
+msgstr "Bản sửa đổi hiện tại chưa được đặt!!"
 
 #: wiki/plugins/images/models.py
 msgid "image revision"
@@ -21245,7 +21225,7 @@ msgstr "phiên bản hình"
 
 #: wiki/plugins/images/models.py
 msgid "image revisions"
-msgstr "Phiên bản của hình"
+msgstr "hình ảnh sửa đổi"
 
 #: wiki/plugins/images/models.py
 #, python-format
@@ -21437,7 +21417,7 @@ msgstr "Nhận email về những chỉnh sửa trong bài"
 
 #: wiki/plugins/notifications/forms.py
 msgid "Your notification settings were updated."
-msgstr "Thiết lập thông báo của bạn đã được cập nhật."
+msgstr "Cài đặt thông báo của bạn đã được cập nhật."
 
 #: wiki/plugins/notifications/forms.py
 msgid "Your notification settings were unchanged, so nothing saved."
@@ -22682,11 +22662,11 @@ msgstr "ID đánh giá"
 
 #: openassessment/data.py:915
 msgid "Assessment Scored Date"
-msgstr "Ngày chấm điểm đánh giá"
+msgstr "Ngày chấm điểm"
 
 #: openassessment/data.py:916
 msgid "Assessment Scored Time"
-msgstr "Giờ chấm điểm đánh giá"
+msgstr "Giờ chấm điểm"
 
 #: openassessment/data.py:917
 msgid "Assessment Type"
@@ -22703,11 +22683,11 @@ msgstr "Nhận xét tổng thể"
 
 #: openassessment/data.py:921
 msgid "Assessment Score Earned"
-msgstr "Điểm đánh giá đạt được"
+msgstr "Điểm đạt được"
 
 #: openassessment/data.py:922
 msgid "Assessment Scored At"
-msgstr "Đánh giá được chấm điểm lúc"
+msgstr "Chấm điểm lúc"
 
 #: openassessment/data.py:923
 msgid "Date/Time Final Score Given"
@@ -22735,7 +22715,7 @@ msgstr "Các tập tin của câu trả lời"
 
 #: openassessment/data.py:1320
 msgid "No description provided."
-msgstr "Không có mô tả được cung cấp."
+msgstr "Không có mô tả nào được cung cấp."
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_assessment_steps.html:6
 msgid ""
@@ -22750,7 +22730,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:5
 msgid "Display Name "
-msgstr "Tên Hiển Thị "
+msgstr "Tên hiển thị "
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:12
 msgid "Text Response"
@@ -25166,7 +25146,7 @@ msgstr "Các câu hỏi không thể được tạo ra hoặc xóa sau khi thàn
 
 #: openassessment/xblock/validation.py:217
 msgid "The number of criteria cannot be changed after a problem is released."
-msgstr "Số lượng các tiêu chí không thể được thay đổi sau khi một vấn đề được phát hành."
+msgstr "Số lượng các tiêu chí không thể được thay đổi sau khi một câu hỏi đã được phát hành."
 
 #: openassessment/xblock/validation.py:230
 msgid "Criteria names cannot be changed after a problem is released"
@@ -25363,7 +25343,7 @@ msgid "Allow learners to reset submmissions"
 msgstr "Cho phép người học đặt lại bài nộp"
 
 msgid "Whether learners are allowed to reset their submissions when the due has not passed and their submissions have not been graded or are being graded. Note, this setting currently only applies to ORA with one step Staff Assessment."
-msgstr "Liệu người học có được phép đặt lại bài nộp của mình khi chưa hết thời hạn và bài nộp của họ chưa được chấm điểm hoặc đang được chấm điểm hay không. Lưu ý, thiết lập này hiện tại chỉ áp dụng cho ORA với một bước Giảng viên đánh giá"
+msgstr "Liệu người học có được phép đặt lại bài nộp của mình khi chưa hết thời hạn và bài nộp của họ chưa được chấm điểm hoặc đang được chấm điểm hay không. Lưu ý, cài đặt này hiện tại chỉ áp dụng cho ORA với một bước Giảng viên đánh giá"
 
 msgid "Reset your submission to be able to send it again"
 msgstr "Xóa bài nộp hiện tại để nộp lại bài"
@@ -26429,7 +26409,7 @@ msgid "Number of attempts taken by the student on this problem"
 msgstr "Số lần thử của người học trên câu hỏi này"
 
 msgid "Maximum Attempts"
-msgstr ""
+msgstr "Số lần thử tối đa"
 
 msgid "Incorrect ({progress} point)"
 msgstr "Không đúng ({progress} điểm)"
@@ -26891,7 +26871,7 @@ msgid "Html contents to display for this block"
 msgstr ""
 
 msgid "Enter the number of components to display to each student. Set it to -1 to display all components."
-msgstr ""
+msgstr "Nhập số lượng câu hỏi hiển thị cho người học. Nhập -1 để hiển thị tất cả các câu hỏi."
 
 msgid "Source content library has not been specified."
 msgstr ""

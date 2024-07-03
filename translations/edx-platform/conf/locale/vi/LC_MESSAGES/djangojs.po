@@ -2539,8 +2539,8 @@ msgid ""
 "Success! Problem attempts reset for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'."
 msgstr ""
-"Thành công! Tái thiết lập số lần có quyền nộp bài  '<%- problem_id %>' và "
-"sinh viên '<%- student_id %>'."
+"Thành công! Số lần thử được đặt lại cho câu hỏi  '<%- problem_id %>' và "
+"người học '<%- student_id %>'."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -2590,8 +2590,8 @@ msgid ""
 "Error resetting entrance exam attempts for student '{student_id}'. Make sure"
 " student identifier is correct."
 msgstr ""
-"Lỗi khi tái thiết lập số lần thi thử đầu vào của người học '{student_id}'. "
-"Xin hãy kiểm tra lại danh tính người học cho chuẩn xác."
+"Lỗi khi đặt lại số lần thử bài kiểm tra Entrance cho người học '{student_id}'. "
+"Hãy chắc rằng mã định danh của người học chính xác."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Enter a student's username or email address."
@@ -2637,7 +2637,7 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
 msgstr ""
-"Tái thiết lập số lần có quyền nộp bài của tất cả các hngười học cho câu hỏi "
+"Đặt lại số lần thử cho tất cả người học cho câu hỏi "
 "'<%= problem_id %>'?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js
@@ -2645,7 +2645,7 @@ msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
 msgstr ""
-"Đã bắt đầu tác vụ tái thiết lập số lần có quyền nộp bài cho câu hỏi '<%- "
+"Đã bắt đầu tác vụ đặt lại số lần thử cho câu hỏi '<%- "
 "problem_id %>'. Bấm nút 'Hiển thị lịch sử tác vụ' để xem trạng thái của tác "
 "vụ."
 
@@ -2655,9 +2655,8 @@ msgid ""
 "problem_id %>'. Make sure that the problem identifier is complete and "
 "correct."
 msgstr ""
-"Lỗi khi bắt đầu tác vụ tái thiết lập số lần tất cả các người học có quyền nộp"
-" bài đối với câu hỏi '<%- problem_id %>'. Xin kiểm tra xem tên của câu hỏi "
-"viết đã đầy đủ và đúng chưa."
+"Lỗi khi bắt đầu tác vụ đặt lại số lần thử cho tất cả người học cho câu hỏi "
+"'<%- problem_id %>'. Hãy chắc rằng mã định danh câu hỏi chính xác."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Error listing task history for this student and problem."
@@ -3001,11 +3000,11 @@ msgstr "Đã đăng ký"
 #: lms/static/js/staff_debug_actions.js
 msgid "Successfully reset the attempts for user {user}"
 msgstr ""
-"Đã tái thiết lập thành công số lần có quyền nộp bài cho thành viên {user}"
+"Thành công đặt lại số lần thử cho người học {user}"
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Failed to reset attempts for user."
-msgstr "Phát sinh lỗi khi thiết lập lại số lần nộp bài cho người dùng."
+msgstr "Đặt lại số lần thử cho người học không thành công."
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Successfully deleted student state for user {user}"
@@ -3395,7 +3394,7 @@ msgstr "Thông tin tài khoản cơ bản"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "These settings include basic information about your account."
-msgstr "Những thiết lập này bao gồm thông tin cơ bản về tài khoản của bạn."
+msgstr "Những cài đặt này bao gồm thông tin cơ bản về tài khoản của bạn."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -3885,7 +3884,7 @@ msgstr "Phân trang Thành quả"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Account Settings page."
-msgstr "Trang thiết lập tài khoản"
+msgstr "Trang cài đặt tài khoản"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
@@ -5663,7 +5662,7 @@ msgstr "Đang vô hiệu hoá"
 
 #: cms/static/js/certificates/views/certificates_list.js
 msgid "Set up your certificate"
-msgstr "Thiết lập giấy chứng nhận của bạn"
+msgstr "Cài đặt giấy chứng nhận của bạn"
 
 #. Translators: This line refers to the initial state of the form when no data
 #. has been inserted
@@ -5835,11 +5834,11 @@ msgstr "Chạy lại Khóa học"
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 #: cms/templates/js/show-textbook.underscore
 msgid "View Live"
-msgstr "Xem bản thực"
+msgstr "Xem trực tiếp"
 
 #: cms/static/js/maintenance/force_publish_course.js
 msgid "Internal Server Error."
-msgstr "Lỗi Máy chủ Nội bộ."
+msgstr "Lỗi máy chủ."
 
 #. Translators: This is the status of a video upload that is queued
 #. waiting for other uploads to complete
@@ -6163,7 +6162,7 @@ msgstr "Nhấn Xoá để xóa ngôn ngữ"
 
 #: cms/static/js/views/course_video_settings.js
 msgid "Settings updated"
-msgstr "Đã cập nhật thiết lập"
+msgstr "Cài đặt đã được cập nhật"
 
 #: cms/static/js/views/course_video_settings.js
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore
@@ -6429,21 +6428,21 @@ msgstr "Bạn có chắc chắn muốn giới hạn {email} truy cập vào “{
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "{display_name} Settings"
-msgstr "{display_name} Thiết lập"
+msgstr "Cài đặt {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Publish {display_name}"
-msgstr "Công bố {display_name}"
+msgstr "Xuất bản {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Publish all unpublished changes for this {item}?"
-msgstr "Công bố tất cả những thay đổi chưa chưa công bố cho {item}?"
+msgstr "Xuất bản tất cả những thay đổi chưa chưa xuất bản cho {item}?"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/publish-xblock.underscore
 msgid "Publish"
-msgstr "Phát hành"
+msgstr "Xuất bản"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Highlights for {display_name}"
@@ -6476,7 +6475,7 @@ msgstr "Hiển thị"
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Editing: {title}"
-msgstr "Đang sửa: {title}"
+msgstr "Đang chỉnh sửa: {title}"
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Plugins"
@@ -6485,7 +6484,7 @@ msgstr "Plugins"
 #: cms/static/js/views/modals/edit_xblock.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Unit"
-msgstr "Đơn vị"
+msgstr "Đơn vị"
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
@@ -6564,7 +6563,7 @@ msgstr "Đang thay đổi quyền truy cập của: {title}"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Publishing"
-msgstr "Phát hành"
+msgstr "Xuất bản"
 
 #: cms/static/js/views/pages/container_subviews.js
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
@@ -7125,7 +7124,7 @@ msgstr "Trình biên tập"
 #: cms/static/js/views/xblock_editor.js
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Settings"
-msgstr "Thiết lập"
+msgstr "Cài đặt"
 
 #: cms/static/js/views/xblock_outline.js
 msgid "New {component_type}"
@@ -8367,7 +8366,7 @@ msgstr "%(cohort_name)s (%(user_count)s)"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Enable Cohorts"
-msgstr "Kích hoạt nhóm"
+msgstr "Bật Nhóm"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Select a cohort to manage"
@@ -9892,7 +9891,7 @@ msgstr "Hiện toàn bộ tiểu mục"
 #: cms/templates/js/content-visibility-editor.underscore
 msgid "Learners see the published subsection and can access its content."
 msgstr ""
-"Người học nhìn thấy tiểu mục đã xuất bản và có thể truy cập nội dung của nó."
+"Người học nhìn thấy mục nhỏ đã xuất bản và có thể truy cập nội dung của nó."
 
 #: cms/templates/js/content-visibility-editor.underscore
 msgid "Hide content after course end date"
@@ -9938,7 +9937,7 @@ msgid ""
 "hidden."
 msgstr ""
 "Nếu bạn chọn một tùy chọn khác với \"%(hide_label)s\", những đơn vị đã xuất "
-"bản trong tiểu mục này sẽ suất hiện cho người học trừ khi chúng được ẩn một "
+"bản trong mục nhỏ này sẽ suất hiện cho người học trừ khi chúng được ẩn một "
 "cách rõ ràng."
 
 #: cms/templates/js/copy-clipboard-button.underscore
@@ -10165,7 +10164,7 @@ msgstr "Bấm hủy thay đổi để hủy thay đổi."
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore
 msgid "Update Settings"
-msgstr "Thiết lập Cập nhật"
+msgstr "Cài đặt cập nhật"
 
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
 msgid "Press update settings to update the information for your organization."
@@ -10177,15 +10176,15 @@ msgstr "Bấm hủy thay đổi để hủy thay đổi."
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore
 msgid "Press update settings to update course video settings"
-msgstr "Nhấn thiết lập cập nhật để cập nhật các thiết lập video của khóa học"
+msgstr "Nhấn cài đặt cập nhật để cập nhật cài đặt video của khóa học"
 
 #: cms/templates/js/course-video-settings.underscore
 msgid "Press close to hide course video settings"
-msgstr "Nhấn đóng để ẩn thiết lập video khóa học"
+msgstr "Nhấn đóng để ẩn cài đặt video khóa học"
 
 #: cms/templates/js/course-video-settings.underscore
 msgid "Course Video Settings"
-msgstr "Thiết lập Video Khóa học"
+msgstr "Cài đặt Video Khóa học"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore
 msgid "Transcript Turnaround"
@@ -10702,7 +10701,7 @@ msgstr "Sẽ Được hiển thị Cho:"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Staff Only"
-msgstr "Chỉ Nhân viên"
+msgstr "Chỉ dành cho Nhân viên"
 
 #: cms/templates/js/publish-xblock.underscore
 #, python-format
@@ -11111,8 +11110,8 @@ msgid ""
 "Please check the following validation feedbacks and reflect them in your "
 "course settings:"
 msgstr ""
-"Vui lòng kiểm tra các phản hồi xác nhận sau đây và phản ánh chúng trong các "
-"thiết lập khóa học của bạn:"
+"Vui lòng kiểm tra các phản hồi sau đây và phản ánh chúng trong "
+"cài dặt khóa học của bạn:"
 
 #: cms/templates/js/verification-access-editor.underscore
 msgid "Verification Checkpoint"
@@ -11159,7 +11158,7 @@ msgstr "Hiện bản ghi ({totalTranscripts})"
 
 #: cms/templates/js/xblock-access-editor.underscore
 msgid "Set Access"
-msgstr "Thiết lập Truy cập"
+msgstr "Cài đặt quyền truy"
 
 #: cms/templates/js/xblock-string-field-editor.underscore
 #, python-format
@@ -11623,8 +11622,34 @@ msgid ""
 "You're about to submit your response for this assignment. After you submit "
 "this response, you can't change it or submit a new response."
 msgstr ""
-"Bạn sắp nộp câu trả lời cho bài tập này. Sau khi bạn nộp câu trả lời, "
-"bạn sẽ không thể thay đổi hoặc nộp lại câu trả lời mới."
+"Bạn sắp nộp bài làm cho bài tập này. Sau khi nộp bài, bạn sẽ không thể thay "
+"đổi hoặc nộp lại bài."
+
+#: xblock/static/dist/openassessment-lms.d29f0bd34bb5d82d36fb.js:377
+#: xblock/static/js/src/lms/oa_response.js:523
+msgid ""
+"You're about to submit your response for this assignment. After you submit "
+"this response, you may have a limited time to resubmit before your "
+"submission is graded."
+msgstr ""
+"Bạn sắp nộp bài làm cho bài tập này. Sau khi nộp bài, bạn có một khoảng thời gian "
+"có giới hạn để nộp lại bài làm trước khi nó được chấm điểm."
+
+#: xblock/static/dist/openassessment-lms.d29f0bd34bb5d82d36fb.js:377
+#: xblock/static/js/src/lms/oa_response.js:571
+msgid "Confirm Reset"
+msgstr "Xác nhận xóa bài nộp hiện tại"
+
+#: xblock/static/dist/openassessment-lms.d29f0bd34bb5d82d36fb.js:377
+#: xblock/static/js/src/lms/oa_response.js:573
+msgid ""
+"You're about to reset your response for this assignment. You will need to "
+"submit a new response in order to complete this step. Are you sure you want "
+"to continue?"
+msgstr ""
+"Bạn sắp xóa bài nộp hiện tại cho bài tập này. Bạn sẽ phải nộp lại bài làm mới "
+"để hoàn thành bước này. Bạn có chắc chắn muốn tiếp tục?"
+"to continue?"
 
 #: xblock/static/dist/openassessment-lms.a161e41aef5de4e95111.js:369
 #: xblock/static/js/src/lms/oa_response.js:589
@@ -11687,7 +11712,7 @@ msgstr ""
 #: xblock/static/js/src/lms/oa_staff_area.js:143
 #: xblock/static/js/src/lms/oa_staff_area.js:253
 msgid "Unexpected server error."
-msgstr "Lỗi máy chủ không mong muốn."
+msgstr "Lỗi máy chủ."
 
 #: xblock/static/dist/openassessment-lms.a161e41aef5de4e95111.js:369
 #: xblock/static/js/src/lms/oa_staff_area.js:147
@@ -11762,7 +11787,7 @@ msgid ""
 "The \"{name}\" problem is configured to require a minimum of {min_grades} "
 "peer grades, and asks to review {min_graded} peers."
 msgstr ""
-"Câu hỏi \"{name}\" được được thiết lập yêu cầu nhận được ít nhất {min_grades} "
+"Câu hỏi \"{name}\" được được cấu hình để yêu cầu nhận được ít nhất {min_grades} "
 "đánh giá, và yêu cầu đánh giá {min_graded} câu trả lời."
 
 #: xblock/static/dist/openassessment-lms.a161e41aef5de4e95111.js:375
@@ -11866,6 +11891,15 @@ msgid ""
 "Changes to steps that are not selected as part of the assignment will not be "
 "saved."
 msgstr "Những thay đổi ở các bước không được chọn của bài tập sẽ không được lưu."
+
+#: xblock/static/dist/openassessment-studio.fba153d2eafbb4c8e78c.js:25
+#: xblock/static/js/src/studio/oa_edit_settings.js:104
+msgid ""
+"Time must be in the format dd:hh:mm. The days must be between 00 and 99, the "
+"hours between 00 and 23, and the minutes between 00 and 59."
+msgstr ""
+"Thời gian phải được định dạng dd:hh:mm. Ngày phải nằm trong  khoảng 00 đến 99, "
+"giờ trong khoảng 00 đến 23, và phút trong khoảng 00 đến 59."
 
 #: xblock/static/dist/openassessment-studio.979e8b88dd0d9cee68f7.js:25
 #: xblock/static/js/src/studio/oa_edit_settings.js:91
@@ -11999,7 +12033,7 @@ msgstr "Bật thảo luận"
 
 #: cms/templates/js/discussion-editor.underscore
 msgid "Topics for unpublished units would not be created"
-msgstr "Chủ đề cho đơn vị chưa phát hành sẽ không được tạo"
+msgstr "Các chủ đề cho đơn vị chưa xuất bản sẽ không được tạo"
 
 #: cms/templates/js/discussion-editor.underscore
 msgid "Please enable discussions for graded units from course authoring app"
@@ -12301,3 +12335,4 @@ msgstr "Thanh toán {subscriptionPrice} cho tất cả các khóa học trong ch
 
 msgid "Pay {subscriptionPrice} after {trialLength}-day free trial"
 msgstr "Thanh toán {subscriptionPrice} sau {trialLength} ngày dùng thử miễn phí"
+

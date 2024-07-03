@@ -205,7 +205,7 @@
   "reset.password.request.forgot.password.text": "Quên mật khẩu",
   "reset.password.request.invalid.token.header": "Liên kết đặt lại mật khẩu không hợp lệ",
   "reset.password.request.server.error": "Lỗi đặt lại được mật khẩu",
-  "reset.password.success": "Mật khẩu của bạn đã được thiết lập lại. đăng nhập vào tài khoản của bạn.",
+  "reset.password.success": "Mật khẩu của bạn đã được đặt lại. Đăng nhập vào tài khoản của bạn.",
   "reset.password.success.heading": "Đặt lại mật khẩu hoàn tất.",
   "reset.password.token.validation.sever.error": "Lỗi xác thực mã thông báo",
   "reset.server.rate.limit.error": "Quá nhiều yêu cầu.",

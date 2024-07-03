@@ -4,7 +4,7 @@
   "account-activation.alert.title": "Mời kích hoạt tài khoản để đăng nhập",
   "account-activation.resend.link": "gửi lại email",
   "alert.enroll": " để truy cập toàn bộ khóa học.",
-  "calculator.button.label": "tính toán",
+  "calculator.button.label": "Máy tính",
   "calculator.hint1": "Dùng ngoặc () để giúp cho các biểu thức rành mạch. Bạn có thể lồng một ngoặc bên trong ngoặc khác.",
   "calculator.hint2": "Không được dùng khoảng trắng giữa các biểu thức",
   "calculator.hint3": "Phép nhân hằng số cần được viết rõ ràng với dấu nhân (ví dụ như 5 * c thay vì 5c)",
@@ -505,5 +505,7 @@
   "tours.weeklyGoalsCheckpoint.title": "Đặt mục tiêu khóa học",
   "tray.close.button": "Đóng khay",
   "unit.bookmark.button.add.bookmark": "Đánh dấu trang này",
-  "unit.bookmark.button.remove.bookmark": "Đã đánh dấu"
+  "unit.bookmark.button.remove.bookmark": "Đã đánh dấu",
+  "learning.instructor-toolbar.view-course-in": "Xem khóa học trên",
+  "masquerade-widget.view-this-course-as": "Xem khóa học với vai trò"
 }
