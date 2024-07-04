@@ -23426,7 +23426,7 @@ msgstr "Bạn đã hoàn thành các bước trong bài tập, nhưng một số
 #: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:18
 #: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:153
 msgid "Grade Available Responses"
-msgstr "Chấm điểm những câu trả lời đã nộp"
+msgstr "Chấm điểm"
 
 #: openassessment/templates/openassessmentblock/instructor_dashboard/oa_grade_available_responses.html:26
 msgid ""
@@ -25228,11 +25228,11 @@ msgstr ""
 "Tiến trình làm việc của bạn sẽ được lưu một cách tự động và bạn có thể hoàn thành câu trả lời"
 " của bạn bất kỳ lúc nào."
 
-#: /openassessment/xblock/ui_mixins/legacy/views/submission.py:146
+#: /openassessment/xblock/ui_mixins/legacy/views/submission.py:156
 msgid "Draft saved!"
-msgstr "Dự thảo đã lưu!"
+msgstr "Dự thảo đã được lưu!"
 
-#: /openassessment/xblock/ui_mixins/legacy/views/submission.py:146
+#: /openassessment/xblock/ui_mixins/legacy/views/submission.py:156
 msgid "Response not started."
 msgstr "Chưa bắt đầu trả lời."
 
@@ -27018,19 +27018,19 @@ msgid "Thumbnail"
 msgstr ""
 
 msgid "Files"
-msgstr ""
+msgstr "Tập tin"
 
 msgid "Collapse All"
 msgstr ""
 
 msgid "Unit Location"
-msgstr ""
+msgstr "Vị trí đơn vị"
 
 msgid "Location ID"
-msgstr ""
+msgstr "ID vị trí"
 
 msgid "To create a link to this unit from an HTML component in this course, enter {unit_link} as the URL value."
-msgstr ""
+msgstr "Để tạo một liên kết đến đơn vị này từ một thành phần HTML trong khóa học này, nhập {unit_link} làm giá trị URL."
 
 msgid "This course has proctored exam settings that are incomplete or invalid."
 msgstr ""
@@ -27153,6 +27153,9 @@ msgid "Select this problem"
 msgstr "Chọn câu hỏi này"
 
 msgid "Manage Tags"
+msgstr "Quản lý thẻ"
+
+msgid "Manage tags"
 msgstr "Quản lý thẻ"
 
 msgid "Here are some validations we found with your course content."

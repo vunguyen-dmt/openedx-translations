@@ -541,7 +541,7 @@
   "course-authoring.course-outline.card.expandTooltip": "Thu gọn/Mở rộng thẻ này",
   "course-authoring.course-outline.card.menu.configure": "Cấu hình",
   "course-authoring.course-outline.card.menu.copy": "Sao chép vào bộ nhớ tạm",
-  "course-authoring.course-outline.card.menu.delete": "Sao chép vào bộ nhớ tạm",
+  "course-authoring.course-outline.card.menu.delete": "Xóa",
   "course-authoring.course-outline.card.menu.duplicate": "Nhân bản",
   "course-authoring.course-outline.card.menu.manageTags": "Quản lý thẻ",
   "course-authoring.course-outline.card.menu.movedown": "Di chuyển xuống",
@@ -582,7 +582,7 @@
   "course-authoring.course-outline.configure-modal.advanced-tab.time-allotted": "Thời gian quy định (HH:MM):",
   "course-authoring.course-outline.configure-modal.advanced-tab.time-limit-description": "Chọn thời gian quy định cho bài kiểm tra. Nếu trên 24 giờ, hãy nhập lượng thời gian. Bạn có thể cho từng người học thêm thời gian để hoàn thành bài kiểm tra thông qua Bảng điều khiển dành cho người dạy.",
   "course-authoring.course-outline.configure-modal.advanced-tab.timed": "Có giới hạn thời gian",
-  "course-authoring.course-outline.configure-modal.advanced-tab.timed-description": "Sử dụng bài kiểm tra Practice proctored  để giới thiệu cho người học các công cụ và quy trình giám sát. Kết quả bài kiểm tra Practice proctored không ảnh hưởng đến điểm số của người học.",
+  "course-authoring.course-outline.configure-modal.advanced-tab.timed-description": "Sử dụng bài kiểm tra có giới hạn thời gian để giới hạn thời gian làm bài của người học trên mục nhỏ này. Người học phải nộp bài trước khi hết thời gian làm bài. Bạn có thể cho thêm thời gian cho từng cá nhân trên bảng điều khiển Instructor.",
   "course-authoring.course-outline.configure-modal.advanced-tab.title": "Nâng cao",
   "course-authoring.course-outline.configure-modal.basic-tab.due-date": "Ngày đến hạn:",
   "course-authoring.course-outline.configure-modal.basic-tab.due-time-UTC": "Giờ đến hạn theo UTC:",
@@ -1857,5 +1857,5 @@
   "weeklyHighlightsShortDescription": "Đặt highlights hàng tuần",
   "welcomeMessageLongDescription": "Chào đón người học tham gia khóa học của bạn và chuẩn bị cho người học trải nghiệm khóa học tích cực.",
   "welcomeMessageShortDescription": "Thêm một lời chào mừng",
-  "course-authoring.studio-home.sidebar.about.guideByDLC": "Hướng dẫn xây dựng khóa học từ TTDHS"
+  "course-authoring.studio-home.sidebar.about.guideByDLC": "Hướng dẫn xây dựng khóa học từ TTDHS",
 }
