@@ -33,7 +33,7 @@
   "header.links.content": "Nội dung",
   "header.links.settings": "Cài đặt",
   "header.links.content.tools": "Công cụ",
-  "header.links.outline": "Phát thảo khóa học",
+  "header.links.outline": "Phác thảo khóa học",
   "header.links.updates": "Cập nhật",
   "header.links.pages": "Trang & Tài nguyên",
   "header.links.filesAndUploads": "Tập tin & Tải lên",
@@ -52,5 +52,5 @@
   "header.links.checklists": "Checklists",
   "header.user.menu.studio": "Trang chủ Studio",
   "header.user.menu.maintenance": "Bảo trì",
-  "header.label.courseOutline": "Trở lại phát thảo khóa học trên Studio"
+  "header.label.courseOutline": "Trở lại phác thảo khóa học trên Studio"
 }
