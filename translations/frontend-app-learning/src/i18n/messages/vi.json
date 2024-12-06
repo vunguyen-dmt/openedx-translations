@@ -507,5 +507,15 @@
   "unit.bookmark.button.add.bookmark": "Đánh dấu trang này",
   "unit.bookmark.button.remove.bookmark": "Đã đánh dấu",
   "learning.instructor-toolbar.view-course-in": "Xem khóa học trên",
-  "masquerade-widget.view-this-course-as": "Xem khóa học với vai trò"
+  "masquerade-widget.view-this-course-as": "Xem khóa học với vai trò",
+  "exam-helper.title": "Thống kê trên trang này",
+  "exam-helper.total": "Tổng số câu hỏi trên trang này",
+  "exam-helper.applyToMultipleChoiceOnly": "(Chỉ áp dụng cho câu hỏi trắc nghiệm)",
+  "exam-helper.submitted": "Số câu hỏi đã nộp",
+  "exam-helper.unsubmitted": "Số câu hỏi đã trả lời nhưng chưa nộp",
+  "exam-helper.unanswered": "Số câu hỏi chưa trả lời",
+  "exam-helper.notYetSubmittedAll": "Bạn chưa trả lời tất cả các câu hỏi trên trang này",
+  "exam-helper.submittedAll": "Bạn đã trả lời tất cả câu hỏi trên trang này",
+  "exam-helper.noteTitle": "Lưu ý",
+  "exam-helper.noteMessage": "Một bài kiểm tra có thể có nhiều hơn một trang, số liệu thống kê trên chỉ áp dụng cho trang này, vui lòng kiểm tra cẩn thận để đảm bảo bạn đã nộp câu trả lời cho tất cả câu hỏi, các câu hỏi chưa nộp (bao gồm các câu hỏi đã trả lời nhưng chưa nộp hoặc các câu hỏi đã lưu nhưng chưa nộp) sẽ không được chấm điểm"
 }
