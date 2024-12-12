@@ -514,16 +514,16 @@
   "exam-helper.submitted": "Số câu hỏi đã nộp",
   "exam-helper.selectedButUnsubmitted": "Số câu hỏi đã trả lời nhưng chưa nộp",
   "exam-helper.unsubmitted": "Số câu hỏi chưa nộp",
-  "exam-helper.notYetSubmittedAll": "Bạn chưa trả lời tất cả các câu hỏi trên trang này",
+  "exam-helper.notYetSubmittedAll": "Bạn chưa trả lời tất cả câu hỏi trên trang này",
   "exam-helper.submittedAll": "Bạn đã trả lời tất cả câu hỏi trên trang này",
   "exam-helper.noteTitle": "Lưu ý",
   "exam-helper.noteMessage": "Một bài kiểm tra có thể có nhiều hơn một trang, số liệu thống kê trên chỉ áp dụng cho trang này, vui lòng kiểm tra cẩn thận để đảm bảo bạn đã nộp câu trả lời cho tất cả câu hỏi, các câu hỏi chưa nộp (bao gồm các câu hỏi đã trả lời nhưng chưa nộp hoặc các câu hỏi đã lưu nhưng chưa nộp) sẽ không được chấm điểm",
   "exam-helper.submitting": "Đang nộp",
-  "exam-helper.submitAllSubmittableAnswers": "Nộp tất cả các câu trả lời chưa nộp",
-  "exam-helper.exam-helper.yesSubmitAllSubmittableAnswers": "Có, nộp tất cả các câu trả lời chưa nộp",
-  "exam-helper.allSubmittableAnswersSubmitted": "Tất cả các câu trả lời đã chọn nhưng chưa nộp đã được nộp",
-  "exam-helper.submitAllSubmittableAnswersTitle": "Nộp tất cả các câu trả lời chưa nộp",
-  "exam-helper.submitAllSubmittableAnswersMessage": "Bạn có chắc chắn muốn nộp tất cả các câu trả lời đã chọn nhưng chưa nộp trên trang này?",
+  "exam-helper.submitAllSubmittableAnswers": "Nộp tất cả câu hỏi đã trả lời",
+  "exam-helper.yesSubmitAllSubmittableAnswers": "Có, nộp tất cả câu hỏi đã trả lời",
+  "exam-helper.allSubmittableAnswersSubmitted": "Tất cả câu hỏi đã trả lời đã được nộp",
+  "exam-helper.submitAllSubmittableAnswersTitle": "Nộp tất cả câu hỏi đã trả lời",
+  "exam-helper.submitAllSubmittableAnswersMessage": "Bạn có chắc chắn muốn nộp tất cả các câu hỏi đã trả lời trên trang này?",
   "exam-helper.noCloseModal": "Không, đóng hộp thoại",
-  "exam-helper.thereAreProblemsBeingSubmitted": "Có câu trả lời đang được nộp"
+  "exam-helper.thereAreProblemsBeingSubmitted": "Có câu hỏi đang được nộp"
 }
