@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -868,7 +868,7 @@ msgstr "KHÔNG HOẠT ĐỘNG"
 
 #: extensions/api/serializers.py:264
 msgid "ACTIVE"
-msgstr "TÍCH CỰC"
+msgstr "ĐANG HOẠT ĐỘNG"
 
 #: extensions/api/serializers.py:705
 msgid "Products must have a certificate type."
@@ -1639,7 +1639,7 @@ msgstr "Đã chuộc"
 #: templates/oscar/dashboard/offers/offer_detail.html:132
 #: templates/oscar/dashboard/users/detail.html:52
 msgid "Active"
-msgstr "Tích cực"
+msgstr "Đang hoạt động"
 
 #: extensions/voucher/utils.py:78
 #: templates/oscar/dashboard/offers/offer_detail.html:134
@@ -4181,7 +4181,7 @@ msgstr "Cách thức"
 
 #: templates/oscar/dashboard/partials/enrollment_table.html:10
 msgid "Active?"
-msgstr "Tích cực?"
+msgstr "Đang hoạt động?"
 
 #: templates/oscar/dashboard/partials/enrollment_table.html:21
 msgid "No enrollments found."

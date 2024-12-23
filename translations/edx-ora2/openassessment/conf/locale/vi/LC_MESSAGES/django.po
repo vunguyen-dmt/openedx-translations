@@ -3,11 +3,11 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
 # Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
@@ -517,7 +517,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:23
 msgid "View Options & Configuration"
-msgstr "Xem Tùy chọn &amp; Cấu hình"
+msgstr "Xem Tùy chọn & Cấu hình"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:29
 msgid "Must Grade"
@@ -561,7 +561,7 @@ msgid ""
 msgstr ""
 "Tính năng này đang được kích hoạt bởi cài đặt cấp độ khóa học. Bạn có thể "
 "tìm thấy nó trong thẻ Cài đặt Đánh giá Phản hồi Mở trên trang Studio Trang "
-"&amp; Tài nguyên."
+"& Tài nguyên."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:60
 msgid "Grading strategy for the peer assessment"
@@ -2102,7 +2102,7 @@ msgstr "Bước vấn đề"
 
 #: templates/legacy/staff_area/oa_staff_area.html:95
 msgid "Active Learners in Step"
-msgstr "Người học tích cực trong từng bước"
+msgstr "Người học đang hoạt động trong từng bước"
 
 #: templates/legacy/staff_area/oa_staff_area.html:113
 msgid "Dates"

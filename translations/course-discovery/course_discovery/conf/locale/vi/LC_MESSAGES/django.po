@@ -2,12 +2,12 @@
 # edX translation file
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # Translators:
 # Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
@@ -82,7 +82,7 @@ msgstr "Từ điển ánh xạ ID khóa học tới các giá trị boolean"
 
 #: apps/api/serializers.py:2238
 msgid "Languages that course runs in this program are offered in."
-msgstr "Ngôn ngữ mà khóa học chạy trong chương trình này được cung cấp."
+msgstr "Ngôn ngữ mà học kỳ trong chương trình này được cung cấp."
 
 #: apps/api/serializers.py:2242
 msgid ""
@@ -511,7 +511,7 @@ msgstr "Tự chủ"
 
 #: apps/course_metadata/choices.py:31 apps/learner_pathway/choices.py:6
 msgid "Active"
-msgstr "Tích cực"
+msgstr "Đang hoạt động"
 
 #: apps/course_metadata/choices.py:32
 msgid "Retired"
@@ -905,7 +905,7 @@ msgstr "Chương trình"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:89
 msgid "Course Runs"
-msgstr "Khóa học chạy"
+msgstr "Học kỳ"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:90
 msgid "Target"
@@ -922,7 +922,7 @@ msgstr "Bạn phải chỉ định ít nhất một người"
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:23
 #, python-brace-format
 msgid "Publishing course run {key}"
-msgstr "Xuất bản khóa học chạy {key}"
+msgstr "Xuất bản học kỳ {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:28
 #, python-brace-format

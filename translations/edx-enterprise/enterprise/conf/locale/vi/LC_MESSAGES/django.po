@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -1775,7 +1775,7 @@ msgstr ""
 
 #: enterprise/models.py:2951
 msgid "Active"
-msgstr "Tích cực"
+msgstr "Đang hoạt động"
 
 #: enterprise/models.py:2952
 msgid "Include Date"
