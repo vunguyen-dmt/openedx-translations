@@ -1927,7 +1927,7 @@
   "authoring.texteditor.header.cancelTitleEdit": "Hủy bỏ",
   "authoring.texteditor.header.saveTitleEdit": "Lưu",
   "authoring.problemEditor.editProblemView.saveWarningModal.cancelButton.label": "Hủy bỏ",
-  "authoring.problemEditor.editProblemView.saveWarningModal.saveButton.label": "Được rồi",
+  "authoring.problemEditor.editProblemView.saveWarningModal.saveButton.label": "Ok",
   "authoring.problemEditor.editProblemView.saveWarningModal.body.question": "Bạn có chắc chắn muốn thoát khỏi trình chỉnh sửa không?",
   "authoring.problemEditor.editProblemView.saveWarningModal.noAnswer.title": "Không có câu trả lời cụ thể",
   "authoring.problemEditor.editProblemView.saveWarningModal.noAnswer.body.explanation": "Không có câu trả lời đúng đã được chỉ định.",
