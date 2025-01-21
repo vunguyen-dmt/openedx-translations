@@ -30096,3 +30096,12 @@ msgstr ""
 "xóa bài đăng, xóa cờ, đóng hoặc mở lại chủ đề, tán thành phản hồi. Bài đăng "
 "của họ được đánh dấu là 'TA cộng đồng'. Chỉ những người dùng đã đăng ký vào "
 "khóa học có thể được thêm với vài trò TA cộng đồng."
+
+msgid "Problem Bank"
+msgstr "Ngân hàng câu hỏi"
+
+msgid "You have not selected any components yet."
+msgstr "Bạn chưa chọn thành phần nào."
+
+msgid "{button_start}Add components{button_end} from a content library to this problem bank."
+msgstr "{button_start}Thêm thành phần{button_end} từ một thư viện nội dung vào ngân hàng câu hỏi này."

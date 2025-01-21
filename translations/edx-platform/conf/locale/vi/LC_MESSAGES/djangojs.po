@@ -12579,3 +12579,8 @@ msgstr ""
 "Việc hoàn thành thành công chứng chỉ %(org)s %(program)s có thể được áp dụng "
 "để lấy bằng thạc sĩ linh hoạt, nghiêm ngặt và giá cả phải chăng từ các "
 "trường đại học hàng đầu thế giới."
+
+msgid "Add selected components"
+msgstr "Thêm thành phần đã chọn"
+
+

@@ -2366,5 +2366,21 @@
   "course-authoring.library-authoring.library-team.update-member-success": "Thành viên nhóm đã được cập nhật",
   "course-authoring.library-authoring.library-team.update-member-error": "Có lỗi khi cập nhật thành viên nhóm",
   "course-authoring.library-authoring.library-team.update-library-success": "Thư viện đã được cập nhật",
-  "course-authoring.library-authoring.library-team.update-library-error": "Có lỗi khi cập nhật thư viện"
+  "course-authoring.library-authoring.library-team.update-library-error": "Có lỗi khi cập nhật thư viện",
+  "course-authoring.library-authoring.create-library.form.title.label": "Tên thư viện",
+  "course-authoring.library-authoring.create-library.form.title.placeholder": "Ví dụ Câu hỏi Khoa học máy tính",
+  "course-authoring.library-authoring.create-library.form.title.help": "Tên cho thư viện của bạn",
+  "course-authoring.library-authoring.create-library.form.org.label": "Tổ chức",
+  "course-authoring.library-authoring.create-library.form.org.placeholder": "Ví dụ DAIHOCX, TOCHUCX",
+  "course-authoring.library-authoring.create-library.form.org.help": "Tên tổ chức công khai cho  thư viện của bạn. Giá trị này không thể thay đổi.",
+  "course-authoring.library-authoring.create-library.form.slug.label": "ID thư viện",
+  "course-authoring.library-authoring.create-library.form.slug.placeholder": "Ví dụ KHMT",
+  "course-authoring.library-authoring.create-library.form.slug.help": "Mã duy nhất xác định thư viện này. Lưu ý: Đây là một phần của URL thư viện của bạn, do đó không được phép có khoảng trắng hoặc ký tự đặc biệt. Mã này không thể thay đổi.",
+  "course-authoring.library-authoring.create-library.form.invalid-slug.error": "Nhập mã hợp lệ bao gồm các chữ cái Unicode, số, dấu gạch dưới hoặc dấu gạch nối.",
+  "course-authoring.library-authoring.create-library.form.required.error": "Trường bắt buộc",
+  "course-authoring.library-authoring.create-library.form.disallowed-chars.error": "Vui lòng không sử dụng bất kỳ khoảng trắng hoặc ký tự đặc biệt nào trong trường này.",
+  "course-authoring.library-authoring.create-library.form.no-space.error": "Vui lòng không sử dụng bất kỳ khoảng trắng nào trong trường này.",
+  "course-authoring.library-authoring.create-library.form.create-library.button": "Tạo",
+  "course-authoring.library-authoring.create-library.form.create-library.button.pending": "Đang tạo...",
+  "course-authoring.library-authoring.create-library.form.create-library.cancel.button": "Hủy"
 }
