@@ -547,7 +547,7 @@
   "progress.certificateStatus.notAvailable.endDate": "Khóa học này kết thúc vào {endDate} . Điểm cuối cùng và mọi chứng chỉ đạt được dự kiến sẽ có sau {certAvailabilityDate} .",
   "courseOutline.loading": "Đang tải...",
   "courseOutline.toggle.button": "Chuyển đổi khay phác thảo khóa học",
-  "courseOutline.tray.title": "Tom tăt nội dung chương trinh",
+  "courseOutline.tray.title": "Mục lục",
   "courseOutline.completedUnit": "Đơn vị đã hoàn thành",
   "courseOutline.incompleteUnit": "Đơn vị chưa hoàn chỉnh",
   "learning.notification.preferences.unsubscribe.preferenceCenterUrl": "Đi tới {preferenceCenterUrl} để thiết lập tùy chọn của bạn"
