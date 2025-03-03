@@ -521,7 +521,7 @@
   "exam-helper.submitting": "Đang nộp",
   "exam-helper.submitAllSubmittableAnswers": "Nộp tất cả câu hỏi có thể nộp đã trả lời",
   "exam-helper.yesSubmitAllSubmittableAnswers": "Có, nộp tất cả câu hỏi có thể nộp đã trả lời",
-  "exam-helper.allSubmittableAnswersSubmitted": "Tất cả câu hỏi đã trả lời đã được nộp",
+  "exam-helper.allSubmittableAnswersSubmitted": "Tất cả câu hỏi có thể nộp đã trả lời đã được nộp",
   "exam-helper.submitAllSubmittableAnswersTitle": "Nộp tất cả câu hỏi có thể nộp đã trả lời",
   "exam-helper.submitAllSubmittableAnswersMessage": "Bạn có chắc chắn muốn nộp tất cả các câu hỏi có thể nộp đã trả lời trên trang này?",
   "exam-helper.noCloseModal": "Không, đóng hộp thoại",
