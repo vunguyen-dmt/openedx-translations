@@ -550,5 +550,6 @@
   "courseOutline.tray.title": "Mục lục",
   "courseOutline.completedUnit": "Đơn vị đã hoàn thành",
   "courseOutline.incompleteUnit": "Đơn vị chưa hoàn chỉnh",
-  "learning.notification.preferences.unsubscribe.preferenceCenterUrl": "Đi tới {preferenceCenterUrl} để thiết lập tùy chọn của bạn"
+  "learning.notification.preferences.unsubscribe.preferenceCenterUrl": "Đi tới {preferenceCenterUrl} để thiết lập tùy chọn của bạn",
+  "chatbot.popoutMessage": "Hi! 👋 Mình là trợ lý AI giúp bạn tìm kiếm thông tin."
 }

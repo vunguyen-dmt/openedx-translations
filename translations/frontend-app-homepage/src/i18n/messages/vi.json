@@ -17,5 +17,6 @@
   "homepage.moocsCourse": "Khóa học MOOCS",
   "homepage.lessons": "Bài học",
   "homepage.viewAllResult": "Xem tất cả các kết quả",
-  "homepage.title" : "Trang chủ | {siteName}"
+  "homepage.title" : "Trang chủ | {siteName}",
+  "chatbot.popoutMessage": "Hi! 👋 Mình là trợ lý AI giúp bạn tìm kiếm thông tin."
 }

@@ -2382,5 +2382,6 @@
   "course-authoring.library-authoring.create-library.form.no-space.error": "Vui lòng không sử dụng bất kỳ khoảng trắng nào trong trường này.",
   "course-authoring.library-authoring.create-library.form.create-library.button": "Tạo",
   "course-authoring.library-authoring.create-library.form.create-library.button.pending": "Đang tạo...",
-  "course-authoring.library-authoring.create-library.form.create-library.cancel.button": "Hủy"
+  "course-authoring.library-authoring.create-library.form.create-library.cancel.button": "Hủy",
+  "chatbot.popoutMessage": "Hi! 👋 Mình là trợ lý AI giúp bạn tìm kiếm thông tin."
 }
