@@ -30105,3 +30105,1554 @@ msgstr "Bạn chưa chọn thành phần nào."
 
 msgid "{button_start}Add components{button_end} from a content library to this problem bank."
 msgstr "{button_start}Thêm thành phần{button_end} từ một thư viện nội dung vào ngân hàng câu hỏi này."
+
+msgid "COURSE_KEY"
+msgstr ""
+
+msgid "Recreate links for xblocks under given course keys. For eg. course-v1:edX+DemoX.1+2014"
+msgstr "Tạo lại liên kết cho các xblock theo các khóa học đã cho. Ví dụ: course-v1:edX+DemoX.1+2014"
+
+msgid "Recreate links for xblocks under all courses. NOTE: this can take long time depending on number of course and xblocks"
+msgstr "Tạo lại liên kết cho các xblock theo tất cả các khóa học. LƯU Ý: việc này có thể mất nhiều thời gian tùy thuộc vào số lượng khóa học và xblock"
+
+msgid "Recreate links even for completely processed courses."
+msgstr "Tạo lại liên kết ngay cả đối với các khóa học đã xử lý hoàn toàn."
+
+msgid "Delete all and create links for given course(s)."
+msgstr "Xóa tất cả và tạo liên kết cho các khóa học đã cho."
+
+msgid "Upstream context key i.e., learning_package/library key"
+msgstr "Upstream context key ví dụ., learning_package/library key"
+
+msgid "Upstream block usage key, this value cannot be null and useful to track upstream library blocks that do not exist yet"
+msgstr "Upstream block usage key, giá trị này không thể là null và hữu ích để theo dõi các upstream library block chưa tồn tại"
+
+msgid "Component Link"
+msgstr "Liên kết thành phần"
+
+msgid "Component Links"
+msgstr "Các liên kết thành phần"
+
+msgid "Upstream block key (e.g. lct:...), this value cannot be null and is useful to track upstream library blocks that do not exist yet or were deleted."
+msgstr "Upstream block key (vd. lct:...), giá trị này không thể là null và hữu ích để theo dõi các upstream library block chưa tồn tại hoặc đã bị xóa."
+
+msgid "Container Link"
+msgstr "Liên kết vùng chứa"
+
+msgid "Container Links"
+msgstr "Các liên kết vùng chứa"
+
+msgid "Processing"
+msgstr "Đang xử lý"
+
+msgid "Linking status for course context key"
+msgstr "Trạng thái liên kết cho course context key"
+
+msgid "Status of links in given learning context/course."
+msgstr "Trạng thái của các liên kết trong ngữ cảnh học tập/khóa học đã cho."
+
+msgid "Learning Context Links status"
+msgstr "Trạng thái liên kết của ngữ cảnh học tập"
+
+msgid "Transcripts are not yet supported for this type of block"
+msgstr "Bản ghi chưa được hỗ trợ cho loại khối này"
+
+msgid "{section_or_subsection} "{display_name}""
+msgstr "{section_or_subsection} "{display_name}""
+
+msgid "Waiting to stage content"
+msgstr "Đang chờ nội dung dàn dựng"
+
+msgid "Staging content for import"
+msgstr "Đang dàn dựng nội dung để nhập"
+
+msgid "Failed to stage content"
+msgstr "Không dàn dựng được nội dung"
+
+msgid "Content is staged and ready for import"
+msgstr "Nội dung đã được dàn dựng và sẵn sàng để nhập"
+
+msgid "Importing staged content"
+msgstr "Đang nhập nội dung đã dàn dựng"
+
+msgid "Failed to import staged content"
+msgstr "Không nhập được nội dung đã dàn dựng"
+
+msgid "Successfully imported content"
+msgstr "Nhập nội dung đã dàn dựng thành công"
+
+msgid "Canceled"
+msgstr "Đã hủy"
+
+msgid "The modulestore course"
+msgstr "Khóa học modulestore"
+
+msgid "Import from modulestore"
+msgstr "Nhập từ modulestore"
+
+msgid "Imports from modulestore"
+msgstr "Nhập từ modulestore"
+
+msgid "Original usage key/ID of the thing that has been imported."
+msgstr "Khóa sử dụng/ID gốc của mục đã được nhập."
+
+msgid "The original Usage key of the highest-level component that was saved in StagedContent."
+msgstr "Khóa sử dụng gốc của thành phần cấp cao nhất đã được lưu trong StagedContent."
+
+msgid "Content is not linked to a Content Library."
+msgstr "Nội dung không được liên kết với Thư viện nội dung."
+
+msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
+msgstr "Downstream không phải là XBlock hoặc thiếu UpstreamSyncMixin bắt buộc"
+
+msgid "Cannot update content because it does not belong to a course."
+msgstr "Không thể cập nhật nội dung vì nội dung không thuộc về khóa học."
+
+msgid "Reference to linked library item is malformed"
+msgstr "Tham chiếu đến mục thư viện được liên kết không đúng định dạng"
+
+msgid "Updating content with children is not yet supported unless the upstream is a container."
+msgstr "Hiện chưa hỗ trợ cập nhật nội dung có phần tử con trừ khi phần tử con là vùng chứa."
+
+msgid "Linked upstream library block was not found in the system"
+msgstr "Không tìm thấy khối thư viện thượng nguồn được liên kết trong hệ thống"
+
+msgid "Linked upstream library container was not found in the system"
+msgstr "Không tìm thấy vùng chứa thư viện thượng nguồn được liên kết trong hệ thống"
+
+msgid "Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked to {upstream_id}."
+msgstr "Kiểu nội dung không khớp: {downstream_id} ({downstream_type}) không thể liên kết với {upstream_id}."
+
+msgid "Linked library item could not be loaded: {}"
+msgstr "Không thể tải mục thư viện được liên kết: {}"
+
+msgid "%(count)d student account was unlocked."
+msgstr "Đã mở khóa %(count)d tài khoản sinh viên."
+
+msgid "The file must end with the extension '{file_types}'."
+msgstr "Tệp phải kết thúc bằng phần mở rộng '{file_types}'."
+
+msgid "at least %(min_length)d character"
+msgstr ít nhất %(min_length)d ký tự"
+
+msgid "This password is too long. It must contain no more than %(max_length)d character."
+msgstr "Mật khẩu này quá dài. Mật khẩu không được chứa quá %(max_length)d ký tự."
+
+msgid "Your password must contain no more than %(max_length)d character."
+msgstr "Mật khẩu của bạn không được chứa quá %(max_length)d ký tự."
+
+msgid "This password must contain at least %(min_alphabetic)d letter."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_alphabetic)d chữ cái."
+
+msgid "Your password must contain at least %(min_alphabetic)d letter."
+msgstr "Mật khẩu của bạn phải chứa ít nhất %(min_alphabetic)d chữ cái."
+
+msgid "%(num)d letter"
+msgstr "%(num)d chữ cái"
+
+msgid "This password must contain at least %(min_numeric)d number."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_numeric)d số."
+
+msgid "Your password must contain at least %(min_numeric)d number."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_numeric)d số."
+
+msgid "%(num)d number"
+msgstr "%(num)d số"
+
+msgid "This password must contain at least %(min_upper)d uppercase letter."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_upper)d chữ cái viết hoa."
+
+msgid "Your password must contain at least %(min_upper)d uppercase letter."
+msgstr "Mật khẩu của bạn phải chứa ít nhất %(min_upper)d chữ cái viết hoa."
+
+msgid "%(num)d uppercase letter"
+msgstr "%(num)d chữ hoa"
+
+msgid "This password must contain at least %(min_lower)d lowercase letter."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_lower)d chữ cái viết thường."
+
+msgid "Your password must contain at least %(min_lower)d lowercase letter."
+msgstr "Mật khẩu của bạn phải chứa ít nhất %(min_lower)d chữ cái viết thường."
+
+msgid "%(num)d lowercase letter"
+msgstr "%(num)d chữ cái viết thường"
+
+msgid "This password must contain at least %(min_punctuation)d punctuation mark."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_punctuation)d dấu chấm câu."
+
+msgid "Your password must contain at least %(min_punctuation)d punctuation mark."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_punctuation)d dấu chấm câu."
+
+msgid "%(num)d punctuation mark"
+msgstr "%(num)d dấu chấm câu"
+
+msgid "This password must contain at least %(min_symbol)d symbol."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_symbol)d ký hiệu."
+
+msgid "Your password must contain at least %(min_symbol)d symbol."
+msgstr "Mật khẩu này phải chứa ít nhất %(min_symbol)d ký hiệu."
+
+msgid "%(num)d symbol"
+msgstr "%(num)d ký hiệu"
+
+msgid "You’re almost there! Use the link below to activate your account to access engaging, high-quality %(platform_name)s courses. Note that you will not be able to log back into your account until you have activated it."
+msgstr "Bạn sắp hoàn tất rồi! Sử dụng liên kết bên dưới để kích hoạt tài khoản của bạn để truy cập các khóa học hấp dẫn, chất lượng cao của %(platform_name)s. Lưu ý rằng bạn sẽ không thể đăng nhập lại vào tài khoản của mình cho đến khi bạn kích hoạt nó."
+
+msgid "
+                    Proctoring requirements for %(course_name)s
+                "
+msgstr "
+                    Yêu cầu giám sát cho %(course_name)s
+                "
+
+msgid "
+                    Hello %(full_name)s,
+                "
+msgstr "
+                    Xin chào %(full_name)s,
+                "
+
+msgid "
+                    You are enrolled in %(course_name)s at %(platform_name)s. This course contains proctored exams.
+                "
+msgstr "
+                    Bạn đã đăng ký %(course_name)s tại %(platform_name)s. Khóa học này có các kỳ kiểm tra có giám sát.
+                "
+
+msgid "
+                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio. Your course uses %(proctoring_provider)s software for proctoring.
+                "
+msgstr "
+                    Bài kiểm tra có giám sát là bài kiểm tra có tính giờ mà bạn phải làm trong khi phần mềm giám thị giám sát màn hình máy tính, video webcam và âm thanh của bạn. Khóa học của bạn sử dụng phần mềm %(proctoring_provider)s để giám sát.
+                "
+
+msgid "
+                    Carefully review the system requirements as well as the steps to take a proctored exam in order to ensure that you are prepared.
+                "
+msgstr "
+                    Xem xét kỹ các yêu cầu của hệ thống cũng như các bước để làm bài kiểm tra có giám sát để đảm bảo rằng bạn đã chuẩn bị sẵn sàng.
+                "
+
+msgid "
+                Hướng dẫn và yêu cầu giám thị
+            "
+msgstr ""
+
+msgid "Practice Exam"
+msgstr "Bài kiểm tra thử"
+
+msgid "
+                                You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. You’re not quite there, but there's still time to reach that goal!
+                                "
+msgstr "
+                                Bạn đặt mục tiêu học {start_bold}%(days_per_week)s thời gian một tuần trong %(course_name)s{end_bold}. Bạn chưa đạt được mục tiêu đó, nhưng vẫn còn thời gian để đạt được mục tiêu đó!
+                                "
+
+msgid "({number} Question)"
+msgstr "({number} Câu hỏi)"
+
+msgid "Internal API Base URL"
+msgstr ""
+
+msgid "Financial Assistance Backend API Base URL."
+msgstr ""
+
+msgid "Flexible Peer Grading for ORAs"
+msgstr "Chấm điểm đồng đẳng linh hoạt cho ORA"
+
+msgid "Course level settings for Flexible Peer Grading Open Response Assessments."
+msgstr "Cài đặt cấp độ khóa học cho Chấm điểm đồng đẳng linh hoạt ORA"
+
+msgid "We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance program.
+Please note that while assistance is available in most courses that offer verified certificates, a few courses and programs are not eligible. You must complete a separate application for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval).
+To apply for financial assistance:
+1. Enroll in the audit track for an eligible course that offers Verified Certificates.
+2. Complete this application.
+3. Check your email, please allow 4 weeks for your application to be processed."
+msgstr "Chúng tôi dự định sử dụng thông tin này để đánh giá đơn xin hỗ trợ tài chính của bạn và phát triển thêm chương trình hỗ trợ tài chính của chúng tôi.
+Xin lưu ý rằng mặc dù hỗ trợ có sẵn trong hầu hết các khóa học cung cấp chứng chỉ đã xác minh, nhưng một số khóa học và chương trình không đủ điều kiện. Bạn phải hoàn thành một đơn xin riêng cho mỗi khóa học bạn tham gia. Bạn có thể được chấp thuận hỗ trợ tài chính năm (5) lần mỗi năm (dựa trên khoảng thời gian 12 tháng kể từ lần chấp thuận đầu tiên của bạn).
+Để nộp đơn xin hỗ trợ tài chính:
+1. Đăng ký vào chương trình kiểm toán cho một khóa học đủ điều kiện cung cấp Chứng chỉ đã xác minh.
+2. Hoàn thành đơn xin này.
+3. Kiểm tra email của bạn, vui lòng đợi 4 tuần để đơn xin của bạn được xử lý."
+
+msgid "%(comment_username)s commented to %(thread_title)s:"
+msgstr "%(comment_username)s đã bình luận cho %(thread_title)s:"
+
+msgid "Comment to %(thread_title)s"
+msgstr "Bình luận cho %(thread_title)s"
+
+msgid "
+                        %(course_name)s: Reported content awaits review
+                    "
+msgstr "
+                        %(course_name)s: Nội dung đã báo cáo đang chờ đánh giá
+                    "
+
+msgid "%(comment_username)s replied to %(thread_title)s: %(comment_body|truncatechars:200)s"
+msgstr "%(comment_username)s đã trả lời cho %(thread_title)s: %(comment_body|truncatechars:200)s"
+
+msgid "External User Key"
+msgstr ""
+
+msgid "Anonymized User IDs"
+msgstr ""
+
+msgid "An error occurred while attempting to reset for all students."
+msgstr "Đã xảy ra lỗi khi cố gắng thiết lập lại cho tất cả học viên."
+
+msgid "Instructor"
+msgstr ""
+
+msgid "{num_emails} sent"
+msgstr "{num_email} đã gửi"
+
+msgid "{num_emails} failed"
+msgstr "{num_emails} không thành công"
+
+msgid "Role name"
+msgstr "Tên vai trò"
+
+msgid "Invalid role name."
+msgstr Tên vai trò không hợp lệ."
+
+msgid "The URL name of the problem to reset."
+msgstr "Tên URL của câu hỏi cần đặt lại"
+
+msgid "Problem URL name cannot be blank."
+msgstr "Tên URL của câu hỏi không thể để trống."
+
+msgid "Whether to reset the problem for all students."
+msgstr "Có nên đặt lại câu hỏi cho tất cả người học hay không."
+
+msgid "unique student identifier."
+msgstr "Mã định danh người học duy nhất."
+
+msgid "generate_anonymized_id"
+msgstr ""
+
+msgid "
+            This email was automatically sent from %(platform_name)s.
+          "
+msgstr "
+            Email này được gửi tự động từ %(platform_name)s.
+          "
+
+msgid "
+            You are receiving this email at address %(email)s because you are enrolled in
+          "
+msgstr "
+            Bạn đang nhận được email này tại địa chỉ %(email)s vì bạn đã đăng ký
+          "
+
+msgid "
+            To stop receiving email like this, update your course email settings
+          "
+msgstr "
+            Để ngừng nhận email như thế này, hãy cập nhật cài đặt email khóa học
+          "
+
+msgid "Dear %(full_name)s,"
+msgstr "Dear %(full_name)s,"
+
+msgid "You have been invited to be a beta tester for %(course_name)s at %(site_name)s."
+msgstr "Bạn đã được mời làm người thử nghiệm beta cho %(course_name)s tại %(site_name)s."
+
+msgid "You have been invited to a beta test for %(course_name)s at %(site_name)s."
+msgstr "Bạn đã được mời tham gia thử nghiệm beta cho %(course_name)s tại %(site_name)s."
+
+msgid "You have been enrolled in %(course_name)s at %(site_name)s. This course will now appear on your %(site_name)s dashboard."
+msgstr "Bạn đã đăng ký %(course_name)s tại %(site_name)s. Khóa học này hiện sẽ xuất hiện trên bảng điều khiển %(site_name)s của bạn."
+
+msgid "You have been invited to register for %(course_name)s."
+msgstr "Bạn đã được mời đăng ký %(course_name)s."
+
+msgid "You have been unenrolled from the course %(course_name)s. Please disregard the invitation previously sent."
+msgstr "Bạn đã bị hủy đăng ký khỏi khóa học %(course_name)s. Vui lòng bỏ qua lời mời đã gửi trước đó."
+
+msgid "You have been unenrolled from %(course_name)s at %(site_name)s. This course will no longer appear on your %(site_name)s dashboard."
+msgstr "Bạn đã bị hủy đăng ký khỏi %(course_name)s tại %(site_name)s. Khóa học này sẽ không còn xuất hiện trên bảng điều khiển %(site_name)s của bạn nữa."
+
+msgid "You have been invited to join %(course_name)s at %(site_name)s."
+msgstr "Bạn đã được mời tham gia %(course_name)s tại %(site_name)s."
+
+msgid "You have been removed as a beta tester for %(course_name)s at %(site_name)s. This course will remain on your dashboard, but you will no longer be part of the beta testing group."
+msgstr "Bạn đã bị xóa khỏi danh sách người thử nghiệm beta cho %(course_name)s tại %(site_name)s. Khóa học này sẽ vẫn nằm trên bảng điều khiển của bạn, nhưng bạn sẽ không còn là thành viên của nhóm thử nghiệm beta nữa."
+
+msgid "You have been removed as a beta tester for %(course_name)s at %(site_name)s."
+msgstr "Bạn đã bị xóa khỏi danh sách người thử nghiệm beta cho %(course_name)s tại %(site_name)s."
+
+msgid "The course %(course_title)s has been reset !"
+msgstr "Khóa học %(course_title)s đã được đặt lại!"
+
+msgid "Your progress in course %(course_title)s has been reset on your behalf."
+msgstr "Tiến trình của bạn trong khóa học %(course_title)s đã được đặt lại thay mặt cho bạn."
+
+msgid "You will be able to re-attempt this course and earn a verified certificate upon successful completion."
+msgstr "Bạn sẽ có thể thử lại khóa học này và nhận được chứng chỉ đã xác minh sau khi hoàn thành thành công."
+
+msgid "Best,"
+msgstr "Best,"
+
+msgid "%(platform_name)s Email"
+msgstr "%(platform_name)s Email"
+
+msgid "Internal API URL"
+msgstr ""
+
+msgid "Specified in seconds. Enable caching of API responses by setting this to a value greater than 0."
+msgstr "Chỉ định theo giây. Bật bộ đệm phản hồi API bằng cách đặt giá trị này thành giá trị lớn hơn 0."
+
+msgid "Long Term Cache Time To Live"
+msgstr "Thời gian lưu trữ bộ đệm dài hạn"
+
+msgid "Maximum number of records in paginated response of a single request to catalog service."
+msgstr "Số lượng bản ghi tối đa trong phản hồi được phân trang của một yêu cầu duy nhất đến dịch vụ danh mục."
+
+msgid "These define the context to enable this configuration on. If no values are set, then the configuration applies globally. If a single value is set, then the configuration applies to all courses within that context. At most one value can be set at a time.{br}If multiple contexts apply to a course (for example, if configuration is specified for the course specifically, and for the org that the course is in, then the more specific context overrides the more general context."
+msgstr "Những giá trị này định nghĩa ngữ cảnh để bật cấu hình này. Nếu không có giá trị nào được đặt, thì cấu hình sẽ áp dụng trên toàn cục. Nếu một giá trị duy nhất được đặt, thì cấu hình sẽ áp dụng cho tất cả các khóa học trong ngữ cảnh đó. Chỉ có thể đặt tối đa một giá trị tại một thời điểm.{br}Nếu nhiều ngữ cảnh áp dụng cho một khóa học (ví dụ: nếu cấu hình được chỉ định cho khóa học cụ thể và cho tổ chức mà khóa học đó nằm trong, thì ngữ cảnh cụ thể hơn sẽ ghi đè lên ngữ cảnh chung hơn."
+
+msgid "If any of these values are left empty or "Unknown", then their value at runtime will be retrieved from the next most specific context that applies. For example, if "Enabled" is left as "Unknown" in the course context, then that course will be Enabled only if the org that it is in is Enabled."
+msgstr "Nếu bất kỳ giá trị nào trong số này bị bỏ trống hoặc "Không xác định", thì giá trị của chúng khi chạy sẽ được lấy từ ngữ cảnh cụ thể tiếp theo áp dụng. Ví dụ: nếu "Đã bật" được để là "Không xác định" trong ngữ cảnh khóa học, thì khóa học đó sẽ chỉ được Bật nếu tổ chức mà khóa học đó nằm trong được Bật."
+
+msgid "Numeric ID for each Course / Library context. This ID will generally require fewer bits than the full LearningContextKey, allowing more courses and libraries to be represented in content search filters."
+msgstr "ID số cho mỗi ngữ cảnh Khóa học/Thư viện. ID này thường sẽ yêu cầu ít bit hơn LearningContextKey đầy đủ, cho phép nhiều khóa học và thư viện hơn được biểu diễn trong bộ lọc tìm kiếm nội dung."
+
+msgid "Creative Commons Attribution 4.0"
+msgstr ""
+
+msgid "Creative Commons Attribution-NonCommercial 4.0"
+msgstr ""
+
+msgid "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0"
+msgstr ""
+
+msgid "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+msgstr ""
+
+msgid "Creative Commons Attribution-NoDerivatives 4.0"
+msgstr ""
+
+msgid "Creative Commons Attribution-ShareAlike 4.0"
+msgstr ""
+
+msgid "open edx user"
+msgstr ""
+
+msgid "lti platform identifier"
+msgstr "mã định danh nền tảng lti"
+
+msgid "The LTI platform identifier to which this profile belongs to."
+msgstr "Mã định danh nền tảng LTI mà hồ sơ này thuộc về."
+
+msgid "client identifier"
+msgstr ""
+
+msgid "The LTI client identifier generated by the LTI platform."
+msgstr "Mã định danh máy khách LTI do nền tảng LTI tạo ra."
+
+msgid "subject identifier"
+msgstr ""
+
+msgid "Identifies the entity that initiated the launch request, commonly a user."
+msgstr "Xác định thực thể đã khởi tạo yêu cầu khởi chạy, thường là người dùng."
+
+msgid "The authorized LTI profile that launched the resource (identifies the user)."
+msgstr "Hồ sơ LTI được ủy quyền đã khởi chạy tài nguyên (xác định người dùng)."
+
+msgid "The usage key string of the resource serving the content of this launch."
+msgstr "Chuỗi khóa sử dụng của tài nguyên phục vụ nội dung của lần khởi chạy này."
+
+msgid ""
+"The LTI platform unique identifier of this resource, also known as the "
+"\"resource link id\"."
+msgstr "Mã định danh duy nhất của nền tảng LTI của tài nguyên này, còn được gọi là \"id liên kết tài nguyên\"."
+
+msgid "The LTI platform descriptive title for this resource."
+msgstr "Tiêu đề mô tả nền tảng LTI cho tài nguyên này."
+
+msgid "If AGS was enabled during launch, this should hold the lineitem ID."
+msgstr "Nếu AGS được bật trong khi khởi chạy, tiêu đề này sẽ giữ ID của mục dòng."
+
+msgid "Staged Content"
+msgstr "Nội dung được dàn dựng"
+
+msgid "Content tags applied to these blocks"
+msgstr "Thẻ nội dung được áp dụng cho các khối này"
+
+msgid "Original usage key/ID of the thing that is in the clipboard."
+msgstr "Khóa/ID sử dụng ban đầu của nội dung trong bảng tạm."
+
+msgid "Learning Context Key"
+msgstr "Khóa ngữ cảnh học tập"
+
+msgid "Context key for context in which this discussion topic exists."
+msgstr "Khóa ngữ cảnh cho ngữ cảnh mà chủ đề thảo luận này tồn tại."
+
+msgid "Usage key for in-context discussion topic. Set to null for course-level topics."
+msgstr "Khóa sử dụng cho chủ đề thảo luận trong ngữ cảnh. Đặt thành null cho các chủ đề cấp độ khóa học."
+
+msgid "Discussion context ID in external forum provider. e.g. commentable_id for cs_comments_service."
+msgstr "ID ngữ cảnh thảo luận trong nhà cung cấp diễn đàn bên ngoài. Ví dụ: commentable_id cho cs_comments_service."
+
+msgid "Whether this topic should be shown in-context in the course."
+msgstr "Liệu chủ đề này có nên được hiển thị trong ngữ cảnh trong khóa học hay không."
+
+msgid "Notification App"
+msgstr "Ứng dụng thông báo"
+
+msgid "Notification Type"
+msgstr "Loại thông báo"
+
+msgid ""
+"Search by username, course_id. Specify fields with username: or course_id: "
+"prefixes. If no prefix is specified, search will be done on username. \n"
+"Examples: \n"
+" - testuser (default username search) \n"
+" - username:testuser (username keyword search) \n"
+" - course_id:course-v1:edX+DemoX+Demo_Course (course_id keyword search) \n"
+" - username:testuser, course_id:course-v1:edX+DemoX+Demo_Course (combined "
+"keyword search) \n"
+msgstr "Tìm kiếm theo username, course_id. Chỉ định các trường có tiền tố username: hoặc course_id:. Nếu không chỉ định tiền tố, tìm kiếm sẽ được thực hiện trên username.
+Ví dụ:
+- testuser (tìm kiếm tên người dùng mặc định)
+- username:testuser (tìm kiếm từ khóa tên người dùng)
+- course_id:course-v1:edX+DemoX+Demo_Course (tìm kiếm từ khóa course_id)
+- username:testuser, course_id:course-v1:edX+DemoX+Demo_Course (tìm kiếm từ khóa kết hợp)"
+
+msgid "<{p}><{strong}>{replier_name}</{strong}> and others started new discussions</{p}>"
+msgstr "<{p}><{strong}>{replier_name}</{strong}> và những người khác đã bắt đầu các cuộc thảo luận mới</{p}>"
+
+msgid "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
+msgstr "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
+
+msgid "<{p}>You have a new open response submission awaiting review for <{strong}>{ora_name}</{strong}></{p}>"
+msgstr "<{p}>Bạn có một bài nộp phản hồi mới đang chờ xem xét cho <{strong}>{ora_name}</{strong}></{p}>"
+
+msgid "<{p}>You have multiple submissions awaiting review for <{strong}>{ora_name}</{strong}></{p}>"
+msgstr "<{p}>Bạn có nhiều bài nộp đang chờ xem xét cho <{strong}>{ora_name}</{strong}></{p}>"
+
+msgid "Notifications for submission grading."
+msgstr "Thông báo chấm điểm bài nộp."
+
+msgid "Daily"
+msgstr "Hàng ngày"
+
+msgid "Weekly"
+msgstr "Hàng tuần"
+
+msgid "Immediately"
+msgstr "Ngay lập tức"
+
+msgid "Email Digest Preferences Updated"
+msgstr "Tùy chọn tóm tắt email đã cập nhật"
+
+msgid "This email is already associated with an existing account"
+msgstr "Email này đã được liên kết với một tài khoản hiện có"
+
+msgid "Your legal name is too long. It must not exceed %(max_length)s characters"
+msgstr Tên hợp pháp của bạn quá dài. Tên không được vượt quá %(max_length)s ký tự"
+
+msgid "Registration from this country is not allowed due to restrictions."
+msgstr "Không được phép đăng ký từ quốc gia này do có hạn chế."
+
+msgid "Team Group: {team_set_name}"
+msgstr "Chủ đề: {team_set_name}"
+
+msgid "Partition for segmenting users by team-set"
+msgstr "Phân vùng để phân đoạn người dùng chủ đề"
+
+msgid "These define the context to disable lms-controlled discounts on. If no values are set, then the configuration applies globally. If a single value is set, then the configuration applies to all courses within that context. At most one value can be set at a time.<br>If multiple contexts apply to a course (for example, if configuration is specified for the course specifically, and for the org that the course is in, then the more specific context overrides the more general context."
+msgstr "Những giá trị này định nghĩa ngữ cảnh để vô hiệu hóa chiết khấu do lms kiểm soát. Nếu không có giá trị nào được đặt, thì cấu hình sẽ áp dụng trên toàn cục. Nếu một giá trị duy nhất được đặt, thì cấu hình sẽ áp dụng cho tất cả các khóa học trong ngữ cảnh đó. Chỉ có thể đặt tối đa một giá trị tại một thời điểm.<br>Nếu nhiều ngữ cảnh áp dụng cho một khóa học (ví dụ: nếu cấu hình được chỉ định cho khóa học cụ thể và cho tổ chức mà khóa học đó thuộc về, thì ngữ cảnh cụ thể hơn sẽ ghi đè lên ngữ cảnh chung hơn."
+
+msgid "These define the context to configure the percentage for the first purchase discount.If multiple contexts apply to a course (for example, if configuration is specified for the course specifically, and for the org that the course is in, then the more specific context overrides the more general context."
+msgstr "Những giá trị này định nghĩa ngữ cảnh để định cấu hình phần trăm cho chiết khấu mua hàng đầu tiên.Nếu nhiều ngữ cảnh áp dụng cho một khóa học (ví dụ: nếu cấu hình được chỉ định cho khóa học cụ thể và cho tổ chức mà khóa học đó thuộc về, thì ngữ cảnh cụ thể hơn sẽ ghi đè lên ngữ cảnh chung hơn."
+
+msgid "The deadline to complete this assignment has passed."
+msgstr "Hạn chót để hoàn thành bài tập này đã qua."
+
+msgid "Try again ({attempts} attempt remaining)"
+msgstr "Thử lại ({attempts} lần thử còn lại)"
+
+msgid "Custom Evaluated Script"
+msgstr "Tập lệnh được đánh giá tùy chỉnh"
+
+msgid "CustomResponse: check function returned an invalid dictionary!"
+msgstr "CustomResponse: hàm kiểm tra trả về một từ điển không hợp lệ!"
+
+msgid "Symbolic Math Input"
+msgstr ""
+
+msgid "An error occurred with SymbolicResponse. The error was: {error_msg}"
+msgstr "Đã xảy ra lỗi với SymbolicResponse. Lỗi là: {error_msg}"
+
+msgid "Code Input"
+msgstr "Nhập code"
+
+msgid "Error: No grader has been set up for this problem."
+msgstr ""
+
+msgid "External Grader"
+msgstr ""
+
+msgid "Math Expression Input"
+msgstr "Nhập biểu thức toán học"
+
+msgid "Circuit Schematic Builder"
+msgstr ""
+
+msgid "Error in evaluating SchematicResponse. The error was: {error_msg}"
+msgstr ""
+
+msgid "Image Mapped Input"
+msgstr ""
+
+msgid "Error in problem specification! Cannot parse rectangle in {sr_coords}"
+msgstr ""
+
+msgid "Annotation Input"
+msgstr ""
+
+msgid "Checkboxes With Text Input"
+msgstr ""
+
+msgid "The Staff answer could not be interpreted as a number."
+msgstr "Câu trả lời của Nhân viên không thể được hiểu là một con số."
+
+msgid "Codejail API Service is unavailable. Please try again in a few minutes."
+msgstr "Dịch vụ API Codejail không khả dụng. Vui lòng thử lại sau vài phút."
+
+msgid "Codejail API Service invalid response."
+msgstr "Phản hồi không hợp lệ của Dịch vụ API Codejail."
+
+msgid "Invalid JSON response received from codejail api service."
+msgstr "Nhận được phản hồi JSON không hợp lệ từ dịch vụ api codejail."
+
+msgid "Grading Method"
+msgstr "Phương pháp chấm điểm"
+
+msgid "Define the grading method for this problem. By default, it's the score of the last submission made by the student."
+msgstr "Định nghĩa phương pháp chấm điểm cho câu hỏi này. Theo mặc định, đó là điểm của bài nộp cuối cùng do người học thực hiện."
+
+msgid "Last Score"
+msgstr "Điểm lần cuối"
+
+msgid "First Score"
+msgstr "Điểm đầu tiên"
+
+msgid "Highest Score"
+msgstr "Điểm cao nhất"
+
+msgid "Average Score"
+msgstr "Điểm trung bình"
+
+msgid "List of correctness maps for each attempt"
+msgstr "Danh sách các bản đồ độ chính xác cho mỗi lần thử"
+
+msgid "List of student answers for each attempt"
+msgstr "Danh sách các câu trả lời của người học cho mỗi lần thử"
+
+msgid "List of scores for each attempt"
+msgstr "Danh sách điểm cho mỗi lần thử"
+
+msgid "Indicates if the problem was edited using the Markdown editor in the Authoring MFE."
+msgstr "Chỉ ra nếu câu hỏi đã được chỉnh sửa bằng trình soạn thảo Markdown trong Authoring MFE."
+
+msgid "Incorrect ({progress} point)"
+msgstr "Không đúng ({progress} điểm)"
+
+msgid "Correct ({progress} point)"
+msgstr "Đúng ({progress} điểm)"
+
+msgid "Partially correct ({progress} point)"
+msgstr "Đúng một phần ({progress} điểm)"
+
+msgid "{num_hour} hour"
+msgstr "{num_hour} giờ"
+
+msgid "{num_minute} minute"
+msgstr "{num_minute} phút"
+
+msgid "{num_second} second"
+msgstr "{num_second} giây"
+
+msgid "The component location IDs of all source components that are used to determine whether a learner is shown the content of this conditional block. Copy the component location ID of a component from its Settings dialog in Studio."
+msgstr "ID vị trí thành phần của tất cả các thành phần nguồn được sử dụng để xác định xem người học có được hiển thị nội dung của khối điều kiện này hay không. Sao chép ID vị trí thành phần của một thành phần từ hộp thoại Cài đặt của thành phần đó trong Studio."
+
+msgid "The attribute of the source components that determines whether a learner is shown the content of this conditional block."
+msgstr "Thuộc tính của các thành phần nguồn xác định xem người học có được hiển thị nội dung của khối điều kiện này hay không."
+
+msgid "The value that the conditional attribute of the source components must match before a learner is shown the content of this conditional block."
+msgstr "Giá trị mà thuộc tính điều kiện của các thành phần nguồn phải khớp trước khi người học được hiển thị nội dung của khối điều kiện này."
+
+msgid ""
+"The message that is shown to learners when not all conditions are met to "
+"show the content of this conditional block. Include {link} in the text of "
+"your message to give learners a direct link to required units. For example, "
+"'You must complete {link} before you can access this unit'."
+msgstr "Thông báo được hiển thị cho người học khi không đáp ứng được tất cả các điều kiện để hiển thị nội dung của khối điều kiện này. Bao gồm {link} trong văn bản thông báo của bạn để cung cấp cho người học liên kết trực tiếp đến các đơn vị bắt buộc. Ví dụ: 'Bạn phải hoàn thành {link} trước khi có thể truy cập đơn vị này'."
+
+msgid "LTI Passports"
+msgstr ""
+
+msgid "Enter the passports for course LTI tools in the following format: "id:client_key:client_secret"."
+msgstr "Nhập passport các công cụ LTI của khóa học theo định dạng sau: "id:client_key:client_secret"."
+
+msgid "Start time when this block is visible"
+msgstr "Thời gian bắt đầu khi khối này hiển thị"
+
+msgid "Cosmetic Course Display Price"
+msgstr ""
+
+msgid "The cost displayed to students for enrolling in the course. If a paid course registration price is set by an administrator in the database, that price will be displayed instead of this one."
+msgstr ""
+
+msgid "Course Advertised Start"
+msgstr ""
+
+msgid "Enter the text that you want to use as the advertised starting time frame for the course, such as "Winter 2018". If you enter null for this value, the start date that you have set for this course is used."
+msgstr ""
+
+msgid "Pre-Requisite Courses"
+msgstr ""
+
+msgid "Pre-Requisite Course key if this course has a pre-requisite course"
+msgstr ""
+
+msgid "Grading policy definition for this class"
+msgstr ""
+
+msgid "Show Calculator"
+msgstr ""
+
+msgid "Enter true or false. When true, students can see the calculator in the course."
+msgstr ""
+
+msgid "Enter the name of the course as it should appear in the course list."
+msgstr ""
+
+msgid "Course Display Name"
+msgstr ""
+
+msgid "Enter the method by which this course is edited ("XML" or "Studio")."
+msgstr ""
+
+msgid "Course Survey URL"
+msgstr ""
+
+msgid "Enter the URL for the end-of-course survey. If your course does not have a survey, enter null."
+msgstr ""
+
+msgid "Discussion Blackout Dates"
+msgstr ""
+
+msgid "Enter pairs of dates between which students cannot post to discussion forums. Inside the provided brackets, enter an additional set of square brackets surrounding each pair of dates you add. Format each pair of dates as ["YYYY-MM-DD", "YYYY-MM-DD"]. To specify times as well as dates, format each pair as ["YYYY-MM-DDTHH:MM", "YYYY-MM-DDTHH:MM"]. Be sure to include the "T" between the date and time. For example, an entry defining two blackout periods looks like this, including the outer pair of square brackets: [["2015-09-15", "2015-09-21"], ["2015-10-01", "2015-10-08"]] "
+msgstr ""
+
+msgid "Discussion Topic Mapping"
+msgstr ""
+
+msgid "Enter discussion categories in the following format: "CategoryName": {"id": "i4x-InstitutionName-CourseNumber-course-CourseRun"}. For example, one discussion category may be "Lydian Mode": {"id": "i4x-UniversityX-MUS101-course-2015_T1"}. The "id" value for each category must be unique. In "id" values, the only special characters that are supported are underscore, hyphen, and period. You can also specify a category as the default for new posts in the Discussion page by setting its "default" attribute to true. For example, "Lydian Mode": {"id": "i4x-UniversityX-MUS101-course-2015_T1", "default": true}."
+msgstr ""
+
+msgid "Discussions Plugin Settings"
+msgstr ""
+
+msgid "Settings for discussions plugins."
+msgstr ""
+
+msgid "Course Announcement Date"
+msgstr ""
+
+msgid "Enter the date to announce your course."
+msgstr ""
+
+msgid "Cohort Configuration"
+msgstr ""
+
+msgid "Enter policy keys and values to enable the cohort feature, define automated student assignment to groups, or identify any course-wide discussion topics as private to cohort members."
+msgstr ""
+
+msgid "Course Is New"
+msgstr ""
+
+msgid "Enter true or false. If true, the course appears in the list of new courses, and a New! badge temporarily appears next to the course image."
+msgstr ""
+
+msgid "Mobile Course Available"
+msgstr ""
+
+msgid "Enter true or false. If true, the course will be available to mobile devices."
+msgstr ""
+
+msgid "Video Upload Credentials"
+msgstr ""
+
+msgid "Enter the unique identifier for your course's video files provided by {platform_name}."
+msgstr ""
+
+msgid "Course Not Graded"
+msgstr ""
+
+msgid "Enter true or false. If true, the course will not be graded."
+msgstr ""
+
+msgid "Disable Progress Graph"
+msgstr ""
+
+msgid "Enter true or false. If true, students cannot view the progress graph."
+msgstr ""
+
+msgid "PDF Textbooks"
+msgstr ""
+
+msgid "List of dictionaries containing pdf_textbook configuration"
+msgstr ""
+
+msgid "HTML Textbooks"
+msgstr ""
+
+msgid "For HTML textbooks that appear as separate tabs in the course, enter the name of the tab (usually the title of the book) as well as the URLs and titles of each chapter in the book."
+msgstr ""
+
+msgid "Remote Gradebook"
+msgstr ""
+
+msgid "Enter the remote gradebook mapping. Only use this setting when REMOTE_GRADEBOOK_URL has been specified."
+msgstr ""
+
+msgid "Enable CCX"
+msgstr ""
+
+msgid "Allow course instructors to assign CCX Coach roles, and allow coaches to manage Custom Courses on {platform_name}. When false, Custom Courses cannot be created, but existing Custom Courses will be preserved."
+msgstr ""
+
+msgid "CCX Connector URL"
+msgstr ""
+
+msgid "URL for CCX Connector application for managing creation of CCXs. (optional). Ignored unless 'Enable CCX' is set to 'true'."
+msgstr ""
+
+msgid "Allow Anonymous Discussion Posts"
+msgstr ""
+
+msgid "Enter true or false. If true, students can create discussion posts that are anonymous to all users."
+msgstr ""
+
+msgid "Allow Anonymous Discussion Posts to Peers"
+msgstr ""
+
+msgid "Enter true or false. If true, students can create discussion posts that are anonymous to other students. This setting does not make posts anonymous to course staff."
+msgstr ""
+
+msgid "Advanced Module List"
+msgstr ""
+
+msgid "Enter the names of the advanced modules to use in your course."
+msgstr ""
+
+msgid "True if timezones should be shown on dates in the course. Deprecated in favor of due_date_display_format."
+msgstr ""
+
+msgid "Due Date Display Format"
+msgstr ""
+
+msgid "Enter the format for due dates. The default is Mon DD, YYYY. Enter "%m-%d-%Y" for MM-DD-YYYY, "%d-%m-%Y" for DD-MM-YYYY, "%Y-%m-%d" for YYYY-MM-DD, or "%Y-%d-%m" for YYYY-DD-MM."
+msgstr ""
+
+msgid "External Login Domain"
+msgstr ""
+
+msgid "Enter the external login method students can use for the course."
+msgstr ""
+
+msgid "Certificates Downloadable Before End"
+msgstr ""
+
+msgid "Enter true or false. If true, students can download certificates before the course ends, if they've met certificate requirements."
+msgstr ""
+
+msgid "Certificates Display Behavior"
+msgstr ""
+
+msgid "This field, together with certificate_available_date will determine when a user can see their certificate for the course"
+msgstr ""
+
+msgid "Course About Page Image"
+msgstr ""
+
+msgid "Edit the name of the course image file. You must upload this file on the Files & Uploads page. You can also set the course image on the Settings & Details page."
+msgstr ""
+
+msgid "Course Banner Image"
+msgstr ""
+
+msgid "Edit the name of the banner image file. You can set the banner image on the Settings & Details page."
+msgstr ""
+
+msgid "Course Video Thumbnail Image"
+msgstr ""
+
+msgid "Edit the name of the video thumbnail image file. You can set the video thumbnail image on the Settings & Details page."
+msgstr ""
+
+msgid "Use this setting only when generating PDF certificates. Between quotation marks, enter the short name of the type of certificate that students receive when they complete the course. For instance, "Certificate"."
+msgstr ""
+
+msgid "Certificate Name (Short)"
+msgstr ""
+
+msgid "Use this setting only when generating PDF certificates. Between quotation marks, enter the long name of the type of certificate that students receive when they complete the course. For instance, "Certificate of Achievement"."
+msgstr ""
+
+msgid "Certificate Name (Long)"
+msgstr ""
+
+msgid "Certificate Web/HTML View Enabled"
+msgstr ""
+
+msgid "If true, certificate Web/HTML views are enabled for the course."
+msgstr ""
+
+msgid "Certificate Web/HTML View Overrides"
+msgstr ""
+
+msgid "Enter course-specific overrides for the Web/HTML template parameters here (JSON format)"
+msgstr ""
+
+msgid "Certificate Configuration"
+msgstr ""
+
+msgid "Enter course-specific configuration information here (JSON format)"
+msgstr ""
+
+msgid "CSS Class for Course Reruns"
+msgstr ""
+
+msgid "Allows courses to share the same css class across runs even if they have different numbers."
+msgstr ""
+
+msgid "Discussion Forum External Link"
+msgstr ""
+
+msgid "Allows specification of an external link to replace discussion forums."
+msgstr ""
+
+msgid "Hide Progress Tab"
+msgstr ""
+
+msgid "Allows hiding of the progress tab."
+msgstr ""
+
+msgid "Course Organization Display String"
+msgstr ""
+
+msgid "Enter the course organization that you want to appear in the course. This setting overrides the organization that you entered when you created the course. To use the organization that you entered when you created the course, enter null."
+msgstr ""
+
+msgid "Course Number Display String"
+msgstr ""
+
+msgid "Enter the course number that you want to appear in the course. This setting overrides the course number that you entered when you created the course. To use the course number that you entered when you created the course, enter null."
+msgstr ""
+
+msgid "Course Maximum Student Enrollment"
+msgstr ""
+
+msgid "Enter the maximum number of students that can enroll in the course. To allow an unlimited number of students, enter null."
+msgstr ""
+
+msgid "Allow Public Wiki Access"
+msgstr ""
+
+msgid "Enter true or false. If true, students can view the course wiki even if they're not enrolled in the course."
+msgstr ""
+
+msgid "Invitation Only"
+msgstr ""
+
+msgid "Whether to restrict enrollment to invitation by the course staff."
+msgstr ""
+
+msgid "Pre-Course Survey Name"
+msgstr ""
+
+msgid "Name of SurveyForm to display as a pre-course survey to the user."
+msgstr ""
+
+msgid "Pre-Course Survey Required"
+msgstr ""
+
+msgid "Specify whether students must complete a survey before they can view your course content. If you set this value to true, you must add a name for the survey to the Course Survey Name setting above."
+msgstr ""
+
+msgid "Course Visibility In Catalog"
+msgstr ""
+
+msgid "Defines the access permissions for showing the course in the course catalog. This can be set to one of three values: 'both' (show in catalog and allow access to about page), 'about' (only allow access to about page), 'none' (do not show in catalog and do not allow access to an about page)."
+msgstr ""
+
+msgid "Entrance Exam Enabled"
+msgstr ""
+
+msgid "Specify whether students must complete an entrance exam before they can view your course content. Note, you must enable Entrance Exams for this course setting to take effect."
+msgstr ""
+
+msgid "Entrance Exam Minimum Score (%)"
+msgstr ""
+
+msgid "Specify a minimum percentage score for an entrance exam before students can view your course content. Note, you must enable Entrance Exams for this course setting to take effect."
+msgstr ""
+
+msgid "Entrance Exam ID"
+msgstr ""
+
+msgid "Content block identifier (location) of entrance exam."
+msgstr ""
+
+msgid "Social Media Sharing URL"
+msgstr ""
+
+msgid "If dashboard social sharing and custom course URLs are enabled, you can provide a URL (such as the URL to a course About page) that social media sites can link to. URLs must be fully qualified. For example: http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
+msgstr ""
+
+msgid "Teams Configuration"
+msgstr ""
+
+msgid "Configure team sets, limit team sizes, and set visibility settings using JSON. See <a target="&#95;blank" href="https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html>teams configuration documentation</a> for help and examples."
+msgstr ""
+
+msgid "Enable Proctored Exams"
+msgstr ""
+
+msgid "Enter true or false. If this value is true, proctored exams are enabled in your course. Note that enabling proctored exams will also enable timed exams."
+msgstr ""
+
+msgid "Proctoring Provider"
+msgstr ""
+
+msgid "Enter the proctoring provider you want to use for this course run. Choose from the following options: {available_providers}."
+msgstr ""
+
+msgid "Proctortrack Exam Escalation Contact"
+msgstr ""
+
+msgid "Required if 'proctortrack' is selected as your proctoring provider. Enter an email address to be contacted by the support team whenever there are escalations (e.g. appeals, delayed reviews, etc.)."
+msgstr ""
+
+msgid "Allow Opting Out of Proctored Exams"
+msgstr ""
+
+msgid "Enter true or false. If this value is true, learners can choose to take proctored exams without proctoring. If this value is false, all learners must take the exam with proctoring. This setting only applies if proctored exams are enabled for the course."
+msgstr ""
+
+msgid "Create Zendesk Tickets For Suspicious Proctored Exam Attempts"
+msgstr ""
+
+msgid "Enter true or false. If this value is true, a Zendesk ticket will be created for suspicious attempts."
+msgstr ""
+
+msgid "Enable Timed Exams"
+msgstr ""
+
+msgid "Enter true or false. If this value is true, timed exams are enabled in your course. Regardless of this setting, timed exams are enabled if Enable Proctored Exams is set to true."
+msgstr ""
+
+msgid "Minimum Grade for Credit"
+msgstr ""
+
+msgid "The minimum grade that a learner must earn to receive credit in the course, as a decimal between 0.0 and 1.0. For example, for 75%, enter 0.75."
+msgstr ""
+
+msgid "Self Paced"
+msgstr ""
+
+msgid "Set this to "true" to mark this course as self-paced. Self-paced courses do not have due dates for assignments, and students can progress through the course at any rate before the course ends."
+msgstr ""
+
+msgid "Enable Subsection Prerequisites"
+msgstr ""
+
+msgid "Enter true or false. If this value is true, you can hide a subsection until learners earn a minimum score in another, prerequisite subsection."
+msgstr ""
+
+msgid "Course Learning Information"
+msgstr ""
+
+msgid "Specify what student can learn from the course."
+msgstr ""
+
+msgid "Course Visibility For Unenrolled Learners"
+msgstr ""
+
+msgid "Defines the access permissions for unenrolled learners. This can be set to one of three values: 'private' (default visibility, only allowed for enrolled students), 'public_outline' (allow access to course outline) and 'public' (allow access to both outline and course content)."
+msgstr ""
+
+msgid "Video Sharing Options"
+msgstr ""
+
+msgid "Specify the video sharing options for the course. This can be set to one of three values: 'all-on', 'all-off' and 'per-video'. with 'per-video' as the default."
+msgstr ""
+
+msgid "Force Flexible Grading for Peer ORAs"
+msgstr ""
+
+msgid "Setting this flag will force on the flexible grading option for all peer-graded ORAs in this course."
+msgstr ""
+
+msgid "Course Instructor"
+msgstr ""
+
+msgid "Enter the details for Course Instructor"
+msgstr ""
+
+msgid "Add Unsupported Problems and Tools"
+msgstr ""
+
+msgid "Enter true or false. If true, you can add unsupported problems and tools to your course in Studio. Unsupported problems and tools are not recommended for use in courses due to non-compliance with one or more of the base requirements, such as testing, accessibility, internationalization, and documentation."
+msgstr ""
+
+msgid "Highlights Enabled for Messaging"
+msgstr ""
+
+msgid "Enter true or false. If true, any highlights associated with content in the course will be messaged to learners at their scheduled time."
+msgstr ""
+
+msgid "Course-wide Custom JS"
+msgstr ""
+
+msgid "Enter Javascript resource URLs you want to be loaded globally throughout the course pages."
+msgstr ""
+
+msgid "Course-wide Custom CSS"
+msgstr ""
+
+msgid "Enter CSS resource URLs you want to be loaded globally throughout the course pages."
+msgstr ""
+
+msgid "Other Course Settings"
+msgstr ""
+
+msgid "Any additional information about the course that the platform needs or that allows integration with external systems such as CRM software. Enter a dictionary of values in JSON format, such as { "my_custom_setting": "value", "other_setting": "value" }"
+msgstr ""
+
+msgid "{section_type} Average = {percent:.2%}"
+msgstr ""
+
+msgid "{short_label} Avg"
+msgstr ""
+
+msgid "ERROR: "{block_type}" is an unknown component type. This component will be hidden in LMS."
+msgstr ""
+
+msgid "Html contents to display for this block"
+msgstr ""
+
+msgid "The specified library is configured to fetch {count} problem, "
+msgstr ""
+
+msgid "but there is only {actual} matching problem."
+msgstr ""
+
+msgid "The score kept in the xblock KVS -- duplicate of the published score in django DB"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Due Date"
+msgstr ""
+
+msgid "GIT URL"
+msgstr ""
+
+msgid "XQA Key"
+msgstr ""
+
+msgid "Specify when the Show Answer button appears for each problem. Valid values are "always", "answered", "attempted", "closed", "finished", "past_due", "correct_or_past_due", "after_all_attempts", "after_all_attempts_or_correct", "attempted_no_past_due", and "never"."
+msgstr ""
+
+msgid "Specify the default for how often variable values in a problem are randomized. This setting should be set to "never" unless you plan to provide a Python script to identify and randomize values in most of the problems in your course. Valid values are "always", "onreset", "never", and "per_student"."
+msgstr ""
+
+msgid "Days Early for Beta Users"
+msgstr ""
+
+msgid "Enter the number of days before the start date that beta users can access the course."
+msgstr ""
+
+msgid "Static Asset Path"
+msgstr ""
+
+msgid "Enter the path to use for files on the Files & Uploads page. This value overrides the Studio default, c4x://."
+msgstr ""
+
+msgid "Enable LaTeX Compiler"
+msgstr ""
+
+msgid "Enter true or false. If true, you can use the LaTeX templates for HTML components and advanced Problem components."
+msgstr ""
+
+msgid "Enter the maximum number of times a student can try to answer problems. By default, Maximum Attempts is set to null, meaning that students have an unlimited number of attempts for problems. You can override this course-wide setting for individual problems. However, if the course-wide setting is a specific number, you cannot set the Maximum Attempts for individual problems to unlimited."
+msgstr ""
+
+msgid "Enter the API key provided by MathWorks for accessing the MATLAB Hosted Service. This key is granted for exclusive use in this course for the specified duration. Do not share the API key with other courses. Notify MathWorks immediately if you believe the key is exposed or compromised. To obtain a key for your course, or to report an issue, please contact moocsupport@mathworks.com"
+msgstr ""
+
+msgid "Enable video caching system"
+msgstr ""
+
+msgid "Enter true or false. If true, video caching will be used for HTML5 videos."
+msgstr ""
+
+msgid "Video Pre-Roll"
+msgstr ""
+
+msgid "Show Reset Button for Problems"
+msgstr ""
+
+msgid "Enter true or false. If true, problems in the course default to always displaying a 'Reset' button. You can override this in each problem's settings. All existing problems are affected when this course-wide setting is changed."
+msgstr ""
+
+msgid "Enable Student Notes"
+msgstr ""
+
+msgid "Enter true or false. If true, students can use the Student Notes feature."
+msgstr ""
+
+msgid "Tag this block as part of an Entrance Exam section"
+msgstr ""
+
+msgid "Enter true or false. If true, answer submissions for problem blocks will be considered in the Entrance Exam scoring/gating algorithm."
+msgstr ""
+
+msgid "Error while reading {}. Check file for XML errors."
+msgstr ""
+
+msgid "Failed to import block: {} at location: {}"
+msgstr ""
+
+msgid "Enter the date by which problems are due."
+msgstr ""
+
+msgid "Tag this course block as an Entrance Exam. Note, you must enable Entrance Exams for this course setting to take effect."
+msgstr ""
+
+msgid "Is Practice Exam"
+msgstr ""
+
+msgid "Is Onboarding Exam"
+msgstr ""
+
+msgid "Which child block students in a particular group_id should see"
+msgstr ""
+
+msgid "
+                Learners will see the selected component:
+                "
+msgstr ""
+
+msgid "Press {link_start}View{link_end} to preview, sync/update, and/or remove the selected components."
+msgstr ""
+
+msgid "Press {link_start}Edit{link_end} to configure how many will be shown and other settings."
+msgstr ""
+
+msgid "Here's a fun clip from a class I'm taking on {social_account_handle} from {organization_name}.
+
+"
+msgstr ""
+
+msgid "Here's a fun clip from a class I'm taking on {social_account_handle}.
+
+"
+msgstr ""
+
+msgid "Here's a fun clip from a class I'm taking from {organization_name}.
+
+"
+msgstr ""
+
+msgid "Here's a fun clip from a class I'm taking on {platform_name}.
+
+"
+msgstr ""
+
+msgid "Can't get transcript link from Youtube for {youtube_id}."
+msgstr ""
+
+msgid "There is no transcript file associated with the {lang} language."
+msgstr "Không có tệp bản ghi nào được liên kết với ngôn ngữ {lang}."
+
+msgid "Add a specific thumbnail for learners to see before playing the video."
+msgstr "Thêm hình thu nhỏ cụ thể để người học xem trước khi phát video."
+
+msgid "Thumbnail"
+msgstr ""
+
+msgid "This course has proctored exam settings that are incomplete or invalid."
+msgstr ""
+
+msgid "To update these settings go to the {link_start}Proctored Exam Settings page{link_end}."
+msgstr ""
+
+msgid "Proctoring Settings Errors"
+msgstr ""
+
+msgid "Showing all matching content eligible to be added into {display_name}. Each student will be assigned {max_count} component drawn randomly from this list."
+msgstr "Hiển thị tất cả nội dung phù hợp đủ điều kiện để thêm vào {display_name}. Mỗi người học sẽ được chỉ định thành phần {max_count} được rút ngẫu nhiên từ danh sách này."
+
+msgid "All course team members can access content in Studio, the LMS, and Insights, and they are automatically enrolled in the course."
+msgstr "Tất cả thành viên trong nhóm khóa học đều có thể truy cập nội dung trong Studio, LMS và Insights và được tự động đăng ký vào khóa học."
+
+msgid "Course Credit Requirements"
+msgstr ""
+
+msgid "Steps required to earn course credit"
+msgstr ""
+
+msgid "(UTC)"
+msgstr ""
+
+msgid "Credit Eligibility"
+msgstr ""
+
+msgid "Settings for course credit eligibility"
+msgstr ""
+
+msgid "Your {task_name} task has completed with the status '{task_status}'. Sign in to view the details of your task."
+msgstr "Nhiệm vụ {task_name} của bạn đã hoàn thành với trạng thái '{task_status}'. Đăng nhập để xem chi tiết nhiệm vụ của bạn."
+
+msgid "{platform_name} {studio_name}: Course Optimizer Status Update"
+msgstr "{platform_name} {studio_name}: Cập nhật trạng thái của Trình tối ưu hóa khóa học"
+
+msgid "LMS"
+msgstr ""
+
+msgid "Videos"
+msgstr ""
+
+msgid "Publisher"
+msgstr ""
+
+msgid "Course Optimizer"
+msgstr "Trình tối ưu hóa khóa học"
+
+msgid "Access edx.org documentation on http://docs.edx.org"
+msgstr ""
+
+msgid "%s discussion started"
+msgstr "%s thảo luận đã bắt đầu"
+
+msgid "%s comment"
+msgstr "%s bình luận"
+
+msgid "You do not have access to this dependency block."
+msgstr ""
+
+msgid "It works! Powered by the Open edX{registered_trademark} Platform"
+msgstr ""
+
+msgid "You have used {num_used} of {num_total} attempt"
+msgstr ""
+
+msgid "Module Fields"
+msgstr ""
+
+msgid "XML attributes"
+msgstr ""
+
+msgid "For detailed information, see {math_link_start}Entering Mathematical and Scientific Expressions{math_link_end} in the {guide_link_start}Open edX Guide for Students{guide_link_end}."
+msgstr ""
+
+msgid "CCX Coach Dashboard"
+msgstr ""
+
+msgid "Name your CCX"
+msgstr ""
+
+msgid "Create a new Custom Course for {platform_name}"
+msgstr ""
+
+msgid "Explore all courses on edX"
+msgstr ""
+
+msgid "Showcase a {link_start}verified certificate{link_end} of completion on your resumé to advance your career"
+msgstr ""
+
+msgid "Get {start_bold}access to all course activities{end_bold}, including both graded and non-graded assignments, while the course is running"
+msgstr ""
+
+msgid "{start_bold}Full access{end_bold} to course content and materials, even after the course ends"
+msgstr ""
+
+msgid "{link_start}Learn more{link_end} about course access"
+msgstr ""
+
+msgid "Support our {start_bold}mission{end_bold} to increase access to high-quality education for everyone, everywhere"
+msgstr ""
+
+msgid "Get temporary access to  {start_bold}non-graded{end_bold} activities, including discussion forums and non-graded assignments"
+msgstr ""
+
+msgid "Get {start_bold}temporary access{end_bold} to the course material, including videos and readings"
+msgstr ""
+
+msgid "Access expires and all progress will be lost on"
+msgstr ""
+
+msgid "Access expires and all progress will be lost"
+msgstr ""
+
+msgid "Enroll In {course_name} | Upgrade Now"
+msgstr ""
+
+msgid "Choose a path for your course in"
+msgstr ""
+
+msgid "Earn a certificate"
+msgstr ""
+
+msgid "Studies show that those who choose this option are  {start_bold}more engaged and motivated{end_bold} to complete their courses"
+msgstr ""
+
+msgid "Get access to the course material, including videos and readings"
+msgstr ""
+
+msgid "I just enrolled in {number} {title} through {account} {url}"
+msgstr ""
+
+msgid "Requirements for Course Credit"
+msgstr ""
+
+msgid "{student_name}, you are no longer eligible for credit in this course."
+msgstr ""
+
+msgid "{student_name}, you have not yet met the requirements for credit."
+msgstr ""
+
+msgid "Information about course credit requirements"
+msgstr ""
+
+msgid "display_name"
+msgstr ""
+
+msgid "Congratulations! You are now eligible to receive course credit from {providers} for successfully completing your {platform_name} course! {link_start}Purchase credit now.{link_end}"
+msgstr ""
+
+msgid "Congratulations! You are now eligible to receive course credit for successfully completing your {platform_name} course! {link_start}Purchase credit now.{link_end}"
+msgstr ""
+
+msgid "Course credit can help you get a jump start on your university degree, finish a degree already started, or fulfill requirements at a different academic institution."
+msgstr ""
+
+msgid "There are 2 steps to getting course credit."
+msgstr ""
+
+msgid "Purchase credit by going to your {link_start}{platform_name} dashboard{link_end} and clicking the {bold_start}Get Credit{bold_end} button below the course title."
+msgstr ""
+
+msgid "When your payment is complete, return to the dashboard and click the {bold_start}Request Credit{bold_end} button under the course title to request an official academic transcript at the institution that granted the credit."
+msgstr ""
+
+msgid "{link_start}Click here for more information on credit at {platform_name}{link_end}."
+msgstr ""
+
+msgid "Available Actions"
+msgstr ""
+
+msgid "{start_bold}Get the most out of your course!{end_bold} Upgrade to get full access to the course material, unlock both graded and non-graded assignments, and earn a {link_start}verified certificate{link_end} to showcase on your resumé."
+msgstr ""
+
+msgid "{start_bold}Get the most out of your course!{end_bold} Upgrade to earn a {link_start}verified certificate{link_end} to showcase on your resumé."
+msgstr ""
+
+msgid "You have completed this course and are eligible to purchase course credit. Select {strong_start}Get Credit{strong_end} to get started."
+msgstr ""
+
+msgid "You are now eligible for credit from {provider}. Congratulations!"
+msgstr ""
+
+msgid "Get Credit"
+msgstr ""
+
+msgid "Thank you for your payment. To receive course credit, you must now request credit at the {link_to_provider_site} website. Select {start_bold}Request Credit{end_bold} to get started."
+msgstr ""
+
+msgid "Request Credit"
+msgstr ""
+
+msgid "{provider_name} has received your course credit request. We will update you when credit processing is complete."
+msgstr ""
+
+msgid "{start_bold}Congratulations!{end_bold} {provider_name} has approved your request for course credit. To see your course credit, visit the {link_to_provider_site} website."
+msgstr ""
+
+msgid "View Credit"
+msgstr ""
+
+msgid "{provider_name} did not approve your request for course credit. For more information, contact {link_to_provider_site} directly."
+msgstr ""
+
+msgid "The discussion block is disabled for this course as it is not using a compatible discussion provider."
+msgstr ""
+
+msgid "Your {platform_name} ID verification photos have been approved."
+msgstr ""
+
+msgid "Your approval status remains valid for two years, and it will expire {expiration_datetime}."
+msgstr ""
+
+msgid "Sincerely,"
+msgstr ""
+
+msgid "Anant"
+msgstr ""
+
+msgid "This course is configured to generate PDF certificates and this certificate type is no longer supported. Example certificates cannot be generated."
+msgstr ""
+
+msgid "Executive Education"
+msgstr ""
+
+msgid "Unpaid Executive Education"
+msgstr ""
+
+msgid "Paid Executive Education"
+msgstr ""
+
+msgid "Master's"
+msgstr ""
+
+msgid "Unpaid Bootcamp"
+msgstr ""
+
+msgid "Paid Bootcamp"
+msgstr ""
+
+msgid "The CSV of anonymized student IDs download has been relocated to the Reports section below."
+msgstr ""
+
+msgid "To register and enroll a list of users in this course, choose a CSV file that contains the following columns in this exact order: email, username, name, and country. Please include one student per row and do not include any headers, footers, or blank lines. Optionally, extra columns can be provided: cohort and course mode, in that order. These extra columns may be blank."
+msgstr ""
+
+msgid "CCX Coaches"
+msgstr ""
+
+msgid "CCX Coaches are able to create their own Custom Courses based on this course, which they can use to provide personalized instruction to their own students based in this course material."
+msgstr ""
+
+msgid "Add CCX Coach"
+msgstr ""
+
+msgid "Opens in a new tab"
+msgstr "Mở trong một tab mới"
+
+msgid "Proctortrack Escalation Email:"
+msgstr ""
+
+msgid "Student Onboarding Status"
+msgstr "Trạng thái Onboarding của người học"
+
+msgid "This module is available only for users who are signed into {platform}. Kindly sign in and refresh this page to load the content."
+msgstr "Mô-đun này chỉ khả dụng cho người dùng đã đăng nhập vào {platform}. Vui lòng đăng nhập và làm mới trang này để tải nội dung."
