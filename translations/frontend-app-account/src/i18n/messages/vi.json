@@ -116,7 +116,7 @@
     "account.settings.field.gender.options.f": "Nữ",
     "account.settings.field.gender.options.m": "Nam",
     "account.settings.field.gender.options.o": "Khác",
-    "account.settings.field.language.proficiencies": "Spoken language",
+    "account.settings.field.language.proficiencies": "Ngôn ngữ",
     "account.settings.field.language.proficiencies.empty": "Thêm một ngôn ngữ sử dụng",
     "account.settings.field.language_proficiencies.options.empty": "Chọn một ngôn ngữ",
     "account.settings.field.month.year.default": "Chọn tháng",

@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -136,7 +136,7 @@ msgstr "Điều này gán một giá trị nguyên biểu thị trọng số c�
 
 #: models.py:150
 msgid "Draft Received Message"
-msgstr "Bản nháp tin nhắn đã nhận"
+msgstr "Bản thảo tin nhắn đã nhận"
 
 #: models.py:152
 msgid "This is the message students will see upon submitting a draft response"

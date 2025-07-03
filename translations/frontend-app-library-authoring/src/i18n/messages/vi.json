@@ -20,7 +20,7 @@
   "library.detail.aside.text.1": "Thêm các thành phần vào thư viện của bạn để sử dụng trong các khóa học. Lưu ý rằng sên trở thành một phần của ID sử dụng và ID định nghĩa và không thể thay đổi.",
   "library.detail.aside.text.2": "Các thành phần được liệt kê theo thứ tự chúng được thêm vào, trong đó thành phần được thêm gần đây nhất ở dưới cùng.",
   "library.detail.aside.help.link": "Tìm hiểu thêm về thư viện nội dung",
-  "library.detail.aside.draft": "Bản nháp (Những thay đổi chưa được xuất bản)",
+  "library.detail.aside.draft": "Bản thảo (Những thay đổi chưa được xuất bản)",
   "library.detail.aside.published": "Đã xuất bản",
   "library.detail.aside.publish": "Xuất bản",
   "library.detail.aside.discard": "Loại bỏ những thay đổi",

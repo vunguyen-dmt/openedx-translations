@@ -608,7 +608,7 @@ msgstr "Ngày và giờ mà người học có thể bắt đầu đánh giá ph
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:31
 #: templates/legacy/staff_area/oa_staff_area.html:119
 msgid "Due Date"
-msgstr "Ngày đáo hạn"
+msgstr "Ngày đến hạn"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:40
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:40
@@ -814,7 +814,7 @@ msgid ""
 "after cloning will only affect the rubric being modified, and will not "
 "modify any rubric it was cloned from."
 msgstr ""
-"Để sao chép một phiếu tự đánh giá từ bản nháp đã xuất bản hoặc chưa xuất bản"
+"Để sao chép một phiếu tự đánh giá từ bản thảo đã xuất bản hoặc chưa xuất bản"
 " hiện có, bạn có thể tìm kiếm theo ID khối. Lưu ý rằng nhân bản là một "
 "chiều, nghĩa là những thay đổi được thực hiện sau khi nhân bản sẽ chỉ ảnh "
 "hưởng đến phiếu tự đánh giá đang được sửa đổi và sẽ không sửa đổi bất kỳ "
@@ -1717,7 +1717,7 @@ msgstr ""
 "\n"
 "Các đội nên chỉ định một thành viên trong nhóm để gửi phản hồi thay mặt cho\n"
 " toàn đội. Tất cả các thành viên trong nhóm có thể sử dụng không gian này để làm việc với các câu trả lời nháp,\n"
-" nhưng bạn sẽ không thể nhìn thấy bản nháp của đồng đội mình được thực hiện trong không gian này, vì vậy\n"
+" nhưng bạn sẽ không thể nhìn thấy bản thảo của đồng đội mình được thực hiện trong không gian này, vì vậy\n"
 " vui lòng phối hợp với họ để quyết định phản hồi cuối cùng của nhóm được chỉ định\n"
 " thành viên nên nộp.\n"
 "                                          "

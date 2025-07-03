@@ -4994,7 +4994,7 @@ msgstr "Thay thế"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js
 msgid "Restore last draft"
-msgstr "Khôi phục bản nháp cuối cùng"
+msgstr "Khôi phục bản thảo cuối cùng"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -8581,7 +8581,7 @@ msgstr "Còn lại"
 #: lms/templates/learner_dashboard/program_card.underscore
 #, python-format
 msgid "%(programName)s Home Page."
-msgstr "%(programName)s Trang nhất."
+msgstr "%(programName)s Trang chủ."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Your {program} Certificate"
@@ -9917,7 +9917,7 @@ msgstr "Ẩn nội dung sau ngày kết thúc khóa học"
 
 #: cms/templates/js/content-visibility-editor.underscore
 msgid "Hide content after due date"
-msgstr "Ẩn nội dung sau ngày đáo hạn"
+msgstr "Ẩn nội dung sau ngày đến hạn"
 
 #: cms/templates/js/content-visibility-editor.underscore
 msgid ""
@@ -10153,7 +10153,7 @@ msgstr "Tiểu mục được ẩn sau ngày kết thúc khóa học"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Subsection is hidden after due date"
-msgstr "Tiểu mục được ẩn sau ngày đáo hạn"
+msgstr "Tiểu mục được ẩn sau ngày đến hạn"
 
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/xblock-outline.underscore

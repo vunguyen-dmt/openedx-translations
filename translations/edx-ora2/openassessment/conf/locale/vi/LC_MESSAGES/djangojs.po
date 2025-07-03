@@ -3,11 +3,11 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
 # Hoàng Trương <hoangta@vnu.edu.vn>, 2024
 # Hoang Truong <truonganhhoang@gmail.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
@@ -306,12 +306,12 @@ msgstr ""
 #: xblock/static/dist/openassessment-lms.d29f0bd34bb5d82d36fb.js:377
 #: xblock/static/js/src/lms/oa_response.js:469
 msgid "Saving draft..."
-msgstr "Đang lưu bản nháp..."
+msgstr "Đang lưu bản thảo..."
 
 #: xblock/static/dist/openassessment-lms.d29f0bd34bb5d82d36fb.js:377
 #: xblock/static/js/src/lms/oa_response.js:485
 msgid "Draft saved!"
-msgstr "Bản nháp đã được lưu!"
+msgstr "Bản thảo đã được lưu!"
 
 #: xblock/static/dist/openassessment-lms.d29f0bd34bb5d82d36fb.js:377
 #: xblock/static/js/src/lms/oa_response.js:498
