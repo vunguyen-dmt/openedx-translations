@@ -12289,13 +12289,6 @@ msgstr "Quản lý thẻ"
 msgid "Copy to Clipboard"
 msgstr "Sao chép vào bộ nhớ tạm"
 
-msgid ""
-"This subsection is configured as \"%(gradingType)s\", which doesn't exist in "
-"the current grading policy."
-msgstr ""
-"Mục nhỏ này được định cấu hình là \"%(gradingType)s\", không tồn tại trong "
-"chính sách chấm điểm hiện tại."
-
 msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
@@ -12459,15 +12452,6 @@ msgstr ""
 "Đăng ký {subscriptionPrice} sau khi hết thời gian dùng thử. Hủy bỏ bất cứ "
 "lúc nào."
 
-msgid "Transform your %(org)s %(type)s into a full master s degree"
-msgstr ""
-
-msgid ""
-"Successful completion of %(org)s %(program)s credential can be applied "
-"towards flexible, rigorous, and affordable masters degrees from the world s "
-"leading universities."
-msgstr ""
-
 msgid ""
 "Track and plan your progress through the %(count)s courses in this program. "
 "To complete the program, you must earn a verified certificate for each "
@@ -12582,135 +12566,3 @@ msgstr ""
 
 msgid "Add selected components"
 msgstr "Thêm thành phần đã chọn"
-
-msgid "{startTag}{requestToken}{endTag}{selector}"
-msgstr ""
-
-msgid "Copy of \"{componentDisplayName}\""
-msgstr "Bản sao của \"{componentDisplayName}\""
-
-msgid "Contains {count} group"
-msgstr "Chứa {count} nhóm"
-
-msgid "Used in {count} location"
-msgstr "Được sử dụng ở {count} vị trí"
-
-msgid "there is currently {numVotes} vote"
-msgstr "đang có {numVotes} bình chọn"
-
-msgid "{numVotes} Vote"
-msgstr "{numVotes} Bình chọn"
-
-msgid "{numResponses} other response"
-msgstr "{numResponses} phản hồi khác"
-
-msgid "{numResponses} response"
-msgstr "{numResponses} phản hồi"
-
-msgid "Showing first response"
-msgstr "Đang hiển thị phản hồi đầu tiên"
-
-msgid "%d minute"
-msgstr "%d phút"
-
-msgid "about %d hour"
-msgstr "khoảng %d giờ"
-
-msgid "%d day"
-msgstr "%d ngày"
-
-msgid "%d month"
-msgstr "%d tháng"
-
-msgid "%d year"
-msgstr "%d năm"
-
-msgid " Member"
-msgstr " Thành viên"
-
-msgid "{team_count} Team"
-msgstr "{team_count} Đội"
-
-msgid "%(errorCount)s error found in form."
-msgstr "%(errorCount)s lỗi được tìm thấy trong biểu mẩu."
-
-msgid "Viewing %s course"
-msgstr "Đang xem %s khóa học"
-
-msgid "{numUsersAdded} learner has been added to this cohort. "
-msgstr "{numUsersAdded} người học đã được thêm vào nhóm này. "
-
-msgid "{numMoved} learner was moved from {prevCohort}"
-msgstr "{numMoved} người học đã được chuyển từ {prevCohort}"
-
-msgid "{numPresent} learner was already in the cohort"
-msgstr "{numPresent} người học đã thuộc nhóm này"
-
-msgid "{numPreassigned} learner was pre-assigned for this cohort. This learner will automatically be added to the cohort when they enroll in the course."
-msgstr "{numPreassigned} người học đã được chỉ định trước cho nhóm này. Người học này sẽ tự động được thêm vào nhóm khi họ đăng ký khóa học."
-
-msgid "There was an error when trying to add learners:"
-msgstr "Đã xảy ra lỗi khi cố gắng thêm người học:"
-
-msgid "Email was sent to the following users. They will be allowed to enroll once they register:"
-msgstr "Email đã được gửi đến những người dùng sau. Họ sẽ được phép ghi danh sau khi đăng ký:"
-
-msgid "Email was sent to the following users. They will be enrolled once they register:"
-msgstr "Email đã được gửi đến những người dùng sau. Họ sẽ được ghi danh sau khi đăng ký:"
-
-msgid "{total_results} result found for \"{search_term}\""
-msgid_plural "{total_results} results found for \"{search_term}\""
-msgstr[0] "{total_results} kết quả được tìm thấy cho \"{search_term}\""
-msgstr[1] "{total_results} kết quả được tìm thấy cho \"{search_term}\""
-
-msgid "{num_points} point possible (graded, results hidden)"
-msgstr "{num_points} điểm có thể đạt được (đã chấm điểm, kết quả được ẩn))"
-
-msgid "{num_points} point possible (ungraded, results hidden)"
-msgstr "{num_points} có thể đạt được (chưa chấm điểm, kết quả được ẩn)"
-
-msgid "{num_points} point possible (graded)"
-msgstr "{num_points} điểm có thể đạt được (đã chấm điểm)"
-
-msgid "{num_points} point possible (ungraded)"
-msgstr "{num_points} điểm có thể đạt được (chưa chấm điểm)"
-
-msgid "{earned}/{possible} point (graded)"
-msgstr "{earned}/{possible} điểm (đã chấm điểm)"
-
-msgid "{earned}/{possible} point (ungraded)"
-msgstr "{earned}/{possible} điểm (chưa chấm điểm)"
-
-msgid "%(value)s hour"
-msgstr "%(value)s giờ"
-
-msgid "%(value)s minute"
-msgstr "%(value)s phút"
-
-msgid "%(value)s second"
-msgstr "%(value)s giây"
-
-msgid "Beta"
-msgstr ""
-
-msgid "You are editing content from a Library."
-msgstr "Bạn đang chỉnh sửa nội dung từ Thư viện."
-
-msgid "Edits made here will only be reflected in this course. These edits may be overridden later if updates are accepted."
-msgstr "Những chỉnh sửa được thực hiện ở đây sẽ chỉ được phản ánh trong khóa học này. Những chỉnh sửa này có thể bị ghi đè sau nếu các bản cập nhật được chấp nhận."
-
-msgid "View in Library"
-msgstr "Xem trong Thư viện"
-
-msgid "Show Comment (%(num_comments)s)"
-msgstr "Hiển thị bình luận (%(num_comments)s)"
-
-msgid "(contains %(student_count)s student)"
-msgstr "(chứa %(student_count)s người học)"
-
-msgid "Course"
-msgstr "Khóa học"
-
-msgid "Load next {num_items} result"
-msgstr "Tải kết quả {num_items} tiếp theo"
-
