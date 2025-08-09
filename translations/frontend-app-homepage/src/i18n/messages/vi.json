@@ -11,7 +11,7 @@
   "homepage.bodyContent.viewMoreCourses": "Xem thêm khóa học",
   "homepage.courses": "Khóa học",
   "homepage.search": "Tìm kiếm",
-  "homepage.findYourCourses": "Tìm khóa học của bạn!",
+  "homepage.findYourCourses": "Tìm kiếm khóa học của bạn!",
   "homepage.course": "Khóa học",
   "homepage.lmsCourse": "Khóa học LMS",
   "homepage.moocsCourse": "Khóa học MOOCS",
@@ -31,5 +31,6 @@
   "homepage.news": "Tin tức",
   "homepage.faqFrequentAskedQueestion": "FAQ - Câu hỏi thường gặp",
   "homepage.forLearners": "Dành cho người học",
-  "homepage.forInstructors": "Dành cho giảng viên"
+  "homepage.forInstructors": "Dành cho giảng viên",
+  "homepage.bodyContent.viewMore": "Xem thêm"
 }
