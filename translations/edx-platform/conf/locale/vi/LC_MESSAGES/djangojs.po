@@ -11716,7 +11716,7 @@ msgstr "Mô tả "
 #: xblock/static/dist/openassessment-lms.a161e41aef5de4e95111.js:369
 #: xblock/static/js/src/lms/oa_response.js:682
 msgid "(required):"
-msgstr "(bắc buộc):"
+msgstr "(bắt buộc):"
 
 #: xblock/static/dist/openassessment-lms.a161e41aef5de4e95111.js:369
 #: xblock/static/js/src/lms/oa_response.js:702

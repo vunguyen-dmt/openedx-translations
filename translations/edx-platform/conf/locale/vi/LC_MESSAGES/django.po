@@ -29447,14 +29447,14 @@ msgid ""
 "Error: When Text Response is disabled, File Upload Response must be Required"
 msgstr ""
 "Lỗi: Khi Câu trả lời bằng văn bản bị tắt, Câu trả lời bằng tập tin phải là "
-"Bắc buộc"
+"Bắt buộc"
 
 #: openassessment/xblock/studio_mixin.py:248
 msgid ""
 "Error: When File Upload Response is disabled, Text Response must be Required"
 msgstr ""
 "Lỗi: Khi Câu trả lời bằng tập tin bị tắt, Câu trả lời bằng văn bản phải là "
-"Bắc buộc"
+"Bắt buộc"
 
 #: openassessment/xblock/studio_mixin.py:272
 msgid "Validation error: {error}"
