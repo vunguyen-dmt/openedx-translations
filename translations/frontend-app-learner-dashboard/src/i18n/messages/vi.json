@@ -40,7 +40,7 @@
   "learner-dash.courseCard.CourseCardDetails.accessExpired": "Truy cập đã hết hạn ngày {accessExpirationDate}",
   "learner-dash.courseCard.CourseCardDetails.accessExpires": "Truy cập hết hạn ngày {accessExpirationDate}",
   "learner-dash.courseCard.CourseCardDetails.changeOrLeaveSessionButton": "Thay đổi hoặc rời phiên (session)",
-  "learner-dash.courseCard.CourseCardDetails.courseEnded": "Khóa học đã kết thúc ngày {endDate}",
+  "learner-dash.courseCard.CourseCardDetails.courseEnded": "Khóa học đã kết thúc ngày {endDate}. Bạn không thể truy cập khóa học nữa",
   "learner-dash.courseCard.CourseCardDetails.courseEnds": "Khóa học kết thúc ngày {endDate}",
   "learner-dash.courseCard.CourseCardDetails.courseStarts": "Khóa học bắt đầu ngày {startDate}",
   "learner-dash.courseCard.CourseCardDetails.unknownProviderName": "Unknown",
