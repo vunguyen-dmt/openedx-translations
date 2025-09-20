@@ -318,7 +318,7 @@
     "learning.instructor-toolbar.view-course-in": "Xem khóa học trên",
     "learning.loading": "Đang tải trang khóa học ...",
     "learning.loading.failure": "Có lỗi xảy ra khi tải khóa học này",
-    "learning.loading.failure-course-ended": "Khóa học này đã kết thúc vào ngày {courseEnd}. Bạn không thể truy cập nội dung của khóa học nữa.",
+    "learning.loading.failure-course-ended": "Khóa học này đã kết thúc. Bạn không thể truy cập nội dung của khóa học nữa.",
     "learning.logistration.alert": "Để xem nội dung khóa học, xin mời {signIn} hoặc {register}.",
     "learning.logistration.login": "đăng nhập",
     "learning.logistration.register": "đăng ký",
