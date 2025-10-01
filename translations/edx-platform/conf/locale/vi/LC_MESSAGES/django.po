@@ -29824,7 +29824,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:178
 msgid "Resubmission Grace Period"
-msgstr "Thời gian ân hạn nộp lại bài"
+msgstr "Thời gian gia hạn nộp lại bài"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:187
 msgid ""
@@ -29835,7 +29835,7 @@ msgid ""
 msgstr ""
 "Chỉ định khoảng thời gian tối đa cho phép nộp lại bài. Nếu giá trị này được "
 "bỏ trống, người học sẽ có thể nộp lại bài miễn là bài chưa được chấm điểm "
-"Thời gian ân hạn bắt đầu khi người học nộp bài."
+"Thời gian gia hạn bắt đầu khi người học nộp bài."
 
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"

@@ -383,7 +383,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:178
 msgid "Resubmission Grace Period"
-msgstr "Thời gian ân hạn nộp lại"
+msgstr "Thời gian gia hạn nộp lại"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:187
 msgid ""
