@@ -3021,3 +3021,7 @@ msgstr "Số bảng xếp hạng không hợp lệ."
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."
 msgstr "Định dạng gửi không hợp lệ."
+
+#oa_grade_complete.html
+msgid "Your response has been graded, but the results are hidden according to the instructor’s settings."
+msgstr "Bài nộp của bạn đã được chấm điểm, kết quả đang được ẩn đi theo cài đặt của giảng viên."
