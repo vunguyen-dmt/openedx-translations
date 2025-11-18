@@ -30195,3 +30195,7 @@ msgstr "Khóa sử dụng/ID gốc của mục đã được nhập."
 
 msgid "The original Usage key of the highest-level component that was saved in StagedContent."
 msgstr "Khóa sử dụng gốc của thành phần cấp cao nhất đã được lưu trong StagedContent."
+
+#oa_grade_complete.html
+msgid "Your response has been graded, but the results are hidden according to the instructor’s settings."
+msgstr "Bài nộp của bạn đã được chấm điểm, kết quả đang được ẩn đi theo cài đặt của giảng viên."
