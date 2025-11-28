@@ -14505,7 +14505,7 @@ msgstr "Sao chép thành phần này"
 
 #: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
 msgid "Move"
-msgstr "Di chyển"
+msgstr "Di chuyển"
 
 #: cms/templates/component.html
 msgid "Delete this component"

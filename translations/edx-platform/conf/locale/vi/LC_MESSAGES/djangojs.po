@@ -6519,7 +6519,7 @@ msgstr "Studio đang gặp sự cố khi phân tích nội dung của thành ph�
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move"
-msgstr "Di chyển"
+msgstr "Di chuyển"
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Choose a location to move your component to"
