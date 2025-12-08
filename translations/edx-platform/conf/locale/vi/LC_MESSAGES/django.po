@@ -30199,3 +30199,7 @@ msgstr "Khóa sử dụng gốc của thành phần cấp cao nhất đã đư�
 #oa_grade_complete.html
 msgid "Your response has been graded, but the results are hidden according to the instructor’s settings."
 msgstr "Bài nộp của bạn đã được chấm điểm, kết quả đang được ẩn đi theo cài đặt của giảng viên."
+
+#: default_data.py:26
+msgid "You silly, there are no zones for this one."
+msgstr "Không có khu vực nào cho cái này cả."
