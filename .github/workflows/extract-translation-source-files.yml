@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/github-script@v6
+      - uses: actions/github-script@v7
         id: generate_repo_matrix
         with:
           script: |
@@ -40,7 +40,6 @@ jobs:
               'credentials',
               'credentials-themes',
               'DoneXBlock',
-              'ecommerce',
               'edx-ace',
               'edx-bulk-grades',
               'edx-enterprise',
@@ -69,17 +68,15 @@ jobs:
               'frontend-app-communications',
               'frontend-app-course-authoring',
               'frontend-app-discussions',
-              'frontend-app-ecommerce',
               'frontend-app-enterprise-public-catalog',
               'frontend-app-gradebook',
               'frontend-app-learner-dashboard',
               'frontend-app-learner-record',
               'frontend-app-learning',
               'frontend-app-library-authoring',
+              'frontend-app-ora',
               'frontend-app-ora-grading',
-              'frontend-app-payment',
               'frontend-app-profile',
-              'frontend-app-program-console',
               'frontend-app-support-tools',
               'frontend-component-footer',
               'frontend-component-header',
@@ -166,7 +163,7 @@ jobs:
       id: date
       run: echo $BRANCH
     - name: clone openedx/openedx-translations
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
 
     # creates the branch where all the translations will be added to
     - name: make and push a new branch
@@ -189,7 +186,7 @@ jobs:
     steps:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
@@ -199,7 +196,7 @@ jobs:
 
       # Clones the  repository
       - name: clone ${{ github.repository_owner }}/${{ matrix.repo }}
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/${{ matrix.repo }}
           ref: ${{ github.event.inputs.ref }}
@@ -216,7 +213,7 @@ jobs:
 
       # Setup Python
       - name: setup python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         id: setup_python
         with:
           python-version: '3.11'
@@ -339,13 +336,13 @@ jobs:
     steps:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
       # Clones the  repository
       - name: clone ${{ github.repository_owner }}/${{ matrix.repo }}
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/${{ matrix.repo }}
           ref: ${{ github.event.inputs.ref }}
@@ -353,7 +350,7 @@ jobs:
 
       # Sets up node/npm
       - name: setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 16
 
@@ -406,13 +403,13 @@ jobs:
     steps:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
       # Clones the  repository
       - name: clone ${{ github.repository_owner }}/${{ matrix.repository_config.repo }}
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.repository_owner }}/${{ matrix.repository_config.repo }}
           ref: ${{ github.event.inputs.ref || matrix.repository_config.ref }}
@@ -420,7 +417,7 @@ jobs:
 
       # Sets up Python
       - name: setup python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -477,7 +474,7 @@ jobs:
     steps:
       # Clones the openedx-translations repo on the automated/extract-translation-source-files-# branch
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
           fetch-depth: 0

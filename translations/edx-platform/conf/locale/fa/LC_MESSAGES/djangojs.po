@@ -1,34 +1,31 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2025.
 # 
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 # 
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2024
-# Somaye Julaie <joolaee@iingroups.com>, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# HeliaEnayati, 2024
+# Brian Smith, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-12 00:30+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: HeliaEnayati, 2024\n"
-"Language-Team: Persian (https://app.transifex.com/open-edx/teams/6205/fa/)\n"
+"POT-Creation-Date: 2025-09-19 00:44+0000\n"
+"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
+"Language-Team: Persian (https://app.transifex.com/open-edx/teams/301281/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 "Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -58,7 +55,7 @@ msgstr "خطای ذخیره OpenAssessment"
 #: cms/static/js/views/course_info_update.js:170
 #: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
-#: cms/static/js/views/modals/edit_xblock.js:189
+#: cms/static/js/views/modals/edit_xblock.js:216
 #: cms/static/js/views/tabs.js:86 cms/static/js/views/tabs.js:118
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
@@ -66,11 +63,11 @@ msgstr "خطای ذخیره OpenAssessment"
 msgid "Saving"
 msgstr "درحال ذخیره"
 
-#: cms/static/js/base.js:101
+#: cms/static/js/base.js:113
 msgid "This link will open in a new browser window/tab"
 msgstr "این پیوند در یک‌پنجره/زبانۀ جدید مرورگر باز می‌شود"
 
-#: cms/static/js/base.js:108
+#: cms/static/js/base.js:120
 msgid "This link will open in a modal window"
 msgstr "این پیوند در یک‌پنجرۀ واسط باز می‌شود"
 
@@ -173,12 +170,15 @@ msgstr "درحال حذف"
 #. browser when a user needs to edit HTML
 #: cms/static/js/certificates/views/signatory_editor.js:162
 #: cms/static/js/views/asset.js:73
+#: cms/static/js/views/components/add_library_content.js:54
 #: cms/static/js/views/course_info_update.js:267
 #: cms/static/js/views/export.js:360
 #: cms/static/js/views/manage_users_and_roles.js:33
-#: cms/static/js/views/modals/base_modal.js:136
+#: cms/static/js/views/modals/base_modal.js:157
 #: cms/static/js/views/modals/course_outline_modals.js:219
 #: cms/static/js/views/modals/course_outline_modals.js:260
+#: cms/static/js/views/modals/preview_v2_library_changes.js:37
+#: cms/static/js/views/modals/select_v2_library_content.js:60
 #: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:188
 #: cms/static/js/views/validation.js:127
 #: common/static/common/js/components/utils/view_utils.js:68
@@ -328,10 +328,6 @@ msgstr "خطا در فرایند ورود دوره"
 msgid "There was an error with the upload"
 msgstr "در بارگذاری خطایی وجود داشت"
 
-#: cms/static/js/maintenance/force_publish_course.js:76
-msgid "Internal Server Error."
-msgstr "خطای سرویس‌دهندۀ داخلی"
-
 #. Translators: This is the status of a video upload that is queued
 #. waiting for other uploads to complete
 #: cms/static/js/models/active_video_upload.js:9
@@ -428,11 +424,11 @@ msgstr "تاریخ پایان ثبت‌نام نمی‌تواند بعد از ت
 msgid "The certificate available date must be later than the course end date."
 msgstr "تاریخ ارائه گواهی باید دیرتر از تاریخ پایان دوره باشد."
 
-#: cms/static/js/models/settings/course_details.js:94
+#: cms/static/js/models/settings/course_details.js:93
 msgid "The certificate display behavior must be one of: {behavior_options}"
 msgstr "رفتار نمایش گواهی باید یکی از موارد زیر باشد: {behavior_options}"
 
-#: cms/static/js/models/settings/course_details.js:109
+#: cms/static/js/models/settings/course_details.js:108
 msgid ""
 "The certificates display behavior must be {valid_option} if certificate "
 "available date is set."
@@ -440,11 +436,11 @@ msgstr ""
 "اگر تاریخ دردسترس‌بودن گواهینامه تنظیم شده باشد، رفتار نمایش گواهینامه‌ها "
 "باید {valid_option} باشد."
 
-#: cms/static/js/models/settings/course_details.js:120
+#: cms/static/js/models/settings/course_details.js:118
 msgid "Key should only contain letters, numbers, _, or -"
 msgstr "کلید فقط باید شامل حروف، اعداد، _، یا - باشد."
 
-#: cms/static/js/models/settings/course_details.js:131
+#: cms/static/js/models/settings/course_details.js:129
 msgid "Please enter an integer between %(min)s and %(max)s."
 msgstr "لطفاً یک عدد صحیح بین %(min)s و %(max)s وارد کنید."
 
@@ -515,7 +511,7 @@ msgstr "این واحد مشکلات اعتبارسنجی دارد."
 msgid "This component has validation issues."
 msgstr "این مولفه، مشکلات اعتبار سنجی دارد."
 
-#: cms/static/js/utils/copy_to_clipboard.js:23
+#: cms/static/js/utils/copy_to_clipboard.js:24
 msgid "Copied"
 msgstr "کپی‌شده"
 
@@ -529,8 +525,9 @@ msgstr "فایل شما بارگذاری نشد"
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/active_video_upload.js:46
 #: cms/static/js/views/modals/course_outline_modals.js:351
-#: cms/static/js/views/modals/edit_xblock.js:124
+#: cms/static/js/views/modals/edit_xblock.js:151
 #: cms/static/js/views/video_transcripts.js:325
+#: lms/static/js/student_account/enrollment.js:87
 #: lms/static/js/student_account/tos_modal.js:48
 #: xmodule/js/src/html/edit.js:370
 #: cms/templates/js/course-video-settings.underscore:6
@@ -663,12 +660,20 @@ msgstr "بارگذاری فایل جدید"
 msgid "Load Another File"
 msgstr "فایل دیگری را بارگیری کنید"
 
-#: cms/static/js/views/components/add_xblock.js:71
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/components/add_library_content.js:23
+#: cms/static/js/views/modals/select_v2_library_content.js:18
+msgid "Add library content"
+msgstr "محتوای کتابخانه را اضافه کنید"
+
+#: cms/static/js/views/components/add_xblock.js:120
+#: cms/static/js/views/components/add_xblock.js:131
+#: cms/static/js/views/pages/container.js:652
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "درحال افزودن"
 
-#: cms/static/js/views/container.js:146
+#: cms/static/js/views/container.js:157
 msgid "{startTag}{requestToken}{endTag}{selector}"
 msgstr "{startTag} {requestToken} {endTag} {selector}"
 
@@ -680,10 +685,10 @@ msgstr "آیا مایلید این به‌روز رسانی را حذف کنید
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/course_info_update.js:241
-#: cms/static/js/views/course_outline.js:397
-#: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:313
-#: cms/static/js/views/pages/container.js:325 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/course_outline.js:390
+#: cms/static/js/views/course_outline.js:402
+#: cms/static/js/views/pages/container.js:424
+#: cms/static/js/views/pages/container.js:436 cms/static/js/views/tabs.js:164
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -693,41 +698,37 @@ msgid "OK"
 msgstr "بسیار خوب"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:499
+#: cms/static/js/views/pages/container.js:779
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "درحال کپی"
 
-#: cms/static/js/views/course_outline.js:336
-msgid "Copy of '{componentDisplayName}'"
-msgstr "کپی «{componentDisplayName}»"
-
-#: cms/static/js/views/course_outline.js:372
-#: cms/static/js/views/pages/container.js:287
+#: cms/static/js/views/course_outline.js:367
+#: cms/static/js/views/pages/container.js:395
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "الصاق"
 
-#: cms/static/js/views/course_outline.js:392
-#: cms/static/js/views/pages/container.js:308
+#: cms/static/js/views/course_outline.js:385
+#: cms/static/js/views/pages/container.js:419
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "برخی از خطاها رخ داده‌است"
 
-#: cms/static/js/views/course_outline.js:394
-#: cms/static/js/views/pages/container.js:310
+#: cms/static/js/views/course_outline.js:387
+#: cms/static/js/views/pages/container.js:421
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr "فایل‌های مورد نیاز زیر را نمی‌توان به دوره افزود:"
 
-#: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:318
+#: cms/static/js/views/course_outline.js:395
+#: cms/static/js/views/pages/container.js:429
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr "ممکن است لازم باشد فایل(های) را به‌صورت دستی به‌روز کنید"
 
-#: cms/static/js/views/course_outline.js:405
-#: cms/static/js/views/pages/container.js:321
+#: cms/static/js/views/course_outline.js:398
+#: cms/static/js/views/pages/container.js:432
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
@@ -736,26 +737,26 @@ msgstr ""
 "فایل‌های زیر از قبل در این دوره وجود دارند، اما با نسخۀ استفاده‌شده توسط "
 "مؤلفه‌ای که الصاق کردید مطابقت ندارند:"
 
-#: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:330
+#: cms/static/js/views/course_outline.js:407
+#: cms/static/js/views/pages/container.js:441
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "فایل(های) جدید به Files &amp; Uploads اضافه شد."
 
-#: cms/static/js/views/course_outline.js:416
-#: cms/static/js/views/pages/container.js:332
+#: cms/static/js/views/course_outline.js:409
+#: cms/static/js/views/pages/container.js:443
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "فایل های مورد نیاز زیر به این دوره وارد شدند:"
 
-#: cms/static/js/views/course_outline.js:421
-#: cms/static/js/views/pages/container.js:337
+#: cms/static/js/views/course_outline.js:414
+#: cms/static/js/views/pages/container.js:448
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "مشاهدۀ فایل‌ها"
 
-#: cms/static/js/views/course_outline.js:430
-#: cms/static/js/views/pages/container.js:346
+#: cms/static/js/views/course_outline.js:422
+#: cms/static/js/views/pages/container.js:457
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "رد"
@@ -795,7 +796,7 @@ msgid "Select language"
 msgstr "انتخاب زبان"
 
 #: cms/static/js/views/course_video_settings.js:474
-#: cms/static/js/views/metadata.js:357
+#: cms/static/js/views/metadata.js:362
 #: cms/static/js/views/previous_video_upload.js:78
 #: cms/static/js/views/video_transcripts.js:270
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
@@ -940,7 +941,7 @@ msgid "Upload instructor image."
 msgstr "بارگذاری تصویر مربی."
 
 #: cms/static/js/views/instructor_info.js:79
-#: cms/static/js/views/settings/main.js:481
+#: cms/static/js/views/settings/main.js:478
 msgid "Files must be in JPEG or PNG format."
 msgstr "فایل‌ها باید با فرمت JPEG یا PNG باشند."
 
@@ -1092,7 +1093,7 @@ msgstr "مطمئنید؟"
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr "آیا مایلید دسترسی {email} را به “{container}”محدود کنید؟"
 
-#: cms/static/js/views/metadata.js:610 lms/static/js/views/file_uploader.js:47
+#: cms/static/js/views/metadata.js:615 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr "بارگذاری فایل"
 
@@ -1190,21 +1191,23 @@ msgstr "جاسازی پیوند"
 msgid "Editing: {title}"
 msgstr "ویرایش: {title}"
 
-#: cms/static/js/views/modals/edit_xblock.js:98
+#: cms/static/js/views/modals/edit_xblock.js:124
 msgid "Plugins"
 msgstr "افزونه‌ها"
 
-#: cms/static/js/views/modals/edit_xblock.js:132
+#: cms/static/js/views/modals/edit_xblock.js:159
+#: cms/static/js/views/modals/preview_v2_library_changes.js:76
 #: lms/templates/ccx/schedule.underscore:13
 #: lms/templates/ccx/schedule.underscore:83
 msgid "Unit"
 msgstr "واحد"
 
-#: cms/static/js/views/modals/edit_xblock.js:134
+#: cms/static/js/views/modals/edit_xblock.js:161
+#: cms/static/js/views/modals/preview_v2_library_changes.js:78
 msgid "Component"
 msgstr "مولفه"
 
-#: cms/static/js/views/modals/edit_xblock.js:180
+#: cms/static/js/views/modals/edit_xblock.js:207
 msgid "Studio's having trouble parsing the problem component's content"
 msgstr "استودیو در بررسی محتوای مشکل مولفه مشکل دارد"
 
@@ -1219,6 +1222,43 @@ msgstr "مکانی را برای انتقال مولفۀ خود انتخاب ک�
 #: cms/static/js/views/modals/move_xblock_modal.js:66
 msgid "Move: {displayName}"
 msgstr "حرکت: {displayName}"
+
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/preview_v2_library_changes.js:23
+msgid "Preview changes to: {title}"
+msgstr "پیش نمایش تغییرات به: {title}"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:35
+msgid "Accept changes"
+msgstr "تغییرات را بپذیرید"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:36
+msgid "Ignore changes"
+msgstr "تغییرات را نادیده بگیرید"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:99
+msgid "Ignore these changes?"
+msgstr "این تغییرات را نادیده بگیرید؟"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:100
+msgid ""
+"Would you like to permanently ignore this updated version? If so, you won't "
+"be able to update this until a newer version is published (in the library)."
+msgstr ""
+"آیا می خواهید این نسخه به روز شده را برای همیشه نادیده بگیرید؟ اگر چنین است،"
+" تا زمانی که نسخه جدیدتری منتشر نشود (در کتابخانه) نمی توانید این را به روز "
+"کنید."
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/preview_v2_library_changes.js:101
+#: xmodule/js/src/html/edit.js:695
+msgid "Ignore"
+msgstr "چشم پوشی"
+
+#: cms/static/js/views/modals/select_v2_library_content.js:59
+msgid "Add selected components"
+msgstr "اجزای انتخاب شده را اضافه کنید"
 
 #: cms/static/js/views/modals/validation_error_modal.js:16
 msgid "Validation Error While Saving"
@@ -1269,7 +1309,7 @@ msgstr "تاریخ اضافه شد"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:429
+#: cms/static/js/views/pages/container.js:731
 msgid "Editing access for: {title}"
 msgstr "دسترسی ویرایش برای: {title}"
 
@@ -1470,15 +1510,15 @@ msgstr "پس از شروع دوره نمی‌توان سرعت دوره را ت�
 msgid "{hours}:{minutes} (current UTC time)"
 msgstr "{hours} : {minutes} (زمان فعلی UTC)"
 
-#: cms/static/js/views/settings/main.js:460
+#: cms/static/js/views/settings/main.js:457
 msgid "Upload your course image."
 msgstr "بارگذاری تصویر دوره"
 
-#: cms/static/js/views/settings/main.js:466
+#: cms/static/js/views/settings/main.js:463
 msgid "Upload your banner image."
 msgstr "بارگذاری تصویر بنر."
 
-#: cms/static/js/views/settings/main.js:472
+#: cms/static/js/views/settings/main.js:469
 msgid "Upload your video thumbnail image."
 msgstr "بارگذاری تصویر کوچک ویدیو"
 
@@ -1833,6 +1873,7 @@ msgstr ""
 
 #: cms/static/js/views/video_transcripts.js:228
 #: cms/templates/js/video-transcripts.underscore:27
+#, python-brace-format
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 msgstr "{transcriptClientTitle} _ {transcriptLanguageCode} . {fileExtension}"
 
@@ -1857,11 +1898,13 @@ msgstr "تنظیمات"
 msgid "New {component_type}"
 msgstr "{component_type} جدید"
 
+#. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: This message will be added to the front of messages of type
 #. warning,
 #. e.g. "Warning: this component has not been configured yet".
 #: cms/static/js/views/xblock_validation.js:51
 #: common/static/common/js/discussion/views/discussion_inline_view.js:201
+#: cms/templates/js/edit-upstream-alert.underscore:2
 msgid "Warning"
 msgstr "هشدار"
 
@@ -1878,7 +1921,7 @@ msgstr "هشدار"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:233
 #: common/static/common/js/discussion/views/response_comment_view.js:121
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:33
-#: lms/static/js/student_account/views/FinishAuthView.js:82
+#: lms/static/js/student_account/views/FinishAuthView.js:84
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:43
 msgid "Error"
@@ -2394,7 +2437,6 @@ msgstr "انتخاب یک‌دسته"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:53
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:18
-#: lms/templates/student_account/account_settings.underscore:15
 msgid "Account Settings"
 msgstr "تنظیمات حساب‌کاربری"
 
@@ -2554,8 +2596,6 @@ msgstr ""
 "(حداکثر 300 نویسه)."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:62
-#: lms/static/js/student_account/views/account_settings_factory.js:183
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:139
 msgid "Language"
 msgstr "زبان"
 
@@ -2568,7 +2608,6 @@ msgstr ""
 "می‌کنند."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:74
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:127
 msgid "Country"
 msgstr "کشور"
 
@@ -3710,59 +3749,59 @@ msgstr "در حال بارگیری اطلاعات..."
 msgid "Error getting issued certificates list."
 msgstr "خطا در دریافت فهرست گواهینامه‌های صادرشده."
 
-#: lms/static/js/instructor_dashboard/data_download.js:123
+#: lms/static/js/instructor_dashboard/data_download.js:124
 msgid "Error generating anonymous IDs. Please try again."
 msgstr "خطا در ایجاد شناسه‌های ناشناس. لطفاً دوباره تلاش کنید."
 
-#: lms/static/js/instructor_dashboard/data_download.js:149
+#: lms/static/js/instructor_dashboard/data_download.js:150
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
 "خطا در ایجاد نتایج آزمون‌های محافظت‌شده رخ داد. لطفاً دوباره تلاش کنید."
 
-#: lms/static/js/instructor_dashboard/data_download.js:175
+#: lms/static/js/instructor_dashboard/data_download.js:176
 #: lms/static/js/instructor_dashboard/data_download_2.js:48
 msgid "Error generating survey results. Please try again."
 msgstr "خطا در ایجاد نتایج پیمایش رخ داد. لطفاً دوباره تلاش کنید."
 
-#: lms/static/js/instructor_dashboard/data_download.js:201
+#: lms/static/js/instructor_dashboard/data_download.js:202
 #: lms/static/js/instructor_dashboard/data_download_2.js:47
 msgid "Error generating student profile information. Please try again."
 msgstr "خطا در ایجاد اطلاعات شخصی فراگیرنده رخ داد. لطفاً دوباره تلاش کنید."
 
-#: lms/static/js/instructor_dashboard/data_download.js:227
+#: lms/static/js/instructor_dashboard/data_download.js:228
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
 #: cms/templates/js/move-xblock-modal.underscore:6
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
 msgid "Loading"
 msgstr "درحال بارگذاری"
 
-#: lms/static/js/instructor_dashboard/data_download.js:235
+#: lms/static/js/instructor_dashboard/data_download.js:236
 msgid "Error getting student list."
 msgstr "خطا در دریافت فهرست فراگیران."
 
-#: lms/static/js/instructor_dashboard/data_download.js:301
+#: lms/static/js/instructor_dashboard/data_download.js:302
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
 "خطا در ایجاد فهرست فراگیرانی که ممکن است ثبت‌نام کنند. لطفاً دوباره تلاش "
 "کنید."
 
-#: lms/static/js/instructor_dashboard/data_download.js:333
+#: lms/static/js/instructor_dashboard/data_download.js:359
 msgid "Error retrieving grading configuration."
 msgstr "خطا در بازیابی پیکربندی نمره‌دهی رخ داد."
 
-#: lms/static/js/instructor_dashboard/data_download.js:358
+#: lms/static/js/instructor_dashboard/data_download.js:384
 #: lms/static/js/instructor_dashboard/data_download_2.js:156
 msgid "Error generating grades. Please try again."
 msgstr "خطا در ایجاد نمره رخ داد. لطفاً دوباره تلاش کنید."
 
-#: lms/static/js/instructor_dashboard/data_download.js:360
+#: lms/static/js/instructor_dashboard/data_download.js:386
 #: lms/static/js/instructor_dashboard/data_download_2.js:46
 msgid "Error generating problem grade report. Please try again."
 msgstr "خطا در ایجاد گزارش نمرۀ سوال رخ داد. لطفاً دوباره تلاش کنید."
 
-#: lms/static/js/instructor_dashboard/data_download.js:362
+#: lms/static/js/instructor_dashboard/data_download.js:388
 #: lms/static/js/instructor_dashboard/data_download_2.js:45
 msgid "Error generating ORA data report. Please try again."
 msgstr "خطا در ایجاد گزارش داده ORA رخ داد. لطفاً دوباره تلاش کنید."
@@ -3794,8 +3833,6 @@ msgstr "علامت‌گذاری کد ثبت‌نام به‌عنوان استف�
 
 #: lms/static/js/instructor_dashboard/membership.js:112
 #: lms/static/js/instructor_dashboard/membership.js:117
-#: lms/static/js/student_account/views/account_settings_factory.js:157
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:92
 #: cms/templates/js/transcript-organization-credentials.underscore:33
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:9
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:20
@@ -3950,27 +3987,9 @@ msgid "Successfully enrolled the following users:"
 msgstr "کاربران زیر با موفقیت ثبت‌نام کرد:"
 
 #. Translators: A list of users appears after this sentence;
-#: lms/static/js/instructor_dashboard/membership.js:792
-msgid ""
-"Email cannot be sent to the following users via batch enrollment. They will "
-"be allowed to enroll once they register:"
-msgstr ""
-"رایانامه از طریق ثبت‌نام دسته‌ای برای کاربران زیر ارسال نمی‌شود. آن‌ها پس از"
-" نام‌نویسی مجاز به ثبت‌نام خواهند بود:"
-
-#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
 msgid "These users will be allowed to enroll once they register:"
 msgstr "این کاربران پس از نام‌نویسی مجاز به ثبت‌نام خواهند بود:"
-
-#. Translators: A list of users appears after this sentence;
-#: lms/static/js/instructor_dashboard/membership.js:816
-msgid ""
-"Email cannot be sent to the following users via batch enrollment. They will "
-"be enrolled once they register:"
-msgstr ""
-"رایانامه از طریق ثبت‌نام دسته‌ای برای کاربران زیر ارسال نمی‌شود. آن‌ها پس از"
-" نام‌نویسی، ثبت‌نام می‌شوند:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:828
@@ -4596,29 +4615,27 @@ msgstr "نمرۀ مشکل برای {user} با موفقیت لغو شد"
 msgid "Could not override problem score for {user}."
 msgstr "نمرۀ مشکل برای {user} لغو نشد."
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:92
 msgid "Enter and confirm your new password."
 msgstr "گذرواژۀ جدید خود را وارد کرده و تأیید کنید."
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:99
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:98
 msgid "New Password"
 msgstr "گذرواژۀ جدید"
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:108
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:107
 msgid "Confirm Password"
 msgstr "تایید گذرواژه"
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:111
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:110
 msgid "Passwords do not match."
 msgstr "گذرواژه‌ها مطابقت ندارند."
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:141
 msgid "Reset My Password"
 msgstr "بازتنظیم گذرواژه"
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:143
-#: lms/static/js/student_account/views/account_settings_factory.js:171
-#: lms/static/js/student_account/views/account_settings_factory.js:175
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
 msgid "Reset Your Password"
 msgstr "بازنشانی گذرواژه"
 
@@ -4700,7 +4717,6 @@ msgid "We’re sorry to see you go!"
 msgstr "از رفتن شما متاسفیم!"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:125
-#: lms/static/js/student_account/views/account_settings_factory.js:352
 msgid "Delete My Account"
 msgstr "حذف حساب‌کاربری"
 
@@ -4779,19 +4795,19 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "شرایط ارائۀ خدمات و قوانین"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:109
+#: lms/static/js/student_account/views/FinishAuthView.js:111
 msgid "Saving your email preference"
 msgstr "درحال ذخیرۀ اولویت رایانامۀ شما"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:127
+#: lms/static/js/student_account/views/FinishAuthView.js:129
 msgid "Enrolling you in the selected course"
 msgstr "درحال ثبت‌نام شما در دورۀ انتخابی"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:159
+#: lms/static/js/student_account/views/FinishAuthView.js:163
 msgid "Adding the selected course to your cart"
 msgstr "افزودن دورۀ انتخابی به سبد خرید شما"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:172
+#: lms/static/js/student_account/views/FinishAuthView.js:177
 msgid "Loading your courses"
 msgstr "درحال بارگیری دوره‌های شما"
 
@@ -4897,300 +4913,6 @@ msgid ""
 "%(platformName)s."
 msgstr ""
 "قبل از شروع یادگیری با %(platformName)s فقط به کمی اطلاعات بیشتر نیاز داریم."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:58
-msgid ""
-"Your profile settings are managed by {enterprise_name}. Contact your "
-"administrator or {link_start}edX Support{link_end} for help."
-msgstr ""
-"تنظیمات پروندۀ شما توسط {enterprise_name} مدیریت می‌شود. برای راهنمایی با "
-"سرپرست خود یا {link_start} edX  {link_end} پشتیبانی تماس بگیرید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:75
-msgid "Email Address (Sign In)"
-msgstr "آدرس رایانامه (ورود به سامانه)"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:78
-msgid ""
-"You receive messages from {platform_name} and course teams at this address."
-msgstr ""
-"پیام‌هایی از {platform_name} و تیم‌های دوره در این آدرس دریافت می‌کنید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:95
-msgid "Recovery Email Address"
-msgstr "بازیابی آدرس رایانامه"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:97
-msgid ""
-"You may access your account with this address if single-sign on or access to"
-" your primary email is not available."
-msgstr ""
-"اگر ورود به سامانه یا دسترسی به صندوق رایانامۀ اصلی شما در دسترس نباشد، "
-"می‌توانید با این آدرس به حساب‌کاربری خود دسترسی یابید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:103
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:99
-msgid "Full Name"
-msgstr "نام و نام‌خانوادگی"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:105
-msgid ""
-"The name that is used for ID verification and that appears on your "
-"certificates."
-msgstr ""
-"نامی که برای تأیید هویت استفاده می‌شود و روی گواهی‌های شما ظاهر می‌شود."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:121
-msgid "Country or Region of Residence"
-msgstr "کشور یا منطقۀ محل سکونت"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:125
-msgid "The country or region where you live."
-msgstr "کشور یا منطقه‌ای که در آن زندگی می‌کنید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:147
-#: lms/static/js/student_account/views/account_settings_factory.js:369
-msgid "Basic Account Information"
-msgstr "اطلاعات اولیۀ حساب‌کاربری"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:148
-msgid "These settings include basic information about your account."
-msgstr "این تنظیمات شامل اطلاعات اولیه دربارۀ حسابکاربری شماست."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:160
-msgid ""
-"The name that identifies you on {platform_name}. You cannot change your "
-"username."
-msgstr ""
-"نامی که شما را در {platform_name} شناسایی می‌کند. شما نمی‌توانید نام کاربری "
-"خود را تغییر دهید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:170
-#: lms/templates/student_account/account.underscore:6
-msgid "Password"
-msgstr "گذرواژه"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:177
-msgid "Check your email account for instructions to reset your password."
-msgstr "حساب رایانامۀ خود را برای دستورالعمل های بازنشانی گذرواژه بررسی کنید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:188
-msgid ""
-"The language used throughout this site. This site is currently available in "
-"a limited number of languages. Changing the value of this field will cause "
-"the page to refresh."
-msgstr ""
-"زبان مورد استفاده در این وبگاه. این وبگاه درحال حاضر به تعداد محدودی از "
-"زبان‌ها فراهم است. تغییر مقدار این قسمت باعث بارگیری مجدد صفحه می‌شود."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:201
-msgid "Time Zone"
-msgstr "منطقۀ زمانی"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:203
-msgid ""
-"Select the time zone for displaying course dates. If you do not specify a "
-"time zone, course dates, including assignment deadlines, will be displayed "
-"in your browser's local time zone."
-msgstr ""
-"منطقۀ زمانی را برای نمایش تاریخ دوره انتخاب کنید. اگر منطقۀ زمانی را مشخص "
-"نکنید، تاریخ‌های دوره، از جمله مهلت سررسید تکلیف، در منطقۀ زمانی محلی مرورگر"
-" شما نمایش داده خواهد شد."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:205
-msgid "All Time Zones"
-msgstr "همۀ مناطق زمانی"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:207
-msgid "Default (Local Time Zone)"
-msgstr "پیش‌فرض (منطقۀ زمانی محلی)"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:215
-msgid "Additional Information"
-msgstr "اطلاعات تکمیلی"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:220
-msgid "Education Completed"
-msgstr "تحصیلات تکمیل شد"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:229
-msgid "Gender"
-msgstr "جنسیت"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:238
-msgid "Year of Birth"
-msgstr "سال تولد"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:247
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:142
-msgid "Preferred Language"
-msgstr "زبان ترجیحی"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:272
-msgid ""
-"We've sent a confirmation message to {new_secondary_email_address}. Click "
-"the link in the message to update your secondary email address."
-msgstr ""
-"ما یک پیام تأیید به {new_secondary_email_address} ارسال کرده‌ایم. برای "
-"به‌روز رسانی آدرس رایانامۀ ثانویۀ خود، روی پیوند موجود در پیام بزنید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:320
-msgid "Social Media Links"
-msgstr "پیوندهای رسانه اجتماعی"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:321
-msgid ""
-"Optionally, link your personal accounts to the social media icons on your "
-"edX profile."
-msgstr ""
-"در صورت تمایل، حساب‌های شخصی خود را به نمادهای رسانه‌های اجتماعی در پروندۀ "
-"edX خود پیوند دهید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:332
-msgid "{platform_display_name} Link"
-msgstr "پیوند {platform_display_name}"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:337
-msgid ""
-"Enter your {platform_display_name} username or the URL to your "
-"{platform_display_name} page. Delete the URL to remove the link."
-msgstr ""
-"نام کاربری {platform_display_name} یا آدرس اینترنتی صفحۀ "
-"{platform_display_name} خود را وارد کنید. برای حذف پیوند، آدرس اینترنتی را "
-"حذف کنید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:377
-#: lms/static/js/student_account/views/account_settings_view.js:45
-msgid "Linked Accounts"
-msgstr "حساب‌های کاربری مرتبط"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:379
-msgid ""
-"You can link your social media accounts to simplify signing in to "
-"{platform_name}."
-msgstr ""
-"می‌توانید حساب‌های رسانه‌های اجتماعی خود را برای ساده‌تر کردن ورود به "
-"{platform_name} پیوند دهید."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:401
-msgid "ORDER NAME"
-msgstr "سفارش نام"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:402
-msgid "ORDER PLACED"
-msgstr "سفارش ثبت شد"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:403
-msgid "TOTAL"
-msgstr "کل"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:404
-msgid "ORDER NUMBER"
-msgstr "شمارۀ سفارش"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:410
-msgid "My Orders"
-msgstr "سفارش‌های من"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:412
-msgid ""
-"This page contains information about orders that you have placed with "
-"{platform_name}."
-msgstr ""
-"این صفحه حاوی اطلاعاتی درباره سفارش‌هایی است که شما با {platform_name} ثبت "
-"کرده‌اید."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:47
-msgid ""
-"We've sent a confirmation message to {new_email_address}. Click the link in "
-"the message to update your email address."
-msgstr ""
-"ما یک پیام تأیید به {new_email_address} ارسال کرده‌ایم. برای به‌روز رسانی "
-"آدرس رایانامۀ خود، روی پیوند موجود در پیام بزنید."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:90
-msgid ""
-"You must sign out and sign back in before your language changes take effect."
-msgstr ""
-"قبل از اعمال تغییرات زبان، باید از سامانه خارج شوید و دوباره وارد شوید."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:211
-msgid ""
-"We've sent a message to {email}. Click the link in the message to reset your"
-" password. Didn't receive the message? Contact {anchorStart}technical "
-"support{anchorEnd}."
-msgstr ""
-"ما یک پیام به {email} ارسال کرده‌ایم. برای بازنشانی گذرواژه، روی پیوند موجود"
-" در پیام بزنید. پیام را دریافت نکردید؟ با پشتیبانی فنی {anchorStart} "
-"{anchorEnd} تماس بگیرید."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:356
-msgid "Link your {accountName} account"
-msgstr "پیوند حساب {accountName} "
-
-#: lms/static/js/student_account/views/account_settings_fields.js:360
-msgid "Unlink This Account"
-msgstr "لغو پیوند این حساب"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:363
-msgid ""
-"You can use your {accountName} account to sign in to your {platformName} "
-"account."
-msgstr ""
-"می توانید از حساب {accountName} خود برای ورود به حساب {platformName} خود "
-"استفاده کنید."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:367
-msgid "Unlink your {accountName} account"
-msgstr "لغو پیوند حساب {accountName} "
-
-#: lms/static/js/student_account/views/account_settings_fields.js:371
-msgid "Link Your Account"
-msgstr "پیوند حساب ‌کاربری"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:374
-msgid ""
-"Link your {accountName} account to your {platformName} account and use "
-"{accountName} to sign in to {platformName}."
-msgstr ""
-"حساب {accountName} خود را به حساب {platformName} خود پیوند دهید و از "
-"{accountName} برای ورود به {platformName} استفاده کنید."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:431
-msgid "Unlinking"
-msgstr "لغو پیوند"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:431
-msgid "Linking"
-msgstr "پیوند"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:435
-msgid "Successfully unlinked."
-msgstr "با موفقیت لغو پیوند شد."
-
-#: lms/static/js/student_account/views/account_settings_view.js:36
-msgid "Account Information"
-msgstr "اطلاعات حساب"
-
-#: lms/static/js/student_account/views/account_settings_view.js:55
-msgid "Order History"
-msgstr "سوابق سفارش‌ها"
-
-#: lms/static/js/student_account/views/account_settings_view.js:64
-msgid ""
-"You have set your language to {beta_language}, which is currently not fully "
-"translated. You can help us translate this language fully by joining the "
-"Transifex community and adding translations from English for learners that "
-"speak {beta_language}."
-msgstr ""
-"شما زبان خود را روی {beta_language} تنظیم کرده‌اید که درحال حاضر به‌طور کامل"
-" ترجمه نشده‌است. شما این امکان را دارید که با پیوستن به انجمن Transifex و "
-"افزودن ترجمه از زبان انگلیسی برای فراگیرانی که {beta_language} صحبت می‌کنند،"
-" ما را در ترجمۀ کامل این زبان یاری رسانید."
-
-#: lms/static/js/student_account/views/account_settings_view.js:70
-msgid "Help Translate into {beta_language}"
-msgstr "کمک به ترجمه به {beta_language}"
 
 #: lms/static/js/verify_student/views/image_input_view.js:93
 msgid "Image Upload Error"
@@ -5408,7 +5130,7 @@ msgid "Bookmark this page"
 msgstr "نشانک این صفحه "
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
-#: xmodule/js/src/sequence/display.js:445
+#: xmodule/js/src/sequence/display.js:521
 msgid "Bookmarked"
 msgstr "نشانک‌دار"
 
@@ -5417,88 +5139,6 @@ msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
 msgstr[0] "نتیجه {total_results} برای &quot; {search_term} &quot; یافت شد"
 msgstr[1] "نتایج {total_results} برای \"{search_term}\" یافت شد"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:68
-msgid "Profile Visibility:"
-msgstr "رویت‌پذیری پرونده:"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:71
-msgid "Limited Profile"
-msgstr "پروندۀ محدود"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:72
-msgid "Full Profile"
-msgstr "پروندۀ کامل"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:112
-msgid "Joined"
-msgstr "ملحق شد"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:115
-msgid "Joined Date"
-msgstr "تاریخ عضویت"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:124
-msgid "Location"
-msgstr "محل"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:131
-msgid "Add Country"
-msgstr "افزودن کشور"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:146
-msgid "Add language"
-msgstr "افزودن زبان "
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:159
-msgid "About me"
-msgstr "دربارۀ من"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:161
-msgid ""
-"Tell other learners a little about yourself: where you live, what your "
-"interests are, why you're taking courses, or what you hope to learn."
-msgstr ""
-"کمی دربارۀ خود به سایر فراگیران بگویید: کجا زندگی می‌کنید، چه علایقی دارید، "
-"چرا دوره‌های آموزشی می‌گذرانید، یا چه چیزی را امیدوارید یاد بگیرید."
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:38
-msgid "Account Settings page."
-msgstr "صفحۀ تنظیمات حساب"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:44
-msgid ""
-"You must specify your birth year before you can share your full profile. To "
-"specify your birth year, go to the {account_settings_page_link}"
-msgstr ""
-"پیش از اینکه بتوانید پروندۀ کامل خود را به اشتراک بگذارید، باید سال تولد خود"
-" را مشخص کنید. برای تعیین سال تولد خود، به {account_settings_page_link} "
-"بروید"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:51
-msgid ""
-"You must be over 13 to share a full profile. If you are over 13, make sure "
-"that you have specified a birth year on the {account_settings_page_link}"
-msgstr ""
-"برای به اشتراک‌گذاری پروندۀ کامل باید بیش از 13 سال داشته باشید. اگر بیش از "
-"13 سال دارید، مطمئن شوید که سال تولد را در {account_settings_page_link} مشخص"
-" کرده‌اید."
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:74
-msgid "Profile Image"
-msgstr "تصویر پروندۀ شخصی"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:82
-msgid "Profile image for {username}"
-msgstr "تصویر پروندۀ {username}"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:65
-msgid "About Me"
-msgstr "دربارۀ من"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:71
-msgid "Profile"
-msgstr "پروندۀ شخصی"
 
 #: xmodule/assets/library_content/public/js/library_content_edit.js:16
 #: xmodule/js/public/js/library_content_edit.js:16
@@ -5602,17 +5242,17 @@ msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] "نقطه {earned} / {possible} (بدون درجه بندی)"
 msgstr[1] "امتیاز {earned} / {possible} (بدون نمره)"
 
-#: xmodule/js/src/capa/display.js:349
+#: xmodule/js/src/capa/display.js:356
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "روند نمره‌دهی همچنان ادامه دارد. برای مشاهدۀ به‌روزرسانی‌ها، صفحه را  تازه "
 "کنید."
 
-#: xmodule/js/src/capa/display.js:458
+#: xmodule/js/src/capa/display.js:465
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "نتوانستم به پاسخ شما نمره بدهیم. ارسال لغو شد."
 
-#: xmodule/js/src/capa/display.js:522
+#: xmodule/js/src/capa/display.js:529
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -5622,33 +5262,33 @@ msgstr ""
 "اگر می‌توانید، لطفاً از Chrome یا Safari استفاده کنید که برای پشتیبانی از "
 "بارگذاری فایل تأیید شده‌اند."
 
-#: xmodule/js/src/capa/display.js:548
+#: xmodule/js/src/capa/display.js:555
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "شما {filename} را ارسال کردید. فقط {allowedFiles} مجاز است."
 
-#: xmodule/js/src/capa/display.js:561
+#: xmodule/js/src/capa/display.js:568
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "فایل {filename} شما خیلی بزرگ است (حداکثر اندازه: {maxSize} مگابایت)."
 
-#: xmodule/js/src/capa/display.js:577
+#: xmodule/js/src/capa/display.js:584
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "شما فایل‌های مورد نیاز را ارسال نکردید: {requiredFiles} ."
 
-#: xmodule/js/src/capa/display.js:587
+#: xmodule/js/src/capa/display.js:594
 msgid "You did not select any files to submit."
 msgstr "شما هیچ فایلی را برای ارسال انتخاب نکردید."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:681
+#: xmodule/js/src/capa/display.js:688
 msgid "{label}: {status}"
 msgstr "{label} : {status}"
 
-#: xmodule/js/src/capa/display.js:712
+#: xmodule/js/src/capa/display.js:719
 msgid "This problem has been reset."
 msgstr "این مشکل بازنشانی شده است."
 
-#: xmodule/js/src/capa/display.js:1018
+#: xmodule/js/src/capa/display.js:1025
 msgid "unsubmitted"
 msgstr "ثبت‌نشده"
 
@@ -6227,12 +5867,6 @@ msgstr "کد منبع HTML"
 #: xmodule/js/src/html/edit.js:690
 msgid "Ignore all"
 msgstr "چشم‌پوشی از همه"
-
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:695
-msgid "Ignore"
-msgstr "چشم پوشی"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6943,7 +6577,7 @@ msgstr ""
 msgid "Explanation"
 msgstr "توضیح"
 
-#: xmodule/js/src/sequence/display.js:330
+#: xmodule/js/src/sequence/display.js:406
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
@@ -7131,29 +6765,29 @@ msgstr "دوباره نشان نده"
 msgid "Open language menu"
 msgstr "منوی زبان"
 
-#: xmodule/js/src/video/09_video_caption.js:589
+#: xmodule/js/src/video/09_video_caption.js:630
 msgid "Transcript will be displayed when you start playing the video."
 msgstr "هنگام شروع پخش ویدیو، رونوشت نمایش داده می‌شود."
 
-#: xmodule/js/src/video/09_video_caption.js:837
+#: xmodule/js/src/video/09_video_caption.js:878
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr "با فعالسازی یک پیوند در این گروه به نقطه مربوطه در ویدیو پرش می‌شود."
 
-#: xmodule/js/src/video/09_video_caption.js:840
+#: xmodule/js/src/video/09_video_caption.js:881
 msgid "Video transcript"
 msgstr "متن تصویری"
 
-#: xmodule/js/src/video/09_video_caption.js:843
+#: xmodule/js/src/video/09_video_caption.js:884
 msgid "Start of transcript. Skip to the end."
 msgstr "آغاز رونوشت. پرش به انتها"
 
-#: xmodule/js/src/video/09_video_caption.js:847
+#: xmodule/js/src/video/09_video_caption.js:888
 msgid "End of transcript. Skip to the start."
 msgstr "پایان رونوشت. پرش به آغاز."
 
-#: xmodule/js/src/video/09_video_caption.js:851
+#: xmodule/js/src/video/09_video_caption.js:892
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
@@ -7163,23 +6797,23 @@ msgstr ""
 "جهت‌دار بالا و پایین برای پیمایش گزینه‌های زبان استفاده کنید. برای تغییر به "
 "زبان انتخابی، ENTER را فشار دهید."
 
-#: xmodule/js/src/video/09_video_caption.js:1205
+#: xmodule/js/src/video/09_video_caption.js:1248
 msgid "Hide closed captions"
 msgstr "پنهان‌سازی زیرنویس‌های بسته "
 
-#: xmodule/js/src/video/09_video_caption.js:1223
+#: xmodule/js/src/video/09_video_caption.js:1266
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(زمانی که پخش ویدیو را شروع می‌کنید، عنوان نمایش داده می‌شود.)"
 
-#: xmodule/js/src/video/09_video_caption.js:1230
+#: xmodule/js/src/video/09_video_caption.js:1273
 msgid "Turn on closed captioning"
 msgstr "روشن‌کردن زیرنویس بسته "
 
-#: xmodule/js/src/video/09_video_caption.js:1338
+#: xmodule/js/src/video/09_video_caption.js:1381
 msgid "Turn on transcripts"
 msgstr "رونوشت‌ها فعال"
 
-#: xmodule/js/src/video/09_video_caption.js:1353
+#: xmodule/js/src/video/09_video_caption.js:1396
 msgid "Turn off transcripts"
 msgstr "رونوشت‌ها غیرفعال "
 
@@ -7245,6 +6879,10 @@ msgstr "جزئیات دربارۀ عدم موفقیت"
 msgid "Add Component:"
 msgstr "افزودن مولفه:"
 
+#: cms/templates/js/add-xblock-component-button.underscore:10
+msgid "Beta"
+msgstr "بتا"
+
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:3
 #: cms/templates/js/add-xblock-component-menu.underscore:4
 #, python-format
@@ -7298,7 +6936,7 @@ msgid "Show All"
 msgstr "نمایش همه"
 
 #: cms/templates/js/asset-library.underscore:57
-#: cms/templates/js/basic-modal.underscore:24
+#: cms/templates/js/basic-modal.underscore:26
 #: cms/templates/js/course-outline.underscore:201
 #: cms/templates/js/course-outline.underscore:203
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
@@ -7449,10 +7087,12 @@ msgid "component"
 msgstr "مولفه"
 
 #: cms/templates/js/container-access.underscore:16
+#, python-brace-format
 msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
 msgstr "دسترسی به این {blockType} محدود شده‌است: {selectedGroupsLabel}"
 
 #: cms/templates/js/container-access.underscore:26
+#, python-brace-format
 msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
@@ -7685,6 +7325,7 @@ msgid "Unpublished changes to content that will release in the future"
 msgstr "تغییرات منتشرنشده در محتوایی که در آینده توزیع خواهد شد"
 
 #: cms/templates/js/course-outline.underscore:83
+#, python-brace-format
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr "دسترسی به این واحد محدود به: {selectedGroupsLabel} است"
 
@@ -8001,6 +7642,7 @@ msgid "Warning: "
 msgstr "هشدار: "
 
 #: cms/templates/js/course_grade_policy.underscore:40
+#, python-brace-format
 msgid ""
 "The number of {type} assignments defined here does not match the current "
 "number of {type} assignments in the course:"
@@ -8013,10 +7655,12 @@ msgid "There are no assignments of this type in the course."
 msgstr "هیچ تکالیفی از این نوع در دوره وجود ندارد."
 
 #: cms/templates/js/course_grade_policy.underscore:51
+#, python-brace-format
 msgid "{assignment_count} {type} assignment(s) found:"
 msgstr "{assignment_count} {type} تکلیف(های) پیدا شد:"
 
 #: cms/templates/js/course_grade_policy.underscore:71
+#, python-brace-format
 msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
@@ -8085,6 +7729,7 @@ msgid "Chapter Name"
 msgstr "نام فصل"
 
 #: cms/templates/js/edit-chapter.underscore:4
+#, python-brace-format
 msgid "Chapter {order}"
 msgstr "فصل {order}"
 
@@ -8097,6 +7742,7 @@ msgid "Chapter Asset"
 msgstr "محتوای فصل"
 
 #: cms/templates/js/edit-chapter.underscore:10
+#, python-brace-format
 msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
 msgstr "path/to/introductionToCookieBaking-CH {order} .pdf"
 
@@ -8143,6 +7789,22 @@ msgstr "افزودن فصل"
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
 msgstr "ویرایش عنوان "
+
+#: cms/templates/js/edit-upstream-alert.underscore:4
+msgid "You are editing content from a Library."
+msgstr "شما در حال ویرایش محتوای یک کتابخانه هستید."
+
+#: cms/templates/js/edit-upstream-alert.underscore:6
+msgid ""
+"Edits made here will only be reflected in this course. These edits may be "
+"overridden later if updates are accepted."
+msgstr ""
+"ویرایش های انجام شده در اینجا فقط در این دوره منعکس می شود. اگر "
+"به‌روزرسانی‌ها پذیرفته شوند، ممکن است بعداً این ویرایش‌ها لغو شوند."
+
+#: cms/templates/js/edit-upstream-alert.underscore:14
+msgid "View in Library"
+msgstr "مشاهده در کتابخانه"
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:5
 msgid ""
@@ -8192,6 +7854,7 @@ msgid "This Group Configuration is used in:"
 msgstr "این پیکربندی گروه در موارد زیر استفاده می‌شود:"
 
 #: cms/templates/js/group-configuration-details.underscore:84
+#, python-brace-format
 msgid ""
 "This Group Configuration is not in use. Start by adding a content experiment"
 " to any Unit via the {linkStart}Course Outline{linkEnd}."
@@ -8265,6 +7928,7 @@ msgstr ""
 
 #: cms/templates/js/highlights-editor.underscore:36
 #: cms/templates/js/highlights-editor.underscore:49
+#, python-brace-format
 msgid "Highlight {highlight_index}"
 msgstr "{highlight_index} را برجسته کنید"
 
@@ -8277,14 +7941,17 @@ msgid "License Type"
 msgstr "نوع مجوز"
 
 #: cms/templates/js/license-selector.underscore:18
+#, python-brace-format
 msgid "Learn more about {license_name}"
 msgstr "دربارۀ {license_name} بیشتر بدانید"
 
 #: cms/templates/js/license-selector.underscore:34
+#, python-brace-format
 msgid "Options for {license_name}"
 msgstr "گزینه‌هایی برای {license_name}"
 
 #: cms/templates/js/license-selector.underscore:37
+#, python-brace-format
 msgid "The following options are available for the {license_name} license."
 msgstr "گزینه‌های زیر برای مجوز {license_name} در دسترس هستند."
 
@@ -8343,6 +8010,7 @@ msgid "Download"
 msgstr "بارگیری"
 
 #: cms/templates/js/move-xblock-list.underscore:7
+#, python-brace-format
 msgid "{categoryText} in {parentDisplayname}"
 msgstr "{categoryText} در {parentDisplayname}"
 
@@ -8373,6 +8041,7 @@ msgid "This group controls access to:"
 msgstr "این گروه دسترسی به موارد زیر را کنترل می‌کند:"
 
 #: cms/templates/js/partition-group-details.underscore:59
+#, python-brace-format
 msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
@@ -8416,6 +8085,7 @@ msgid "Remove this video"
 msgstr "حذف این ویدیو "
 
 #: cms/templates/js/previous-video-upload.underscore:15
+#, python-brace-format
 msgid "Remove {video_name} video"
 msgstr "حذف ویدیو {video_name} "
 
@@ -8462,6 +8132,7 @@ msgid "Publishing Status"
 msgstr "وضعیت انتشار"
 
 #: cms/templates/js/publish-xblock.underscore:31
+#, python-brace-format
 msgid ""
 "Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
 "{editedByStart}{editedBy}{editedByEnd}"
@@ -8470,6 +8141,7 @@ msgstr ""
 "{editedByStart} {editedBy} {editedByEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:43
+#, python-brace-format
 msgid ""
 "Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by "
 "{publishedByStart}{publishedBy}{publishedByEnd}"
@@ -8542,6 +8214,7 @@ msgid "weeks from learner enrollment date"
 msgstr "هفته‌ها از تاریخ ثبت‌نام فراگیرنده"
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:14
+#, python-brace-format
 msgid ""
 "If a learner starts on {startDate}, this subsection will be due on "
 "{projectedDueIn}."
@@ -8767,6 +8440,7 @@ msgid "You!"
 msgstr "شما!"
 
 #: cms/templates/js/team-member.underscore:19
+#, python-brace-format
 msgid "send an email message to {email}"
 msgstr "رایانامه‌ای به {email} بفرستید"
 
@@ -8775,14 +8449,17 @@ msgid "Promote another member to Admin to remove your admin rights"
 msgstr "عضو دیگری را به‌عنوان مدیر قرار دهید تا حقوق مدیریت شما حذف شود"
 
 #: cms/templates/js/team-member.underscore:35
+#, python-brace-format
 msgid "Add {role} Access"
 msgstr "افزودن دسترسی برای {role}"
 
 #: cms/templates/js/team-member.underscore:35
+#, python-brace-format
 msgid "Remove {role} Access"
 msgstr "حذف دسترسی {role}"
 
 #: cms/templates/js/team-member.underscore:44
+#, python-brace-format
 msgid "Delete the user, {username}"
 msgstr "حذف کاربر، {username}"
 
@@ -8896,6 +8573,7 @@ msgid "Review Rules"
 msgstr "مرور قوانین"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:86
+#, python-brace-format
 msgid ""
 "Specify any rules or rule exceptions that the proctoring review team should "
 "enforce when reviewing the videos. For example, you could specify that "
@@ -8930,6 +8608,7 @@ msgid "Account"
 msgstr "حساب‌کاربری"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:5
+#, python-brace-format
 msgid ""
 "This action updates the {provider} information for your entire organization."
 msgstr "این اقدام اطلاعات {provider} را برای کل سازمان شما به‌روز می‌کند."
@@ -9009,6 +8688,7 @@ msgstr ""
 "به‌طور پیش‌فرض می‌بینند."
 
 #: cms/templates/js/video-thumbnail.underscore:17
+#, python-brace-format
 msgid ""
 "Recommended image resolution is {imageResolution}, maximum image file size "
 "should be {maxFileSize} and format must be one of {supportedImageFormats}."
@@ -9025,6 +8705,7 @@ msgid "No transcript uploaded."
 msgstr "هیچ رونوشتی بارگذاری نشد."
 
 #: cms/templates/js/video-transcripts.underscore:17
+#, python-brace-format
 msgid "Show transcripts ({totalTranscripts})"
 msgstr "نمایش رونوشت‌ها ( {totalTranscripts} )"
 
@@ -9046,6 +8727,7 @@ msgstr ""
 "نکرده‌است. اگر آن را اجرا می‌کردید، نسخه‌های دورۀ زیر تغییر می‌کردند."
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
+#, python-brace-format
 msgid ""
 "The published branch version, {published}, was reset to the draft branch "
 "version, {draft}."
@@ -9424,6 +9106,7 @@ msgid "Community TA"
 msgstr "جامعۀ دستیاران"
 
 #: common/static/common/templates/discussion/templates.underscore:379
+#, python-brace-format
 msgid "{unread_comments_count} new"
 msgstr "{unread_comments_count} جدید"
 
@@ -9997,6 +9680,7 @@ msgid "Hide Timer"
 msgstr "مخفی‌کردن زمان‌سنج"
 
 #: lms/templates/courseware/proctored-exam-status.underscore:30
+#, python-brace-format
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr "شما \"{exam_link}\" به‌عنوان {exam_type} می‌گیرید. "
 
@@ -10103,6 +9787,7 @@ msgid "Product Name"
 msgstr "نام محصول"
 
 #: lms/templates/fields/field_textarea.underscore:52
+#, python-brace-format
 msgid ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
 "{maxCharacters}"
@@ -10120,6 +9805,7 @@ msgid "Profile Information"
 msgstr "اطلاعات پروندۀ شخصی"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:16
+#, python-brace-format
 msgid ""
 "The following information is already a part of your {platform} profile and "
 "is required for your application. To edit this information go to "
@@ -10148,6 +9834,7 @@ msgid "Submit Application"
 msgstr "ثبت درخواست"
 
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore:3
+#, python-brace-format
 msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
@@ -10381,6 +10068,7 @@ msgid "Deleted Content Group"
 msgstr "گروه محتوای حذف‌شده"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:104
+#, python-brace-format
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The previously selected "
 "content group was deleted. Select another content group."
@@ -10389,6 +10077,7 @@ msgstr ""
 " حذف شد. گروه محتوای دیگری را انتخاب کنید."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:123
+#, python-brace-format
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
 msgstr ""
@@ -10453,6 +10142,7 @@ msgid "Assign learners to cohorts by uploading a CSV file"
 msgstr "با بارگذاری یک فایل CSV، فراگیران را به گروه‌ها اختصاص دهید"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
+#, python-brace-format
 msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
@@ -10516,6 +10206,7 @@ msgid "Change or Leave Session"
 msgstr "تغییر یا ترک جلسه"
 
 #: lms/templates/learner_dashboard/course_card.underscore:29
+#, python-brace-format
 msgid "You must select a session by {expiration_date} to access the course."
 msgstr "برای دسترسی به دوره باید یک جلسه توسط {expiration_date} انتخاب کنید."
 
@@ -10524,6 +10215,7 @@ msgid "You can no longer change sessions."
 msgstr "دیگر نمی‌توانید جلسات را تغییر دهید."
 
 #: lms/templates/learner_dashboard/course_card.underscore:35
+#, python-brace-format
 msgid "You can change sessions until {expiration_date}."
 msgstr "می‌توانید جلسات را تا {expiration_date} تغییر دهید."
 
@@ -10548,11 +10240,11 @@ msgstr "اکنون ثبت‌نام کنید"
 msgid "Coming Soon"
 msgstr "به‌زودی آماده می‌شود"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:47
+#: lms/templates/learner_dashboard/course_enroll.underscore:48
 msgid "Enrollment Opens on"
 msgstr "ثبت‌نام باز می‌شود در"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:54
+#: lms/templates/learner_dashboard/course_enroll.underscore:56
 msgid "Not Currently Available"
 msgstr "اکنون فراهم نیست"
 
@@ -10569,14 +10261,17 @@ msgid "To access the course, select a session."
 msgstr "برای دسترسی به دوره، یک جلسه را انتخاب کنید."
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:15
+#, python-brace-format
 msgid "Session Selection Dropdown for {courseName}"
 msgstr "کشویی انتخاب جلسه برای {courseName}"
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:19
+#, python-brace-format
 msgid "{sessionDates} - Currently Selected"
 msgstr "{sessionDates} - درحال حاضر انتخاب شده‌است"
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:21
+#, python-brace-format
 msgid "{sessionDates} (Open until {enrollmentEnd})"
 msgstr "{sessionDates} (تا {enrollmentEnd} باز است)"
 
@@ -10631,6 +10326,7 @@ msgid "%(programName)s Home Page."
 msgstr "صفحۀ اصلی %(programName)s ."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+#, python-brace-format
 msgid "Your {program} Certificate"
 msgstr "گواهی {program} شما"
 
@@ -10711,11 +10407,13 @@ msgstr "ارتقاء تمام دوره های باقی مانده ("
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
 #: lms/templates/learner_dashboard/program_details_view.underscore:32
+#, python-brace-format
 msgid "${listPrice}"
 msgstr "$ {listPrice}"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:62
 #: lms/templates/learner_dashboard/program_details_view.underscore:38
+#, python-brace-format
 msgid " ${price} {currency} )"
 msgstr " $ {price} {currency} )"
 
@@ -10773,6 +10471,7 @@ msgstr ""
 "کنید. برای تکمیل برنامه، باید گواهی تایید شده برای هر دوره دریافت کنید."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
+#, python-brace-format
 msgid "{organization}\\'s logo"
 msgstr "آرم {organization}"
 
@@ -10792,6 +10491,10 @@ msgstr "به تایید شده ارتقا دهید"
 msgid "New Address"
 msgstr "آدرس جدید"
 
+#: lms/templates/student_account/account.underscore:6
+msgid "Password"
+msgstr "گذرواژه"
+
 #: lms/templates/student_account/account.underscore:11
 msgid "Change My Email Address"
 msgstr "آدرس ایمیل من را تغییر دهید"
@@ -10799,14 +10502,6 @@ msgstr "آدرس ایمیل من را تغییر دهید"
 #: lms/templates/student_account/account.underscore:16
 msgid "Reset Password"
 msgstr "بازنشانی رمز عبور"
-
-#: lms/templates/student_account/account_settings.underscore:8
-msgid "Switch Language Back"
-msgstr "تغییر زبان به عقب"
-
-#: lms/templates/student_account/account_settings_section.underscore:27
-msgid "An error occurred. Please reload the page."
-msgstr "خطایی رخ داد. لطفا صفحه را دوباره بارگذاری کنید."
 
 #: lms/templates/student_account/form_field.underscore:139
 msgid "Need help signing in?"
@@ -10884,6 +10579,7 @@ msgid "Create an Account."
 msgstr "یک حساب کاربری ایجاد کنید."
 
 #: lms/templates/student_account/login.underscore:14
+#, python-brace-format
 msgid "Sign in to continue learning as {email}"
 msgstr "برای ادامه یادگیری به عنوان {email} وارد سیستم شوید"
 
@@ -10892,12 +10588,14 @@ msgid "Sign in to continue learning"
 msgstr "برای ادامه یادگیری وارد شوید"
 
 #: lms/templates/student_account/login.underscore:19
+#, python-brace-format
 msgid ""
 "You already have an edX account with your {enterprise_name} email address."
 msgstr ""
 "شما در حال حاضر یک حساب edX با آدرس ایمیل {enterprise_name} خود دارید."
 
 #: lms/templates/student_account/login.underscore:21
+#, python-brace-format
 msgid ""
 "Going forward, your account information will be updated and maintained by "
 "{enterprise_name}."
@@ -10906,6 +10604,7 @@ msgstr ""
 "می‌شود."
 
 #: lms/templates/student_account/login.underscore:23
+#, python-brace-format
 msgid ""
 "You can view your information or unlink from {enterprise_name} anytime in "
 "your Account Settings."
@@ -10968,6 +10667,7 @@ msgid "Recover my password"
 msgstr "رمز عبور من را بازیابی کنید"
 
 #: lms/templates/student_account/register.underscore:6
+#, python-brace-format
 msgid "Already have an {platformName} account?"
 msgstr "آیا از قبل یک حساب کاربری {platformName} دارید؟"
 
@@ -11070,6 +10770,7 @@ msgid "Take Your Photo"
 msgstr "عکس خود را بگیرید"
 
 #: lms/templates/verify_student/face_photo_step.underscore:19
+#, python-brace-format
 msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
@@ -11090,6 +10791,7 @@ msgid "Your entire face fits inside the frame."
 msgstr "تمام صورت شما درون قاب قرار می گیرد."
 
 #: lms/templates/verify_student/face_photo_step.underscore:33
+#, python-brace-format
 msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
@@ -11230,6 +10932,7 @@ msgid "Make sure your ID is well-lit"
 msgstr "مطمئن شوید که شناسه شما به خوبی روشن است"
 
 #: lms/templates/verify_student/id_photo_step.underscore:22
+#, python-brace-format
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
 "پس از قرار گرفتن در موقعیت، از دکمه Take Photo {icon} برای گرفتن شناسه خود "
@@ -11297,6 +11000,7 @@ msgid "Be sure your entire face is inside the frame"
 msgstr "مطمئن شوید که تمام صورت شما داخل قاب است"
 
 #: lms/templates/verify_student/incourse_reverify.underscore:20
+#, python-brace-format
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
 msgstr ""
@@ -11332,6 +11036,7 @@ msgstr ""
 "تأیید، در هیچ جایی%(platformName)s ذخیره یا قابل‌مشاهده نیست."
 
 #: lms/templates/verify_student/intro_step.underscore:6
+#, python-brace-format
 msgid "Thanks for returning to verify your ID in: {courseName}"
 msgstr "از اینکه برای تأیید شناسه خود برگشتید متشکریم: {courseName}"
 
@@ -11369,10 +11074,12 @@ msgstr "وبکم"
 
 #: lms/templates/verify_student/make_payment_step.underscore:6
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
+#, python-brace-format
 msgid "You are enrolling in: {courseName}"
 msgstr "شما درحال ثبت‌نام در: {courseName} هستید"
 
 #: lms/templates/verify_student/make_payment_step.underscore:17
+#, python-brace-format
 msgid "You are upgrading your enrollment for: {courseName}"
 msgstr "شما درحال ارتقای ثبت‌نام خود برای: {courseName} هستید"
 
@@ -11383,6 +11090,7 @@ msgstr ""
 "اکنون می‌توانید اطلاعات پرداخت خود را وارد کرده و ثبت‌نام خود را تکمیل کنید."
 
 #: lms/templates/verify_student/make_payment_step.underscore:37
+#, python-brace-format
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these by {date} to qualify to earn a Verified "
@@ -11393,6 +11101,7 @@ msgstr ""
 "{date} داشته باشید."
 
 #: lms/templates/verify_student/make_payment_step.underscore:44
+#, python-brace-format
 msgid ""
 "An email has been sent to {userEmail} with a link for you to activate your "
 "account."
@@ -11443,6 +11152,7 @@ msgid "You have already verified your ID!"
 msgstr "شما قبلاً کارت شناسایی خود را تأیید کرده‌اید!"
 
 #: lms/templates/verify_student/make_payment_step.underscore:100
+#, python-brace-format
 msgid "Your verification status is good until {verificationGoodUntil}."
 msgstr "وضعیت تأیید شما تا {verificationGoodUntil} خوب است."
 
@@ -11455,6 +11165,7 @@ msgid "Account Not Activated"
 msgstr "حساب فعال نشده است"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
+#, python-brace-format
 msgid "Upgrade to a Verified Certificate for {courseName}"
 msgstr "ارتقا به گواهینامۀ تاییدشده برای {courseName}"
 
@@ -11472,14 +11183,17 @@ msgid "Total"
 msgstr "جمع"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
+#, python-brace-format
 msgid "Professional Certificate for {courseName}"
 msgstr "گواهینامۀ حرفه‌ای برای {courseName}"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
+#, python-brace-format
 msgid "Verified Certificate for {courseName}"
 msgstr "گواهینامۀ تاییدشده برای {courseName}"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
+#, python-brace-format
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
 msgstr "برای دریافت گواهینامه، باید هویت خود را قبل از {date} نیز تأیید کنید."
@@ -11632,6 +11346,7 @@ msgstr ""
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
+#, python-brace-format
 msgid "Load next {num_items} result"
 msgid_plural "Load next {num_items} results"
 msgstr[0] "نتیجه بعدی {num_items} را بارگیری کنید"
@@ -11641,11 +11356,3 @@ msgstr[1] "بارگیری نتایج بعدی {num_items} "
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "متاسفیم، هیچ نتیجه‌ای یافت نشد."
-
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:5
-msgid "You are currently sharing a limited profile."
-msgstr "شما درحال حاضر یک پروندۀ محدود را به اشتراک می‌گذارید."
-
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
-msgid "This learner is currently sharing a limited profile."
-msgstr "این فراگیرنده درحال حاضر پروندۀ شخصی محدودی را به اشتراک می‌گذارد."

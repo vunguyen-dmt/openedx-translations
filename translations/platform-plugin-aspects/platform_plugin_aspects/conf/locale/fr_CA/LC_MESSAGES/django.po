@@ -4,18 +4,15 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2024
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2024
+# Brian Smith, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-22 00:48+0000\n"
-"PO-Revision-Date: 2024-04-20 01:08+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2024\n"
+"POT-Creation-Date: 2025-10-30 00:53+0000\n"
+"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +20,7 @@ msgstr ""
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: extensions/filters.py:66
+#: extensions/filters.py:58
 msgid "Reports"
 msgstr "Rapports"
 
@@ -55,46 +52,29 @@ msgstr ""
 "Superset n'est visible que par le personnel du cours et les instructeurs. "
 "Veuillez contacter votre administrateur système."
 
-#: utils.py:162
-#, python-brace-format
-msgid ""
-"Unable to fetch Superset guest token, Superset server error "
-"{server_response}"
-msgstr ""
-"Impossible de récupérer le jeton invité Superset, erreur du serveur Superset"
-" {server_response}"
-
-#: utils.py:171
-msgid ""
-"Unable to fetch Superset guest token, mostly likely due to invalid "
-"settings.SUPERSET_CONFIG"
-msgstr ""
-"Impossible de récupérer le jeton invité Superset, probablement en raison de "
-"paramètres non valides.SUPERSET_CONFIG"
-
-#: views.py:83
-#, python-brace-format
-msgid "Invalid course id: '{course_id}'"
-msgstr "Identifiant de cours invalide : '{course_id}'"
-
-#: views.py:95
+#: views.py:87
 #, python-brace-format
 msgid "Course not found: '{course_id}'"
 msgstr "Cours introuvable : '{course_id}'"
 
-#: xblock.py:47 xblock.py:48
+#: views.py:114
+#, python-brace-format
+msgid "Invalid course id: '{course_id}'"
+msgstr "Identifiant de cours invalide : '{course_id}'"
+
+#: xblock.py:48 xblock.py:49
 msgid "Display name"
 msgstr "Nom d'affichage"
 
-#: xblock.py:49
+#: xblock.py:50
 msgid "Superset Dashboard"
 msgstr "Tableau de bord Superset"
 
-#: xblock.py:54
+#: xblock.py:55
 msgid "Dashboard UUID"
 msgstr "UUID du tableau de bord"
 
-#: xblock.py:56
+#: xblock.py:57
 msgid ""
 "The ID of the dashboard to embed. Available in the Superset embed dashboard "
 "UI."
@@ -102,11 +82,11 @@ msgstr ""
 "L'ID du tableau de bord à intégrer. Disponible dans l’interface utilisateur "
 "du tableau de bord intégré Superset."
 
-#: xblock.py:63
+#: xblock.py:64
 msgid "Filters"
 msgstr "Filtres"
 
-#: xblock.py:65
+#: xblock.py:66
 msgid ""
 "List of SQL filters to apply to the\n"
 "               dashboard. E.g: [\"org='edX'\", \"country in ('us', 'co')\"]\n"

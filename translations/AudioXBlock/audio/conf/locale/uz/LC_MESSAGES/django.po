@@ -1,18 +1,19 @@
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2025.
 # 
 # Translators:
-# Jamshid Sodikov, 2024
+# Transifex Bot <>, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-05-31 00:54+0000\n"
-"Last-Translator: Jamshid Sodikov, 2024\n"
+"PO-Revision-Date: 2026-02-04 19:00+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Uzbek (https://app.transifex.com/open-edx/teams/6205/uz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Language: uz\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: audio.py:32
+#: audio.py:31
 msgid "URL for MP3 file to play"
 msgstr "MP3 faylni ijro etish uchun URL"
 
@@ -35,3 +36,7 @@ msgstr "Saqlash"
 #: templates/html/audio_edit.html:14
 msgid "Cancel"
 msgstr "Bekor qilish"
+
+#: added_by_omar.py:14
+msgid "Testing TX Branches"
+msgstr "TX tarmoqlarini sinovdan oʻtkazish"

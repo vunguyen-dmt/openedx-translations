@@ -1,33 +1,31 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2025.
 # 
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 # 
 # Translators:
-# Eden Huthmacher, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# Alibek Anvarov, 2024
+# Brian Smith, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-03 00:30+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Alibek Anvarov, 2024\n"
-"Language-Team: Uzbek (https://app.transifex.com/open-edx/teams/6205/uz/)\n"
+"POT-Creation-Date: 2025-09-19 00:44+0000\n"
+"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
+"Language-Team: Uzbek (https://app.transifex.com/open-edx/teams/301281/uz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 "Language: uz\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -58,7 +56,7 @@ msgstr "OpenAssessment saqlash xatosi"
 #: cms/static/js/views/course_info_update.js:170
 #: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
-#: cms/static/js/views/modals/edit_xblock.js:189
+#: cms/static/js/views/modals/edit_xblock.js:216
 #: cms/static/js/views/tabs.js:86 cms/static/js/views/tabs.js:118
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
@@ -66,11 +64,11 @@ msgstr "OpenAssessment saqlash xatosi"
 msgid "Saving"
 msgstr "Saqlash"
 
-#: cms/static/js/base.js:101
+#: cms/static/js/base.js:113
 msgid "This link will open in a new browser window/tab"
 msgstr "Ushbu havola yangi brauzer oynasida/tabida ochiladi"
 
-#: cms/static/js/base.js:108
+#: cms/static/js/base.js:120
 msgid "This link will open in a modal window"
 msgstr "Ushbu havola modal oynada ochiladi"
 
@@ -175,12 +173,15 @@ msgstr "O‘chirilmoqda"
 #. browser when a user needs to edit HTML
 #: cms/static/js/certificates/views/signatory_editor.js:162
 #: cms/static/js/views/asset.js:73
+#: cms/static/js/views/components/add_library_content.js:54
 #: cms/static/js/views/course_info_update.js:267
 #: cms/static/js/views/export.js:360
 #: cms/static/js/views/manage_users_and_roles.js:33
-#: cms/static/js/views/modals/base_modal.js:136
+#: cms/static/js/views/modals/base_modal.js:157
 #: cms/static/js/views/modals/course_outline_modals.js:219
 #: cms/static/js/views/modals/course_outline_modals.js:260
+#: cms/static/js/views/modals/preview_v2_library_changes.js:37
+#: cms/static/js/views/modals/select_v2_library_content.js:60
 #: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:188
 #: cms/static/js/views/validation.js:127
 #: common/static/common/js/components/utils/view_utils.js:68
@@ -336,10 +337,6 @@ msgstr "Kursni import qilishda xatolik yuz berdi"
 msgid "There was an error with the upload"
 msgstr "Yuklashda xatolik yuz berdi"
 
-#: cms/static/js/maintenance/force_publish_course.js:76
-msgid "Internal Server Error."
-msgstr "Serverdagi ichki xatolik."
-
 #. Translators: This is the status of a video upload that is queued
 #. waiting for other uploads to complete
 #: cms/static/js/models/active_video_upload.js:9
@@ -444,13 +441,13 @@ msgstr ""
 "Sertifikatning mavjud sanasi kursning tugash sanasidan kechroq bo‘lishi "
 "kerak."
 
-#: cms/static/js/models/settings/course_details.js:94
+#: cms/static/js/models/settings/course_details.js:93
 msgid "The certificate display behavior must be one of: {behavior_options}"
 msgstr ""
 "Sertifikatni ko‘rsatish harakati quyidagilardan biri bo‘lishi kerak: "
 "{behavior_options}"
 
-#: cms/static/js/models/settings/course_details.js:109
+#: cms/static/js/models/settings/course_details.js:108
 msgid ""
 "The certificates display behavior must be {valid_option} if certificate "
 "available date is set."
@@ -458,11 +455,11 @@ msgstr ""
 "Sertifikatning mavjud sanasi o‘rnatilgan bo‘lsa, sertifikatlarni ko‘rsatish "
 "harakati {valid_option} bo‘lishi kerak."
 
-#: cms/static/js/models/settings/course_details.js:120
+#: cms/static/js/models/settings/course_details.js:118
 msgid "Key should only contain letters, numbers, _, or -"
 msgstr "Kalitda faqat harflar, raqamlar, _ yoki - bo‘lishi kerak"
 
-#: cms/static/js/models/settings/course_details.js:131
+#: cms/static/js/models/settings/course_details.js:129
 msgid "Please enter an integer between %(min)s and %(max)s."
 msgstr "Iltimos, %(min)s va %(max)s orasidagi butun sonni kiriting."
 
@@ -536,7 +533,7 @@ msgstr "Bu qurilmada tekshirish bilan bog‘liq muammolar mavjud."
 msgid "This component has validation issues."
 msgstr "Ushbu komponentda tasdiqlash bilan bog‘liq muammolar mavjud."
 
-#: cms/static/js/utils/copy_to_clipboard.js:23
+#: cms/static/js/utils/copy_to_clipboard.js:24
 msgid "Copied"
 msgstr "Ko‘chirildi"
 
@@ -550,8 +547,9 @@ msgstr "Faylingizni yuklab bo‘lmadi"
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/active_video_upload.js:46
 #: cms/static/js/views/modals/course_outline_modals.js:351
-#: cms/static/js/views/modals/edit_xblock.js:124
+#: cms/static/js/views/modals/edit_xblock.js:151
 #: cms/static/js/views/video_transcripts.js:325
+#: lms/static/js/student_account/enrollment.js:87
 #: lms/static/js/student_account/tos_modal.js:48
 #: xmodule/js/src/html/edit.js:370
 #: cms/templates/js/course-video-settings.underscore:6
@@ -686,12 +684,14 @@ msgstr "Yangi faylni yuklash"
 msgid "Load Another File"
 msgstr "Boshqa faylni yuklash"
 
-#: cms/static/js/views/components/add_xblock.js:71
+#: cms/static/js/views/components/add_xblock.js:120
+#: cms/static/js/views/components/add_xblock.js:131
+#: cms/static/js/views/pages/container.js:652
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "Qo‘shish"
 
-#: cms/static/js/views/container.js:146
+#: cms/static/js/views/container.js:157
 msgid "{startTag}{requestToken}{endTag}{selector}"
 msgstr "{startTag} {requestToken} {endTag} {selector}"
 
@@ -703,10 +703,10 @@ msgstr "Haqiqatan ham bu yangilanishni oʻchirib tashlamoqchimisiz?"
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/course_info_update.js:241
-#: cms/static/js/views/course_outline.js:397
-#: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:313
-#: cms/static/js/views/pages/container.js:325 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/course_outline.js:390
+#: cms/static/js/views/course_outline.js:402
+#: cms/static/js/views/pages/container.js:424
+#: cms/static/js/views/pages/container.js:436 cms/static/js/views/tabs.js:164
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -716,41 +716,37 @@ msgid "OK"
 msgstr "KELISHDIKMI"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:499
+#: cms/static/js/views/pages/container.js:779
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "Nusxalash"
 
-#: cms/static/js/views/course_outline.js:336
-msgid "Copy of '{componentDisplayName}'"
-msgstr "“{componentDisplayName}” nusxasi"
-
-#: cms/static/js/views/course_outline.js:372
-#: cms/static/js/views/pages/container.js:287
+#: cms/static/js/views/course_outline.js:367
+#: cms/static/js/views/pages/container.js:395
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "Yopish"
 
-#: cms/static/js/views/course_outline.js:392
-#: cms/static/js/views/pages/container.js:308
+#: cms/static/js/views/course_outline.js:385
+#: cms/static/js/views/pages/container.js:419
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "Ba‘zi xatolar yuz berdi"
 
-#: cms/static/js/views/course_outline.js:394
-#: cms/static/js/views/pages/container.js:310
+#: cms/static/js/views/course_outline.js:387
+#: cms/static/js/views/pages/container.js:421
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr "Quyidagi kerakli fayllarni kursga qo‘shib bo‘lmadi:"
 
-#: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:318
+#: cms/static/js/views/course_outline.js:395
+#: cms/static/js/views/pages/container.js:429
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr "Fayl(lar)ni qo‘lda yangilashingiz kerak bo‘lishi mumkin"
 
-#: cms/static/js/views/course_outline.js:405
-#: cms/static/js/views/pages/container.js:321
+#: cms/static/js/views/course_outline.js:398
+#: cms/static/js/views/pages/container.js:432
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
@@ -759,26 +755,26 @@ msgstr ""
 "Quyidagi fayllar ushbu kursda allaqachon mavjud, lekin siz qo‘ygan komponent"
 " tomonidan foydalanilgan versiyaga mos kelmaydi:"
 
-#: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:330
+#: cms/static/js/views/course_outline.js:407
+#: cms/static/js/views/pages/container.js:441
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "Fayllar va yuklamalarga yangi fayl(lar) qo‘shildi."
 
-#: cms/static/js/views/course_outline.js:416
-#: cms/static/js/views/pages/container.js:332
+#: cms/static/js/views/course_outline.js:409
+#: cms/static/js/views/pages/container.js:443
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "Ushbu kursga quyidagi kerakli fayllar import qilindi:"
 
-#: cms/static/js/views/course_outline.js:421
-#: cms/static/js/views/pages/container.js:337
+#: cms/static/js/views/course_outline.js:414
+#: cms/static/js/views/pages/container.js:448
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "Fayllarni ko‘rish"
 
-#: cms/static/js/views/course_outline.js:430
-#: cms/static/js/views/pages/container.js:346
+#: cms/static/js/views/course_outline.js:422
+#: cms/static/js/views/pages/container.js:457
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "Rad etish"
@@ -820,7 +816,7 @@ msgid "Select language"
 msgstr "Tilni tanlang"
 
 #: cms/static/js/views/course_video_settings.js:474
-#: cms/static/js/views/metadata.js:357
+#: cms/static/js/views/metadata.js:362
 #: cms/static/js/views/previous_video_upload.js:78
 #: cms/static/js/views/video_transcripts.js:270
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
@@ -964,7 +960,7 @@ msgid "Upload instructor image."
 msgstr "O‘qituvchi rasmini yuklash."
 
 #: cms/static/js/views/instructor_info.js:79
-#: cms/static/js/views/settings/main.js:481
+#: cms/static/js/views/settings/main.js:478
 msgid "Files must be in JPEG or PNG format."
 msgstr "Fayllar JPEG yoki PNG formatida bo‘lishi kerak."
 
@@ -1121,7 +1117,7 @@ msgstr "Ishonchingiz komilmi?"
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr "Haqiqatan ham {email} “ {container} ” ga kirishini cheklamoqchimisiz?"
 
-#: cms/static/js/views/metadata.js:610 lms/static/js/views/file_uploader.js:47
+#: cms/static/js/views/metadata.js:615 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr "Faylni yuklash"
 
@@ -1219,21 +1215,23 @@ msgstr "O‘rnatish havolasi"
 msgid "Editing: {title}"
 msgstr "Tahrirlash: {title}"
 
-#: cms/static/js/views/modals/edit_xblock.js:98
+#: cms/static/js/views/modals/edit_xblock.js:124
 msgid "Plugins"
 msgstr "Plaginlar"
 
-#: cms/static/js/views/modals/edit_xblock.js:132
+#: cms/static/js/views/modals/edit_xblock.js:159
+#: cms/static/js/views/modals/preview_v2_library_changes.js:76
 #: lms/templates/ccx/schedule.underscore:13
 #: lms/templates/ccx/schedule.underscore:83
 msgid "Unit"
 msgstr "Birlik"
 
-#: cms/static/js/views/modals/edit_xblock.js:134
+#: cms/static/js/views/modals/edit_xblock.js:161
+#: cms/static/js/views/modals/preview_v2_library_changes.js:78
 msgid "Component"
 msgstr "Komponent"
 
-#: cms/static/js/views/modals/edit_xblock.js:180
+#: cms/static/js/views/modals/edit_xblock.js:207
 msgid "Studio's having trouble parsing the problem component's content"
 msgstr ""
 "Studio muammoli komponent tarkibini tahlil qilishda muammoga duch kelmoqda"
@@ -1249,6 +1247,43 @@ msgstr "Komponentni ko‘chirish uchun joyni tanlang"
 #: cms/static/js/views/modals/move_xblock_modal.js:66
 msgid "Move: {displayName}"
 msgstr "Ko‘chirish: {displayName}"
+
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/preview_v2_library_changes.js:23
+msgid "Preview changes to: {title}"
+msgstr "Oʻzgarishlarni oldindan koʻrish: {title}"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:35
+msgid "Accept changes"
+msgstr "O'zgarishlarni qabul qiling"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:36
+msgid "Ignore changes"
+msgstr "O'zgarishlarni e'tiborsiz qoldiring"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:99
+msgid "Ignore these changes?"
+msgstr "Ushbu o'zgarishlarni e'tiborsiz qoldirasizmi?"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:100
+msgid ""
+"Would you like to permanently ignore this updated version? If so, you won't "
+"be able to update this until a newer version is published (in the library)."
+msgstr ""
+"Ushbu yangilangan versiyani butunlay e'tiborsiz qoldirmoqchimisiz? Agar "
+"shunday bo'lsa, yangiroq versiya nashr etilmaguncha (kutubxonada) buni "
+"yangilay olmaysiz."
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/preview_v2_library_changes.js:101
+#: xmodule/js/src/html/edit.js:695
+msgid "Ignore"
+msgstr "E'tibor bermaslik"
+
+#: cms/static/js/views/modals/select_v2_library_content.js:59
+msgid "Add selected components"
+msgstr "Tanlangan komponentlarni qo'shing"
 
 #: cms/static/js/views/modals/validation_error_modal.js:16
 msgid "Validation Error While Saving"
@@ -1299,7 +1334,7 @@ msgstr "Qo‘shilgan sana"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:429
+#: cms/static/js/views/pages/container.js:731
 msgid "Editing access for: {title}"
 msgstr "Quyidagilar uchun tahrirlash ruxsati: {title}"
 
@@ -1501,15 +1536,15 @@ msgstr "Kurs boshlangandan keyin kurs tezligini o‘zgartirib bo‘lmaydi."
 msgid "{hours}:{minutes} (current UTC time)"
 msgstr "{hours} : {minutes} (joriy UTC vaqti)"
 
-#: cms/static/js/views/settings/main.js:460
+#: cms/static/js/views/settings/main.js:457
 msgid "Upload your course image."
 msgstr "Kurs rasmingizni yuklang."
 
-#: cms/static/js/views/settings/main.js:466
+#: cms/static/js/views/settings/main.js:463
 msgid "Upload your banner image."
 msgstr "Banner rasmingizni yuklang."
 
-#: cms/static/js/views/settings/main.js:472
+#: cms/static/js/views/settings/main.js:469
 msgid "Upload your video thumbnail image."
 msgstr "Videongizning kichik tasvirini yuklang"
 
@@ -1868,6 +1903,7 @@ msgstr ""
 
 #: cms/static/js/views/video_transcripts.js:228
 #: cms/templates/js/video-transcripts.underscore:27
+#, python-brace-format
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 msgstr "{transcriptClientTitle} _ {transcriptLanguageCode} . {fileExtension}"
 
@@ -1892,11 +1928,13 @@ msgstr "Sozlamalar"
 msgid "New {component_type}"
 msgstr "Yangi {component_type}"
 
+#. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: This message will be added to the front of messages of type
 #. warning,
 #. e.g. "Warning: this component has not been configured yet".
 #: cms/static/js/views/xblock_validation.js:51
 #: common/static/common/js/discussion/views/discussion_inline_view.js:201
+#: cms/templates/js/edit-upstream-alert.underscore:2
 msgid "Warning"
 msgstr "Ogohlantirish"
 
@@ -1913,7 +1951,7 @@ msgstr "Ogohlantirish"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:233
 #: common/static/common/js/discussion/views/response_comment_view.js:121
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:33
-#: lms/static/js/student_account/views/FinishAuthView.js:82
+#: lms/static/js/student_account/views/FinishAuthView.js:84
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:43
 msgid "Error"
@@ -2438,7 +2476,6 @@ msgstr "Kategoriyani tanlang"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:53
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:18
-#: lms/templates/student_account/account_settings.underscore:15
 msgid "Account Settings"
 msgstr "Account sozlamalari"
 
@@ -2600,8 +2637,6 @@ msgstr ""
 "yordam berish uchun jamoaning qisqacha tavsifi (maksimal 300 belgi)."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:62
-#: lms/static/js/student_account/views/account_settings_factory.js:183
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:139
 msgid "Language"
 msgstr "Til"
 
@@ -2614,7 +2649,6 @@ msgstr ""
 "foydalanadigan til."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:74
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:127
 msgid "Country"
 msgstr "Mamlakat"
 
@@ -3778,69 +3812,69 @@ msgstr "Maʼlumotlar yuklanmoqda..."
 msgid "Error getting issued certificates list."
 msgstr "Berilgan sertifikatlar ro‘yxatini olishda xatolik yuz berdi."
 
-#: lms/static/js/instructor_dashboard/data_download.js:123
+#: lms/static/js/instructor_dashboard/data_download.js:124
 msgid "Error generating anonymous IDs. Please try again."
 msgstr ""
 "Anonim identifikatorlarni yaratishda xatolik yuz berdi. Iltimos, qayta "
 "urinib ko‘ring."
 
-#: lms/static/js/instructor_dashboard/data_download.js:149
+#: lms/static/js/instructor_dashboard/data_download.js:150
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
 "Tekshirilgan imtihon natijalarini yaratishda xatolik yuz berdi. Iltimos, "
 "qayta urinib ko‘ring."
 
-#: lms/static/js/instructor_dashboard/data_download.js:175
+#: lms/static/js/instructor_dashboard/data_download.js:176
 #: lms/static/js/instructor_dashboard/data_download_2.js:48
 msgid "Error generating survey results. Please try again."
 msgstr ""
 "So‘rov natijalarini yaratishda xatolik yuz berdi. Iltimos, qayta urinib "
 "ko‘ring."
 
-#: lms/static/js/instructor_dashboard/data_download.js:201
+#: lms/static/js/instructor_dashboard/data_download.js:202
 #: lms/static/js/instructor_dashboard/data_download_2.js:47
 msgid "Error generating student profile information. Please try again."
 msgstr ""
 "Talaba profili maʼlumotlarini yaratishda xatolik yuz berdi. Iltimos, qayta "
 "urinib ko‘ring."
 
-#: lms/static/js/instructor_dashboard/data_download.js:227
+#: lms/static/js/instructor_dashboard/data_download.js:228
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
 #: cms/templates/js/move-xblock-modal.underscore:6
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
 msgid "Loading"
 msgstr "Yuklanmoqda"
 
-#: lms/static/js/instructor_dashboard/data_download.js:235
+#: lms/static/js/instructor_dashboard/data_download.js:236
 msgid "Error getting student list."
 msgstr "Talabalar ro‘yxatini olishda xatolik yuz berdi."
 
-#: lms/static/js/instructor_dashboard/data_download.js:301
+#: lms/static/js/instructor_dashboard/data_download.js:302
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
 "Ro‘yxatga olinishi mumkin bo‘lgan talabalar ro‘yxatini yaratishda xatolik "
 "yuz berdi. Iltimos, qayta urinib ko‘ring."
 
-#: lms/static/js/instructor_dashboard/data_download.js:333
+#: lms/static/js/instructor_dashboard/data_download.js:359
 msgid "Error retrieving grading configuration."
 msgstr "Baholash konfiguratsiyasini olishda xatolik yuz berdi."
 
-#: lms/static/js/instructor_dashboard/data_download.js:358
+#: lms/static/js/instructor_dashboard/data_download.js:384
 #: lms/static/js/instructor_dashboard/data_download_2.js:156
 msgid "Error generating grades. Please try again."
 msgstr ""
 "Baholarni yaratishda xatolik yuz berdi. Iltimos, qayta urinib ko‘ring."
 
-#: lms/static/js/instructor_dashboard/data_download.js:360
+#: lms/static/js/instructor_dashboard/data_download.js:386
 #: lms/static/js/instructor_dashboard/data_download_2.js:46
 msgid "Error generating problem grade report. Please try again."
 msgstr ""
 "Muammoli baho hisobotini yaratishda xatolik yuz berdi. Iltimos, qayta urinib"
 " ko‘ring."
 
-#: lms/static/js/instructor_dashboard/data_download.js:362
+#: lms/static/js/instructor_dashboard/data_download.js:388
 #: lms/static/js/instructor_dashboard/data_download_2.js:45
 msgid "Error generating ORA data report. Please try again."
 msgstr ""
@@ -3874,8 +3908,6 @@ msgstr "Ro‘yxatdan o‘tish kodini foydalanilmagan deb belgilang"
 
 #: lms/static/js/instructor_dashboard/membership.js:112
 #: lms/static/js/instructor_dashboard/membership.js:117
-#: lms/static/js/student_account/views/account_settings_factory.js:157
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:92
 #: cms/templates/js/transcript-organization-credentials.underscore:33
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:9
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:20
@@ -4042,31 +4074,11 @@ msgid "Successfully enrolled the following users:"
 msgstr "Quyidagi foydalanuvchilar ro‘yxatga olindi:"
 
 #. Translators: A list of users appears after this sentence;
-#: lms/static/js/instructor_dashboard/membership.js:792
-msgid ""
-"Email cannot be sent to the following users via batch enrollment. They will "
-"be allowed to enroll once they register:"
-msgstr ""
-"Quyidagi foydalanuvchilarga to'plamli ro‘yxatdan o‘tish orqali elektron "
-"pochta xabarini yuborib bo'lmaydi. Ro‘yxatdan o‘tgandan so‘ng ularga "
-"ro‘yxatdan o‘tishga ruxsat beriladi:"
-
-#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
 msgid "These users will be allowed to enroll once they register:"
 msgstr ""
 "Ushbu foydalanuvchilar ro‘yxatdan o‘tgandan keyin ro‘yxatdan o‘tishlariga "
 "ruxsat beriladi:"
-
-#. Translators: A list of users appears after this sentence;
-#: lms/static/js/instructor_dashboard/membership.js:816
-msgid ""
-"Email cannot be sent to the following users via batch enrollment. They will "
-"be enrolled once they register:"
-msgstr ""
-"Quyidagi foydalanuvchilarga to'plamli ro‘yxatdan o‘tish orqali elektron "
-"pochta xabarini yuborib bo‘lmaydi. Ular ro‘yxatdan o‘tgandan keyin ro‘yxatga"
-" olinadi:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:828
@@ -4725,29 +4737,27 @@ msgstr "{user} uchun muammo hisobi muvaffaqiyatli bekor qilindi"
 msgid "Could not override problem score for {user}."
 msgstr "{user} uchun muammo hisobini bekor qilib bo‘lmadi."
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:92
 msgid "Enter and confirm your new password."
 msgstr "Yangi parolingizni kiriting va tasdiqlang."
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:99
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:98
 msgid "New Password"
 msgstr "Yangi parol"
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:108
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:107
 msgid "Confirm Password"
 msgstr "Parolni tasdiqlang"
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:111
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:110
 msgid "Passwords do not match."
 msgstr "Parollar mos kelmaydi."
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:141
 msgid "Reset My Password"
 msgstr "Parolimni tiklash"
 
-#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:143
-#: lms/static/js/student_account/views/account_settings_factory.js:171
-#: lms/static/js/student_account/views/account_settings_factory.js:175
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
 msgid "Reset Your Password"
 msgstr "Parolingizni qayta o‘rnating"
 
@@ -4830,7 +4840,6 @@ msgid "We’re sorry to see you go!"
 msgstr "Ketganingizdan afsusdamiz!"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:125
-#: lms/static/js/student_account/views/account_settings_factory.js:352
 msgid "Delete My Account"
 msgstr "Mening accountimni o‘chirish"
 
@@ -4911,19 +4920,19 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "Xizmat shartlari va sharaf kodeksi"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:109
+#: lms/static/js/student_account/views/FinishAuthView.js:111
 msgid "Saving your email preference"
 msgstr "E-pochta sozlamalari saqlanmoqda"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:127
+#: lms/static/js/student_account/views/FinishAuthView.js:129
 msgid "Enrolling you in the selected course"
 msgstr "Sizni tanlangan kursga yozilmoqda"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:159
+#: lms/static/js/student_account/views/FinishAuthView.js:163
 msgid "Adding the selected course to your cart"
 msgstr "Tanlangan kurs savatingizga qo'shilmoqda"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:172
+#: lms/static/js/student_account/views/FinishAuthView.js:177
 msgid "Loading your courses"
 msgstr "Kurslaringiz yuklanmoqda"
 
@@ -5034,308 +5043,6 @@ msgid ""
 msgstr ""
 "%(platformName)s bilan o‘rganishni boshlashdan oldin bizga biroz ko'proq "
 "ma'lumot kerak."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:58
-msgid ""
-"Your profile settings are managed by {enterprise_name}. Contact your "
-"administrator or {link_start}edX Support{link_end} for help."
-msgstr ""
-"Profil sozlamalaringiz {enterprise_name} tomonidan boshqariladi. Yordam "
-"uchun administratoringiz yoki {link_start} edX Support {link_end} bilan "
-"bog'laning."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:75
-msgid "Email Address (Sign In)"
-msgstr "Elektron pochta manzili (kirish)"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:78
-msgid ""
-"You receive messages from {platform_name} and course teams at this address."
-msgstr "Siz ushbu manzilda {platform_name} va kurs jamoalaridan xabar olasiz."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:95
-msgid "Recovery Email Address"
-msgstr "Qayta tiklash elektron pochta manzili"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:97
-msgid ""
-"You may access your account with this address if single-sign on or access to"
-" your primary email is not available."
-msgstr ""
-"Agar bir marta kirish yoki asosiy e-pochtangizga kirish imkoni boʻlmasa, "
-"ushbu manzil orqali accountingizga kirishingiz mumkin."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:103
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:99
-msgid "Full Name"
-msgstr "To'liq ism"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:105
-msgid ""
-"The name that is used for ID verification and that appears on your "
-"certificates."
-msgstr ""
-"Shaxsni tasdiqlash uchun ishlatiladigan va sertifikatlaringizda "
-"ko'rsatiladigan ism."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:121
-msgid "Country or Region of Residence"
-msgstr "Yashash joyi yoki mintaqasi"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:125
-msgid "The country or region where you live."
-msgstr "Siz yashayotgan mamlakat yoki mintaqa."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:147
-#: lms/static/js/student_account/views/account_settings_factory.js:369
-msgid "Basic Account Information"
-msgstr "Asosiy account ma'lumotlari"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:148
-msgid "These settings include basic information about your account."
-msgstr ""
-"Ushbu sozlamalar accountingiz haqidagi asosiy ma'lumotlarni o‘z ichiga "
-"oladi."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:160
-msgid ""
-"The name that identifies you on {platform_name}. You cannot change your "
-"username."
-msgstr ""
-"{platform_name} da sizni identifikatsiya qiluvchi ism. Siz foydalanuvchi "
-"nomingizni o‘zgartira olmaysiz."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:170
-#: lms/templates/student_account/account.underscore:6
-msgid "Password"
-msgstr "Parol"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:177
-msgid "Check your email account for instructions to reset your password."
-msgstr ""
-"Parolni tiklash bo'yicha ko'rsatmalar uchun elektron pochta qayd "
-"yozuvingizni tekshiring."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:188
-msgid ""
-"The language used throughout this site. This site is currently available in "
-"a limited number of languages. Changing the value of this field will cause "
-"the page to refresh."
-msgstr ""
-"Ushbu saytda ishlatiladigan til. Ushbu sayt hozirda cheklangan miqdordagi "
-"tillarda mavjud. Ushbu maydonning qiymatini o‘zgartirish sahifaning "
-"yangilanishiga olib keladi."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:201
-msgid "Time Zone"
-msgstr "Vaqt mintaqasi"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:203
-msgid ""
-"Select the time zone for displaying course dates. If you do not specify a "
-"time zone, course dates, including assignment deadlines, will be displayed "
-"in your browser's local time zone."
-msgstr ""
-"Kurs sanalarini ko'rsatish uchun vaqt zonasini tanlang. Vaqt mintaqasini "
-"belgilamasangiz, kurs sanalari, jumladan, topshiriqning oxirgi muddatlari "
-"brauzeringizning mahalliy vaqt mintaqasida ko'rsatiladi."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:205
-msgid "All Time Zones"
-msgstr "Barcha vaqt zonalari"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:207
-msgid "Default (Local Time Zone)"
-msgstr "Birlamchi (mahalliy vaqt mintaqasi)"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:215
-msgid "Additional Information"
-msgstr "Qo'shimcha ma'lumot"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:220
-msgid "Education Completed"
-msgstr "Taʼlim tugallandi"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:229
-msgid "Gender"
-msgstr "Jins"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:238
-msgid "Year of Birth"
-msgstr "Tug'ilgan yil"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:247
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:142
-msgid "Preferred Language"
-msgstr "Afzal til"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:272
-msgid ""
-"We've sent a confirmation message to {new_secondary_email_address}. Click "
-"the link in the message to update your secondary email address."
-msgstr ""
-"Biz {new_secondary_email_address} ga tasdiqlash xabarini yubordik. "
-"Ikkilamchi elektron pochta manzilingizni yangilash uchun xabardagi havolani "
-"bosing."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:320
-msgid "Social Media Links"
-msgstr "Ijtimoiy tarmoqlarga havolalar"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:321
-msgid ""
-"Optionally, link your personal accounts to the social media icons on your "
-"edX profile."
-msgstr ""
-"Majburiy emas, shaxsiy accountlaringizni edX profilingizdagi ijtimoiy media "
-"piktogrammalariga bog'lang."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:332
-msgid "{platform_display_name} Link"
-msgstr "{platform_display_name} havola"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:337
-msgid ""
-"Enter your {platform_display_name} username or the URL to your "
-"{platform_display_name} page. Delete the URL to remove the link."
-msgstr ""
-"{platform_display_name} foydalanuvchi nomingizni yoki "
-"{platform_display_name} sahifangizning URL manzilini kiriting. Havolani olib"
-" tashlash uchun URL manzilini o‘chiring."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:377
-#: lms/static/js/student_account/views/account_settings_view.js:45
-msgid "Linked Accounts"
-msgstr "Bog'langan accountlar"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:379
-msgid ""
-"You can link your social media accounts to simplify signing in to "
-"{platform_name}."
-msgstr ""
-"{platform_name} ga kirishni soddalashtirish uchun ijtimoiy media "
-"accountlaringizni ulashingiz mumkin."
-
-#: lms/static/js/student_account/views/account_settings_factory.js:401
-msgid "ORDER NAME"
-msgstr "BUYURTMA NOMI"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:402
-msgid "ORDER PLACED"
-msgstr "Buyurtma berildi"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:403
-msgid "TOTAL"
-msgstr "JAMI"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:404
-msgid "ORDER NUMBER"
-msgstr "BUYURTMA RAQAMI"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:410
-msgid "My Orders"
-msgstr "Mening Buyurtmalarim"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:412
-msgid ""
-"This page contains information about orders that you have placed with "
-"{platform_name}."
-msgstr ""
-"Ushbu sahifada siz {platform_name} bilan buyurtma berganingiz haqida "
-"ma'lumot mavjud."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:47
-msgid ""
-"We've sent a confirmation message to {new_email_address}. Click the link in "
-"the message to update your email address."
-msgstr ""
-"Biz {new_email_address} raqamiga tasdiqlash xabarini yubordik. Elektron "
-"pochta manzilingizni yangilash uchun xabardagi havolani bosing."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:90
-msgid ""
-"You must sign out and sign back in before your language changes take effect."
-msgstr ""
-"Til oʻzgarishlari kuchga kirishidan oldin tizimdan chiqib, qayta kirishingiz"
-" kerak."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:211
-msgid ""
-"We've sent a message to {email}. Click the link in the message to reset your"
-" password. Didn't receive the message? Contact {anchorStart}technical "
-"support{anchorEnd}."
-msgstr ""
-"Biz {email} ga xabar yubordik. Parolni tiklash uchun xabardagi havolani "
-"bosing. Xabarni olmadingizmi? {anchorStart} texnik yordam {anchorEnd} bilan "
-"bog'laning."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:356
-msgid "Link your {accountName} account"
-msgstr "{accountName} accountingizni ulang"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:360
-msgid "Unlink This Account"
-msgstr "Bu accountni uzing"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:363
-msgid ""
-"You can use your {accountName} account to sign in to your {platformName} "
-"account."
-msgstr ""
-"Siz {platformName} accountingizga kirish uchun {accountName} accountingizdan"
-" foydalanishingiz mumkin."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:367
-msgid "Unlink your {accountName} account"
-msgstr "{accountName} accountingizni uzing"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:371
-msgid "Link Your Account"
-msgstr "Accountingizni bog'lang"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:374
-msgid ""
-"Link your {accountName} account to your {platformName} account and use "
-"{accountName} to sign in to {platformName}."
-msgstr ""
-"{accountName} accountingizni {platformName} accountingizga ulang va "
-"{platformName} accountiga kirish uchun {accountName} foydalaning."
-
-#: lms/static/js/student_account/views/account_settings_fields.js:431
-msgid "Unlinking"
-msgstr "Ulanish uzilmoqda"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:431
-msgid "Linking"
-msgstr "Ulanish"
-
-#: lms/static/js/student_account/views/account_settings_fields.js:435
-msgid "Successfully unlinked."
-msgstr "Ulanish muvaffaqiyatli uzildi."
-
-#: lms/static/js/student_account/views/account_settings_view.js:36
-msgid "Account Information"
-msgstr "Account ma'lumotlari"
-
-#: lms/static/js/student_account/views/account_settings_view.js:55
-msgid "Order History"
-msgstr "Buyurtma tarixi"
-
-#: lms/static/js/student_account/views/account_settings_view.js:64
-msgid ""
-"You have set your language to {beta_language}, which is currently not fully "
-"translated. You can help us translate this language fully by joining the "
-"Transifex community and adding translations from English for learners that "
-"speak {beta_language}."
-msgstr ""
-"Siz oʻz tilingizni {beta_language} qilib oʻrnatdingiz, u hozirda toʻliq "
-"tarjima qilinmagan. Transifex hamjamiyatiga qoʻshilish va {beta_language} "
-"tilida gapiradigan oʻquvchilar uchun ingliz tilidan tarjimalarni qoʻshish "
-"orqali bizga ushbu tilni toʻliq tarjima qilishda yordam bera olasiz."
-
-#: lms/static/js/student_account/views/account_settings_view.js:70
-msgid "Help Translate into {beta_language}"
-msgstr "{beta_language} tiliga tarjima qilishga yordam bering"
 
 #: lms/static/js/verify_student/views/image_input_view.js:93
 msgid "Image Upload Error"
@@ -5555,7 +5262,7 @@ msgid "Bookmark this page"
 msgstr "Ushbu sahifani belgilang"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
-#: xmodule/js/src/sequence/display.js:445
+#: xmodule/js/src/sequence/display.js:521
 msgid "Bookmarked"
 msgstr "Xatcho‘plangan"
 
@@ -5563,89 +5270,6 @@ msgstr "Xatcho‘plangan"
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
 msgstr[0] "\" {search_term} \" uchun {total_results} natijalar topildi"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:68
-msgid "Profile Visibility:"
-msgstr "Profilning ko'rinishi:"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:71
-msgid "Limited Profile"
-msgstr "Cheklangan profil"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:72
-msgid "Full Profile"
-msgstr "To'liq profil"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:112
-msgid "Joined"
-msgstr "Qoʻshildi"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:115
-msgid "Joined Date"
-msgstr "Qo'shilgan sana"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:124
-msgid "Location"
-msgstr "Joylashuv"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:131
-msgid "Add Country"
-msgstr "Mamlakatni qo'shish"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:146
-msgid "Add language"
-msgstr "Til qo'shing"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:159
-msgid "About me"
-msgstr "Men haqimda"
-
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:161
-msgid ""
-"Tell other learners a little about yourself: where you live, what your "
-"interests are, why you're taking courses, or what you hope to learn."
-msgstr ""
-"Boshqa o‘quvchilarga o‘zingiz haqingizda bir oz gapirib bering: qayerda "
-"yashayapsiz, nimaga qiziqishingiz bor, nima uchun kurslarga o‘tyapsiz yoki "
-"nimani o‘rganishni orzu qilasiz."
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:38
-msgid "Account Settings page."
-msgstr "Account sozlamalari sahifasi."
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:44
-msgid ""
-"You must specify your birth year before you can share your full profile. To "
-"specify your birth year, go to the {account_settings_page_link}"
-msgstr ""
-"To'liq profilingizni baham ko'rishdan oldin tug'ilgan yilingizni "
-"ko'rsatishingiz kerak. Tug'ilgan yilingizni ko'rsatish uchun "
-"{account_settings_page_link} sahifasiga o‘ting"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:51
-msgid ""
-"You must be over 13 to share a full profile. If you are over 13, make sure "
-"that you have specified a birth year on the {account_settings_page_link}"
-msgstr ""
-"To'liq profilni baham ko'rish uchun 13 yoshdan katta bo'lishingiz kerak. "
-"Agar siz 13 yoshdan oshgan bo'lsangiz, {account_settings_page_link} da "
-"tug'ilgan yilingizni ko'rsatganingizga ishonch hosil qiling."
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:74
-msgid "Profile Image"
-msgstr "Profil rasmi"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:82
-msgid "Profile image for {username}"
-msgstr "{username} uchun profil rasmi"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:65
-msgid "About Me"
-msgstr "Men haqimda"
-
-#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:71
-msgid "Profile"
-msgstr "Profil"
 
 #: xmodule/assets/library_content/public/js/library_content_edit.js:16
 #: xmodule/js/public/js/library_content_edit.js:16
@@ -5743,17 +5367,17 @@ msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] "{earned} / {possible} ball (baholanmagan)"
 
-#: xmodule/js/src/capa/display.js:349
+#: xmodule/js/src/capa/display.js:356
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "Baholash jarayoni hamon davom etmoqda. Yangilanishlarni ko'rish uchun "
 "sahifani yangilang."
 
-#: xmodule/js/src/capa/display.js:458
+#: xmodule/js/src/capa/display.js:465
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "Javobingizni baholab boʻlmadi. Taqdim etish bekor qilindi."
 
-#: xmodule/js/src/capa/display.js:522
+#: xmodule/js/src/capa/display.js:529
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -5763,33 +5387,33 @@ msgstr ""
 "quvvatlamaydi. Iloji bo'lsa, fayl yuklashni qo'llab-quvvatlash uchun "
 "tasdiqlangan Chrome yoki Safari'dan foydalaning."
 
-#: xmodule/js/src/capa/display.js:548
+#: xmodule/js/src/capa/display.js:555
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "Siz yubordingiz {filename} ; faqat {allowedFiles} ruxsat etiladi."
 
-#: xmodule/js/src/capa/display.js:561
+#: xmodule/js/src/capa/display.js:568
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "{filename} faylingiz juda katta (maksimal hajmi: {maxSize} MB)."
 
-#: xmodule/js/src/capa/display.js:577
+#: xmodule/js/src/capa/display.js:584
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "Siz kerakli fayllarni topshirmadingiz: {requiredFiles} ."
 
-#: xmodule/js/src/capa/display.js:587
+#: xmodule/js/src/capa/display.js:594
 msgid "You did not select any files to submit."
 msgstr "Yuborish uchun hech qanday fayl tanlamadingiz."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:681
+#: xmodule/js/src/capa/display.js:688
 msgid "{label}: {status}"
 msgstr "{label} : {status}"
 
-#: xmodule/js/src/capa/display.js:712
+#: xmodule/js/src/capa/display.js:719
 msgid "This problem has been reset."
 msgstr "Bu muammo qayta tiklandi."
 
-#: xmodule/js/src/capa/display.js:1018
+#: xmodule/js/src/capa/display.js:1025
 msgid "unsubmitted"
 msgstr "topshirilmagan"
 
@@ -6368,12 +5992,6 @@ msgstr "HTML manba kodi"
 #: xmodule/js/src/html/edit.js:690
 msgid "Ignore all"
 msgstr "Hammasini e'tiborsiz qoldiring"
-
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:695
-msgid "Ignore"
-msgstr "E'tibor bermaslik"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -7086,7 +6704,7 @@ msgstr ""
 msgid "Explanation"
 msgstr "Tushuntirish"
 
-#: xmodule/js/src/sequence/display.js:330
+#: xmodule/js/src/sequence/display.js:406
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
@@ -7275,30 +6893,30 @@ msgstr "Qayta ko'rsatma"
 msgid "Open language menu"
 msgstr "Til menyusini oching"
 
-#: xmodule/js/src/video/09_video_caption.js:589
+#: xmodule/js/src/video/09_video_caption.js:630
 msgid "Transcript will be displayed when you start playing the video."
 msgstr "Videoni o‘ynashni boshlaganingizda transkripsiya ko'rsatiladi."
 
-#: xmodule/js/src/video/09_video_caption.js:837
+#: xmodule/js/src/video/09_video_caption.js:878
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr ""
 "Ushbu guruhdagi havolani faollashtirish videodagi tegishli nuqtaga o‘tadi."
 
-#: xmodule/js/src/video/09_video_caption.js:840
+#: xmodule/js/src/video/09_video_caption.js:881
 msgid "Video transcript"
 msgstr "Video transkript"
 
-#: xmodule/js/src/video/09_video_caption.js:843
+#: xmodule/js/src/video/09_video_caption.js:884
 msgid "Start of transcript. Skip to the end."
 msgstr "Transkriptning boshlanishi. Oxirigacha o‘tish."
 
-#: xmodule/js/src/video/09_video_caption.js:847
+#: xmodule/js/src/video/09_video_caption.js:888
 msgid "End of transcript. Skip to the start."
 msgstr "Transkriptning oxiri. Boshiga o‘tish."
 
-#: xmodule/js/src/video/09_video_caption.js:851
+#: xmodule/js/src/video/09_video_caption.js:892
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
@@ -7308,23 +6926,23 @@ msgstr ""
 "parametrlarida harakat qilish uchun YUQARI va PASTGA oʻq tugmalaridan "
 "foydalaning. Tanlangan tilga oʻtish uchun ENTER tugmasini bosing."
 
-#: xmodule/js/src/video/09_video_caption.js:1205
+#: xmodule/js/src/video/09_video_caption.js:1248
 msgid "Hide closed captions"
 msgstr "Yopiq taglavhalarni yashirish"
 
-#: xmodule/js/src/video/09_video_caption.js:1223
+#: xmodule/js/src/video/09_video_caption.js:1266
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(Videoni o‘ynashni boshlaganingizda taglavha ko‘rsatiladi.)"
 
-#: xmodule/js/src/video/09_video_caption.js:1230
+#: xmodule/js/src/video/09_video_caption.js:1273
 msgid "Turn on closed captioning"
 msgstr "Yopiq taglavhalarni yoqing"
 
-#: xmodule/js/src/video/09_video_caption.js:1338
+#: xmodule/js/src/video/09_video_caption.js:1381
 msgid "Turn on transcripts"
 msgstr "Transkriptlarni yoqing"
 
-#: xmodule/js/src/video/09_video_caption.js:1353
+#: xmodule/js/src/video/09_video_caption.js:1396
 msgid "Turn off transcripts"
 msgstr "Transkriptlarni o‘chirib qo'ying"
 
@@ -7394,6 +7012,10 @@ msgstr "muvaffaqiyatsizlik haqida tafsilotlar"
 msgid "Add Component:"
 msgstr "Komponent qo'shish:"
 
+#: cms/templates/js/add-xblock-component-button.underscore:10
+msgid "Beta"
+msgstr "Beta"
+
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:3
 #: cms/templates/js/add-xblock-component-menu.underscore:4
 #, python-format
@@ -7447,7 +7069,7 @@ msgid "Show All"
 msgstr "Hammasini ko'rsatish"
 
 #: cms/templates/js/asset-library.underscore:57
-#: cms/templates/js/basic-modal.underscore:24
+#: cms/templates/js/basic-modal.underscore:26
 #: cms/templates/js/course-outline.underscore:201
 #: cms/templates/js/course-outline.underscore:203
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
@@ -7599,10 +7221,12 @@ msgid "component"
 msgstr "komponent"
 
 #: cms/templates/js/container-access.underscore:16
+#, python-brace-format
 msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
 msgstr "Ushbu {blockType} ga kirish ruxsati cheklangan: {selectedGroupsLabel}"
 
 #: cms/templates/js/container-access.underscore:26
+#, python-brace-format
 msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
@@ -7837,6 +7461,7 @@ msgid "Unpublished changes to content that will release in the future"
 msgstr "Kelajakda chiqadigan kontentga eʼlon qilinmagan oʻzgarishlar"
 
 #: cms/templates/js/course-outline.underscore:83
+#, python-brace-format
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr "Bu qurilmaga kirish ruxsati cheklangan: {selectedGroupsLabel}"
 
@@ -8163,6 +7788,7 @@ msgid "Warning: "
 msgstr "Ogohlantirish: "
 
 #: cms/templates/js/course_grade_policy.underscore:40
+#, python-brace-format
 msgid ""
 "The number of {type} assignments defined here does not match the current "
 "number of {type} assignments in the course:"
@@ -8175,10 +7801,12 @@ msgid "There are no assignments of this type in the course."
 msgstr "Kursda bunday turdagi topshiriqlar mavjud emas."
 
 #: cms/templates/js/course_grade_policy.underscore:51
+#, python-brace-format
 msgid "{assignment_count} {type} assignment(s) found:"
 msgstr "{assignment_count} {type} topshiriq(lar)i topildi:"
 
 #: cms/templates/js/course_grade_policy.underscore:71
+#, python-brace-format
 msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
@@ -8248,6 +7876,7 @@ msgid "Chapter Name"
 msgstr "Bo'lim nomi"
 
 #: cms/templates/js/edit-chapter.underscore:4
+#, python-brace-format
 msgid "Chapter {order}"
 msgstr "{order} bo'limi"
 
@@ -8260,6 +7889,7 @@ msgid "Chapter Asset"
 msgstr "Aktiv bo'lim"
 
 #: cms/templates/js/edit-chapter.underscore:10
+#, python-brace-format
 msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
 msgstr "yo'l/to/kirishToCookieBaking-CH {order} .pdf"
 
@@ -8306,6 +7936,22 @@ msgstr "Bo'lim qo'shing"
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
 msgstr "Sarlavhani tahrirlash"
+
+#: cms/templates/js/edit-upstream-alert.underscore:4
+msgid "You are editing content from a Library."
+msgstr "Siz kutubxonadagi kontentni tahrir qilyapsiz."
+
+#: cms/templates/js/edit-upstream-alert.underscore:6
+msgid ""
+"Edits made here will only be reflected in this course. These edits may be "
+"overridden later if updates are accepted."
+msgstr ""
+"Bu yerda qilingan tahrirlar faqat ushbu kursda aks ettiriladi. Agar "
+"yangilanishlar qabul qilinsa, bu tahrirlar keyinroq bekor qilinishi mumkin."
+
+#: cms/templates/js/edit-upstream-alert.underscore:14
+msgid "View in Library"
+msgstr "Kutubxonada ko'rish"
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:5
 msgid ""
@@ -8355,6 +8001,7 @@ msgid "This Group Configuration is used in:"
 msgstr "Ushbu guruh konfiguratsiyasi quyidagilarda qo'llaniladi:"
 
 #: cms/templates/js/group-configuration-details.underscore:84
+#, python-brace-format
 msgid ""
 "This Group Configuration is not in use. Start by adding a content experiment"
 " to any Unit via the {linkStart}Course Outline{linkEnd}."
@@ -8431,6 +8078,7 @@ msgstr ""
 
 #: cms/templates/js/highlights-editor.underscore:36
 #: cms/templates/js/highlights-editor.underscore:49
+#, python-brace-format
 msgid "Highlight {highlight_index}"
 msgstr "{highlight_index} ajratib ko'rsatish"
 
@@ -8443,14 +8091,17 @@ msgid "License Type"
 msgstr "Litsenziya turi"
 
 #: cms/templates/js/license-selector.underscore:18
+#, python-brace-format
 msgid "Learn more about {license_name}"
 msgstr "{license_name} haqida ko'proq bilib oling"
 
 #: cms/templates/js/license-selector.underscore:34
+#, python-brace-format
 msgid "Options for {license_name}"
 msgstr "{license_name} uchun imkoniyatlar"
 
 #: cms/templates/js/license-selector.underscore:37
+#, python-brace-format
 msgid "The following options are available for the {license_name} license."
 msgstr "{license_name} litsenziyasi uchun quyidagi variantlar mavjud."
 
@@ -8511,6 +8162,7 @@ msgid "Download"
 msgstr "Yuklab olish"
 
 #: cms/templates/js/move-xblock-list.underscore:7
+#, python-brace-format
 msgid "{categoryText} in {parentDisplayname}"
 msgstr "{categoryText} in {parentDisplayname}"
 
@@ -8541,6 +8193,7 @@ msgid "This group controls access to:"
 msgstr "Bu guruh quyidagilarga kirishni nazorat qiladi:"
 
 #: cms/templates/js/partition-group-details.underscore:59
+#, python-brace-format
 msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
@@ -8584,6 +8237,7 @@ msgid "Remove this video"
 msgstr "Ushbu videoni olib tashlang"
 
 #: cms/templates/js/previous-video-upload.underscore:15
+#, python-brace-format
 msgid "Remove {video_name} video"
 msgstr "{video_name} videosini olib tashlang"
 
@@ -8632,6 +8286,7 @@ msgid "Publishing Status"
 msgstr "Nashriyot holati"
 
 #: cms/templates/js/publish-xblock.underscore:31
+#, python-brace-format
 msgid ""
 "Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
 "{editedByStart}{editedBy}{editedByEnd}"
@@ -8640,6 +8295,7 @@ msgstr ""
 "{editedByStart} {editedBy} {editedByEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:43
+#, python-brace-format
 msgid ""
 "Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by "
 "{publishedByStart}{publishedBy}{publishedByEnd}"
@@ -8712,6 +8368,7 @@ msgid "weeks from learner enrollment date"
 msgstr "o‘quvchi ro'yxatga olingan kundan boshlab haftalar"
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:14
+#, python-brace-format
 msgid ""
 "If a learner starts on {startDate}, this subsection will be due on "
 "{projectedDueIn}."
@@ -8942,6 +8599,7 @@ msgid "You!"
 msgstr "Siz!"
 
 #: cms/templates/js/team-member.underscore:19
+#, python-brace-format
 msgid "send an email message to {email}"
 msgstr "{email} elektron pochta xabarini yuboring"
 
@@ -8952,14 +8610,17 @@ msgstr ""
 "darajasiga ko'taring"
 
 #: cms/templates/js/team-member.underscore:35
+#, python-brace-format
 msgid "Add {role} Access"
 msgstr "{role} Access qo'shing"
 
 #: cms/templates/js/team-member.underscore:35
+#, python-brace-format
 msgid "Remove {role} Access"
 msgstr "{role} Access-ni olib tashlang"
 
 #: cms/templates/js/team-member.underscore:44
+#, python-brace-format
 msgid "Delete the user, {username}"
 msgstr "Foydalanuvchini o‘chirish, {username}"
 
@@ -9076,6 +8737,7 @@ msgid "Review Rules"
 msgstr "Ko'rib chiqish qoidalari"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:86
+#, python-brace-format
 msgid ""
 "Specify any rules or rule exceptions that the proctoring review team should "
 "enforce when reviewing the videos. For example, you could specify that "
@@ -9110,6 +8772,7 @@ msgid "Account"
 msgstr "Account"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:5
+#, python-brace-format
 msgid ""
 "This action updates the {provider} information for your entire organization."
 msgstr ""
@@ -9190,6 +8853,7 @@ msgstr ""
 "qilmaydigan oʻquvchilar ushbu kontentni sukut boʻyicha koʻradi."
 
 #: cms/templates/js/video-thumbnail.underscore:17
+#, python-brace-format
 msgid ""
 "Recommended image resolution is {imageResolution}, maximum image file size "
 "should be {maxFileSize} and format must be one of {supportedImageFormats}."
@@ -9207,6 +8871,7 @@ msgid "No transcript uploaded."
 msgstr "Hech qanday transkript yuklanmagan."
 
 #: cms/templates/js/video-transcripts.underscore:17
+#, python-brace-format
 msgid "Show transcripts ({totalTranscripts})"
 msgstr "Transkriptlarni ko'rsatish ( {totalTranscripts} )"
 
@@ -9229,6 +8894,7 @@ msgstr ""
 "edi."
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
+#, python-brace-format
 msgid ""
 "The published branch version, {published}, was reset to the draft branch "
 "version, {draft}."
@@ -9611,6 +9277,7 @@ msgid "Community TA"
 msgstr "Jamiyat TA"
 
 #: common/static/common/templates/discussion/templates.underscore:379
+#, python-brace-format
 msgid "{unread_comments_count} new"
 msgstr "{unread_comments_count} yangi"
 
@@ -10186,6 +9853,7 @@ msgid "Hide Timer"
 msgstr "Taymerni yashirish"
 
 #: lms/templates/courseware/proctored-exam-status.underscore:30
+#, python-brace-format
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr "Siz \" {exam_link} \" ni {exam_type} sifatida qabul qilyapsiz. "
 
@@ -10292,6 +9960,7 @@ msgid "Product Name"
 msgstr "Mahsulot nomi"
 
 #: lms/templates/fields/field_textarea.underscore:52
+#, python-brace-format
 msgid ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
 "{maxCharacters}"
@@ -10309,6 +9978,7 @@ msgid "Profile Information"
 msgstr "Profil haqida ma'lumot"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:16
+#, python-brace-format
 msgid ""
 "The following information is already a part of your {platform} profile and "
 "is required for your application. To edit this information go to "
@@ -10337,6 +10007,7 @@ msgid "Submit Application"
 msgstr "Ariza topshirish"
 
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore:3
+#, python-brace-format
 msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
@@ -10575,6 +10246,7 @@ msgid "Deleted Content Group"
 msgstr "Oʻchirilgan kontent guruhi"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:104
+#, python-brace-format
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The previously selected "
 "content group was deleted. Select another content group."
@@ -10583,6 +10255,7 @@ msgstr ""
 "kontent guruhi oʻchirildi. Boshqa kontent guruhini tanlang."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:123
+#, python-brace-format
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
 msgstr ""
@@ -10647,6 +10320,7 @@ msgid "Assign learners to cohorts by uploading a CSV file"
 msgstr "CSV faylini yuklash orqali oʻquvchilarni kogortalarga tayinlang"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
+#, python-brace-format
 msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
@@ -10713,6 +10387,7 @@ msgid "Change or Leave Session"
 msgstr "Seansni o‘zgartirish yoki tark etish"
 
 #: lms/templates/learner_dashboard/course_card.underscore:29
+#, python-brace-format
 msgid "You must select a session by {expiration_date} to access the course."
 msgstr ""
 "Kursga kirish uchun {expiration_date} tomonidan seansni tanlashingiz kerak."
@@ -10722,6 +10397,7 @@ msgid "You can no longer change sessions."
 msgstr "Seanslarni endi o‘zgartira olmaysiz."
 
 #: lms/templates/learner_dashboard/course_card.underscore:35
+#, python-brace-format
 msgid "You can change sessions until {expiration_date}."
 msgstr "Seanslarni {expiration_date} gacha o‘zgartirishingiz mumkin."
 
@@ -10746,11 +10422,11 @@ msgstr "Hozir roʻyxatdan oʻting"
 msgid "Coming Soon"
 msgstr "Tez kunlarda"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:47
+#: lms/templates/learner_dashboard/course_enroll.underscore:48
 msgid "Enrollment Opens on"
 msgstr "Ro'yxatga olish kuni ochiladi"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:54
+#: lms/templates/learner_dashboard/course_enroll.underscore:56
 msgid "Not Currently Available"
 msgstr "Hozirda mavjud emas"
 
@@ -10767,14 +10443,17 @@ msgid "To access the course, select a session."
 msgstr "Kursga kirish uchun seansni tanlang."
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:15
+#, python-brace-format
 msgid "Session Selection Dropdown for {courseName}"
 msgstr "{courseName} uchun seansni tanlash"
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:19
+#, python-brace-format
 msgid "{sessionDates} - Currently Selected"
 msgstr "{sessionDates} - Hozirda tanlangan"
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:21
+#, python-brace-format
 msgid "{sessionDates} (Open until {enrollmentEnd})"
 msgstr "{sessionDates} ( {enrollmentEnd} gacha ochiq)"
 
@@ -10828,6 +10507,7 @@ msgid "%(programName)s Home Page."
 msgstr "%(programName)s Bosh sahifa."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+#, python-brace-format
 msgid "Your {program} Certificate"
 msgstr "Sizning {program} sertifikatingiz"
 
@@ -10911,11 +10591,13 @@ msgstr "Qolgan barcha kurslarni yangilang ("
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
 #: lms/templates/learner_dashboard/program_details_view.underscore:32
+#, python-brace-format
 msgid "${listPrice}"
 msgstr "$ {listPrice}"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:62
 #: lms/templates/learner_dashboard/program_details_view.underscore:38
+#, python-brace-format
 msgid " ${price} {currency} )"
 msgstr " $ {price} {currency} )"
 
@@ -10975,6 +10657,7 @@ msgstr ""
 "tasdiqlangan sertifikat olishingiz kerak."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
+#, python-brace-format
 msgid "{organization}\\'s logo"
 msgstr "{organization} \\ logotipi"
 
@@ -10994,6 +10677,10 @@ msgstr "Tasdiqlanganga yangilang"
 msgid "New Address"
 msgstr "Yangi manzil"
 
+#: lms/templates/student_account/account.underscore:6
+msgid "Password"
+msgstr "Parol"
+
 #: lms/templates/student_account/account.underscore:11
 msgid "Change My Email Address"
 msgstr "Mening elektron pochta manzilimni o‘zgartiring"
@@ -11001,14 +10688,6 @@ msgstr "Mening elektron pochta manzilimni o‘zgartiring"
 #: lms/templates/student_account/account.underscore:16
 msgid "Reset Password"
 msgstr "Parolni tiklash"
-
-#: lms/templates/student_account/account_settings.underscore:8
-msgid "Switch Language Back"
-msgstr "Tilni orqaga almashtirish"
-
-#: lms/templates/student_account/account_settings_section.underscore:27
-msgid "An error occurred. Please reload the page."
-msgstr "Xatolik yuz berdi. Iltimos, sahifani qayta yuklang."
 
 #: lms/templates/student_account/form_field.underscore:139
 msgid "Need help signing in?"
@@ -11087,6 +10766,7 @@ msgid "Create an Account."
 msgstr "Account ochish."
 
 #: lms/templates/student_account/login.underscore:14
+#, python-brace-format
 msgid "Sign in to continue learning as {email}"
 msgstr "{email} sifatida o‘rganishni davom ettirish uchun tizimga kiring"
 
@@ -11095,6 +10775,7 @@ msgid "Sign in to continue learning"
 msgstr "O‘rganishni davom ettirish uchun tizimga kiring"
 
 #: lms/templates/student_account/login.underscore:19
+#, python-brace-format
 msgid ""
 "You already have an edX account with your {enterprise_name} email address."
 msgstr ""
@@ -11102,6 +10783,7 @@ msgstr ""
 "accounti mavjud."
 
 #: lms/templates/student_account/login.underscore:21
+#, python-brace-format
 msgid ""
 "Going forward, your account information will be updated and maintained by "
 "{enterprise_name}."
@@ -11110,6 +10792,7 @@ msgstr ""
 "va saqlanadi."
 
 #: lms/templates/student_account/login.underscore:23
+#, python-brace-format
 msgid ""
 "You can view your information or unlink from {enterprise_name} anytime in "
 "your Account Settings."
@@ -11177,6 +10860,7 @@ msgid "Recover my password"
 msgstr "Parolimni tiklang"
 
 #: lms/templates/student_account/register.underscore:6
+#, python-brace-format
 msgid "Already have an {platformName} account?"
 msgstr "Sizda allaqachon {platformName} accountingiz bormi?"
 
@@ -11281,6 +10965,7 @@ msgid "Take Your Photo"
 msgstr "Suratingizni oling"
 
 #: lms/templates/verify_student/face_photo_step.underscore:19
+#, python-brace-format
 msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
@@ -11302,6 +10987,7 @@ msgid "Your entire face fits inside the frame."
 msgstr "Sizning butun yuzingiz ramka ichiga mos tushadi."
 
 #: lms/templates/verify_student/face_photo_step.underscore:33
+#, python-brace-format
 msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
@@ -11447,6 +11133,7 @@ msgid "Make sure your ID is well-lit"
 msgstr "ID raqamingiz yaxshi yoritilganligiga ishonch hosil qiling"
 
 #: lms/templates/verify_student/id_photo_step.underscore:22
+#, python-brace-format
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
 "O'z o‘rnini egallaganingizdan so'ng, IDingizni suratga olish uchun {icon} "
@@ -11516,6 +11203,7 @@ msgid "Be sure your entire face is inside the frame"
 msgstr "Butun yuzingiz ramka ichida ekanligiga ishonch hosil qiling"
 
 #: lms/templates/verify_student/incourse_reverify.underscore:20
+#, python-brace-format
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
 msgstr ""
@@ -11552,6 +11240,7 @@ msgstr ""
 "ko‘rinmaydi."
 
 #: lms/templates/verify_student/intro_step.underscore:6
+#, python-brace-format
 msgid "Thanks for returning to verify your ID in: {courseName}"
 msgstr ""
 "IDingizni tasdiqlash uchun qaytib kelganingiz uchun tashakkur: {courseName}"
@@ -11591,10 +11280,12 @@ msgstr "Vebkamera"
 
 #: lms/templates/verify_student/make_payment_step.underscore:6
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
+#, python-brace-format
 msgid "You are enrolling in: {courseName}"
 msgstr "Siz ro'yxatdan o‘tmoqdasiz: {courseName}"
 
 #: lms/templates/verify_student/make_payment_step.underscore:17
+#, python-brace-format
 msgid "You are upgrading your enrollment for: {courseName}"
 msgstr "Siz roʻyxatdan oʻtishni yangilayapsiz: {courseName}"
 
@@ -11606,6 +11297,7 @@ msgstr ""
 "yakunlashingiz mumkin."
 
 #: lms/templates/verify_student/make_payment_step.underscore:37
+#, python-brace-format
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these by {date} to qualify to earn a Verified "
@@ -11616,6 +11308,7 @@ msgstr ""
 "olishingiz kerak boʻladi."
 
 #: lms/templates/verify_student/make_payment_step.underscore:44
+#, python-brace-format
 msgid ""
 "An email has been sent to {userEmail} with a link for you to activate your "
 "account."
@@ -11667,6 +11360,7 @@ msgid "You have already verified your ID!"
 msgstr "Siz allaqachon shaxsingizni tasdiqlagansiz!"
 
 #: lms/templates/verify_student/make_payment_step.underscore:100
+#, python-brace-format
 msgid "Your verification status is good until {verificationGoodUntil}."
 msgstr "Tasdiqlash holati {verificationGoodUntil} gacha yaxshi."
 
@@ -11679,6 +11373,7 @@ msgid "Account Not Activated"
 msgstr "Account faollashtirilmagan"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
+#, python-brace-format
 msgid "Upgrade to a Verified Certificate for {courseName}"
 msgstr "{courseName} uchun tasdiqlangan sertifikatga yangilang"
 
@@ -11698,14 +11393,17 @@ msgid "Total"
 msgstr "Jami"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
+#, python-brace-format
 msgid "Professional Certificate for {courseName}"
 msgstr "{courseName} uchun professional sertifikat"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
+#, python-brace-format
 msgid "Verified Certificate for {courseName}"
 msgstr "{courseName} uchun tasdiqlangan sertifikat"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
+#, python-brace-format
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
 msgstr ""
@@ -11860,6 +11558,7 @@ msgstr ""
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
+#, python-brace-format
 msgid "Load next {num_items} result"
 msgid_plural "Load next {num_items} results"
 msgstr[0] "Keyingi {num_items} natijalarini yuklang"
@@ -11868,11 +11567,3 @@ msgstr[0] "Keyingi {num_items} natijalarini yuklang"
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "Kechirasiz, hech qanday natija topilmadi."
-
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:5
-msgid "You are currently sharing a limited profile."
-msgstr "Siz hozirda cheklangan profilni baham ko'ryapsiz."
-
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
-msgid "This learner is currently sharing a limited profile."
-msgstr "Bu o‘quvchi hozirda cheklangan profilga ega."

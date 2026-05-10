@@ -216,6 +216,7 @@ msgstr "Đang xoá"
 msgid "Your changes have been saved."
 msgstr "Thay đổi của bạn đã được lưu."
 
+#. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: This message will be added to the front of messages of type
 #. warning,
 #. e.g. "Warning: this component has not been configured yet".
@@ -2152,7 +2153,7 @@ msgstr "đang tải dữ liệu..."
 msgid "Error getting issued certificates list."
 msgstr "lỗi khi nhận danh sách giấy chứng nhận đã phát hành."
 
-#: lms/static/js/instructor_dashboard/data_download.js:123
+#: lms/static/js/instructor_dashboard/data_download.js:124
 msgid "Error generating anonymous IDs. Please try again."
 msgstr "Lỗi tạo ID ẩn danh. Vui lòng thử lại."
 
@@ -7181,7 +7182,7 @@ msgid "Help Translate into {beta_language}"
 msgstr "Trợ giúp dịch sang {beta_language}"
 
 #: cms/templates/js/asset-library.underscore:57
-#: cms/templates/js/basic-modal.underscore:24
+#: cms/templates/js/basic-modal.underscore:26
 #: cms/templates/js/course-outline.underscore:201
 #: cms/templates/js/course-outline.underscore:203
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
@@ -12548,12 +12549,12 @@ msgstr ""
 "Tiểu mục này được định cấu hình là \\&quot; %(gradingType)s \\&quot;, không "
 "tồn tại trong chính sách chấm điểm hiện tại."
 
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:182
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
 #, python-format
 msgid "Transform your %(org)s %(type)s into a full master’s degree"
 msgstr "Chuyển đổi %(org)s %(type)s của bạn thành bằng thạc sĩ đầy đủ"
 
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:185
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:125
 #, python-format
 msgid ""
 "Successful completion of %(org)s %(program)s credential can be applied "

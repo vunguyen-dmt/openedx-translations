@@ -1,4 +1,10 @@
 {
+  "Hyperlink.externalLinkAltText": {
+    "string": "num novo separador"
+  },
+  "Hyperlink.externalLinkTitle": {
+    "string": "Abrir num novo separador"
+  },
   "dropzone.Dropzone.invalidSizeLessError": {
     "developer_comment": "Uma mensagem mostrada quando um ficheiro com um tamanho inferior ao mínimo permitido está a ser carregado no Dropzone.",
     "string": "O ficheiro tem de ser maior do que {size}."
@@ -83,6 +89,14 @@
     "developer_comment": "Título para a componente de filtros da barra lateral",
     "string": "Filtros"
   },
+  "pgn.DataTable.filtersDropdownTitle": {
+    "developer_comment": "Título do menu suspenso de filtros",
+    "string": "Filtros"
+  },
+  "pgn.DataTable.paginationLabel": {
+    "developer_comment": "Nome acessível para o elemento de navegação de um componente de paginação",
+    "string": "paginação da tabela"
+  },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
     "developer_comment": "Uma mensagem mostrada quando o tamanho do ficheiro carregado tem de estar dentro de um determinado intervalo.",
     "string": "Entre {sizeMin} e {sizeMax}"
@@ -119,13 +133,25 @@
     "developer_comment": "Uma mensagem mostrada no caso de o menu de sugestões automáticas ser fechado.",
     "string": "Abrir o menu de opções"
   },
+  "pgn.Modal.closeButon": {
+    "developer_comment": "Nome acessível para o botão de fechar na janela modal",
+    "string": "Fechar"
+  },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
     "developer_comment": "Mensagem de leitura de ecrã para informar o utilizador de que se encontra na parte inferior da etapa de visita ao produto.",
     "string": "Fundo da etapa {step}"
   },
+  "pgn.ProductTour.Checkpoint.page-index-text": {
+    "developer_comment": "Índice de páginas que mostra a sua posição na visita guiada",
+    "string": "{step} de {totalSteps}"
+  },
   "pgn.ProductTour.Checkpoint.top-position-text": {
     "developer_comment": "Mensagem de leitura de ecrã para informar o utilizador de que se encontra na parte inferior da etapa de visita ao produto.",
     "string": "Topo da etapa {step}"
+  },
+  "pgn.ProductTour.checkpointHeader.close": {
+    "developer_comment": "Texto alternativo do botão de fechar no componente da visita guiada",
+    "string": "Fechar visita guiada"
   },
   "pgn.Toast.closeLabel": {
     "developer_comment": "Fechar a etiqueta do componente Toast",

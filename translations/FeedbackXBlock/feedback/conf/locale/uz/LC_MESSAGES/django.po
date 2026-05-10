@@ -1,19 +1,18 @@
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2025.
 # 
 # Translators:
-# Eden Huthmacher, 2024
-# Alibek Anvarov, 2024
+# Brian Smith, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-06 00:53+0000\n"
-"Last-Translator: Alibek Anvarov, 2024\n"
+"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Uzbek (https://app.transifex.com/open-edx/teams/6205/uz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -140,7 +139,7 @@ msgstr "Iltimos, umumiy tajribangizni baholang"
 msgid "Please take a moment to thoughtfully reflect."
 msgstr "Iltimos, mulohaza yuritish uchun bir oz vaqt ajrating."
 
-#: feedback.py:389
+#: feedback.py:387
 msgid "Please vote!"
 msgstr "Iltimos, ovoz bering!"
 
@@ -216,8 +215,8 @@ msgid "True"
 msgstr "To'g'ri"
 
 #: templates/html/studio_view.html:39
-msgid "Wheter to show the aggregate report to students."
-msgstr "Talabalarga jamlangan hisobotni ko'rsatish kerakmi."
+msgid "Whether to show the aggregate report to students."
+msgstr "Agregat hisobotni talabalarga ko'rsatish kerakmi."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
@@ -244,8 +243,8 @@ msgid "Faces (happy to sad)"
 msgstr "Yuzlar (baxtli va qayg'uli)"
 
 #: templates/html/studio_view.html:63
-msgid "Faces (sad to happy to sad)"
-msgstr "Yuzlar (qayg'ulidan xursand va qayg'uli)"
+msgid "Faces (sad to happy)"
+msgstr "Yuzlar (baxtli va qayg'uli)"
 
 #: templates/html/studio_view.html:64
 msgid "Numeric"

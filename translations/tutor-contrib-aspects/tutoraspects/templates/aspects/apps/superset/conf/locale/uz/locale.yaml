@@ -1,16 +1,15 @@
 en:
-  ? '## Help<br>* [Aspects Reference](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br>*
-    [Superset Resources](https://github.com/apache/superset#resources)<br>'
-  : '## Yordam<br> * [Aspektlar ma''lumotnomasi](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br> * [Superset Resources](https://github.com/apache/superset#resources)<br>'
   '% Correct': '% Toʻgʻri'
   '% Incorrect': '% Noto‘g‘ri'
   '% Video Seconds Rewatched': '%Video soniyalar qayta koʻrildi'
   '% Video Seconds Watched': '%Video soniyalar koʻrilgan'
-  ? |-
-    <dl>
+  ? '<dl>
+
     <dt>Avg % Correct on 1st Attempt </dt>
+
     <dd> The average percentage of correct answers on the first attempt of the learners who attempted the problem. </dd>
-    </dl>
+
+    </dl>'
   : |-
     <dl>
     <dt>Oʻrtacha % 1-urinishda toʻgʻri</dt>
@@ -176,11 +175,14 @@ en:
   Most-used Charts: Eng ko‘p ishlatilgan diagrammalar
   Most-used Dashboards: Eng ko‘p ishlatilgan boshqaruv panellari
   Name: Ism
+  Name Org: Name Org
   Number of Learners: O‘quvchilar soni
   Number of Learners who Attempted the Problem: Muammoni hal qilishga uringan o‘quvchilar soni
   Number of Videos: Videolar soni
+  Number of Videos Watched: Tomosha qilingan videolar soni
   Number of Views across Video Duration: Video davomiyligi boʻyicha koʻrishlar soni
   Object ID: Obyekt identifikatori
+  Object Id: Ob'ekt identifikatori
   Object Type: Obyekt turi
   Only available in versions Redwood and later: Faqat Redwood va undan keyingi versiyalarda mavjud
   Operator Dashboard: Operator boshqaruv paneli
@@ -196,7 +198,6 @@ en:
   Pages: Sahifalar
   Partial Views: Qisman ko‘rishlar
   Partial and Full Video Views: Videoni qisman va toʻliq koʻrish
-  Pass/Fail: O'tish / muvaffaqiyatsiz
   Passed: O'tdi
   Passed/Failed: Muvaffaqiyatli/Muvaffaqiyatsiz
   Password: Parol
@@ -224,6 +225,7 @@ en:
   Rewatched Time: Qayta ko'rilgan vaqt
   Rownum: Rownum
   Run Metrics: Ko'rsatkichlarni ishga tushirish
+  Run Name: Ishlash nomi
   Section Location and Name: Bo‘limning joylashuvi va nomi
   Section Name: Bo‘lim nomi
   Section Subsection Video Engagement: Bo‘lim Kichik bo‘lim Video ishtiroki
@@ -243,7 +245,7 @@ en:
   Selected Learners % Correct: Tanlangan oʻquvchilar % Toʻgʻri
   Selected Learners % Incorrect: Tanlangan oʻquvchilar % Notoʻgʻri
   Self Paced: O‘z vaqtida
-  Slice ID: "Qism identifikatori "
+  Slice ID: 'Qism identifikatori '
   Slice Name: Qism nomi
   Slowest ClickHouse Queries: Eng sekin ClickHouse so‘rovlari
   Start Position: Boshlanish pozitsiyasi
@@ -264,8 +266,7 @@ en:
   Time Grain: Vaqt donasi
   Time Last Dumped: Oxirgi 'damp' vaqti
   Time Range: Vaqt oralig‘i
-  ? To view the number of views across the duration of a single video, click the name
-    of the video in the Video Link column in table above.
+  ? To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.
   : Bitta videoning davomiyligi boʻyicha koʻrishlar sonini koʻrish uchun yuqoridagi jadvaldagi Video havolasi ustunidagi video nomini bosing.
   Total: Jami
   Total Courses: Jami kurslar
@@ -280,6 +281,7 @@ en:
   Value: Qiymat
   Verb: Fe'l
   Verb ID: Fe'l identifikatori
+  Video Count: video soni
   Video Duration: Video davomiyligi
   Video Engagement: Video ishtiroki
   Video Engagement per Section: Bo‘lim bo‘yicha video ishtiroki
@@ -317,6 +319,8 @@ en:
   ungraded: Baholanmagan
   unregistered: Ro‘yxatdan o‘tmagan
   verified: Tasdiqlangan
+  '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}'
   '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}'
   '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}': '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}'
+  '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}': '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}'
   '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'

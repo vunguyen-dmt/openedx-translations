@@ -12,22 +12,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 00:23+0000\n"
-"PO-Revision-Date: 2023-01-26 15:39+0000\n"
-"Last-Translator: Hoang Truong <truonganhhoang@gmail.com>, 2024\n"
-"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
+"POT-Creation-Date: 2025-10-30 00:32+0000\n"
+"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
+"Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/301281/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps/api/filters.py:47
+#: apps/api/filters.py:48
 #, python-brace-format
 msgid "No user with the username [{username}] exists."
 msgstr "Không có người dùng nào có tên người dùng [ {username} ] tồn tại."
 
-#: apps/api/filters.py:50
+#: apps/api/filters.py:51
 msgid ""
 "Only staff users are permitted to filter by username. Remove the username "
 "parameter."
@@ -35,61 +35,61 @@ msgstr ""
 "Chỉ người dùng nhân viên mới được phép lọc theo tên người dùng. Xóa tham số "
 "tên người dùng."
 
-#: apps/api/serializers.py:847
+#: apps/api/serializers.py:850
 msgid "Number of courses contained in this catalog"
 msgstr "Số lượng khóa học có trong danh mục này"
 
-#: apps/api/serializers.py:850
+#: apps/api/serializers.py:853
 msgid "Usernames of users with explicit access to view this catalog"
 msgstr ""
 "Tên tài khoản của người dùng có quyền truy cập rõ ràng để xem danh mục này"
 
-#: apps/api/serializers.py:1020
+#: apps/api/serializers.py:1023
 msgid "Start date cannot be after the End date"
 msgstr "Ngày bắt đầu không được sau Ngày kết thúc"
 
-#: apps/api/serializers.py:1025
+#: apps/api/serializers.py:1028
 msgid "Term cannot be changed"
 msgstr "Thời hạn không thể thay đổi"
 
-#: apps/api/serializers.py:1045
+#: apps/api/serializers.py:1048
 msgid "Language in which the course is administered"
 msgstr "Ngôn ngữ sử dụng khóa học"
 
-#: apps/api/serializers.py:1148
+#: apps/api/serializers.py:1152
 msgid "Course cannot be changed for an existing course run"
 msgstr "Khóa học không thể thay đổi đối với khóa học hiện tại"
 
-#: apps/api/serializers.py:1153
+#: apps/api/serializers.py:1157
 msgid "Minimum effort cannot be greater than Maximum effort"
 msgstr "Nỗ lực tối thiểu không thể lớn hơn nỗ lực tối đa"
 
-#: apps/api/serializers.py:1155
+#: apps/api/serializers.py:1159
 msgid "Minimum effort and Maximum effort cannot be the same"
 msgstr "Nỗ lực tối thiểu và nỗ lực tối đa không thể giống nhau"
 
-#: apps/api/serializers.py:1201
+#: apps/api/serializers.py:1205
 msgid "Dictionary mapping course run IDs to boolean values"
 msgstr "Khóa học ánh xạ từ điển chạy ID tới các giá trị boolean"
 
-#: apps/api/serializers.py:1305
+#: apps/api/serializers.py:1309
 msgid "Restriction Type cannot be empty"
 msgstr "Loại hạn chế không được để trống"
 
-#: apps/api/serializers.py:1771
+#: apps/api/serializers.py:1775
 msgid "Dictionary mapping course IDs to boolean values"
 msgstr "Từ điển ánh xạ ID khóa học tới các giá trị boolean"
 
-#: apps/api/serializers.py:2238
+#: apps/api/serializers.py:2242
 msgid "Languages that course runs in this program are offered in."
 msgstr "Ngôn ngữ mà học kỳ trong chương trình này được cung cấp."
 
-#: apps/api/serializers.py:2242
+#: apps/api/serializers.py:2246
 msgid ""
 "Languages that course runs in this program have available transcripts in."
 msgstr "Các ngôn ngữ chạy trong chương trình này đều có sẵn bảng điểm."
 
-#: apps/api/utils.py:333
+#: apps/api/utils.py:346
 #, python-brace-format
 msgid ""
 "An error occurred while setting the course run image for [{key}] in studio. "
@@ -106,56 +106,56 @@ msgstr "Việc chỉ định cả tham số editable=1 và aq không được h�
 msgid "You must include a course_uuid in your query parameters."
 msgstr "Bạn phải bao gồm Course_uuid trong tham số truy vấn của mình."
 
-#: apps/api/v1/views/comments.py:58 apps/api/v1/views/courses.py:199
+#: apps/api/v1/views/comments.py:58 apps/api/v1/views/courses.py:205
 #, python-brace-format
 msgid "Missing value for: [{name}]. "
 msgstr "Thiếu giá trị cho: [ {name} ]. "
 
-#: apps/api/v1/views/comments.py:60 apps/api/v1/views/courses.py:210
+#: apps/api/v1/views/comments.py:60 apps/api/v1/views/courses.py:216
 msgid "Incorrect data sent. "
 msgstr "Dữ liệu được gửi không chính xác. "
 
-#: apps/api/v1/views/course_runs.py:48
+#: apps/api/v1/views/course_runs.py:49
 msgid "Failed to set course run data: {}"
 msgstr "Không thể đặt dữ liệu chạy đường đua: {}"
 
-#: apps/api/v1/views/course_runs.py:322
+#: apps/api/v1/views/course_runs.py:328
 msgid "Can only update status, ofac restrictions, and ofac comment"
 msgstr "Chỉ có thể cập nhật trạng thái, hạn chế ofac và bình luận ofac"
 
-#: apps/api/v1/views/course_runs.py:363
+#: apps/api/v1/views/course_runs.py:381
 msgid "Course run is in review. Editing disabled."
 msgstr "Quá trình chạy khóa học đang được xem xét. Chỉnh sửa bị vô hiệu hóa."
 
-#: apps/api/v1/views/course_runs.py:370
+#: apps/api/v1/views/course_runs.py:388
 msgid "Invalid parameter"
 msgstr "Tham số không hợp lệ"
 
-#: apps/api/v1/views/courses.py:61
+#: apps/api/v1/views/courses.py:62
 msgid "Failed to set data: {}"
 msgstr "Không đặt được dữ liệu: {}"
 
-#: apps/api/v1/views/courses.py:201
+#: apps/api/v1/views/courses.py:207
 #, python-brace-format
 msgid "Organization [{org}] does not exist. "
 msgstr "Tổ chức [ {org} ] không tồn tại. "
 
-#: apps/api/v1/views/courses.py:203
+#: apps/api/v1/views/courses.py:209
 #, python-brace-format
 msgid "Course Type [{course_type}] does not exist. "
 msgstr "Loại khóa học [ {course_type} ] không tồn tại. "
 
-#: apps/api/v1/views/courses.py:206
+#: apps/api/v1/views/courses.py:212
 #, python-brace-format
 msgid "Product Source [{product_source}] does not exist. "
 msgstr "Nguồn sản phẩm [ {product_source} ] không tồn tại. "
 
-#: apps/api/v1/views/courses.py:224
+#: apps/api/v1/views/courses.py:229
 #, python-brace-format
 msgid "A course with key [{key}] already exists."
 msgstr "Khóa học có khóa [ {key} ] đã tồn tại."
 
-#: apps/api/v1/views/courses.py:232
+#: apps/api/v1/views/courses.py:237
 #, python-brace-format
 msgid ""
 "Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
@@ -164,7 +164,7 @@ msgstr ""
 "Việc tạo khóa học không thành công. Sên URL khóa học &#39;[ {url_slug} "
 "]&#39; đã được sử dụng. Vui lòng cập nhật trường này và thử lại."
 
-#: apps/api/v1/views/courses.py:291
+#: apps/api/v1/views/courses.py:298
 msgid ""
 "Switching entitlement types after being reviewed is not supported. Please "
 "reach out to your project coordinator for additional help if necessary."
@@ -172,7 +172,7 @@ msgstr ""
 "Không hỗ trợ chuyển đổi loại quyền sau khi được xem xét. Vui lòng liên hệ "
 "với điều phối viên dự án của bạn để được trợ giúp thêm nếu cần."
 
-#: apps/api/v1/views/courses.py:401
+#: apps/api/v1/views/courses.py:408
 #, python-brace-format
 msgid ""
 "Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
@@ -394,7 +394,7 @@ msgstr "Salesforce Sandbox là gì?"
 msgid "Case Record Type Id"
 msgstr "Id loại bản ghi trường hợp"
 
-#: apps/course_metadata/admin.py:36
+#: apps/course_metadata/admin.py:38
 #, python-brace-format
 msgid ""
 "An error occurred while publishing the {model} to the marketing site. Please"
@@ -403,35 +403,35 @@ msgstr ""
 "Đã xảy ra lỗi khi xuất bản {model} lên trang tiếp thị. Vui lòng thử lại. Nếu"
 " lỗi vẫn tiếp diễn, vui lòng liên hệ với Nhóm Kỹ thuật."
 
-#: apps/course_metadata/admin.py:56
+#: apps/course_metadata/admin.py:65
 msgid "eligible for one-click purchase"
 msgstr "đủ điều kiện để mua bằng một cú nhấp chuột"
 
-#: apps/course_metadata/admin.py:61
+#: apps/course_metadata/admin.py:70
 msgid "Yes"
 msgstr "Đúng"
 
-#: apps/course_metadata/admin.py:62
+#: apps/course_metadata/admin.py:71
 msgid "No"
 msgstr "Không"
 
-#: apps/course_metadata/admin.py:427 apps/course_metadata/admin.py:713
+#: apps/course_metadata/admin.py:538 apps/course_metadata/admin.py:883
 msgid "Included course runs"
 msgstr "Các khóa học bao gồm"
 
-#: apps/course_metadata/admin.py:719
+#: apps/course_metadata/admin.py:889
 msgid "Edit link"
 msgstr "Chỉnh sửa liên kết"
 
-#: apps/course_metadata/admin.py:727
+#: apps/course_metadata/admin.py:897
 msgid "Edit course run exclusions"
 msgstr "Chỉnh sửa loại trừ chạy khóa học"
 
-#: apps/course_metadata/admin.py:729
+#: apps/course_metadata/admin.py:899
 msgid "(save and continue editing to create a link)"
 msgstr "(lưu và tiếp tục chỉnh sửa để tạo liên kết)"
 
-#: apps/course_metadata/admin.py:855
+#: apps/course_metadata/admin.py:1037
 #, python-format
 msgid "Successfully %(status)s %(count)d %(items)s."
 msgstr "Thành công %(status)s %(count)d %(items)s ."
@@ -456,27 +456,28 @@ msgstr "Cử nhân"
 msgid "Master’s"
 msgstr "Thạc sĩ"
 
-#: apps/course_metadata/algolia_models.py:115
-#: apps/course_metadata/algolia_models.py:644
+#: apps/course_metadata/algolia_models.py:116
+#: apps/course_metadata/algolia_models.py:667
 msgid "Available now"
 msgstr "Sẵn ngay bây giờ"
 
-#: apps/course_metadata/algolia_models.py:117
-#: apps/course_metadata/models.py:2584
+#: apps/course_metadata/algolia_models.py:118
+#: apps/course_metadata/models.py:2757
 msgid "Upcoming"
 msgstr "Sắp tới"
 
-#: apps/course_metadata/algolia_models.py:119
-#: apps/course_metadata/choices.py:71 apps/course_metadata/models.py:2578
-#: apps/course_metadata/models.py:2594
+#: apps/course_metadata/algolia_models.py:120
+#: apps/course_metadata/choices.py:100 apps/course_metadata/models.py:2751
+#: apps/course_metadata/models.py:2767
 msgid "Archived"
 msgstr "Đã lưu trữ"
 
-#: apps/course_metadata/algolia_models.py:655
+#: apps/course_metadata/algolia_models.py:678
 msgid "Available by subscription"
 msgstr "Có sẵn theo đăng ký"
 
-#: apps/course_metadata/choices.py:6 apps/course_metadata/choices.py:30
+#: apps/course_metadata/choices.py:6 apps/course_metadata/choices.py:22
+#: apps/course_metadata/choices.py:36
 msgid "Unpublished"
 msgstr "Chưa được xuất bản"
 
@@ -492,128 +493,129 @@ msgstr "Đang chờ đánh giá nội bộ"
 msgid "Reviewed"
 msgstr "Đã đánh giá"
 
-#: apps/course_metadata/choices.py:10 apps/course_metadata/choices.py:72
+#: apps/course_metadata/choices.py:10 apps/course_metadata/choices.py:23
+#: apps/course_metadata/choices.py:101
 msgid "Published"
 msgstr "Được phát hành"
+
+#: apps/course_metadata/choices.py:24 apps/course_metadata/choices.py:38
+msgid "Retired"
+msgstr "Đã nghỉ hưu"
 
 #. Translators: Instructor-paced refers to course runs that operate on a
 #. schedule set by the instructor,
 #. similar to a normal university course.
-#: apps/course_metadata/choices.py:24
+#: apps/course_metadata/choices.py:30
 msgid "Instructor-paced"
 msgstr "Theo nhịp độ của giảng viên"
 
 #. Translators: Self-paced refers to course runs that operate on the student's
 #. schedule.
-#: apps/course_metadata/choices.py:26
+#: apps/course_metadata/choices.py:32
 msgid "Self-paced"
 msgstr "Tự chủ"
 
-#: apps/course_metadata/choices.py:31 apps/learner_pathway/choices.py:6
+#: apps/course_metadata/choices.py:37 apps/learner_pathway/choices.py:6
 msgid "Active"
 msgstr "Đang hoạt động"
 
-#: apps/course_metadata/choices.py:32
-msgid "Retired"
-msgstr "Đã nghỉ hưu"
-
-#: apps/course_metadata/choices.py:33
+#: apps/course_metadata/choices.py:39
 msgid "Deleted"
 msgstr "Đã xóa"
 
-#: apps/course_metadata/choices.py:37
+#: apps/course_metadata/choices.py:43
 msgid "mooc"
 msgstr "mooc"
 
-#: apps/course_metadata/choices.py:38
+#: apps/course_metadata/choices.py:44
 msgid "spoc"
 msgstr "phát hiện"
 
-#: apps/course_metadata/choices.py:39
+#: apps/course_metadata/choices.py:45
 msgid "test"
 msgstr "Bài kiểm tra"
 
-#: apps/course_metadata/choices.py:40
+#: apps/course_metadata/choices.py:46
 msgid "demo"
 msgstr "thử nghiệm"
 
-#: apps/course_metadata/choices.py:41
+#: apps/course_metadata/choices.py:47
 msgid "other"
 msgstr "khác"
 
-#: apps/course_metadata/choices.py:45
-msgid "Honor"
-msgstr "Danh dự"
-
-#: apps/course_metadata/choices.py:46
-msgid "Credit"
-msgstr "Tín dụng"
-
-#: apps/course_metadata/choices.py:47
+#: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
 msgid "Verified"
 msgstr "Đã xác minh"
 
-#: apps/course_metadata/choices.py:48
+#: apps/course_metadata/choices.py:74
+msgid "Honor"
+msgstr "Danh dự"
+
+#: apps/course_metadata/choices.py:75
+msgid "Credit"
+msgstr "Tín dụng"
+
+#: apps/course_metadata/choices.py:77
 msgid "Professional"
 msgstr "Chuyên nghiệp"
 
-#: apps/course_metadata/choices.py:49
+#: apps/course_metadata/choices.py:78
 msgid "Executive Education"
 msgstr "Giáo dục điều hành"
 
-#: apps/course_metadata/choices.py:50
+#: apps/course_metadata/choices.py:79
 msgid "Paid Executive Education"
 msgstr "Giáo dục điều hành trả phí"
 
-#: apps/course_metadata/choices.py:51
+#: apps/course_metadata/choices.py:80
 msgid "Unpaid Executive Education"
 msgstr "Giáo dục điều hành không trả lương"
 
-#: apps/course_metadata/choices.py:52
+#: apps/course_metadata/choices.py:81
 msgid "Paid Bootcamp"
 msgstr "Chương trình đào tạo trả phí"
 
-#: apps/course_metadata/choices.py:53
+#: apps/course_metadata/choices.py:82
 msgid "Unpaid Bootcamp"
 msgstr "Bootcamp không trả phí"
 
-#: apps/course_metadata/choices.py:57
+#: apps/course_metadata/choices.py:86
 msgid "Platform"
 msgstr "Nền tảng"
 
-#: apps/course_metadata/choices.py:58
+#: apps/course_metadata/choices.py:87
 msgid "Organization"
 msgstr "Tổ chức"
 
-#: apps/course_metadata/choices.py:62
+#: apps/course_metadata/choices.py:91
 msgid "Short"
 msgstr "Ngắn"
 
-#: apps/course_metadata/choices.py:63
+#: apps/course_metadata/choices.py:92
 msgid "Medium"
 msgstr "Trung bình"
 
-#: apps/course_metadata/choices.py:64
+#: apps/course_metadata/choices.py:93
 msgid "Long"
 msgstr "Dài"
 
-#: apps/course_metadata/choices.py:79
+#: apps/course_metadata/choices.py:108
 msgid "Short Course"
 msgstr "Khóa học ngắn hạn"
 
-#: apps/course_metadata/choices.py:80
+#: apps/course_metadata/choices.py:109
 msgid "Sprint"
 msgstr "Tăng tốc"
 
-#: apps/course_metadata/choices.py:81
+#: apps/course_metadata/choices.py:110
 msgid "Course Stack"
 msgstr "Ngăn xếp khóa học"
 
-#: apps/course_metadata/choices.py:85
+#: apps/course_metadata/choices.py:114
 msgid "Custom B2B Enterprise"
 msgstr "Doanh nghiệp B2B tùy chỉnh"
 
-#: apps/course_metadata/choices.py:86
+#: apps/course_metadata/choices.py:115
 msgid "Custom B2C"
 msgstr "B2C tùy chỉnh"
 
@@ -653,7 +655,7 @@ msgstr "Khóa học {key} ( {id} ) loại phù hợp {type}"
 msgid "Could not convert course {key} ({id}) to type {type}"
 msgstr "Không thể chuyển đổi khóa học {key} ( {id} ) sang loại {type}"
 
-#: apps/course_metadata/emails.py:36
+#: apps/course_metadata/emails.py:37
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no "
@@ -662,7 +664,7 @@ msgstr ""
 "Không gửi email thông báo cho mẫu {template} vì không có tổ chức nào được "
 "xác định cho khóa học {course}"
 
-#: apps/course_metadata/emails.py:41
+#: apps/course_metadata/emails.py:42
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no project "
@@ -671,7 +673,7 @@ msgstr ""
 "Không gửi email thông báo cho mẫu {template} vì không có điều phối viên dự "
 "án nào được xác định cho tổ chức {org}"
 
-#: apps/course_metadata/emails.py:95
+#: apps/course_metadata/emails.py:96
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no publisher "
@@ -680,7 +682,7 @@ msgstr ""
 "Không gửi email thông báo cho mẫu {template} vì không có URL nhà xuất bản "
 "nào được xác định cho đối tác {partner}"
 
-#: apps/course_metadata/emails.py:103
+#: apps/course_metadata/emails.py:104
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no studio URL"
@@ -689,49 +691,49 @@ msgstr ""
 "Không gửi email thông báo cho mẫu {template} vì không có URL Studio nào được"
 " xác định cho đối tác {partner}"
 
-#: apps/course_metadata/emails.py:169
+#: apps/course_metadata/emails.py:170
 msgid "legal team"
 msgstr "đội ngũ pháp lý"
 
-#: apps/course_metadata/emails.py:187
+#: apps/course_metadata/emails.py:188
 msgid "Project Coordinator team"
 msgstr "Nhóm điều phối dự án"
 
-#: apps/course_metadata/emails.py:211
+#: apps/course_metadata/emails.py:212
 msgid "course team"
 msgstr "đội khóa học"
 
-#: apps/course_metadata/emails.py:220
+#: apps/course_metadata/emails.py:221
 #, python-brace-format
 msgid "Legal review requested: {title}"
 msgstr "Yêu cầu xem xét pháp lý: {title}"
 
-#: apps/course_metadata/emails.py:233
+#: apps/course_metadata/emails.py:234
 #, python-brace-format
 msgid "Course URL for {title}"
 msgstr "URL khóa học cho {title}"
 
-#: apps/course_metadata/emails.py:279
+#: apps/course_metadata/emails.py:280
 #, python-brace-format
 msgid "Review requested: {key} - {title}"
 msgstr "Yêu cầu đánh giá: {key} - {title}"
 
-#: apps/course_metadata/emails.py:291
+#: apps/course_metadata/emails.py:292
 #, python-brace-format
 msgid "Review complete: {title}"
 msgstr "Đánh giá hoàn tất: {title}"
 
-#: apps/course_metadata/emails.py:307
+#: apps/course_metadata/emails.py:308
 #, python-brace-format
 msgid "Published: {title}"
 msgstr "Đã xuất bản: {title}"
 
-#: apps/course_metadata/emails.py:311
+#: apps/course_metadata/emails.py:312
 #, python-brace-format
 msgid "Published: {key} - {title}"
 msgstr "Đã xuất bản: {key} - {title}"
 
-#: apps/course_metadata/emails.py:326
+#: apps/course_metadata/emails.py:327
 #, python-brace-format
 msgid "Comment added: {title}"
 msgstr "Đã thêm bình luận: {title}"
@@ -745,7 +747,7 @@ msgstr ""
 "Nhập một “sên” hợp lệ bao gồm các chữ cái, số, dấu gạch chéo, dấu gạch dưới "
 "hoặc dấu gạch nối."
 
-#: apps/course_metadata/forms.py:66
+#: apps/course_metadata/forms.py:102
 msgid "Programs can only be activated if they have a banner image."
 msgstr ""
 "Các chương trình chỉ có thể được kích hoạt nếu chúng có hình ảnh biểu ngữ."
@@ -782,14 +784,14 @@ msgid "Short code for a partner."
 msgstr "Mã ngắn cho đối tác."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:20
-#: apps/course_metadata/models.py:233 apps/course_metadata/models.py:488
-#: apps/course_metadata/models.py:636 apps/course_metadata/models.py:669
-#: apps/course_metadata/models.py:693 apps/course_metadata/models.py:732
-#: apps/course_metadata/models.py:1014 apps/course_metadata/models.py:1155
-#: apps/course_metadata/models.py:1317 apps/course_metadata/models.py:2123
-#: apps/course_metadata/models.py:3167 apps/course_metadata/models.py:4098
-#: apps/course_metadata/models.py:4190 apps/learner_pathway/models.py:35
-#: apps/learner_pathway/models.py:84 apps/learner_pathway/models.py:159
+#: apps/course_metadata/models.py:238 apps/course_metadata/models.py:493
+#: apps/course_metadata/models.py:641 apps/course_metadata/models.py:674
+#: apps/course_metadata/models.py:698 apps/course_metadata/models.py:737
+#: apps/course_metadata/models.py:1054 apps/course_metadata/models.py:1275
+#: apps/course_metadata/models.py:1452 apps/course_metadata/models.py:2288
+#: apps/course_metadata/models.py:3372 apps/course_metadata/models.py:4422
+#: apps/course_metadata/models.py:4563 apps/learner_pathway/models.py:34
+#: apps/learner_pathway/models.py:83 apps/learner_pathway/models.py:158
 msgid "UUID"
 msgstr "UUID"
 
@@ -972,21 +974,21 @@ msgstr "Đường dẫn /course/ {url_slug} không được sử dụng, không 
 msgid "Path {url_path} not in use, nothing to delete"
 msgstr "Đường dẫn {url_path} không được sử dụng, không có gì để xóa"
 
-#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:42
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:44
 msgid "One or more courses failed to unpublish."
 msgstr "Một hoặc nhiều khóa học không thể hủy xuất bản."
 
-#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:48
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:50
 #, python-brace-format
 msgid "Successfully unpublished runs in course {key}"
 msgstr "Đã hủy xuất bản thành công các lần chạy trong khóa học {key}"
 
-#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:51
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:53
 #, python-brace-format
 msgid "Failed to unpublish runs in course {key}"
 msgstr "Không thể hủy xuất bản các lần chạy trong khóa học {key}"
 
-#: apps/course_metadata/models.py:234
+#: apps/course_metadata/models.py:239
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen. This key will be used in the course's course key."
@@ -995,15 +997,15 @@ msgstr ""
 " chấm, dấu gạch dưới hoặc dấu gạch nối. Khóa này sẽ được sử dụng làm khóa "
 "học của khóa học."
 
-#: apps/course_metadata/models.py:239
+#: apps/course_metadata/models.py:244
 msgid "If populated, this field will overwrite name in platform."
 msgstr "Nếu được điền, trường này sẽ ghi đè tên trong nền tảng."
 
-#: apps/course_metadata/models.py:244
+#: apps/course_metadata/models.py:249
 msgid "Spanish Description"
 msgstr "Mô tả tiếng Tây Ban Nha"
 
-#: apps/course_metadata/models.py:245
+#: apps/course_metadata/models.py:250
 msgid ""
 "For seo, this field allows for alternate spanish description to be manually "
 "inputted"
@@ -1011,19 +1013,19 @@ msgstr ""
 "Đối với seo, trường này cho phép nhập mô tả tiếng Tây Ban Nha thay thế theo "
 "cách thủ công"
 
-#: apps/course_metadata/models.py:270 apps/course_metadata/models.py:1394
-#: apps/course_metadata/models.py:2200
+#: apps/course_metadata/models.py:275 apps/course_metadata/models.py:1529
+#: apps/course_metadata/models.py:2372
 msgid ""
 "Pick a tag from the suggestions. To make a new tag, add a comma after the "
 "tag name."
 msgstr ""
 "Chọn một thẻ từ các đề xuất. Để tạo thẻ mới, hãy thêm dấu phẩy sau tên thẻ."
 
-#: apps/course_metadata/models.py:274
+#: apps/course_metadata/models.py:279
 msgid "Automatically generate course run keys"
 msgstr "Tự động tạo khóa chạy khóa học"
 
-#: apps/course_metadata/models.py:276
+#: apps/course_metadata/models.py:281
 msgid ""
 "When this flag is enabled, the key of a new course run will be auto "
 "generated.  When this flag is disabled, the key can be manually set."
@@ -1031,7 +1033,7 @@ msgstr ""
 "Khi cờ này được bật, khóa của lần chạy khóa học mới sẽ được tạo tự động. Khi"
 " cờ này bị tắt, khóa có thể được đặt thủ công."
 
-#: apps/course_metadata/models.py:282
+#: apps/course_metadata/models.py:287
 msgid ""
 "This field signifies if any of this org's courses are in the enterprise "
 "subscription catalog"
@@ -1039,7 +1041,7 @@ msgstr ""
 "Trường này biểu thị liệu có bất kỳ khóa học nào của tổ chức này có trong "
 "danh mục đăng ký doanh nghiệp hay không"
 
-#: apps/course_metadata/models.py:285
+#: apps/course_metadata/models.py:290
 msgid ""
 "The 6 character-hex-value of the orgnization theme color,\n"
 "            all related course under same organization will use this color as theme color.\n"
@@ -1049,11 +1051,11 @@ msgstr ""
 " tất cả các khóa học liên quan trong cùng một tổ chức sẽ sử dụng màu này làm màu chủ đề.\n"
 " (ví dụ: &quot;#ff0000&quot; tương đương với màu đỏ) Không cần cung cấp `#`"
 
-#: apps/course_metadata/models.py:301
+#: apps/course_metadata/models.py:306
 msgid "The timestamp of the last time the organization data was modified."
 msgstr "Dấu thời gian của lần cuối cùng dữ liệu tổ chức được sửa đổi."
 
-#: apps/course_metadata/models.py:317
+#: apps/course_metadata/models.py:322
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen in the key field."
@@ -1061,15 +1063,15 @@ msgstr ""
 "Vui lòng không sử dụng bất kỳ dấu cách hoặc ký tự đặc biệt nào ngoài dấu "
 "chấm, dấu gạch dưới hoặc dấu gạch nối trong trường khóa."
 
-#: apps/course_metadata/models.py:388
+#: apps/course_metadata/models.py:393
 msgid "Corresponding organization code in an external product source"
 msgstr "Mã tổ chức tương ứng trong nguồn sản phẩm bên ngoài"
 
-#: apps/course_metadata/models.py:445
+#: apps/course_metadata/models.py:450
 msgid "LevelType model translations"
 msgstr "Bản dịch mô hình LevelType"
 
-#: apps/course_metadata/models.py:470
+#: apps/course_metadata/models.py:475
 msgid ""
 "Seat types that qualify for completion of programs of this type. Learners "
 "completing associated courses, but enrolled in other seat types, will NOT "
@@ -1080,41 +1082,41 @@ msgstr ""
 "này. Những người học hoàn thành các khóa học liên quan nhưng đăng ký vào các"
 " loại chỗ ngồi khác sẽ KHÔNG được tính vào việc hoàn thành chương trình."
 
-#: apps/course_metadata/models.py:484
+#: apps/course_metadata/models.py:489
 msgid "Please provide an image file with transparent background"
 msgstr "Vui lòng cung cấp tệp hình ảnh có nền trong suốt"
 
-#: apps/course_metadata/models.py:487 apps/course_metadata/models.py:531
-#: apps/course_metadata/models.py:697 apps/course_metadata/models.py:735
-#: apps/course_metadata/models.py:1329 apps/course_metadata/models.py:3181
+#: apps/course_metadata/models.py:492 apps/course_metadata/models.py:536
+#: apps/course_metadata/models.py:702 apps/course_metadata/models.py:740
+#: apps/course_metadata/models.py:1464 apps/course_metadata/models.py:3386
 msgid "Leave this field blank to have the value generated automatically."
 msgstr "Để trống trường này để giá trị được tạo tự động."
 
-#: apps/course_metadata/models.py:528
+#: apps/course_metadata/models.py:533
 msgid "Name of the external source."
 msgstr "Tên nguồn bên ngoài"
 
-#: apps/course_metadata/models.py:533
+#: apps/course_metadata/models.py:538
 msgid "Description of the external source."
 msgstr "Mô tả nguồn bên ngoài"
 
-#: apps/course_metadata/models.py:538
+#: apps/course_metadata/models.py:543
 msgid "Programs of these types will be OFAC restricted"
 msgstr "Các chương trình thuộc loại này sẽ bị hạn chế OFAC"
 
-#: apps/course_metadata/models.py:552
+#: apps/course_metadata/models.py:557
 msgid "ProgramType model translations"
 msgstr "Bản dịch mô hình ProgramType"
 
-#: apps/course_metadata/models.py:566
+#: apps/course_metadata/models.py:571
 msgid "This mode requires ID verification."
 msgstr "Chế độ này yêu cầu xác minh ID."
 
-#: apps/course_metadata/models.py:569
+#: apps/course_metadata/models.py:574
 msgid "Completion can grant credit toward an organization’s degree."
 msgstr "Việc hoàn thành có thể cấp tín chỉ cho bằng cấp của tổ chức."
 
-#: apps/course_metadata/models.py:573
+#: apps/course_metadata/models.py:578
 msgid ""
 "Certificate type granted if this mode is eligible for a certificate, or "
 "blank if not."
@@ -1122,7 +1124,7 @@ msgstr ""
 "Loại chứng chỉ được cấp nếu chế độ này đủ điều kiện cho chứng chỉ hoặc để "
 "trống nếu không."
 
-#: apps/course_metadata/models.py:577
+#: apps/course_metadata/models.py:582
 msgid ""
 "Who gets paid for the course? Platform is the site owner, Organization is "
 "the school."
@@ -1130,11 +1132,11 @@ msgstr ""
 "Ai được trả tiền cho khóa học? Nền tảng là chủ sở hữu trang web, Tổ chức là "
 "trường học."
 
-#: apps/course_metadata/models.py:674
+#: apps/course_metadata/models.py:679
 msgid "Sets the order for displaying Course Run Types."
 msgstr "Đặt thứ tự hiển thị Loại chạy khóa học."
 
-#: apps/course_metadata/models.py:677
+#: apps/course_metadata/models.py:682
 msgid ""
 "Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
 "this course type in Publisher."
@@ -1142,19 +1144,19 @@ msgstr ""
 "Để trống phần này để cho phép tất cả các tổ chức. Nếu không, hãy chỉ định tổ"
 " chức nào có thể xem loại khóa học này trong Nhà xuất bản."
 
-#: apps/course_metadata/models.py:727
+#: apps/course_metadata/models.py:732
 msgid "Subject model translations"
 msgstr "Dịch mô hình chủ đề"
 
-#: apps/course_metadata/models.py:774
+#: apps/course_metadata/models.py:779
 msgid "Topic model translations"
 msgstr "Dịch mô hình Chủ đề"
 
-#: apps/course_metadata/models.py:833
+#: apps/course_metadata/models.py:846
 msgid "SEO Meta tags for Products"
 msgstr "Thẻ Meta SEO cho sản phẩm"
 
-#: apps/course_metadata/models.py:863
+#: apps/course_metadata/models.py:881
 msgid ""
 "The ID of the Taxi Form (by 2U) that would be rendered in place of the "
 "hubspot capture form"
@@ -1162,7 +1164,7 @@ msgstr ""
 "ID của Biểu mẫu Taxi (bởi 2U) sẽ được hiển thị thay cho biểu mẫu chụp điểm "
 "trung tâm"
 
-#: apps/course_metadata/models.py:869
+#: apps/course_metadata/models.py:887
 msgid ""
 "The grouping of the Taxi Form (by 2U) that would be rendered instead of the "
 "hubspot capture form"
@@ -1170,116 +1172,116 @@ msgstr ""
 "Nhóm Biểu mẫu Taxi (theo 2U) sẽ được hiển thị thay vì biểu mẫu chụp điểm "
 "trung tâm"
 
-#: apps/course_metadata/models.py:896
+#: apps/course_metadata/models.py:933
 msgid "The URL of the paid landing page on external site"
 msgstr "URL của trang đích trả phí trên trang web bên ngoài"
 
-#: apps/course_metadata/models.py:902
+#: apps/course_metadata/models.py:939
 msgid "The URL of the organic landing page on external site"
 msgstr "URL của trang đích tự nhiên trên trang web bên ngoài"
 
-#: apps/course_metadata/models.py:913
+#: apps/course_metadata/models.py:950
 msgid "The start date of the external course offering for marketing purpose"
 msgstr "Ngày bắt đầu cung cấp khóa học bên ngoài cho mục đích tiếp thị"
 
-#: apps/course_metadata/models.py:917
+#: apps/course_metadata/models.py:954
 msgid "The ends date of the external course offering for marketing purpose"
 msgstr ""
 "Ngày kết thúc của khóa học bên ngoài được cung cấp cho mục đích tiếp thị"
 
-#: apps/course_metadata/models.py:921
+#: apps/course_metadata/models.py:958
 msgid "The suggested deadline for enrollment for marketing purpose"
 msgstr "Thời hạn đề xuất ghi danh cho mục đích tiếp thị"
 
-#: apps/course_metadata/models.py:925
+#: apps/course_metadata/models.py:962
 msgid "The identifier for a product variant."
 msgstr "Mã nhận dạng cho một mẫu mã sản phẩm."
 
-#: apps/course_metadata/models.py:929
+#: apps/course_metadata/models.py:966
 msgid "Course override"
 msgstr "Ghi đè khóa học"
 
-#: apps/course_metadata/models.py:930
+#: apps/course_metadata/models.py:967
 msgid "This field allows for override the default course term"
 msgstr "Trường này cho phép ghi đè thời hạn khóa học mặc định"
 
-#: apps/course_metadata/models.py:956
+#: apps/course_metadata/models.py:993
 msgid ""
 "This field contain external course marketing type specific to product lines"
 msgstr ""
 "Trường này chứa loại tiếp thị khóa học bên ngoài cụ thể cho các dòng sản "
 "phẩm"
 
-#: apps/course_metadata/models.py:965
+#: apps/course_metadata/models.py:1002
 msgid ""
 "Determines weather the course should be displayed on the owning "
 "organization's page"
 msgstr ""
 "Xác định thời tiết khóa học sẽ được hiển thị trên trang của tổ chức sở hữu"
 
-#: apps/course_metadata/models.py:1033
+#: apps/course_metadata/models.py:1073
 msgid "A list of major works by this person. Must be valid HTML."
 msgstr "Danh sách các tác phẩm chính của người này. Phải là HTML hợp lệ."
 
-#: apps/course_metadata/models.py:1041
+#: apps/course_metadata/models.py:1081
 msgid "People"
 msgstr "Mọi người"
 
-#: apps/course_metadata/models.py:1152
+#: apps/course_metadata/models.py:1272
 msgid ""
 "Add the collaborator image, please make sure its dimensions are 200x100px"
 msgstr ""
 "Thêm hình ảnh cộng tác viên, vui lòng đảm bảo kích thước của nó là 200x100px"
 
-#: apps/course_metadata/models.py:1176
+#: apps/course_metadata/models.py:1296
 msgid "U.S. Value Per Lead"
 msgstr "Giá trị mỗi khách hàng tiềm năng tại Hoa Kỳ"
 
-#: apps/course_metadata/models.py:1177
+#: apps/course_metadata/models.py:1297
 msgid "U.S. value per lead in U.S. dollars."
 msgstr "Giá trị của mỗi khách hàng tiềm năng bằng đô la Mỹ."
 
-#: apps/course_metadata/models.py:1182
+#: apps/course_metadata/models.py:1302
 msgid "International Value Per Lead"
 msgstr "Giá trị quốc tế trên mỗi khách hàng tiềm năng"
 
-#: apps/course_metadata/models.py:1183
+#: apps/course_metadata/models.py:1303
 msgid "International value per lead in U.S. dollars."
 msgstr "Giá trị quốc tế trên mỗi khách hàng tiềm năng bằng đô la Mỹ."
 
-#: apps/course_metadata/models.py:1188
+#: apps/course_metadata/models.py:1308
 msgid "U.S. Value Per Click"
 msgstr "Giá trị mỗi lần nhấp chuột ở Hoa Kỳ"
 
-#: apps/course_metadata/models.py:1189
+#: apps/course_metadata/models.py:1309
 msgid "U.S. value per click in U.S. dollars."
 msgstr "Giá trị mỗi nhấp chuột ở Mỹ bằng đô la Mỹ."
 
-#: apps/course_metadata/models.py:1194
+#: apps/course_metadata/models.py:1314
 msgid "International Value Per Click"
 msgstr "Giá trị quốc tế mỗi lần nhấp chuột"
 
-#: apps/course_metadata/models.py:1195
+#: apps/course_metadata/models.py:1315
 msgid "International value per click in U.S. dollars."
 msgstr "Giá trị quốc tế cho mỗi cú nhấp chuột bằng đô la Mỹ."
 
-#: apps/course_metadata/models.py:1233
+#: apps/course_metadata/models.py:1359
 msgid "Latitude"
 msgstr "Vĩ độ"
 
-#: apps/course_metadata/models.py:1240
+#: apps/course_metadata/models.py:1366
 msgid "Longitude"
 msgstr "Kinh độ"
 
-#: apps/course_metadata/models.py:1277
+#: apps/course_metadata/models.py:1409
 msgid "Allowlist"
 msgstr "Danh sách cho phép"
 
-#: apps/course_metadata/models.py:1278
+#: apps/course_metadata/models.py:1410
 msgid "Blocklist"
 msgstr "Danh sách chặn"
 
-#: apps/course_metadata/models.py:1325
+#: apps/course_metadata/models.py:1460
 msgid ""
 "When making reruns for this course, they will use this key instead of the "
 "course key."
@@ -1287,7 +1289,7 @@ msgstr ""
 "Khi thực hiện chạy lại khóa học này, họ sẽ sử dụng khóa này thay vì khóa "
 "học."
 
-#: apps/course_metadata/models.py:1342
+#: apps/course_metadata/models.py:1477
 msgid ""
 "The actual duration of this course as experienced by learners who complete "
 "it."
@@ -1295,37 +1297,37 @@ msgstr ""
 "Thời lượng thực tế của khóa học này được trải nghiệm bởi những người học "
 "hoàn thành nó."
 
-#: apps/course_metadata/models.py:1363
+#: apps/course_metadata/models.py:1498
 msgid "Add the course image"
 msgstr "Thêm hình ảnh khóa học"
 
-#: apps/course_metadata/models.py:1366 apps/course_metadata/models.py:3153
+#: apps/course_metadata/models.py:1501 apps/course_metadata/models.py:3358
 msgid "FAQ"
 msgstr "Câu hỏi thường gặp"
 
-#: apps/course_metadata/models.py:1369
+#: apps/course_metadata/models.py:1504
 msgid "Total number of learners who have enrolled in this course"
 msgstr "Tổng số học viên đã ghi danh khóa học này"
 
-#: apps/course_metadata/models.py:1374
+#: apps/course_metadata/models.py:1509
 msgid ""
 "Total number of learners who have enrolled in this course in the last 6 "
 "months"
 msgstr "Tổng số học viên đã ghi danh khóa học này trong 6 tháng qua"
 
-#: apps/course_metadata/models.py:1388
+#: apps/course_metadata/models.py:1523
 msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
 msgstr "Định dạng số khóa học, ví dụ CS002x, BIO1.1x, BIO1.2x"
 
-#: apps/course_metadata/models.py:1402
+#: apps/course_metadata/models.py:1537
 msgid "Additional Information"
 msgstr "thông tin thêm"
 
-#: apps/course_metadata/models.py:1424
+#: apps/course_metadata/models.py:1559
 msgid "The last time this course was modified in the database."
 msgstr "Lần cuối cùng khóa học này được sửa đổi trong cơ sở dữ liệu."
 
-#: apps/course_metadata/models.py:1429
+#: apps/course_metadata/models.py:1564
 msgid ""
 "This field signifies if this course is in the enterprise subscription "
 "catalog"
@@ -1333,7 +1335,7 @@ msgstr ""
 "Trường này biểu thị liệu khóa học này có nằm trong danh mục đăng ký doanh "
 "nghiệp hay không"
 
-#: apps/course_metadata/models.py:1437 apps/course_metadata/models.py:3312
+#: apps/course_metadata/models.py:1572 apps/course_metadata/models.py:3517
 msgid ""
 "If checked, this item will not be indexed in Algolia and will not show up in"
 " search results."
@@ -1341,15 +1343,15 @@ msgstr ""
 "Nếu được chọn, mục này sẽ không được lập chỉ mục trong Algolia và sẽ không "
 "hiển thị trong kết quả tìm kiếm."
 
-#: apps/course_metadata/models.py:1445 apps/course_metadata/models.py:3320
+#: apps/course_metadata/models.py:1580 apps/course_metadata/models.py:3525
 msgid "If checked, the About Page will have a meta tag with noindex value"
 msgstr "Nếu được chọn, Trang Giới thiệu sẽ có thẻ meta có giá trị noindex"
 
-#: apps/course_metadata/models.py:1450
+#: apps/course_metadata/models.py:1585
 msgid "Watchers"
 msgstr "Người theo dõi"
 
-#: apps/course_metadata/models.py:1452
+#: apps/course_metadata/models.py:1587
 msgid ""
 "The list of email addresses that will be notified if any of the course runs "
 "is published or scheduled."
@@ -1357,23 +1359,23 @@ msgstr ""
 "Danh sách các địa chỉ email sẽ được thông báo nếu bất kỳ khóa học nào diễn "
 "ra được xuất bản hoặc lên lịch."
 
-#: apps/course_metadata/models.py:1691
+#: apps/course_metadata/models.py:1832
 msgid "Future"
 msgstr "Tương lai"
 
-#: apps/course_metadata/models.py:1693
+#: apps/course_metadata/models.py:1834
 msgid "Past"
 msgstr "Quá khứ"
 
-#: apps/course_metadata/models.py:2111 apps/course_metadata/models.py:3164
+#: apps/course_metadata/models.py:2276 apps/course_metadata/models.py:3369
 msgid "Blocked"
 msgstr "Bị chặn"
 
-#: apps/course_metadata/models.py:2112 apps/course_metadata/models.py:3165
+#: apps/course_metadata/models.py:2277 apps/course_metadata/models.py:3370
 msgid "Unrestricted"
 msgstr "Không hạn chế"
 
-#: apps/course_metadata/models.py:2133
+#: apps/course_metadata/models.py:2298
 msgid ""
 "Title specific for this run of a course. Leave this value blank to default "
 "to the parent course's title."
@@ -1381,7 +1383,7 @@ msgstr ""
 "Tiêu đề cụ thể cho khóa học này. Để trống giá trị này để mặc định là tiêu đề"
 " của khóa học gốc."
 
-#: apps/course_metadata/models.py:2142
+#: apps/course_metadata/models.py:2307
 msgid ""
 "Short description specific for this run of a course. Leave this value blank "
 "to default to the parent course's short_description attribute."
@@ -1389,7 +1391,7 @@ msgstr ""
 "Mô tả ngắn gọn cụ thể cho khóa học này. Để trống giá trị này để mặc định cho"
 " thuộc tính short_description của khóa học gốc."
 
-#: apps/course_metadata/models.py:2146
+#: apps/course_metadata/models.py:2311
 msgid ""
 "Full description specific for this run of a course. Leave this value blank "
 "to default to the parent course's full_description attribute."
@@ -1397,31 +1399,31 @@ msgstr ""
 "Mô tả đầy đủ cụ thể cho khóa học này. Để trống giá trị này để mặc định cho "
 "thuộc tính full_description của khóa học gốc."
 
-#: apps/course_metadata/models.py:2151
+#: apps/course_metadata/models.py:2316
 msgid ""
 "Estimated minimum number of hours per week needed to complete a course run."
 msgstr "Ước tính số giờ tối thiểu mỗi tuần cần thiết để hoàn thành khóa học."
 
-#: apps/course_metadata/models.py:2154
+#: apps/course_metadata/models.py:2319
 msgid ""
 "Estimated maximum number of hours per week needed to complete a course run."
 msgstr "Ước tính số giờ tối đa mỗi tuần cần thiết để hoàn thành khóa học."
 
-#: apps/course_metadata/models.py:2157
+#: apps/course_metadata/models.py:2322
 msgid "Estimated number of weeks needed to complete this course run."
 msgstr "Số tuần ước tính cần thiết để hoàn thành khóa học này."
 
-#: apps/course_metadata/models.py:2164
+#: apps/course_metadata/models.py:2336
 msgid "Total number of learners who have enrolled in this course run"
 msgstr "Tổng số học viên đã ghi danh khóa học này"
 
-#: apps/course_metadata/models.py:2168
+#: apps/course_metadata/models.py:2340
 msgid ""
 "Total number of learners who have enrolled in this course run in the last 6 "
 "months"
 msgstr "Tổng số học viên đã ghi danh khóa học này trong 6 tháng qua"
 
-#: apps/course_metadata/models.py:2181
+#: apps/course_metadata/models.py:2353
 msgid ""
 "Whether this run should be hidden from API responses.  Do not edit here - "
 "this value will be overwritten by the \"Course Visibility In Catalog\" field"
@@ -1432,11 +1434,11 @@ msgstr ""
 "học trong danh mục&quot; trong Studio thông qua Làm mới siêu dữ liệu khóa "
 "học."
 
-#: apps/course_metadata/models.py:2187
+#: apps/course_metadata/models.py:2359
 msgid "Indicates whether the course relation has been manually overridden."
 msgstr "Cho biết liệu mối quan hệ khóa học có bị ghi đè thủ công hay không."
 
-#: apps/course_metadata/models.py:2194
+#: apps/course_metadata/models.py:2366
 msgid ""
 "'What You Will Learn' description for this particular course run. Leave this"
 " value blank to default to the parent course's Outcome attribute."
@@ -1444,12 +1446,12 @@ msgstr ""
 "Mô tả &#39;Bạn sẽ học được gì&#39; cho khóa học cụ thể này. Để trống giá trị"
 " này để mặc định là thuộc tính Kết quả của khóa học gốc."
 
-#: apps/course_metadata/models.py:2207 apps/course_metadata/models.py:3348
+#: apps/course_metadata/models.py:2379 apps/course_metadata/models.py:3553
 msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
 msgstr ""
 "Thêm văn bản hạn chế OFAC vào phần Câu hỏi thường gặp của trang Tiếp thị"
 
-#: apps/course_metadata/models.py:2227
+#: apps/course_metadata/models.py:2399
 msgid ""
 "This calculated field signifies if this course run is in the enterprise "
 "subscription catalog"
@@ -1457,7 +1459,7 @@ msgstr ""
 "Trường được tính toán này biểu thị liệu khóa học này có nằm trong danh mục "
 "đăng ký doanh nghiệp hay không"
 
-#: apps/course_metadata/models.py:2233
+#: apps/course_metadata/models.py:2405
 msgid ""
 "The identifier for a product variant. This is used to link a course run to a"
 " product variant for external LOBs (i.e; ExecEd & Bootcamps)."
@@ -1466,15 +1468,15 @@ msgstr ""
 "khóa học với một biến thể sản phẩm dành cho LOB bên ngoài (ví dụ: ExecEd "
 "&amp; Bootcamp)."
 
-#: apps/course_metadata/models.py:2580 apps/course_metadata/models.py:2593
+#: apps/course_metadata/models.py:2753 apps/course_metadata/models.py:2766
 msgid "Current"
 msgstr "Hiện hành"
 
-#: apps/course_metadata/models.py:2582
+#: apps/course_metadata/models.py:2755
 msgid "Starting Soon"
 msgstr "Bắt đầu sớm"
 
-#: apps/course_metadata/models.py:2632
+#: apps/course_metadata/models.py:2805
 msgid ""
 "Switching seat types after being reviewed is not supported. Please reach out"
 " to your project coordinator for additional help if necessary."
@@ -1482,43 +1484,43 @@ msgstr ""
 "Việc chuyển đổi loại chỗ ngồi sau khi được xem xét không được hỗ trợ. Vui "
 "lòng liên hệ với điều phối viên dự án của bạn để được trợ giúp thêm nếu cần."
 
-#: apps/course_metadata/models.py:2963
+#: apps/course_metadata/models.py:3159
 msgid "Change careers"
 msgstr "Thay đổi nghề nghiệp"
 
-#: apps/course_metadata/models.py:2964
+#: apps/course_metadata/models.py:3160
 msgid "Job advancement"
 msgstr "Thăng tiến trong công việc"
 
-#: apps/course_metadata/models.py:2965
+#: apps/course_metadata/models.py:3161
 msgid "Learn valuable skills"
 msgstr "Học những kỹ năng có giá trị"
 
-#: apps/course_metadata/models.py:2966
+#: apps/course_metadata/models.py:3162
 msgid "Learn for fun"
 msgstr "Học cho vui"
 
-#: apps/course_metadata/models.py:3154
+#: apps/course_metadata/models.py:3359
 msgid "FAQs"
 msgstr "Câu hỏi thường gặp"
 
-#: apps/course_metadata/models.py:3169
+#: apps/course_metadata/models.py:3374
 msgid "The user-facing display title for this Program."
 msgstr "Tiêu đề hiển thị hướng tới người dùng cho Chương trình này."
 
-#: apps/course_metadata/models.py:3171
+#: apps/course_metadata/models.py:3376
 msgid "A brief, descriptive subtitle for the Program."
 msgstr "Một phụ đề mô tả ngắn gọn về Chương trình."
 
-#: apps/course_metadata/models.py:3173
+#: apps/course_metadata/models.py:3378
 msgid "A brief hook for the marketing website"
 msgstr "Một câu nói ngắn gọn dành cho trang web tiếp thị"
 
-#: apps/course_metadata/models.py:3176
+#: apps/course_metadata/models.py:3381
 msgid "The lifecycle status of this Program."
 msgstr "Trạng thái vòng đời của Chương trình này."
 
-#: apps/course_metadata/models.py:3188
+#: apps/course_metadata/models.py:3393
 msgid ""
 "If this box is not checked, courses will be ordered as in the courses select"
 " box above."
@@ -1526,7 +1528,7 @@ msgstr ""
 "Nếu hộp này không được chọn, các khóa học sẽ được sắp xếp theo thứ tự như "
 "trong hộp chọn khóa học ở trên."
 
-#: apps/course_metadata/models.py:3203
+#: apps/course_metadata/models.py:3408
 msgid ""
 "This field is now deprecated (ECOM-6021).Estimated number of weeks needed to"
 " complete a course run belonging to this program."
@@ -1534,11 +1536,11 @@ msgstr ""
 "Trường này hiện không được dùng nữa (ECOM-6021).Số tuần ước tính cần thiết "
 "để hoàn thành khóa học thuộc chương trình này."
 
-#: apps/course_metadata/models.py:3229
+#: apps/course_metadata/models.py:3434
 msgid "DEPRECATED: Use the card image field"
 msgstr "KHÔNG ĐƯỢC DÙNG NỮA: Sử dụng trường hình ảnh thẻ"
 
-#: apps/course_metadata/models.py:3236
+#: apps/course_metadata/models.py:3441
 msgid ""
 "This field can be used by API clients to determine the order in which "
 "instructors will be displayed on program pages. Instructors in this list "
@@ -1549,15 +1551,15 @@ msgstr ""
 "dẫn trong danh sách này sẽ xuất hiện trước khi tất cả những người khác liên "
 "quan đến các khóa học của chương trình này diễn ra."
 
-#: apps/course_metadata/models.py:3247
+#: apps/course_metadata/models.py:3452
 msgid "The description of credit redemption for courses in program"
 msgstr "Mô tả việc đổi tín chỉ cho các khóa học trong chương trình"
 
-#: apps/course_metadata/models.py:3252
+#: apps/course_metadata/models.py:3457
 msgid "Allow courses in this program to be purchased in a single transaction"
 msgstr "Cho phép mua các khóa học trong chương trình này trong một giao dịch"
 
-#: apps/course_metadata/models.py:3256
+#: apps/course_metadata/models.py:3461
 msgid ""
 "Hide program on marketing site landing and search pages. This program MAY "
 "have a detail page."
@@ -1565,11 +1567,11 @@ msgstr ""
 "Ẩn chương trình trên trang đích và trang tìm kiếm của trang tiếp thị. Chương"
 " trình này CÓ THỂ có một trang chi tiết."
 
-#: apps/course_metadata/models.py:3259
+#: apps/course_metadata/models.py:3464
 msgid "Total number of learners who have enrolled in courses this program"
 msgstr "Tổng số học viên đã ghi danh các khóa học của chương trình này"
 
-#: apps/course_metadata/models.py:3264
+#: apps/course_metadata/models.py:3469
 msgid ""
 "Total number of learners who have enrolled in courses in this program in the"
 " last 6 months"
@@ -1577,7 +1579,7 @@ msgstr ""
 "Tổng số học viên đã ghi danh các khóa học của chương trình này trong 6 tháng"
 " qua"
 
-#: apps/course_metadata/models.py:3269
+#: apps/course_metadata/models.py:3474
 msgid ""
 "Number of credits a learner will earn upon successful completion of the "
 "program"
@@ -1585,7 +1587,7 @@ msgstr ""
 "Số tín chỉ mà người học sẽ đạt được sau khi hoàn thành thành công chương "
 "trình"
 
-#: apps/course_metadata/models.py:3273
+#: apps/course_metadata/models.py:3478
 msgid ""
 "This calculated field signifies if all the courses in this program are "
 "included in the enterprise subscription catalog "
@@ -1593,18 +1595,18 @@ msgstr ""
 "Trường được tính toán này cho biết liệu tất cả các khóa học trong chương "
 "trình này có được đưa vào danh mục đăng ký doanh nghiệp hay không "
 
-#: apps/course_metadata/models.py:3277
+#: apps/course_metadata/models.py:3482
 msgid ""
 "A field to override Organization short code alias specific for this program."
 msgstr ""
 "Trường để ghi đè bí danh mã ngắn của Tổ chức dành riêng cho chương trình "
 "này."
 
-#: apps/course_metadata/models.py:3284
+#: apps/course_metadata/models.py:3489
 msgid "A field to override Organization logo specific for this program."
 msgstr "Trường để ghi đè logo Tổ chức dành riêng cho chương trình này."
 
-#: apps/course_metadata/models.py:3288
+#: apps/course_metadata/models.py:3493
 msgid ""
 "Primary subject field specific for this program. Useful field in case there "
 "are no courses associated with this program."
@@ -1612,7 +1614,7 @@ msgstr ""
 "Trường chủ đề chính cụ thể cho chương trình này. Trường hữu ích trong trường"
 " hợp không có khóa học nào liên quan đến chương trình này."
 
-#: apps/course_metadata/models.py:3293
+#: apps/course_metadata/models.py:3498
 msgid ""
 "Level type specific for this program. Useful field in case there are no "
 "courses associated with this program."
@@ -1620,7 +1622,7 @@ msgstr ""
 "Loại cấp độ cụ thể cho chương trình này. Trường hữu ích trong trường hợp "
 "không có khóa học nào liên quan đến chương trình này."
 
-#: apps/course_metadata/models.py:3298
+#: apps/course_metadata/models.py:3503
 msgid ""
 "Language code specific for this program. Useful field in case there are no "
 "courses associated with this program."
@@ -1628,7 +1630,7 @@ msgstr ""
 "Mã ngôn ngữ cụ thể cho chương trình này. Trường hữu ích trong trường hợp "
 "không có khóa học nào liên quan đến chương trình này."
 
-#: apps/course_metadata/models.py:3332
+#: apps/course_metadata/models.py:3537
 msgid ""
 "Useful field to overwrite the duration of a program. It can be a text "
 "describing a period of time, Ex: 6-9 months."
@@ -1636,7 +1638,7 @@ msgstr ""
 "Trường hữu ích để ghi đè thời lượng của chương trình. Nó có thể là một văn "
 "bản mô tả một khoảng thời gian, Ví dụ: 6-9 tháng."
 
-#: apps/course_metadata/models.py:3341
+#: apps/course_metadata/models.py:3546
 msgid ""
 "Pick a tag/label from the suggestions. To make a new tag, add a comma after "
 "the tag name."
@@ -1644,35 +1646,35 @@ msgstr ""
 "Chọn một thẻ/nhãn từ các đề xuất. Để tạo thẻ mới, hãy thêm dấu phẩy sau tên "
 "thẻ."
 
-#: apps/course_metadata/models.py:3352
+#: apps/course_metadata/models.py:3557
 msgid "The last time this program was modified."
 msgstr "Lần cuối cùng chương trình này được sửa đổi."
 
-#: apps/course_metadata/models.py:3780 apps/course_metadata/models.py:3797
+#: apps/course_metadata/models.py:4009 apps/course_metadata/models.py:4026
 msgid "ID"
 msgstr "NHẬN DẠNG"
 
-#: apps/course_metadata/models.py:3816
+#: apps/course_metadata/models.py:4045
 msgid "The actual rank number"
 msgstr "Số thứ hạng thực tế"
 
-#: apps/course_metadata/models.py:3817
+#: apps/course_metadata/models.py:4046
 msgid "What does the rank number mean"
 msgstr "Số thứ hạng có ý nghĩa gì"
 
-#: apps/course_metadata/models.py:3818
+#: apps/course_metadata/models.py:4047
 msgid "From where the rank is obtained"
 msgstr "Từ đâu có được thứ hạng"
 
-#: apps/course_metadata/models.py:3834
+#: apps/course_metadata/models.py:4094
 msgid "Callback URL to partner application flow"
 msgstr "URL gọi lại tới luồng ứng dụng của đối tác"
 
-#: apps/course_metadata/models.py:3837
+#: apps/course_metadata/models.py:4097
 msgid "Overall program ranking (e.g. \"#1 in the U.S.\")"
 msgstr "Xếp hạng chương trình tổng thể (ví dụ: &quot;#1 ở Mỹ&quot;)"
 
-#: apps/course_metadata/models.py:3842
+#: apps/course_metadata/models.py:4102
 msgid ""
 "The 6 character hex value of the color to make the banner borders\n"
 "            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
@@ -1680,52 +1682,52 @@ msgstr ""
 "Giá trị hex 6 ký tự của màu để làm viền biểu ngữ\n"
 " (ví dụ: &quot;#ff0000&quot; tương đương với màu đỏ) Không cần cung cấp `#`"
 
-#: apps/course_metadata/models.py:3851
+#: apps/course_metadata/models.py:4111
 msgid "Provide a campus image for the header of the degree"
 msgstr "Cung cấp hình ảnh khuôn viên trường cho tiêu đề của bằng cấp"
 
-#: apps/course_metadata/models.py:3857
+#: apps/course_metadata/models.py:4117
 msgid "Provide a background image for the title section of the degree"
 msgstr "Cung cấp ảnh nền cho phần tiêu đề của bằng cấp"
 
-#: apps/course_metadata/models.py:3862
+#: apps/course_metadata/models.py:4122
 msgid "The fine print that displays at the Tuition section's bottom"
 msgstr "Bản in đẹp hiển thị ở cuối phần Học phí"
 
-#: apps/course_metadata/models.py:3867
+#: apps/course_metadata/models.py:4127
 msgid "The fine print that displays at the Deadline section's bottom"
 msgstr "Bản in đẹp hiển thị ở cuối phần Hạn chót"
 
-#: apps/course_metadata/models.py:3874
+#: apps/course_metadata/models.py:4134
 msgid "The sailthru email list name to capture leads"
 msgstr "Tên danh sách email Sailthru để thu hút khách hàng tiềm năng"
 
-#: apps/course_metadata/models.py:3888
+#: apps/course_metadata/models.py:4148
 msgid "Please provide an image file for the lead capture banner."
 msgstr ""
 "Vui lòng cung cấp tệp hình ảnh cho biểu ngữ thu thập khách hàng tiềm năng."
 
-#: apps/course_metadata/models.py:3891
+#: apps/course_metadata/models.py:4151
 msgid "The Hubspot form ID for the lead capture form"
 msgstr "ID biểu mẫu Hubspot cho biểu mẫu thu thập khách hàng tiềm năng"
 
-#: apps/course_metadata/models.py:3897
+#: apps/course_metadata/models.py:4157
 msgid "URL to micromasters landing page"
 msgstr "URL tới trang đích micromasters"
 
-#: apps/course_metadata/models.py:3903
+#: apps/course_metadata/models.py:4163
 msgid "Micromasters verbose title"
 msgstr "Tiêu đề dài dòng của Micromasters"
 
-#: apps/course_metadata/models.py:3909
+#: apps/course_metadata/models.py:4169
 msgid "Micromasters descriptive paragraph"
 msgstr "Đoạn mô tả Micromasters"
 
-#: apps/course_metadata/models.py:3922
+#: apps/course_metadata/models.py:4182
 msgid "Customized background image for the MicroMasters section."
 msgstr "Hình nền tùy chỉnh cho phần MicroMasters."
 
-#: apps/course_metadata/models.py:3926
+#: apps/course_metadata/models.py:4186
 msgid ""
 "Override org name if micromasters program comes from different organization "
 "than Masters program"
@@ -1733,19 +1735,19 @@ msgstr ""
 "Ghi đè tên tổ chức nếu chương trình micromasters đến từ tổ chức khác với "
 "chương trình Masters"
 
-#: apps/course_metadata/models.py:3933
+#: apps/course_metadata/models.py:4193
 msgid "Ranking display for search card (e.g. \"#1 in the U.S.\""
 msgstr "Hiển thị thứ hạng cho thẻ tìm kiếm (ví dụ: “#1 in the US”"
 
-#: apps/course_metadata/models.py:3939
+#: apps/course_metadata/models.py:4199
 msgid "Cost display for search card (e.g. \"$9,999\""
 msgstr "Hiển thị chi phí cho thẻ tìm kiếm (ví dụ: &quot;$9,999&quot;"
 
-#: apps/course_metadata/models.py:3945
+#: apps/course_metadata/models.py:4205
 msgid "Number of courses for search card (e.g. \"11 Courses\""
 msgstr "Số khóa học cho thẻ tìm kiếm (ví dụ: &quot;11 Khóa học&quot;"
 
-#: apps/course_metadata/models.py:3953
+#: apps/course_metadata/models.py:4213
 msgid ""
 "Designates whether the degree should be displayed on the owning "
 "organization's page"
@@ -1753,100 +1755,100 @@ msgstr ""
 "Chỉ định xem bằng cấp có được hiển thị trên trang của tổ chức sở hữu hay "
 "không"
 
-#: apps/course_metadata/models.py:3970
+#: apps/course_metadata/models.py:4232
 msgid "The redirect URL of the degree on external site"
 msgstr "URL chuyển hướng của bằng cấp trên trang web bên ngoài"
 
-#: apps/course_metadata/models.py:3975
+#: apps/course_metadata/models.py:4237
 msgid "The URL of the landing page on external site"
 msgstr "URL của trang đích trên trang web bên ngoài"
 
-#: apps/course_metadata/models.py:4010
+#: apps/course_metadata/models.py:4288
 msgid "Bell"
 msgstr "Chuông"
 
-#: apps/course_metadata/models.py:4011
+#: apps/course_metadata/models.py:4289
 msgid "Certificate"
 msgstr "Giấy chứng nhận"
 
-#: apps/course_metadata/models.py:4012
+#: apps/course_metadata/models.py:4290
 msgid "Checkmark"
 msgstr "Đánh dấu"
 
-#: apps/course_metadata/models.py:4013
+#: apps/course_metadata/models.py:4291
 msgid "Clock"
 msgstr "Cái đồng hồ"
 
-#: apps/course_metadata/models.py:4014
+#: apps/course_metadata/models.py:4292
 msgid "Desktop"
 msgstr "Máy tính để bàn"
 
-#: apps/course_metadata/models.py:4015
+#: apps/course_metadata/models.py:4293
 msgid "Info"
 msgstr "Thông tin"
 
-#: apps/course_metadata/models.py:4016
+#: apps/course_metadata/models.py:4294
 msgid "Sitemap"
 msgstr "Sơ đồ trang web"
 
-#: apps/course_metadata/models.py:4017
+#: apps/course_metadata/models.py:4295
 msgid "User"
 msgstr "Người dùng"
 
-#: apps/course_metadata/models.py:4018
+#: apps/course_metadata/models.py:4296
 msgid "Dollar"
 msgstr "đô la"
 
-#: apps/course_metadata/models.py:4019
+#: apps/course_metadata/models.py:4297
 msgid "Book"
 msgstr "Sách"
 
-#: apps/course_metadata/models.py:4020
+#: apps/course_metadata/models.py:4298
 msgid "Mortar Board"
 msgstr "tấm vữa"
 
-#: apps/course_metadata/models.py:4021
+#: apps/course_metadata/models.py:4299
 msgid "Star"
 msgstr "Ngôi sao"
 
-#: apps/course_metadata/models.py:4022
+#: apps/course_metadata/models.py:4300
 msgid "Trophy"
 msgstr "Chiếc cúp"
 
-#: apps/course_metadata/models.py:4026
+#: apps/course_metadata/models.py:4304
 msgid "Icon FA class"
 msgstr "Biểu tượng lớp FA"
 
-#: apps/course_metadata/models.py:4027
+#: apps/course_metadata/models.py:4305
 msgid "Paired text"
 msgstr "Văn bản được ghép nối"
 
-#: apps/course_metadata/models.py:4046
+#: apps/course_metadata/models.py:4340
 msgid "Deadline applies for this semester (e.g. Spring 2019"
 msgstr "Hạn chót áp dụng cho học kỳ này (ví dụ Spring 2019"
 
-#: apps/course_metadata/models.py:4050
+#: apps/course_metadata/models.py:4344
 msgid "Describes the deadline (e.g. Early Admission Deadline)"
 msgstr "Mô tả thời hạn (ví dụ: Hạn chót nhập học sớm)"
 
-#: apps/course_metadata/models.py:4054
+#: apps/course_metadata/models.py:4348
 msgid "The date after which the deadline expires (e.g. January 1, 2019)"
 msgstr "Ngày sau đó hết thời hạn (ví dụ: ngày 1 tháng 1 năm 2019)"
 
-#: apps/course_metadata/models.py:4058
+#: apps/course_metadata/models.py:4352
 msgid "The time after which the deadline expires (e.g. 11:59 PM EST)."
 msgstr "Thời gian sau đó thời hạn hết hạn (ví dụ: 11:59 PM EST)."
 
-#: apps/course_metadata/models.py:4079
+#: apps/course_metadata/models.py:4388
 msgid "Describes what the cost is for (e.g. Tuition)"
 msgstr "Mô tả chi phí dành cho những gì (ví dụ: Học phí)"
 
-#: apps/course_metadata/models.py:4083
+#: apps/course_metadata/models.py:4392
 msgid "String-based field stating how much the cost is (e.g. $1000)."
 msgstr ""
 "Trường dựa trên chuỗi cho biết chi phí là bao nhiêu (ví dụ: 1000 USD)."
 
-#: apps/course_metadata/models.py:4111
+#: apps/course_metadata/models.py:4435
 msgid ""
 "A high-level overview of the degree's courseware. The \"brief\"\n"
 "            text is the first 750 characters of \"marketing_text\" and must be\n"
@@ -1856,35 +1858,35 @@ msgstr ""
 " văn bản là 750 ký tự đầu tiên của &quot;marketing_text&quot; và phải\n"
 " HTML hợp lệ."
 
-#: apps/course_metadata/models.py:4119
+#: apps/course_metadata/models.py:4443
 msgid "A high-level overview of the degree's courseware."
 msgstr "Tổng quan cấp cao về chương trình học của bằng cấp."
 
-#: apps/course_metadata/models.py:4195
+#: apps/course_metadata/models.py:4568
 msgid "Organization name"
 msgstr "Tên tổ chức"
 
-#: apps/course_metadata/models.py:4217
+#: apps/course_metadata/models.py:4595
 msgid "These programs are for a different partner than the pathway itself: {}"
 msgstr "Các chương trình này dành cho một đối tác khác với chính lộ trình: {}"
 
-#: apps/course_metadata/models.py:4244
+#: apps/course_metadata/models.py:4622
 msgid "Facebook"
 msgstr "Facebook"
 
-#: apps/course_metadata/models.py:4245
+#: apps/course_metadata/models.py:4623
 msgid "Twitter"
 msgstr "Twitter"
 
-#: apps/course_metadata/models.py:4246
+#: apps/course_metadata/models.py:4624
 msgid "Blog"
 msgstr "Blog"
 
-#: apps/course_metadata/models.py:4247
+#: apps/course_metadata/models.py:4625
 msgid "Others"
 msgstr "Người khác"
 
-#: apps/course_metadata/models.py:4307
+#: apps/course_metadata/models.py:4685
 #, python-brace-format
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
@@ -1893,7 +1895,7 @@ msgstr ""
 "Đối tác {partner_key} và đối tác khóa học {course_partner_key} không khớp "
 "nhau khi cố gắng lưu sên url {url_slug}"
 
-#: apps/course_metadata/models.py:4327
+#: apps/course_metadata/models.py:4705
 #, python-brace-format
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
@@ -1902,14 +1904,15 @@ msgstr ""
 "Đối tác {partner_key} và đối tác khóa học {course_partner_key} không khớp "
 "nhau khi cố gắng lưu chuyển hướng url {url_path}"
 
-#: apps/course_metadata/models.py:4348
+#: apps/course_metadata/models.py:4726
 msgid "It expects the data will be provided in a csv file format "
 msgstr "Nó hy vọng dữ liệu sẽ được cung cấp ở định dạng tệp csv "
 
-#: apps/course_metadata/models.py:4360 apps/course_metadata/models.py:4373
-#: apps/course_metadata/models.py:4386 apps/course_metadata/models.py:4406
-#: apps/course_metadata/models.py:4419 apps/course_metadata/models.py:4438
-#: apps/course_metadata/models.py:4458 apps/course_metadata/models.py:4473
+#: apps/course_metadata/models.py:4752 apps/course_metadata/models.py:4765
+#: apps/course_metadata/models.py:4778 apps/course_metadata/models.py:4813
+#: apps/course_metadata/models.py:4826 apps/course_metadata/models.py:4845
+#: apps/course_metadata/models.py:4865 apps/course_metadata/models.py:4880
+#: apps/course_metadata/models.py:5033
 msgid ""
 "It expects the data will be provided in a csv file format with first row "
 "containing all the headers."
@@ -1917,47 +1920,47 @@ msgstr ""
 "Nó hy vọng dữ liệu sẽ được cung cấp ở định dạng tệp csv với hàng đầu tiên "
 "chứa tất cả các tiêu đề."
 
-#: apps/course_metadata/models.py:4430
+#: apps/course_metadata/models.py:4837
 msgid "Open Courses"
 msgstr "Khóa học mở"
 
-#: apps/course_metadata/models.py:4431
+#: apps/course_metadata/models.py:4838
 msgid "2U Executive Education Courses"
 msgstr "Các khóa học giáo dục điều hành 2U"
 
-#: apps/course_metadata/models.py:4432
+#: apps/course_metadata/models.py:4839
 msgid "Bootcamps"
 msgstr "Chương trình đào tạo"
 
-#: apps/course_metadata/models.py:4443 apps/course_metadata/models.py:4547
+#: apps/course_metadata/models.py:4850 apps/course_metadata/models.py:4954
 msgid "Course UUIDs"
 msgstr "UUID khóa học"
 
-#: apps/course_metadata/models.py:4523
+#: apps/course_metadata/models.py:4930
 msgid "Course Run IDs"
 msgstr "ID chạy khóa học"
 
-#: apps/course_metadata/models.py:4539
+#: apps/course_metadata/models.py:4946
 msgid "Profile Image UUIDs"
 msgstr "UUID hình ảnh hồ sơ"
 
-#: apps/course_metadata/models.py:4546
+#: apps/course_metadata/models.py:4953
 msgid "Tag"
 msgstr "Nhãn"
 
-#: apps/course_metadata/models.py:4562
+#: apps/course_metadata/models.py:4969
 msgid "Remove All Redirects"
 msgstr "Xóa tất cả các chuyển hướng"
 
-#: apps/course_metadata/models.py:4563
+#: apps/course_metadata/models.py:4970
 msgid "Url Paths"
 msgstr "Đường dẫn Url"
 
-#: apps/course_metadata/models.py:4571
+#: apps/course_metadata/models.py:4978
 msgid "Add redirects from all published course url slugs"
 msgstr "Thêm chuyển hướng từ tất cả các URL khóa học đã xuất bản"
 
-#: apps/course_metadata/models.py:4572 apps/taxonomy_support/models.py:55
+#: apps/course_metadata/models.py:4979 apps/taxonomy_support/models.py:55
 msgid "Course uuids"
 msgstr "Khóa học uuids"
 
@@ -2030,36 +2033,20 @@ msgstr ""
 "%(user_name)s đã đưa ra nhận xét sau về %(course_name)s %(date)s tại "
 "%(time)s"
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:9
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
-#: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
-#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
-#: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:3
-#: apps/course_metadata/templates/course_metadata/email/reviewed.html:9
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
-#, python-format
-msgid "Dear %(recipient_name)s,"
-msgstr "Kính gửi %(recipient_name)s ,"
-
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
 #, python-format
 msgid ""
 "The About page for the %(course_run_number)s course run of %(course_name)s "
-"has been published. No further action is necessary."
+"has been submitted for publishing. The new session will appear on the edX "
+"website following the next couple of deployments—typically within 24 to 48 "
+"business hours."
 msgstr ""
-"Trang Giới thiệu về khóa học %(course_run_number)s của %(course_name)s đã "
-"được xuất bản. Không có hành động hơn nữa là cần thiết."
+"Trang Giới thiệu cho kỳ học %(course_run_number)s của %(course_name)s đã "
+"được gửi để xuất bản. Buổi học mới sẽ xuất hiện trên trang web edX sau một "
+"vài lần triển khai tiếp theo—thường là trong vòng 24 đến 48 giờ làm việc."
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:24
-#, python-brace-format
-msgid "{link_start}{preview_url}{link_middle}View this About page.{link_end}"
-msgstr ""
-"{link_start} {preview_url} {link_middle} Xem trang Giới thiệu này. "
-"{link_end}"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:33
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:26
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
 #, python-brace-format
@@ -2069,19 +2056,22 @@ msgstr ""
 "{link_start} {contact_us_email} {link_middle} {contact_us_email} {link_end}"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
-#, python-format
-msgid "View this About page. %(preview_url)s"
-msgstr "Xem trang Giới thiệu này. %(preview_url)s"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:15
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
 msgid ""
-"Note: This email address is unable to receive replies. For questions or "
-"comments, please contact your Project Coordinator(s):"
+"Note: This is a no-reply email. For any questions or comments, please "
+"contact your Project Coordinator at"
 msgstr ""
-"Lưu ý: Địa chỉ email này không thể nhận thư trả lời. Nếu có thắc mắc hoặc "
-"nhận xét, vui lòng liên hệ với (các) Điều phối viên Dự án của bạn:"
+"Lưu ý: Đây là email không nhận phản hồi. Nếu có bất kỳ câu hỏi hoặc bình "
+"luận nào, vui lòng liên hệ Điều phối viên Dự án của bạn tại"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:9
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
+#, python-format
+msgid "Dear %(recipient_name)s,"
+msgstr "Kính gửi %(recipient_name)s ,"
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
 #, python-brace-format
@@ -2152,6 +2142,15 @@ msgstr "%(org_name)s đã gửi %(course_name)s để xem xét."
 msgid "View this course run in Publisher above to determine OFAC status."
 msgstr ""
 "Xem khóa học này chạy trong Nhà xuất bản ở trên để xác định trạng thái OFAC."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
+msgid ""
+"Note: This email address is unable to receive replies. For questions or "
+"comments, please contact your Project Coordinator(s):"
+msgstr ""
+"Lưu ý: Địa chỉ email này không thể nhận thư trả lời. Nếu có thắc mắc hoặc "
+"nhận xét, vui lòng liên hệ với (các) Điều phối viên Dự án của bạn:"
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
 #, python-brace-format
@@ -2237,7 +2236,7 @@ msgstr ""
 "Khóa học &#39; %(course_name)s &#39; đã được edX xem xét thành công và hiện đã sẵn sàng để xuất bản. Khóa học sẽ được xuất bản trên %(course_publish_date)s .\n"
 " Để xem bản xem trước của Trang Giới thiệu khóa học, hãy truy cập vào đây: %(course_preview_url)s\n"
 
-#: apps/course_metadata/utils.py:389
+#: apps/course_metadata/utils.py:391
 msgid "Special characters not allowed in Course Number."
 msgstr "Ký tự đặc biệt không được phép trong Mã số khóa học."
 
@@ -2300,53 +2299,53 @@ msgstr "Bản dịch mô hình Tag Ngôn ngữ"
 msgid "Inactive"
 msgstr "Không hoạt động"
 
-#: apps/learner_pathway/models.py:85
+#: apps/learner_pathway/models.py:84
 msgid "Title of the learner pathway."
 msgstr "Tiêu đề của lộ trình học tập."
 
-#: apps/learner_pathway/models.py:88
+#: apps/learner_pathway/models.py:87
 msgid "Course/Program associated pathways also appear in search results"
 msgstr ""
 "Lộ trình liên quan đến Khóa học/Chương trình cũng xuất hiện trong kết quả "
 "tìm kiếm"
 
-#: apps/learner_pathway/models.py:91
+#: apps/learner_pathway/models.py:90
 msgid "The active/inactive status of this Pathway."
 msgstr "Trạng thái hoạt động/không hoạt động của Lộ trình này."
 
-#: apps/learner_pathway/models.py:119
+#: apps/learner_pathway/models.py:118
 msgid "Learner Pathway"
 msgstr "Lộ trình học tập"
 
-#: apps/learner_pathway/models.py:120
+#: apps/learner_pathway/models.py:119
 msgid "Learner Pathways"
 msgstr "Lộ trình học tập"
 
-#: apps/learner_pathway/models.py:166
+#: apps/learner_pathway/models.py:165
 msgid "Minimum number of nodes to complete this step of the pathway"
 msgstr "Số lượng nút tối thiểu để hoàn thành bước này của lộ trình"
 
-#: apps/learner_pathway/models.py:170
+#: apps/learner_pathway/models.py:169
 msgid "Learner Pathway Step"
 msgstr "Bước lộ trình học tập"
 
-#: apps/learner_pathway/models.py:171
+#: apps/learner_pathway/models.py:170
 msgid "Learner Pathway Steps"
 msgstr "Các bước lộ trình học tập"
 
-#: apps/learner_pathway/models.py:238
+#: apps/learner_pathway/models.py:237
 msgid "Learner Pathway Course"
 msgstr "Khóa học lộ trình dành cho người học"
 
-#: apps/learner_pathway/models.py:239
+#: apps/learner_pathway/models.py:238
 msgid "Learner Pathway Courses"
 msgstr "Các khóa học lộ trình dành cho người học"
 
-#: apps/learner_pathway/models.py:276
+#: apps/learner_pathway/models.py:275
 msgid "Learner Pathway Program"
 msgstr "Chương trình Lộ trình Học tập"
 
-#: apps/learner_pathway/models.py:277
+#: apps/learner_pathway/models.py:276
 msgid "Learner Pathway Programs"
 msgstr "Chương trình Lộ trình Học tập"
 
