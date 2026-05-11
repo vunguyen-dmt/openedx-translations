@@ -29,8 +29,17 @@
   "homepage.bodyContent.contact": "Liên hệ",
   "homepage.newsPageTitle": "Tin tức | {siteName}",
   "homepage.news": "Tin tức",
-  "homepage.faqFrequentAskedQueestion": "FAQ - Câu hỏi thường gặp",
+  "homepage.faqFrequentlyAskedQuestions": "Câu hỏi thường gặp",
   "homepage.forLearners": "Dành cho người học",
   "homepage.forInstructors": "Dành cho giảng viên",
-  "homepage.bodyContent.viewMore": "Xem thêm"
+  "homepage.bodyContent.viewMore": "Xem thêm",
+  "homepage.help.support": "Hỗ trợ & Trợ giúp",
+  "homepage.help.makeARequest": "Gửi yêu cầu",
+  "homepage.help.form.name": "Họ và tên",
+  "homepage.help.form.email": "Email",
+  "homepage.help.form.subject": "Chủ đề",
+  "homepage.help.form.message": "Nội dung",
+  "homepage.help.form.send": "Gửi",
+  "homepage.help.form.back": "Quay lại",
+  "homepage.help.form.success": "Yêu cầu của bạn đã được gửi thành công!"
 }
