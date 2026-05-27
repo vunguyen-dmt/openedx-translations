@@ -182,6 +182,7 @@
     "registration.field.gender.options.label": "Giới tính (không bắt buộc)",
     "registration.field.gender.options.m": "Nam",
     "registration.field.gender.options.o": "Khác/Không muốn nói",
+    "registration.forbidden.username": "Tên đăng nhập không được chứa các từ có thể bị nhầm lẫn với vai trò trong khóa học. Vui lòng chọn tên đăng nhập khác.",
     "registration.fullname.label": "Họ và tên",
     "registration.goals.label": "Hãy cho chúng tôi biết lý do bạn quan tâm đến edX (không bắt buộc)",
     "registration.opt.in.label": "Tôi đồng ý rằng {siteName} có thể gửi cho tôi thông báo tiếp thị.",

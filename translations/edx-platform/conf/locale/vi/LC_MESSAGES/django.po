@@ -30203,3 +30203,490 @@ msgstr "Bài nộp của bạn đã được chấm điểm, kết quả đang �
 #: default_data.py:26
 msgid "You silly, there are no zones for this one."
 msgstr "Không có khu vực nào cho cái này cả."
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "You are in {subsection_name} [{assignment_type}]"
+msgstr "Bạn đang ở {subsection_name} [{assignment_type}]"
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "You are in {subsection_name}"
+msgstr "Bạn đang ở {subsection_name}"
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "Unit {position} of {total}"
+msgstr "Trang {position} trên tổng số {total} trang"
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "Multiple choice questions"
+msgstr "Câu hỏi trắc nghiệm"
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "on this page"
+msgstr "trên trang này"
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "{submitted} of {total} submitted"
+msgstr "{submitted} trên {total} đã nộp"
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "Selecting choices is not enough. You must click the Submit button for each question to be graded."
+msgstr "Chỉ chọn đáp án thôi là chưa đủ. Bạn phải nhấn nút Nộp bài cho từng câu hỏi để được chấm điểm."
+
+#: lms/templates/vert_module.html
+msgctxt "exam_progress"
+msgid "This exam may contain other types of questions. Please review your exam carefully."
+msgstr "Bài kiểm tra này có thể chứa các dạng câu hỏi khác. Vui lòng xem xét bài kiểm tra kỹ lưỡng."
+
+#: lms/templates/vert_module.html
+msgid "Summarize this unit"
+msgstr "Tóm tắt trang này"
+
+#: lms/templates/vert_module.html
+msgid "Hide summary"
+msgstr "Ẩn tóm tắt"
+
+#: lms/templates/vert_module.html
+msgid "Generating summary..."
+msgstr "Đang sinh tóm tắt..."
+
+#: lms/templates/vert_module.html
+msgid "Failed to load summary. Please try again."
+msgstr "Không thể tải tóm tắt. Vui lòng thử lại."
+
+#: openedx/core/djangoapps/notifications/base_notification.py:66
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> and others started new discussions</"
+"{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py:202
+#, python-brace-format
+msgid ""
+"<{p}>You have a new open response submission awaiting review for <{strong}"
+">{ora_name}</{strong}></{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py:204
+#, python-brace-format
+msgid ""
+"<{p}>You have multiple submissions awaiting review for <{strong}>{ora_name}</"
+"{strong}></{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py:243
+#, python-brace-format
+msgid "<{p}>Your instructor posted <{strong}>{post_title}</{strong}></{p}>"
+msgstr ""
+
+#: cms/templates/widgets/sock_links.html:14
+msgid "Access edx.org documentation on http://docs.edx.org"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:3204
+msgid "All fields must be filled out"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:102
+msgid ""
+"Click to generate a CSV file                 that lists learners who are "
+"enrolled in the course but have not yet activated their account."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:40
+msgid ""
+"Click to generate a CSV file that lists learners who are enrolled in the "
+"course but have not yet activated their account."
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:290
+#, python-brace-format
+msgid ""
+"Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked "
+"to {upstream_id}."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:3210
+#, python-brace-format
+msgid "Could not find student matching identifier: {student}"
+msgstr ""
+
+#: cms/templates/widgets/header.html:267
+msgid "Course Optimizer"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:27
+msgid "Daily Notifications Digest"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:6
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:6
+msgid "Daily Notifications Digest for"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:42
+msgid "Download a CSV of learners who have not activated their account"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:244
+msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:144
+#: cms/templates/studio_xblock_wrapper.html:146
+msgid "Edit Title"
+msgstr ""
+
+#: lms/templates/calculator/toggle_calculator.html:27
+#, python-brace-format
+msgid ""
+"For detailed information, see {math_link_start}Entering Mathematical and "
+"Scientific Expressions{math_link_end} in the {guide_link_start}Open edX "
+"Guide for Students{guide_link_end}."
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/utils.py:442
+msgid "Grades"
+msgstr ""
+
+#: xmodule/capa_block.py:344
+msgid ""
+"Indicates if the problem was edited using the Markdown editor in the "
+"Authoring MFE."
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:281
+msgid "Linked `upstream_key` is not a valid key"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:270
+msgid "Linked upstream library block was not found in the system"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:277
+msgid "Linked upstream library container was not found in the system"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/tasks.py:144
+msgid "New Course Update"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:43
+msgid "Notification Settings"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:13
+msgid "Opens in a new tab"
+msgstr ""
+
+#: xmodule/templates/item_bank/author_view.html:38
+#, python-brace-format
+msgid ""
+"Press {link_start}Edit{link_end} to configure how many will be shown and "
+"other settings."
+msgstr ""
+
+#: xmodule/templates/item_bank/author_view.html:32
+#, python-brace-format
+msgid ""
+"Press {link_start}View{link_end} to preview, sync/update, and/or remove the "
+"selected components."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:346
+#: lms/djangoapps/instructor/views/serializer.py:567
+msgid "Problem URL name cannot be blank."
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:98
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:117
+msgid "Remember: the best goal is one that you can stick to. "
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:62
+msgid "Resume your course "
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:127
+msgid "Sourced from a library - but has been modified locally."
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:123
+msgid ""
+"Sourced from a library - but has been modified locally.Sourced from a "
+"library."
+msgstr ""
+
+#: common/djangoapps/student/admin.py:349
+#, python-format
+msgid "Successfully deleted %(count)d selected history entry."
+msgid_plural "Successfully deleted %(count)d selected history entries."
+msgstr[0] ""
+msgstr[1] ""
+
+#: common/djangoapps/student/admin.py:319
+#, python-format
+msgid "Successfully reverted %(count)d selected history entry."
+msgid_plural "Successfully reverted %(count)d selected history entries."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/djangoapps/instructor/views/serializer.py:565
+msgid "The URL name of the problem to override the score for."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:344
+msgid "The URL name of the problem to reset."
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:184
+msgid "The component must be published to access `published_at`"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:355
+msgid "The container must be published to access `published_at`"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:3219
+msgid "The extension due date and time format is incorrect"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:571
+msgid "The overriding score to set."
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:33
+msgid "There’s still time to reach your goal"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:22
+#, python-format
+msgid ""
+"This is a routed Account Activation email for %(routed_profile_name)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/utils.py:212
+msgid "Today"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/utils.py:136
+msgid "Total Notifications"
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:219
+msgid "Unlink from Library"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:46
+msgid "Unsubscribe from email digest for learning activity"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:264
+msgid ""
+"Updating content with children is not yet supported unless the upstream is a "
+"container."
+msgstr ""
+
+#: xmodule/html_block.py:65
+msgid "Upstream html contents to store upstream data field"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2253
+#, python-brace-format
+msgid ""
+"User {user_id} does not have permission to override scores for problem "
+"{problem_to_reset}."
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_content.html:15
+msgid "View all"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:25
+msgid "Weekly Notifications Digest"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:4
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:4
+msgid "Weekly Notifications Digest for the Week of"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:36
+msgid "Welcome to edX. It’s time for your next career move"
+msgstr ""
+
+#: lms/djangoapps/lti_provider/models.py:44
+msgid ""
+"When checked, the platform will automatically use any personal information "
+"provided via LTI to create an account. Otherwise an anonymous account will "
+"be created."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:501
+msgid "Whether to delete entrance exam state for the student."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:496
+msgid "Whether to reset for all students."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:351
+msgid "Whether to reset the problem for all students."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:84
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:101
+msgid ""
+"With self-paced courses, you learn on your own schedule. It’s a good idea to "
+"spend time with the course each week and check in with your goals often."
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/tasks.py:152
+msgid ""
+"You are receiving this email because you are enrolled in the edX course "
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:38
+msgid ""
+"You are receiving this email because you have subscribed to email digest"
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:99
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:118
+msgid "You can always"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:543
+msgid ""
+"You must provide either unique_student_identifier or set all_students to "
+"True."
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py:244
+msgid "Your certificate will be available after the indicated date"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:82
+msgid "Your focused attention will pay off in the end!"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:100
+msgid "Your focused attention will pay off in the end! "
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:149
+#, python-format
+msgid ""
+"Your legal name is too long. It must not exceed %(max_length)s characters"
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email.txt:8
+#, python-brace-format
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Sign in "
+"to view the details of your task."
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:158
+msgid ""
+"\n"
+"                                Unsubscribe from goal reminder emails for "
+"this course\n"
+"                                "
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:79
+msgid ""
+"\n"
+"                        Jump back in\n"
+"                    "
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s "
+"time a week in %(course_name)s{end_bold}. Now it’s up to you to make those "
+"goals a reality.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s "
+"times a week in %(course_name)s{end_bold}. Now it’s up to you to make those "
+"goals a reality.\n"
+"                "
+msgstr[0] ""
+msgstr[1] ""
+
+#: xmodule/templates/item_bank/author_view.html:8
+#: xmodule/templates/item_bank/author_view.html:18
+#, python-format
+msgid ""
+"\n"
+"                Learners will see the selected component:\n"
+"                "
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected "
+"components, in random order:\n"
+"                "
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:41
+#, python-format
+msgid ""
+"\n"
+"            You’re almost there, %(user_name)s!\n"
+"        "
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/utils.py:465
+msgid "assessment"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/utils.py:463
+msgid "discussion"
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/footer.html:174
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/footer.html:174
+msgid "edX is the trusted platform for education and learning"
+msgstr ""
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:101
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:120
+msgid "if you need to."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1622
+#: lms/djangoapps/instructor_task/api_helper.py:117
+msgid "inactive enrollment"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_content.html:63
+msgid "more"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/serializer.py:361
+#: lms/djangoapps/instructor/views/serializer.py:508
+msgid "unique student identifier."
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/email/utils.py:464
+msgid "update"
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email_subject.txt:5
+#, python-brace-format
+msgid "{platform_name} {studio_name}: Course Optimizer Status Update"
+msgstr ""
