@@ -3021,3 +3021,11 @@ msgstr "Định dạng gửi không hợp lệ."
 #oa_grade_complete.html
 msgid "Your response has been graded, but the results are hidden according to the instructor’s settings."
 msgstr "Bài nộp của bạn đã được chấm điểm, kết quả đang được ẩn đi theo cài đặt của giảng viên."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:157
+msgid ""
+"The following files were not uploaded successfully and have been removed "
+"from your response: {file_names}. Please upload them again and resubmit."
+msgstr ""
+"Các tệp sau chưa được tải lên thành công và đã bị gỡ khỏi câu trả lời của "
+"bạn: {file_names}. Vui lòng tải các tệp này lên lại rồi gửi lại câu trả lời."
