@@ -813,7 +813,7 @@
   "users.list.col.full-name": "Họ và tên",
   "users.list.col.email": "Email",
   "users.list.col.last-activity": "Hoạt động cuối",
-  "users.search.placeholder": "Tìm kiếm theo tên đăng nhập hoặc email",
+  "users.search.placeholder": "Tìm kiếm",
   "users.search.button": "Tìm kiếm",
   "users.search.clear": "Xóa",
 
@@ -1173,6 +1173,7 @@
   "tools.report.faculty-code.placeholder": "Chọn mã khoa…",
   "tools.report.courses-found": "Tìm thấy {count} khóa học",
   "tools.report.select-all": "Chọn tất cả",
+  "tools.report.unselect-all": "Bỏ chọn tất cả",
   "tools.report.manual-input.label": "Mã khóa học",
   "tools.report.manual-input.placeholder": "Nhập mã khóa học phân cách bằng dấu phẩy hoặc xuống dòng…",
   "tools.report.manual-input.count": "Đã nhập {count} mã khóa học",
