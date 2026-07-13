@@ -1004,6 +1004,8 @@
 
   "insights.clo.chart.category": "CLO",
   "insights.clo.chart.value": "% người học đạt yêu cầu",
+  "insights.clo.chart.direct-label": "Đo lường trực tiếp CLO",
+  "insights.clo.chart.indirect-label": "Đo lường gián tiếp CLO",
 
   "insights.clo.print.report": "In CLO",
   "insights.clo.print.analysis.placeholder": "Nhập phân tích đánh giá...",
