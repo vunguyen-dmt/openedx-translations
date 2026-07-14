@@ -1026,6 +1026,7 @@
   "insights.clo.print.course-run-label": "Học kỳ:",
   "insights.clo.print.teacher-label": "Giảng viên:",
   "insights.clo.print.section1": "1. Bảng tổng hợp mức độ đạt chuẩn đầu ra học phần:",
+  "insights.clo.print.section1-survey": "2. Bảng tổng hợp mức độ đạt chuẩn đầu ra học phần gián tiếp (Thông qua khảo sát):",
   "insights.clo.print.section2": "2. Phân tích đánh giá mức độ đạt chuẩn đầu ra học phần",
   "insights.clo.print.section3": "3. Giải pháp cải tiến",
   "insights.clo.print.col.name": "Tên",
