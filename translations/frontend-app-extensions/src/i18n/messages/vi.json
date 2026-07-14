@@ -915,6 +915,7 @@
   "insights.clo.participants": "Số người học tham gia",
   "insights.clo.participants.tooltip": "Số người học đã tham gia khóa học. Người học được xem là đã tham gia nếu tiến độ lớn hơn 0. Chỉ những người học này được đánh giá trong CLO.",
   "insights.clo.section.clo": "CLO",
+  "insights.clo.section.clo-survey": "CLO Khảo sát",
   "insights.clo.add": "CLO",
   "insights.clo.section.mappings": "Tham chiếu",
   "insights.clo.add-mapping": "Tham chiếu",
