@@ -45,18 +45,18 @@ msgstr "Vùng dưới cùng"
 #: default_data.py:18
 msgid "Use this zone to associate an item with the top layer of the triangle."
 msgstr ""
-"Sử dụng vùng này để liên kết một mục với lớp trên cùng của hình tam giác."
+"Sử dụng vùng này để liên kết một item với lớp trên cùng của hình tam giác."
 
 #: default_data.py:19
 msgid ""
 "Use this zone to associate an item with the middle layer of the triangle."
-msgstr "Sử dụng vùng này để liên kết một mục với lớp giữa của hình tam giác."
+msgstr "Sử dụng vùng này để liên kết một item với lớp giữa của hình tam giác."
 
 #: default_data.py:20
 msgid ""
 "Use this zone to associate an item with the bottom layer of the triangle."
 msgstr ""
-"Sử dụng vùng này để liên kết một mục với lớp dưới cùng của hình tam giác."
+"Sử dụng vùng này để liên kết một item với lớp dưới cùng của hình tam giác."
 
 #: default_data.py:22
 msgid "Correct! This one belongs to The Top Zone."
@@ -72,7 +72,7 @@ msgstr "Chính xác! Cái này thuộc về The Bottom Zone."
 
 #: default_data.py:25
 msgid "No, this item does not belong here. Try again."
-msgstr "Không, mục này không thuộc về nơi này. Thử lại."
+msgstr "Không, item này không thuộc về nơi này. Thử lại."
 
 #: default_data.py:26
 msgid "You silly, there are no zones for this one."
@@ -104,7 +104,7 @@ msgstr "Tôi không thuộc về nơi nào cả"
 
 #: default_data.py:35
 msgid "Drag the items onto the image above."
-msgstr "Kéo các mục vào hình ảnh trên."
+msgstr "Kéo các item vào hình ảnh trên."
 
 #: default_data.py:36
 msgid "Good work! You have completed this drag and drop problem."
@@ -117,7 +117,7 @@ msgstr "Tiêu đề"
 #: drag_and_drop_v2.py:84
 msgid ""
 "The title of the drag and drop problem. The title is displayed to learners."
-msgstr "Tiêu đề của vấn đề kéo và thả. Tiêu đề được hiển thị cho người học."
+msgstr "Tiêu đề của bài tập kéo và thả. Tiêu đề được hiển thị cho người học."
 
 #: drag_and_drop_v2.py:86
 msgid "Drag and Drop"
@@ -125,7 +125,7 @@ msgstr "Kéo và thả"
 
 #: drag_and_drop_v2.py:91
 msgid "Mode"
-msgstr "Cách thức"
+msgstr "Chế độ"
 
 #: drag_and_drop_v2.py:93
 msgid ""
@@ -134,8 +134,8 @@ msgid ""
 "feedback only after a learner drops all available items on target zones."
 msgstr ""
 "Chế độ tiêu chuẩn: bài toán cung cấp phản hồi ngay lập tức mỗi khi người học"
-" đánh rơi một vật phẩm vào vùng mục tiêu. Chế độ đánh giá: vấn đề chỉ cung "
-"cấp phản hồi sau khi người học bỏ tất cả các mục có sẵn vào vùng mục tiêu."
+" đánh rơi một vật phẩm vào vùng item tiêu. Chế độ đánh giá: bài tập chỉ cung "
+"cấp phản hồi sau khi người học bỏ tất cả các item có sẵn vào vùng mục tiêu."
 
 #: drag_and_drop_v2.py:100
 msgid "Standard"
@@ -154,7 +154,7 @@ msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
 msgstr ""
-"Xác định số lần học sinh có thể cố gắng trả lời vấn đề này. Nếu giá trị "
+"Xác định số lần người học có thể cố gắng trả lời bài tập này. Nếu giá trị "
 "không được đặt, số lần thử vô hạn được cho phép."
 
 #: drag_and_drop_v2.py:119
@@ -167,11 +167,11 @@ msgstr "Hiển thị tiêu đề cho người học?"
 
 #: drag_and_drop_v2.py:127
 msgid "Problem text"
-msgstr "Văn bản vấn đề"
+msgstr "Văn bản câu hỏi"
 
 #: drag_and_drop_v2.py:128
 msgid "The description of the problem or instructions shown to the learner."
-msgstr "Mô tả vấn đề hoặc hướng dẫn hiển thị cho người học."
+msgstr "Mô tả bài tập hoặc hướng dẫn hiển thị cho người học."
 
 #: drag_and_drop_v2.py:135
 msgid "Show \"Problem\" heading"
@@ -191,7 +191,7 @@ msgid ""
 "in Advanced Settings. To revert setting a custom value, choose the 'Default'"
 " option."
 msgstr ""
-"Xác định thời điểm hiển thị câu trả lời cho vấn đề. Giá trị mặc định có thể "
+"Xác định thời điểm hiển thị câu trả lời cho bài tập. Giá trị mặc định có thể "
 "được đặt trong Cài đặt nâng cao. Để hoàn nguyên cài đặt giá trị tùy chỉnh, "
 "hãy chọn tùy chọn &#39;Mặc định&#39;."
 
@@ -209,7 +209,7 @@ msgstr "Đã trả lời"
 
 #: drag_and_drop_v2.py:152
 msgid "Attempted or Past Due"
-msgstr "Đã cố gắng hoặc quá hạn"
+msgstr "Đã thử hoặc quá hạn"
 
 #: drag_and_drop_v2.py:153
 msgid "Closed"
@@ -233,59 +233,59 @@ msgstr "Không bao giờ"
 
 #: drag_and_drop_v2.py:158
 msgid "After All Attempts"
-msgstr "Sau Mọi Nỗ Lực"
+msgstr "Sau tất cả các lần thử"
 
 #: drag_and_drop_v2.py:159
 msgid "After All Attempts or Correct"
-msgstr "Sau Tất Cả Những Nỗ Lực Hoặc Đúng"
+msgstr "Sau tất cả các lần thử hoặc trả lời đúng"
 
 #: drag_and_drop_v2.py:160
 msgid "Attempted"
-msgstr "Đã cố gắng"
+msgstr "Đã thử"
 
 #: drag_and_drop_v2.py:166
 msgid "Problem Weight"
-msgstr "Vấn đề cân nặng"
+msgstr "Trọng số câu hỏi"
 
 #: drag_and_drop_v2.py:167
 msgid "Defines the number of points the problem is worth."
-msgstr "Xác định số điểm mà bài toán có giá trị."
+msgstr "Định nghĩa số điểm bài tập."
 
 #: drag_and_drop_v2.py:174
 msgid "Item background color"
-msgstr "Màu nền của mục"
+msgstr "Màu nền của item"
 
 #: drag_and_drop_v2.py:175
 msgid ""
 "The background color of draggable items in the problem (example: 'blue' or "
 "'#0000ff')."
 msgstr ""
-"Màu nền của các mục có thể kéo trong bài toán (ví dụ: &#39;blue&#39; hoặc "
+"Màu nền của các item có thể kéo trong bài tập (ví dụ: &#39;blue&#39; hoặc "
 "&#39;#0000ff&#39;)."
 
 #: drag_and_drop_v2.py:182
 msgid "Item text color"
-msgstr "Màu văn bản mục"
+msgstr "Màu văn bản item"
 
 #: drag_and_drop_v2.py:183
 msgid "Text color to use for draggable items (example: 'white' or '#ffffff')."
 msgstr ""
-"Màu văn bản để sử dụng cho các mục có thể kéo (ví dụ: &#39;trắng&#39; hoặc "
+"Màu văn bản để sử dụng cho các item có thể kéo (ví dụ: &#39;trắng&#39; hoặc "
 "&#39;#ffffff&#39;)."
 
 #: drag_and_drop_v2.py:190
 msgid "Maximum items per zone"
-msgstr "Vật phẩm tối đa trên mỗi khu vực"
+msgstr "Số item tối đa trên mỗi khu vực"
 
 #: drag_and_drop_v2.py:191
 msgid ""
 "This setting limits the number of items that can be dropped into a single "
 "zone."
-msgstr "Cài đặt này giới hạn số lượng mục có thể được thả vào một vùng."
+msgstr "Cài đặt này giới hạn số lượng item có thể được thả vào một vùng."
 
 #: drag_and_drop_v2.py:198
 msgid "Problem data"
-msgstr "Dữ liệu vấn đề"
+msgstr "Dữ liệu bài tập"
 
 #: drag_and_drop_v2.py:200
 msgid ""
@@ -293,7 +293,7 @@ msgid ""
 "for this problem. This information is derived from the input that a course "
 "author provides via the interactive editor when configuring the problem."
 msgstr ""
-"Thông tin về khu vực, vật phẩm, phản hồi, giải thích và hình nền cho vấn đề "
+"Thông tin về khu vực, item, phản hồi, giải thích và hình nền cho câu hỏi"
 "này. Thông tin này được lấy từ thông tin đầu vào mà tác giả khóa học cung "
 "cấp thông qua trình chỉnh sửa tương tác khi định cấu hình câu hỏi."
 
@@ -302,36 +302,36 @@ msgid ""
 "Information about current positions of items that a learner has dropped on "
 "the target image."
 msgstr ""
-"Thông tin về vị trí hiện tại của vật phẩm mà người học đã đánh rơi trên ảnh "
+"Thông tin về vị trí hiện tại của item mà người học đã thả trên ảnh "
 "mục tiêu."
 
 #: drag_and_drop_v2.py:217
 msgid "Number of attempts learner used"
-msgstr "Số lần học viên đã sử dụng"
+msgstr "Số lần thử  người học đã sử dụng"
 
 #: drag_and_drop_v2.py:224
 msgid "Indicates whether a learner has completed the problem at least once"
 msgstr ""
-"Cho biết liệu người học đã hoàn thành bài toán ít nhất một lần hay chưa"
+"Cho biết liệu người học đã hoàn thành bài tập ít nhất một lần hay chưa"
 
 #: drag_and_drop_v2.py:231
 msgid ""
 "DEPRECATED. Keeps maximum score achieved by student as a weighted value."
 msgstr ""
-"KHÔNG ĐƯỢC DÙNG. Lưu giữ số điểm tối đa mà học sinh đạt được dưới dạng giá "
+"ĐÃ KHÔNG CÒN SỬ DỤNG. Lưu giữ số điểm tối đa mà người học đạt được dưới dạng giá "
 "trị có trọng số."
 
 #: drag_and_drop_v2.py:237
 msgid ""
 "Keeps maximum score achieved by student as a raw value between 0 and 1."
 msgstr ""
-"Giữ điểm tối đa mà học sinh đạt được dưới dạng giá trị thô trong khoảng từ 0"
+"Giữ điểm tối đa mà người học đạt được dưới dạng giá trị thô trong khoảng từ 0"
 " đến 1."
 
 #: drag_and_drop_v2.py:244
 msgid "Maximum score available of the problem as a raw value between 0 and 1."
 msgstr ""
-"Điểm tối đa có sẵn của vấn đề dưới dạng giá trị thô trong khoảng từ 0 đến 1."
+"Điểm tối đa có sẵn của bài tập dưới dạng giá trị thô trong khoảng từ 0 đến 1."
 
 #: drag_and_drop_v2.py:568
 #, python-brace-format
@@ -360,7 +360,7 @@ msgstr "Thời hạn nộp bài đã qua."
 
 #: templates/html/drag_and_drop.html:4
 msgid "Loading drag and drop problem."
-msgstr "Đang tải vấn đề kéo và thả."
+msgstr "Đang tải câu hỏi kéo và thả."
 
 #: templates/html/drag_and_drop_edit.html:10
 msgid "Basic Settings"
@@ -465,7 +465,7 @@ msgstr ""
 "\n"
 "Vui lòng cung cấp mô tả về hình ảnh cho người dùng không trực quan.\n"
 " Mô tả phải cung cấp đủ thông tin để cho phép bất kỳ ai\n"
-" để giải quyết vấn đề ngay cả khi không nhìn thấy hình ảnh.\n"
+" để làm bài tập ngay cả khi không nhìn thấy hình ảnh.\n"
 "                        "
 
 #: templates/html/drag_and_drop_edit.html:199
@@ -486,7 +486,7 @@ msgstr "Hiển thị vùng viền trên ảnh"
 
 #: templates/html/drag_and_drop_edit.html:215
 msgid "Display zone borders when dragging an item"
-msgstr "Hiển thị đường viền vùng khi kéo một mục"
+msgstr "Hiển thị đường viền vùng khi kéo một item"
 
 #: templates/html/drag_and_drop_edit.html:220
 msgid "Zone definitions"
@@ -498,15 +498,15 @@ msgstr "Thêm một khu vực"
 
 #: templates/html/drag_and_drop_edit.html:240
 msgid "Items"
-msgstr "Mặt hàng"
+msgstr "Item"
 
 #: templates/html/drag_and_drop_edit.html:274
 msgid "Item definitions"
-msgstr "Định nghĩa mục"
+msgstr "Định nghĩa item"
 
 #: templates/html/drag_and_drop_edit.html:278
 msgid "Add an item"
-msgstr "Thêm một mục"
+msgstr "Thêm một item"
 
 #: templates/html/drag_and_drop_edit.html:288
 msgid "Continue"
@@ -534,13 +534,13 @@ msgstr "Lần thử cuối cùng đã được sử dụng, điểm cao nhất l
 #, python-brace-format
 msgid "Correctly placed {correct_count} item"
 msgid_plural "Correctly placed {correct_count} items"
-msgstr[0] "Các mục {correct_count} được đặt đúng"
+msgstr[0] "Các item {correct_count} được đặt đúng"
 
 #: utils.py:141
 #, python-brace-format
 msgid "Misplaced {misplaced_count} item"
 msgid_plural "Misplaced {misplaced_count} items"
-msgstr[0] "Các mục {misplaced_count} bị đặt sai vị trí"
+msgstr[0] "Các item {misplaced_count} bị đặt sai vị trí"
 
 #: utils.py:152
 #, python-brace-format
@@ -551,14 +551,14 @@ msgid_plural ""
 "Misplaced {misplaced_count} items (misplaced items were returned to the item"
 " bank)"
 msgstr[0] ""
-"Các vật phẩm {misplaced_count} bị thất lạc (các vật phẩm bị thất lạc đã được"
+"Các item {misplaced_count} bị thất lạc (các item bị thất lạc đã được"
 " trả lại vào ngân hàng vật phẩm)"
 
 #: utils.py:163
 #, python-brace-format
 msgid "Did not place {missing_count} required item"
 msgid_plural "Did not place {missing_count} required items"
-msgstr[0] "Không đặt các mục bắt buộc {missing_count}"
+msgstr[0] "Không đặt các item bắt buộc {missing_count}"
 
 #: public/js/drag_and_drop.js:48 public/js/drag_and_drop.js:399
 msgid "Submitting"
@@ -586,11 +586,11 @@ msgstr ", có thể kéo được"
 
 #: public/js/drag_and_drop.js:259
 msgid "No items placed here"
-msgstr "Không có mục nào được đặt ở đây"
+msgstr "Không có item nào được đặt ở đây"
 
 #: public/js/drag_and_drop.js:265
 msgid "Items placed here: "
-msgstr "Các vật phẩm được đặt ở đây: "
+msgstr "Các item được đặt ở đây: "
 
 #: public/js/drag_and_drop.js:297
 msgid ", dropzone"
@@ -618,7 +618,7 @@ msgstr "Trợ giúp bàn phím"
 
 #: public/js/drag_and_drop.js:363
 msgid "This is a screen reader-friendly problem."
-msgstr "Đây là một vấn đề thân thiện với trình đọc màn hình."
+msgstr "Đây là một bài tập thân thiện với trình đọc màn hình."
 
 #: public/js/drag_and_drop.js:364
 msgid ""
@@ -626,16 +626,16 @@ msgid ""
 "should select a draggable item with their keyboard and then navigate to an "
 "appropriate dropzone to drop it."
 msgstr ""
-"Các vấn đề kéo và thả bao gồm các mục có thể kéo và vùng thả. Người dùng nên"
-" chọn một mục có thể kéo bằng bàn phím và sau đó điều hướng đến vùng thả "
-"thích hợp để thả mục đó."
+"Các bài tập kéo và thả bao gồm các item có thể kéo và vùng thả. Người dùng nên"
+" chọn một item có thể kéo bằng bàn phím và sau đó điều hướng đến vùng thả "
+"thích hợp để thả item đó."
 
 #: public/js/drag_and_drop.js:365
 msgid ""
 "You can complete this problem using only your keyboard by following the "
 "guidance below:"
 msgstr ""
-"Bạn có thể hoàn thành vấn đề này chỉ bằng bàn phím bằng cách làm theo hướng "
+"Bạn có thể hoàn thành bài tập này chỉ bằng bàn phím bằng cách làm theo hướng "
 "dẫn bên dưới:"
 
 #: public/js/drag_and_drop.js:367
@@ -643,13 +643,13 @@ msgid ""
 "Use only TAB and SHIFT+TAB to navigate between draggable items and drop "
 "zones."
 msgstr ""
-"Chỉ sử dụng TAB và SHIFT+TAB để điều hướng giữa các mục có thể kéo và vùng "
+"Chỉ sử dụng TAB và SHIFT+TAB để điều hướng giữa các item có thể kéo và vùng "
 "thả."
 
 #: public/js/drag_and_drop.js:368
 msgid "Press CTRL+M to select a draggable item (effectively picking it up)."
 msgstr ""
-"Nhấn CTRL+M để chọn một mục có thể kéo được (nhấc nó lên một cách hiệu quả)."
+"Nhấn CTRL+M để chọn một item có thể kéo được (nhấc nó lên một cách hiệu quả)."
 
 #: public/js/drag_and_drop.js:369
 msgid ""
@@ -663,15 +663,15 @@ msgstr ""
 msgid ""
 "Press ESC if you want to cancel the drop operation (for example, to select a"
 " different item)."
-msgstr "Nhấn ESC nếu bạn muốn hủy thao tác thả (ví dụ: để chọn một mục khác)."
+msgstr "Nhấn ESC nếu bạn muốn hủy thao tác thả (ví dụ: để chọn một item khác)."
 
 #: public/js/drag_and_drop.js:371
 msgid ""
 "TAB back to the list of draggable items and repeat this process until all of"
 " the draggable items have been placed on their respective dropzones."
 msgstr ""
-"TAB quay lại danh sách các mục có thể kéo và lặp lại quy trình này cho đến "
-"khi tất cả các mục có thể kéo được đặt vào vùng thả tương ứng của chúng."
+"TAB quay lại danh sách các item có thể kéo và lặp lại quy trình này cho đến "
+"khi tất cả các item có thể kéo được đặt vào vùng thả tương ứng của chúng."
 
 #: public/js/drag_and_drop.js:389
 msgid "You have used {used} of {total} attempts."
@@ -743,27 +743,27 @@ msgstr[0] "{possible} điểm có thể (không tính điểm)"
 
 #: public/js/drag_and_drop.js:660
 msgid "Drag and Drop Problem"
-msgstr "Vấn đề kéo và thả"
+msgstr "Bài tập kéo và thả"
 
 #: public/js/drag_and_drop.js:662
 msgid "Problem"
-msgstr "Vấn đề"
+msgstr "Câu hỏi"
 
 #: public/js/drag_and_drop.js:687
 msgid "Item Bank"
-msgstr "Ngân hàng vật phẩm"
+msgstr "Ngân hàng item"
 
 #: public/js/drag_and_drop.js:732
 msgid "Drop Targets"
-msgstr "Thả mục tiêu"
+msgstr "Mục tiêu thả"
 
 #: public/js/drag_and_drop.js:898
 msgid "An error occurred. Unable to load drag and drop problem."
-msgstr "Đã xảy ra lỗi. Không thể tải vấn đề kéo và thả."
+msgstr "Đã xảy ra lỗi. Không thể tải bài tập kéo và thả."
 
 #: public/js/drag_and_drop.js:1387
 msgid "You cannot add any more items to this zone."
-msgstr "Bạn không thể thêm bất kỳ mục nào nữa vào vùng này."
+msgstr "Bạn không thể thêm bất kỳ item nào nữa vào vùng này."
 
 #: public/js/drag_and_drop_edit.js:123 public/js/drag_and_drop_edit.js:524
 #: public/js/drag_and_drop_edit.js:755
