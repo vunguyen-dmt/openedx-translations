@@ -2987,7 +2987,7 @@ msgstr "Tiêu chí không có lựa chọn phải yêu cầu phản hồi bằng
 
 #: xblock/utils/validation.py:226
 msgid "Prompts cannot be created or deleted after a problem is released."
-msgstr "Không thể tạo hoặc xóa lời nhắc sau khi giải quyết được sự cố."
+msgstr "Không thể tạo hoặc xóa lời nhắc sau khi câu hỏi được phát hành."
 
 #: xblock/utils/validation.py:230
 msgid "The number of criteria cannot be changed after a problem is released."
@@ -2996,7 +2996,7 @@ msgstr ""
 
 #: xblock/utils/validation.py:243
 msgid "Criteria names cannot be changed after a problem is released"
-msgstr "Không thể thay đổi tên tiêu chí sau khi sự cố được giải quyết"
+msgstr "Không thể thay đổi tên tiêu chí sau khi câu hỏi được phát hành"
 
 #: xblock/utils/validation.py:248
 msgid "The number of options cannot be changed after a problem is released."
@@ -3004,7 +3004,7 @@ msgstr "Số lượng tùy chọn không thể thay đổi sau khi vấn đề �
 
 #: xblock/utils/validation.py:253
 msgid "Point values cannot be changed after a problem is released."
-msgstr "Giá trị điểm không thể thay đổi sau khi sự cố được giải quyết."
+msgstr "Giá trị điểm không thể thay đổi sau khi câu hỏi được phát hành."
 
 #: xblock/utils/validation.py:304
 msgid "Learner training must have at least one training example."

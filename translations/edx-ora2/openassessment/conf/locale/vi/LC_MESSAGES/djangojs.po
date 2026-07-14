@@ -511,7 +511,7 @@ msgid ""
 "The \"{name}\" problem is configured to require a minimum of {min_grades} "
 "peer grades, and asks to review {min_graded} peers."
 msgstr ""
-"Sự cố &quot; {name} &quot; được định cấu hình để yêu cầu tối thiểu "
+"Câu hỏi \"{name}\" được định cấu hình để yêu cầu tối thiểu "
 "{min_grades} cấp ngang hàng và yêu cầu xem lại {min_graded} ngang hàng."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362

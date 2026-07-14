@@ -43,7 +43,7 @@ msgstr "Tên hiển thị cho thành phần này."
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
-msgstr "Sự cố SQL"
+msgstr "Câu hỏi SQL"
 
 #: mixins/grading.py:176
 msgid "Dataset"

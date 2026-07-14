@@ -175,11 +175,11 @@ msgstr "Mô tả vấn đề hoặc hướng dẫn hiển thị cho người h�
 
 #: drag_and_drop_v2.py:135
 msgid "Show \"Problem\" heading"
-msgstr "Hiển thị tiêu đề &quot;Sự cố&quot;"
+msgstr "Hiển thị tiêu đề \"Câu hỏi\""
 
 #: drag_and_drop_v2.py:136
 msgid "Display the heading \"Problem\" above the problem text?"
-msgstr "Hiển thị tiêu đề &quot;Sự cố&quot; phía trên văn bản sự cố?"
+msgstr "Hiển thị tiêu đề \"Câu hỏi\" phía trên văn bản câu hỏi?"
 
 #: drag_and_drop_v2.py:142
 msgid "Show answer"
@@ -295,7 +295,7 @@ msgid ""
 msgstr ""
 "Thông tin về khu vực, vật phẩm, phản hồi, giải thích và hình nền cho vấn đề "
 "này. Thông tin này được lấy từ thông tin đầu vào mà tác giả khóa học cung "
-"cấp thông qua trình chỉnh sửa tương tác khi định cấu hình sự cố."
+"cấp thông qua trình chỉnh sửa tương tác khi định cấu hình câu hỏi."
 
 #: drag_and_drop_v2.py:210
 msgid ""
