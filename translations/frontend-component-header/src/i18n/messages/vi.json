@@ -53,5 +53,17 @@
   "header.user.menu.studio": "Trang chủ Studio",
   "header.user.menu.maintenance": "Bảo trì",
   "header.label.courseOutline": "Trở lại phác thảo khóa học trên Studio",
-  "header.label.search.nav": "Tìm kiếm nội dung"
+  "header.label.search.nav": "Tìm kiếm nội dung",
+  "notification.title": "Thông báo",
+  "notification.today.heading": "24 giờ qua",
+  "notification.earlier.heading": "Trước đó",
+  "notification.mark.as.read": "Đánh dấu tất cả đã đọc",
+  "notification.load.more.notifications": "Tải thêm thông báo",
+  "notification.recent.all.message": "Đó là tất cả thông báo gần đây của bạn!",
+  "notification.expired.delete.message": "Thông báo sẽ tự động bị xóa sau {days} ngày",
+  "notification.no.message": "Chưa có thông báo",
+  "notification.no.help.message": "Khi bạn nhận được thông báo, chúng sẽ hiển thị ở đây",
+  "notification.bell.icon.alt.message": "Biểu tượng chuông thông báo",
+  "tour.action.dismiss": "Bỏ qua",
+  "tour.action.end": "Đồng ý"
 }
