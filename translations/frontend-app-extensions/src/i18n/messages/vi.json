@@ -1192,6 +1192,9 @@
   "tools.report.create-submit": "Tạo báo cáo",
   "tools.report.next": "Tiếp theo",
   "tools.report.previous": "Quay lại",
+  "tools.report.metrics.col-header": "Mục báo cáo",
+  "tools.report.metrics.count": "{count} mục",
+  "tools.report.metrics.modal-title": "Mục trong báo cáo",
   "tools.report.error-records.col.course-id": "Mã khóa học",
   "tools.report.error-records.col.error-msg": "Lỗi",
 
