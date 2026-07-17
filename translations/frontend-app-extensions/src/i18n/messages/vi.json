@@ -162,6 +162,7 @@
   "tools.task-list.action.unstuck": "Gỡ kẹt",
   "tools.task-list.unstuck.error": "Không thể gỡ kẹt tác vụ.",
   "tools.task-list.download-input.error": "Không thể tải file đầu vào cho tác vụ này.",
+  "tools.direct-link": "Tải trực tiếp",
   "tools.task-list.progress": "{processed} / {total}{failed, plural, =0 {} other { · # thất bại}}",
 
   "tools.cancel-task.title": "Hủy tác vụ",
@@ -696,6 +697,7 @@
   "insights.ora.download-all": "Tải tất cả",
   "insights.ora.download-all-busy": "Đang tải...",
   "insights.ora.download-all-failed": "Tải xuống tất cả phản hồi ORA thất bại.",
+  "insights.direct-link": "Tải trực tiếp",
 
   "insights.statistics.title": "Thống kê khóa học",
   "insights.statistics.date-range": "Dữ liệu thống kê từ {start} đến {end}.",
