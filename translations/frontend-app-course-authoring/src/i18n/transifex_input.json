@@ -1421,6 +1421,8 @@
   "course-authoring.component-authoring.component.publish.success": "Component published successfully.",
   "course-authoring.component-authoring.component.publish.error": "There was an error publishing the component.",
   "course-authoring.library-authoring.component-sidebar.usage-tab.hierarchy-heading": "Content Hierarchy",
+  "course-authoring.library-authoring.pick-components.select-all.button": "Select all",
+  "course-authoring.library-authoring.pick-components.select-all.error": "Failed to select all components. Please try again.",
   "course-authoring.library-authoring.pick-components.select-library.info.components": "Choose a library to browse components.",
   "course-authoring.library-authoring.pick-components.select-library.info.units": "Choose a library to browse units.",
   "course-authoring.library-authoring.pick-components.select-library.info.sections": "Choose a library to browse sections.",
