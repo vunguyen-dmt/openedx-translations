@@ -575,5 +575,17 @@
     "tours.weeklyGoalsCheckpoint.title": "Đặt mục tiêu khóa học",
     "tray.close.button": "Đóng khay",
     "unit.bookmark.button.add.bookmark": "Đánh dấu trang này",
-    "unit.bookmark.button.remove.bookmark": "Đã đánh dấu"
+    "unit.bookmark.button.remove.bookmark": "Đã đánh dấu",
+    "notification.title": "Thông báo",
+    "notification.today.heading": "24 giờ qua",
+    "notification.earlier.heading": "Trước đó",
+    "notification.mark.as.read": "Đánh dấu tất cả đã đọc",
+    "notification.load.more.notifications": "Tải thêm thông báo",
+    "notification.recent.all.message": "Đó là tất cả thông báo gần đây của bạn!",
+    "notification.expired.delete.message": "Thông báo sẽ tự động bị xóa sau {days} ngày",
+    "notification.no.message": "Chưa có thông báo",
+    "notification.no.help.message": "Khi bạn nhận được thông báo, chúng sẽ hiển thị ở đây",
+    "notification.bell.icon.alt.message": "Biểu tượng chuông thông báo",
+    "tour.action.dismiss": "Bỏ qua",
+    "tour.action.end": "Đồng ý"
 }

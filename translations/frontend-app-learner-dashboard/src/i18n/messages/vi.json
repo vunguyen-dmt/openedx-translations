@@ -166,5 +166,17 @@
     "learnerVariantDashboard.menu.viewPrograms.label": "Xem chương trình",
     "learnerVariantDashboard.program": "Chương trình",
     "zendesk.selectTicketForm": "Vui lòng chọn loại yêu cầu của bạn:",
-    "zendesk.supportTitle": "Hỗ trợ"
+    "zendesk.supportTitle": "Hỗ trợ",
+    "notification.title": "Thông báo",
+    "notification.today.heading": "24 giờ qua",
+    "notification.earlier.heading": "Trước đó",
+    "notification.mark.as.read": "Đánh dấu tất cả đã đọc",
+    "notification.load.more.notifications": "Tải thêm thông báo",
+    "notification.recent.all.message": "Đó là tất cả thông báo gần đây của bạn!",
+    "notification.expired.delete.message": "Thông báo sẽ tự động bị xóa sau {days} ngày",
+    "notification.no.message": "Chưa có thông báo",
+    "notification.no.help.message": "Khi bạn nhận được thông báo, chúng sẽ hiển thị ở đây",
+    "notification.bell.icon.alt.message": "Biểu tượng chuông thông báo",
+    "tour.action.dismiss": "Bỏ qua",
+    "tour.action.end": "Đồng ý"
 }
