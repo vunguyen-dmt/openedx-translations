@@ -384,6 +384,7 @@
   "insights.header.dashboard": "Bảng điều khiển",
   "insights.header.studio": "Studio",
   "insights.header.logout": "Đăng xuất",
+  "insights.header.menu": "Menu",
 
   "insights.tools.menu": "Công cụ",
   "insights.tools.create-accounts": "Tạo tài khoản",
@@ -716,8 +717,12 @@
   "insights.ora.download-stats": "Tải thống kê",
   "insights.ora.download-failed": "Tải xuống thất bại.",
   "insights.ora.download-all": "Tải tất cả",
-  "insights.ora.download-all-busy": "Đang tải...",
   "insights.ora.download-all-failed": "Tải xuống tất cả phản hồi ORA thất bại.",
+  "insights.ora.export-preparing": "Đang chuẩn bị...",
+  "insights.ora.export-running-hint": "Tệp đang được tạo. Bạn có thể rời trang này và quay lại sau. Khi tạo xong, tệp sẽ được giữ trong 72 giờ, hãy quay lại tải xuống trước thời hạn đó.",
+  "insights.ora.export-download-last": "Tải tệp đã xuất lúc {time}",
+  "insights.ora.export-failed": "Xuất thất bại: {error}",
+  "insights.ora.export-cooldown": "Mỗi giờ chỉ được xuất một lần. Bạn có thể bắt đầu lần xuất mới lúc {time}.",
   "insights.direct-link": "Tải trực tiếp",
 
   "insights.statistics.title": "Thống kê khóa học",
