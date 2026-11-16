@@ -145,6 +145,7 @@
   "tools.task.status.error": "Lỗi",
   "tools.task.status.canceled": "Đã hủy",
   "tools.task.status.finished": "Hoàn tất",
+  "tools.task.status.stuck": "Bị kẹt",
 
   "tools.task-list.heading": "Tác vụ gần đây",
   "tools.task-list.empty": "Không có tác vụ gần đây.",
@@ -161,6 +162,8 @@
   "tools.task-list.action.cancel": "Hủy",
   "tools.task-list.action.unstuck": "Gỡ kẹt",
   "tools.task-list.unstuck.error": "Không thể gỡ kẹt tác vụ.",
+  "tools.task-list.action.retry": "Thử lại",
+  "tools.task-list.retry.error": "Không thể thử lại tác vụ.",
   "tools.task-list.download-input.error": "Không thể tải file đầu vào cho tác vụ này.",
   "tools.direct-link": "Tải trực tiếp",
   "tools.task-list.progress": "{processed} / {total}{failed, plural, =0 {} other { · # thất bại}}",
