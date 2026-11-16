@@ -12630,3 +12630,29 @@ msgstr ""
 #: lms/static/js/student_account/views/FinishAuthView.js:71
 msgid "query param next is provide"
 msgstr ""
+
+# ############ Skip components already in problem bank #############
+#: cms/static/js/views/pages/container.js
+msgid "Some components were not added"
+msgstr "Một số thành phần chưa được thêm"
+
+#. Translators: 'count' is the number of selected components that were skipped.
+#: cms/static/js/views/pages/container.js
+msgid ""
+"{count} selected component is already in this problem bank and was skipped."
+msgid_plural ""
+"{count} selected components are already in this problem bank and were "
+"skipped."
+msgstr[0] ""
+"{count} thành phần đã chọn đã có trong ngân hàng câu hỏi này nên đã được bỏ "
+"qua."
+msgstr[1] ""
+"{count} thành phần đã chọn đã có trong ngân hàng câu hỏi này nên đã được bỏ "
+"qua."
+
+#. Translators: 'count' is the number of selected components that failed to be added.
+#: cms/static/js/views/pages/container.js
+msgid "{count} selected component could not be added because of an error."
+msgid_plural "{count} selected components could not be added because of an error."
+msgstr[0] "{count} thành phần đã chọn không thể thêm do có lỗi."
+msgstr[1] "{count} thành phần đã chọn không thể thêm do có lỗi."
