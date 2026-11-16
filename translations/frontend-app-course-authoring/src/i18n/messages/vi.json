@@ -2293,6 +2293,8 @@
     "course-authoring.library-authoring.paste-clipboard.unsupportedblock-error.text": "Thư viện chưa hỗ trợ loại nội dung này",
     "course-authoring.library-authoring.pick-components.component-picker.information-alert": "Chỉ nội dung được xuất bản mới được hiển thị và có sẵn để sử dụng lại.",
     "course-authoring.library-authoring.pick-components.return-to-library-selection": "Thay đổi thư viện",
+    "course-authoring.library-authoring.pick-components.select-all.button": "Chọn tất cả",
+    "course-authoring.library-authoring.pick-components.select-all.error": "Không thể chọn tất cả thành phần. Vui lòng thử lại.",
     "course-authoring.library-authoring.pick-components.select-library.info": "Chọn Thư viện mà bạn muốn tham chiếu các thành phần.",
     "course-authoring.library-authoring.pick-components.select-library.info.collections": "Chọn một thư viện để duyệt bộ sưu tập.",
     "course-authoring.library-authoring.pick-components.select-library.info.components": "Chọn một thư viện để duyệt thành phần.",
